@@ -4,7 +4,7 @@ O [Trello](https://trello.com/) é uma ferramenta de organização pessoal e pro
 
 ![Trello](https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/c13d1cd96a2cff30f0460a5e1860c5ea/header-logo-blue.svg)
 
-
+![vsf](imagens/a.jpg)
 Tem como principal uso a estrutura Kan-Ban de organização, mas não se limitando a isso, a ferramenta permite ao usuário uma maior flexibilização. Como é necessário o emprego de um pouco de criatividade para melhor experiência com a ferramenta, o Trello conta com um [Blog](https://blog.trello.com/) que serve como meio de comunicação para com os usuários, de modo a mantê-los engajados com a ferramenta.
 
 Além disso, para funcionalidades ainda não suportados nativamente pela aplicação, existe o [Trello Developers](https://developers.trello.com/docs/get-started), com uma [REST API aberta e documentada](https://developers.trello.com/v1.0/reference#introduction) para auxiliar a comunidade de desenvolvedores usuários a contribuírem para uma ferramenta cada vez mais completa.
