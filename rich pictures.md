@@ -25,3 +25,17 @@ O time percebeu os pontos de confusão e a falta de foco do desenho.
 Na próxima tentativa, a equipe definiu melhor a problemática. Note que a imagem tem um foco nítido, mas ainda não tão bem descrito, ilustrado pelos balões de conversação ao centro.
 
 Obs: Houve preferência pela confecção manual do Rich Picture, sem a necessidade de ferramentas digitais a priori para uma melhor praticidade e agilidade na execução da ideia. Isso possibilitou uma melhor eficiência da equipe e maior engajamento e fluidez durante reuniões.
+
+### Criação de Boards
+
+![criação de boards](imagens/boards.jpg)
+
+### Interoperabilidade
+
+![interoperabilidade](imagens/interoperabilidade.jpg)
+
+### Exemplos de Personas
+
+![orientadora](imagens/orientadora.jpg)
+
+![turista](imagens/turista.jpg)
