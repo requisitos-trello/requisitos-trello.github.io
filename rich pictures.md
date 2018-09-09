@@ -30,12 +30,22 @@ Obs: Houve preferência pela confecção manual do Rich Picture, sem a necessida
 
 ![criação de boards](imagens/boards.jpg)
 
+Aqui pretende-se entender o funcionamento da criação de boards. Percebemos o fluxo, desde elementos do mundo real surgir com a demanda de organização até o uso dos cards. No caminho, foram denotadas as funcionalidades em análise.
+
 ### Interoperabilidade
 
 ![interoperabilidade](imagens/interoperabilidade.jpg)
 
+Neste Rich Picture, tentamos entender a necessidade e o uso da interoperabilidade. Novamente, partimos das necessidades do mundo real e traçamos o caminho para o uso dessa funcionalidade especifica.
+
 ### Exemplos de Personas
+
+Para ilustrar como uma ferramenta de organização pode ter demandas bem variadas, foram criadas personas, cada uma com suas necessidades peculiares.
+
+![silverson](imagens/silverson.jpg)
 
 ![orientadora](imagens/orientadora.jpg)
 
 ![turista](imagens/turista.jpg)
+
+Com isso, é perceptível a variedade de problemas que uma aplicação de organização, como o Trello, deve resolver. Esses rich pictures podem também ser usados para traçar um ponto em comum entre a vasta diferença dos problemas. Aqui fica claro como ter uma aplicação simples e maleável pode atrair usuários.
