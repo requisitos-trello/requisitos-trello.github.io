@@ -35,6 +35,17 @@ Na próxima tentativa, a equipe decidiu por fazer o questionário pelo Google Fo
 ![finalidade](imagens/finalidade.png)
 ![funcionalidades](imagens/funcionalidades.png)
 ![falta](imagens/falta.png)
+![insatisf](imagens/funcionalidadesinsats.png)
 
 ### Perguntas à usuários satisfeitos
 ![satisf](imagens/funcionalidadesatisf.png)
+
+## Conclusões
+
+Foi possível levantar os seguintes requisitos a partir do questionário:
+
+| **Requisito** | **Tipo** |
+| Notificações | Funcional |
+| Organização de tarefas | Não funcional |
+| Armazenamento de arquivos | Funcional |
+| Usabilidade | Não funcional |
