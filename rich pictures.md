@@ -49,3 +49,11 @@ Para ilustrar como uma ferramenta de organização pode ter demandas bem variada
 ![turista](imagens/turista.jpg)
 
 Com isso, é perceptível a variedade de problemas que uma aplicação de organização, como o Trello, deve resolver. Esses rich pictures podem também ser usados para traçar um ponto em comum entre a vasta diferença dos problemas. Aqui fica claro como ter uma aplicação simples e maleável pode atrair usuários.
+
+### Visão Macro da Aplicação
+
+Foi feito também um rich picture sem muitas especificações, com seu foco principal na visão "ampla" do que acontece (e caminhos seguidos), nas relações entre os usuários e a aplicação.
+
+![visão macro](imagens/visao macro do aplicativo.png)
+
+Dessa forma têm-se uma noção da realação entre os usuários juntamente com as possibilidades de funcionalidades dentro da aplicação e ao longo dos projetos. Tais funcionalidades que serão úteis em contextos específicos e outras que auxiliam até necessidades mais básicas.
