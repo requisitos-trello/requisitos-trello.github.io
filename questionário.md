@@ -44,8 +44,9 @@ Na próxima tentativa, a equipe decidiu por fazer o questionário pelo Google Fo
 
 Foi possível levantar os seguintes requisitos a partir do questionário:
 
-| **Requisito** | **Tipo** |
-| Notificações | Funcional |
-| Organização de tarefas | Não funcional |
-| Armazenamento de arquivos | Funcional |
-| Usabilidade | Não funcional |
+| Número | Requisito |
+|  :-: |   :-:  |
+| 01 | Organização de tarefas. |
+| 02 | Armazenamento de arquivos. |
+| 03 | Usabilidade. |
+| 04 | Notificações. |

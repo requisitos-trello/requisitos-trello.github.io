@@ -21,11 +21,12 @@ A entrevista foi feita baseado em uma persona, onde não é citado diretamente a
 
 Foi possível levantar os seguintes requisitos a partir da entrevista:
 
-| **Requisito** | **Tipo** |
-| Integração com software de terceiros | Funcional |
-| Organização de tarefas | Não funcional |
-| Armazenamento de arquivos | Funcional |
-| Usabilidade | Não funcional |
-| Notificações de prazos | Funcional |
-| Imprimir um Card | Funcional |
-| Rastreabilidade | Não funcional |
+| Número | Requisito |
+|  :-: |   :-:  |
+| 01 | Integração com software de terceiros. |
+| 02 | Organização de tarefas. |
+| 03 | Armazenamento de arquivos. |
+| 04 | Usabilidade. |
+| 05 | Notificações de prazos. |
+| 06 | Imprimir um Card |
+| 07 | Rastreabilidade |
