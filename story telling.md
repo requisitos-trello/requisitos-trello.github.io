@@ -4,7 +4,11 @@ title: Story Telling
 category: Elicitação
 ---
 
-# Story Telling
+# Storytelling
+
+A técnica de Storytelling é utilizada para compreender as características da aplicação a ser analisada.
+
+Nas histórias narradas abaixo, o time narrou personas sem uma ferramenta de organização, a fim de entender os problemas que elas têm em relação a isso, e narrou também, usos do Trello, a fim de entender quais funcionalidades estão presentes nos usos cotidianos da ferramenta.
 
 ## Natal
 O natal se aproximava, e com ele o crescimento populacional e tecnológico. Nosso bom velhinho não tinha tanto tempo muito menos memória (devido a sua idade) para saber quais brinquedos seriam tendência e quais as crianças receberia cada coisa.
