@@ -48,5 +48,8 @@ Foi possível levantar os seguintes requisitos a partir do questionário:
 |  :-: |   :-:  |
 | 01 | Organização de tarefas. |
 | 02 | Armazenamento de arquivos. |
-| 03 | Usabilidade. |
-| 04 | Notificações. |
+| 03 | Melhoras de usabilidade. |
+| 04 | Melhores notificações. |
+| 05 | Convites e sincronização com outras plataformas |
+| 06 | Roadmap |
+| 07 | Relatórios |
