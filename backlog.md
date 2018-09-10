@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Backlog
-category: Artefatos
+title: Priorização
+category: Elicitação
 ---
 
-Segue na tabela p backlog levantado pelas técnicas de elicitação e entendimento do problema.
+# Priorização
+
+Segue na tabela o backlog levantado pelas técnicas de elicitação e entendimento do problema.
 
 Aqui utilizando-se da técnica MoSCoW (Must, Should, Could, Would)
 
