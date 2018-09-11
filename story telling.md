@@ -1,16 +1,21 @@
 ---
 layout: default
-title: Story Telling
+title: Introspecções
 category: Elicitação
 ---
 
-# Storytelling
+# Introspecções em formato Storytelling
+
+A Introspecção é uma técnica de elicitação baseada na reflexão sobre detalhes de determinado funcionamento. A partir dessa reflexão, pode-se inferir detalhes sobre o que se quer documentar.
+
+Aqui, a Introspecção foi realizada em formato de Storytelling, a fim de ilustrar com uma linearidade mais clara os detalhes abordados sobre a aplicação.
 
 A técnica de Storytelling é utilizada para compreender as características da aplicação a ser analisada.
 
 Nas histórias narradas abaixo, o time narrou personas sem uma ferramenta de organização, a fim de entender os problemas que elas têm em relação a isso, e narrou também, usos do Trello, a fim de entender quais funcionalidades estão presentes nos usos cotidianos da ferramenta.
 
 ## Natal
+
 O natal se aproximava, e com ele o crescimento populacional e tecnológico. Nosso bom velhinho não tinha tanto tempo muito menos memória (devido a sua idade) para saber quais brinquedos seriam tendência e quais as crianças receberia cada coisa.
 
 Era óbvio que ele tinha sua fábrica cheia de duendes, porém ele estava ficando sem saber o que fazer com tantos funcionários. Ele tinha uma excelente fábrica, ótimos ajudantes e equipamento, mas ainda assim lhe faltava uma certa coordenação, principalmente no que se diz respeito ao controle de demanda.
@@ -19,8 +24,8 @@ Nosso bom velhinho tem poderes mágicos, mas seus ajudantes não. Dessa forma er
 
 ### Requisitos
 
-| Número | Requisito |
-|  :-: |   :-:  |
+| # | Requisito |
+|  --: |   :-:  |
 | 01 | Adicionar check-list nos cards de tarefas. |
 | 02 | Assinalar cards de tarefas. |
 | 03 | Colocar descrição com deadline para os cards de tarefas. |
@@ -39,8 +44,8 @@ Com a lista de convidados confirmada além da quantidade de mesas, assentos, por
 
 ### Requisitos
 
-| Número | Requisito |
-|  :-: |   :-:  |
+| # | Requisito |
+| --: |   :-:  |
 | 01 | Registrar necessidades (check-list). |
 | 02 | Representar prioridades em relação as tarefas. |
 | 03 | Definir prazos para os cards de tarefas. |
@@ -61,8 +66,8 @@ Com a visão macro de atividades, conseguiu ter melhor controle de deadlines e r
 
 ### Requisitos
 
-| Número | Requisito |
-|  :-: |   :-:  |
+| # | Requisito |
+| --: |   :-:  |
 | 01 | Criar boards. |
 | 02 | Criar listas. |
 | 03 | Criar cards. |
@@ -83,8 +88,8 @@ Além disso, com o tempo economizado no gerenciamento, Judiscleidson agora pode 
 
 ### Requisitos
 
-| Número | Requisito |
-|  :-: |   :-:  |
+| # | Requisito |
+|--: |   :-:  |
 | 01 | Criar boards para cada atividades. |
 | 02 | Visão macro de tarefas. |
 | 03 | Controle de deadlines. |
