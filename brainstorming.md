@@ -10,7 +10,7 @@ Segue na tabela os requisitos levantados a partir da técnica de elicitação br
 
 Foram levantados 40 requisitos, sendo eles:
 
-|  Código | Nome |
+|  # | Nome |
 |  ------: | :------ |
 |  1 | Integração com outras ferramentas (Power-Ups) |
 |  2 | CRUD de Board |

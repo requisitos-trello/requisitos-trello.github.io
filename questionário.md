@@ -44,8 +44,8 @@ Na próxima tentativa, a equipe decidiu por fazer o questionário pelo Google Fo
 
 Foi possível levantar os seguintes requisitos a partir do questionário:
 
-| Número | Requisito |
-|  :-: |   :-:  |
+| # | Requisito |
+|  --: |   :-:  |
 | 01 | Organização de tarefas. |
 | 02 | Armazenamento de arquivos. |
 | 03 | Melhoras de usabilidade. |

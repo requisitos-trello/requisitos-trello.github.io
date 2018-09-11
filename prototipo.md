@@ -14,8 +14,8 @@ Usando do material.io para desenvolver um melhor design para que usar a aplicaç
 
 ### Requisitos
 
-| Número | Requisito |
-|  :-: |   :-:  |
+| # | Requisito |
+|  --: |   :-:  |
 | 01 | Criação de card. |
 | 02 | Criação de board. |
 | 03 | Upload de arquivo. |

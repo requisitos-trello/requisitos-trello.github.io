@@ -21,8 +21,8 @@ A entrevista foi feita baseado em uma persona, onde não é citado diretamente a
 
 Foi possível levantar os seguintes requisitos a partir da entrevista:
 
-| Número | Requisito |
-|  :-: |   :-:  |
+| # | Requisito |
+|  --: |   :-:  |
 | 01 | Integração com software de terceiros. |
 | 02 | Organização de tarefas. |
 | 03 | Armazenamento de arquivos. |

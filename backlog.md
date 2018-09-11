@@ -10,7 +10,7 @@ Segue na tabela o backlog levantado pelas técnicas de elicitação e entendimen
 
 Aqui utilizando-se da técnica MoSCoW (Must, Should, Could, Would)
 
-|  Código | Nome | MoSCoW |
+|  # | Nome | MoSCoW |
 |  ------: | :------ | :------ |
 |  1 | Integração com outras ferramentas (Power-Ups) | Should |
 |  2 | CRUD de Board | Must |
@@ -55,7 +55,7 @@ Aqui utilizando-se da técnica MoSCoW (Must, Should, Could, Would)
 
 A segunda tabela utiliza-se da técnica de First Things First. A equipe estimou **Benefício Relativo**, **Penalidade Relativa**, **Custo de Implementação** e **Risco de Implementação**. Após as estimativas, benefício e penalidade foramm somados em **Valor**, e então foi calculado o valor relativo ao total da coluna, obtendo assim o **Valor %**. Em seguida, o mesmo procedimento de percentual foi feito com as colunas de Custo e Risco, obtendo **Custo %** e **Risco %**. Finalmente, calculamos a prioridade com a equação **Valor% / (Custo% + Risco%)**. Segue o resultado ordenado por prioridade. 
 
-| Código | Nome                                                                       | Benefício | Penalidade | Valor | Valor % | Custo | Custo % | Risco | Risco % | Prioridade | 
+| # | Nome                                                                       | Benefício | Penalidade | Valor | Valor % | Custo | Custo % | Risco | Risco % | Prioridade | 
 |--------:|----------------------------------------------------------------------------|:-----------:|:---------------------:|:-------:|:------------------:|:--------------------------:|:------------------:|:-------:|:------------------:|:------------| 
 | 15     | Criar conta no Trello                                                      | 9         | 9                   | 18    | 3,99%            | 2                        | 1,42%            | 2     | 1,55%            | 1,3443     | 
 | 33     | Sair de um Board                                                           | 7         | 8                   | 15    | 3,33%            | 2                        | 1,42%            | 2     | 1,55%            | 1,1203     | 
