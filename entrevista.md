@@ -10,7 +10,7 @@ Foi elaborado uma entrevista com o intuito de entender dos problemas em que uma 
 
 ### Entrevista
 
-![googleforms](imagens/entrevista.png)
+![googleforms](imagens/entrevista/entrevista.png)
 
 A entrevista foi feita baseado em uma persona, onde não é citado diretamente a plataforma trello. As perguntas estão focadas no problema ao qual o trello oferece a solução, logo, com essa entrevista, é possivel observar o que o usuário espera ter em uma plataforma, assim podendo comparar o que o trello possui dessas necessidades e também o que ele deveria possuir.
 

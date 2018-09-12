@@ -12,33 +12,33 @@ Foi elaborado um questionário para estabelecer os possíveis requisitos para a 
 
 ### Primeira Versão
 
-[![](imagens/questionario.jpg)](imagens/questionario.jpg width=200)
+[![](imagens/questionario/questionario.jpg)](imagens/questionario/questionario.jpg width=200)
 
 Esta é a primeira versão do questionário confeccionado pela equipe a fim de conhecer a base de usuários do Trello. Foi percebido que faltava um encaminhamento no questionário com base nas respostas e que as perguntas geravam pouco retorno no levantamento de requisitos.
 
 
 ## Questionário
 
-![googleforms](imagens/googleforms.png)
+![googleforms](imagens/questionario/googleforms.png)
 Na próxima tentativa, a equipe decidiu por fazer o questionário pelo Google Forms, pois a ferramenta possibilita uma forma de encaminhar o respondente conforme as suas respostas durante o questionário.
 
 [Link](https://goo.gl/forms/1udfAdRRoOU8tlmo2)
 
 
 ### Resultados
-![conhece](imagens/conhece.png)
-![frequencia](imagens/frequencia.png)
-![atende](imagens/atende.png)
-![recomenda](imagens/recomenda.png)
+![conhece](imagens/questionario/conhece.png)
+![frequencia](imagens/questionario/frequencia.png)
+![atende](imagens/questionario/atende.png)
+![recomenda](imagens/questionario/recomenda.png)
 
 #### Perguntas à usuários não satisfeitos
-![finalidade](imagens/finalidade.png)
-![funcionalidades](imagens/funcionalidades.png)
-![falta](imagens/falta.png)
-![insatisf](imagens/funcionalidadesinsats.png)
+![finalidade](imagens/questionario/finalidade.png)
+![funcionalidades](imagens/questionario/funcionalidades.png)
+![falta](imagens/questionario/falta.png)
+![insatisf](imagens/questionario/funcionalidadesinsats.png)
 
 ### Perguntas à usuários satisfeitos
-![satisf](imagens/funcionalidadesatisf.png)
+![satisf](imagens/questionario/funcionalidadesatisf.png)
 
 ## Conclusões
 

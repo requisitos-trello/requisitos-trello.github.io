@@ -16,7 +16,7 @@ Cada digrama deve conter uma decisão argumentada pelo time.
 
 A presente argumentação trata da discussão sobre a necessidade de uma aplicação digital para a resolução dos problemas levantados através dos [Rich Pictures](/rich%20pictures.html).
 
-![aplicação digital](imagens/AppDigital.png)
+![aplicação digital](imagens/argumentacoes/AppDigital.png)
 
 Atraveś do diagrama é possível observar que, apesar de kanbans físicos serem mais simples no manuseio (p2), um kanban físico não teria ferramentas adequadas à todos os projetos (p3).
 
@@ -28,7 +28,7 @@ A discussão de viabilidade levantou duas ideias
 - Exibir publicidade na plataforma ou
 - Cobrar por planos que contenham recursos extras
 
-![argumentação do financeiro](imagens/argfinanceiro.png)
+![argumentação do financeiro](imagens/argumentacoes/argfinanceiro.png)
 
 Como pode-se observar no diagrama, o time decidiu que publicidade é uma má ideia porque poluiria a aplicação que tem como premissa a ideia de algo simples (p3). Este argumento prevaleceu sobre o de utilizar publicidade (p2), como se pode observar no nó de preferência (pref1).
 
@@ -38,7 +38,7 @@ Com isso, foi decidido pela ideias de planos cobrados à parte (p4). Essa propos
 
 Nesta discussão foi debatido o Trello como uma boa ferramenta de gerenciamento. Tópico este também tratado nos [Rich Pictures](/rich%20pictures.html).
 
-![gerenciamento](imagens/gerenciamento.png)
+![gerenciamento](imagens/argumentacoes/gerenciamento.png)
 
 No diagrama é possível perceber que existe bastante controvérsia em relação a este tópico. Porém, em síntese, pode-se perceber que o nível de familiaridade com tecnologia (p3) e a dificuldade de treino de equipe não familiarizada (p5), são dois dos pontos fracos observados pela equipe.
 
@@ -48,7 +48,7 @@ Porém, a usabilidade simples e intuitiva (p4) e a facilidade na delegação de 
 
 Nesta discussão foi debatido o Trello como uma boa ferramenta para monitorar e organizar a vida pessoal, vendo se é necessário.
 
-![coordenação](imagens/cordenar vida profissional e pessoal.png)
+![coordenação](imagens/argumentacoes/cordenar vida profissional e pessoal.png)
 
 No diagrama é possível perceber que a aplicação auxilia times muito grandes (p5) e pessoas que possuem algum dispositivo digital vinculado à aplicação (p1, p4). Porém, em sítese, pode-se perceber que há uma divergência no que se refere a listas ou necessidades pequenas do grupo ou do usuário (p2).
 
