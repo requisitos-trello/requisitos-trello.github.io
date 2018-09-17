@@ -64,9 +64,18 @@
             {% endif %}
           {% endfor %}
         </ul>
-        <!-- <h1>Documentação</h1> -->
-        <!-- <h3>Fase 1</h3> -->
-        <!-- <ul>
+        
+        <h1>Modelagem</h1>
+        <ul>
+          {% for page in site.pages %}
+            {% if page.category == "Modelagem" %}
+              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+        <!-- <h1>Categoria</h1>
+        <ul>
           {% for page in site.pages %}
             {% if page.category == "CATEGORIA" %}
               <li><a href="{{ page.url }}">{{ page.title }}</a></li>
