@@ -230,6 +230,8 @@ category: Modelagem
 - Usuário seleciona a opção **Imprimir e Exportar**;
 - Usuário seleciona a opção **Exportar como JSON**;
 - A aplicação redireciona para uma página que contém apenas o código JSON da board;
+
+
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
 
