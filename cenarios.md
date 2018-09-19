@@ -1275,4 +1275,40 @@ possuir conexão a internet.
 **Episódios:**
 - [Usuário](lexicos.html#usuario) faz [Login](lexicos.html#login) ;
 - Usuário
+
+-------------------------------------------------------
+
+**Cenário de Adicionar Membros ao Card**
+
+**Título:** Adicionar membros em um [card](). 
+
+**Objetivo:** Adicionar membros em um [card]().
+
+**Contexto:**
+
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) precisará possuir um [card]() a ser realizado e membros para serem adicionados.
+- **Pós-condição:** O [Usuário](lexicos.html#usuario) terá delegado o [card]() para determinado membro. 
+
+**Atores:** [Usuário](lexicos.html#usuario) de [Board](lexicos.html#board).
+
+**Recursos:** Conta, [Board](lexicos.html#board), [card](), computador, internet.
+
+**Restrição:** Card deve ter sido selecionado pelo [Usuário](lexicos.html#usuario) da [Board](lexicos.html#board).
+
+**Exceção:** Não há [card]() para adicionar membros. 
+
+**Episódios:**
+-[Usuário](lexicos.html#usuario) entra no trello. 
+-[Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
+-[Usuário](lexicos.html#usuario) visualiza [Board](lexicos.html#board). 
+-Se não há board, [Usuário](lexicos.html#usuario) cria [Board](lexicos.html#board). 
+-[Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
+-Se não há lista, [Usuário](lexicos.html#usuario) cria [Lista](lexicos.html#lista).
+-[Usuário](lexicos.html#usuario) vizualiza card.
+-Se não há card, [Usuário](lexicos.html#usuario) cria [card]().
+-[Usuário](lexicos.html#usuario) seleciona [card]().
+-[Usuário](lexicos.html#usuario) clica no botão “Adicionar membros”.
+-[Usuário](lexicos.html#usuario) insere nome do membro a ser adicionado.
+-[Usuário](lexicos.html#usuario) seleciona membro a ser adicionado.
+
 ------------------ -->
