@@ -258,3 +258,40 @@ category: Modelagem
 - integrante
 
 --------------
+## Check-list
+
+### Sinônimos
+- Lista de tarefas
+
+### Noção
+- Objeto que tem o objetivo de listar os requisitos para conclusão de atividade em um card.
+
+### Impacto
+- Criar check-list, marcar requisito que já foi atendido.
+
+---------------
+
+## Power-up
+
+### Sinônimos
+- Melhoria
+
+### Noção
+- Uma possibilidade adicional que pode promover ou não um auxilio na resolução ou desenvolvimento de um card.
+
+### Impacto
+- Adicionar power-up, usar o power-up.
+
+---------------
+
+## Label
+
+### Sinônimos
+- Etiqueta
+- Adesivo
+
+### Noção
+- Objeto que auxilia na descrição e rastreabilidade, tem como objetivo marcar um card da maneira mais adequada ao usuário.
+
+### Impacto
+- Criar etiqueta, personalizar etiqueta, adicionar etiqueta ao card.
