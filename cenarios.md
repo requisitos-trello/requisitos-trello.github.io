@@ -17,7 +17,7 @@ category: Modelagem
 - **Pré-condição:** O [usuário](lexicos.html#usuario) precisará possuir uma conta na plataforma Trello e
 possuir um dispositivo com acesso a internet.
 - **Pós-condição:** O [usuário](lexicos.html#usuario) estará logado na aplicação, com acesso a seus
-boards
+[Boards](lexicos.html#board)
 
 **Atores:** [Usuário](lexicos.html#usuario)
 
