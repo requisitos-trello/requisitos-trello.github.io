@@ -203,10 +203,11 @@ category: Modelagem
 
 ### Noção
 - Ação que tem o objetivo de chamar a atenção de algum usuário sobre uma informação.
+- Mostrar visualmente uma informação.
 
 ### Impacto
-- Uma notificação é criada na aba de notificações.
-- O usuário recebe uma notificação.
+- Avisar o [Usuário](lexicos.html#usuario).
+- O [Usuário](lexicos.html#usuario) recebe uma [Notificação](lexicos.html#notificar).
 
 
 --------------
@@ -220,8 +221,9 @@ category: Modelagem
 - Ação que tem o objetivo de criar um outro objeto a partir de um já existente.
 
 ### Impacto
-- É criado um novo objeto com as mesmas características que outro.
-
+- Copiar [Card](lexicos.html#card)
+- Copiar [Lista](lexicos.html#lista)
+- Copiar [Board](lexicos.html#board)
 --------------
 ## Usuário
 
@@ -288,7 +290,7 @@ category: Modelagem
 ### Impacto
 - [Arrastar](lexicos.html#arrastar) [Card](lexicos.html#card).
 - [Arrastar](lexicos.html#arrastar) [Tarefa](lexicos.html#tarefa).
--Quando terminar a [Tarefa](lexicos.html#tarefa) é só [Arrastar](lexicos.html#arrastar) o [Card](lexicos.html#card) para a última [Lista](lexicos.html#lista).
+- Quando terminar a [Tarefa](lexicos.html#tarefa) é só [Arrastar](lexicos.html#arrastar) o [Card](lexicos.html#card) para a última [Lista](lexicos.html#lista).
 
 ### Sinonimo
 - Mover [Card](lexicos.html#card)
