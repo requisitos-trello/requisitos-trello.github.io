@@ -46,9 +46,9 @@ category: Modelagem
 - Pode ser usado como lembretes
 
 ### Impacto
-- O gerente do projeto cria [Cards](lexicos.html#card) e [delega]() ao seus funcionários
+- O gerente do projeto cria [Cards](lexicos.html#card) e [delega](lexicos.html#atribuir--delegar-tarefa) ao seus funcionários
 - Um [Card](lexicos.html#card) é criado na [Lista](lexicos.html#lista) To Do
-- Um [Card](lexicos.html#card) foi [movido]() a [Lista](lexicos.html#lista) de tarefas concluídas
+- Um [Card](lexicos.html#card) foi [movido](lexicos.html#arrastar-card) a [Lista](lexicos.html#lista) de tarefas concluídas
 
 ### Sinonimo
 - Tarefa
@@ -65,9 +65,9 @@ category: Modelagem
 
 ### Impacto
 - Administrador pode alterar o [time](lexicos.html#time) que tem acesso àquela board
-- Administrador pode ativar e desativar as [Imagens de Capa](lexicos.html#imagem-de-capa) dos [cards]()
-- Administrador pode conceder e revogar permissões para [Comentar]()
-- Administrador pode conceder e revogar permissão para [Convidar]() outros usuários para a Board.
+- Administrador pode ativar e desativar as [Imagens de Capa](lexicos.html#imagem-de-capa) dos [cards](lexicos.html#card)
+- Administrador pode conceder e revogar permissões para comentar
+- Administrador pode conceder e revogar permissão para [Convidar](lexicos.html#convidar) outros usuários para a Board.
  
 --------------
 
@@ -91,7 +91,7 @@ category: Modelagem
 
 ### Impacto
 - A foto de perfil do usuário aparece no card
-- O usuário passa a [seguir]() o card
+- O usuário passa a [seguir](lexicos.html#seguir) o card
 - O usuário é dito como um [membro](lexicos.html#membro) do card
 
 --------------
@@ -99,7 +99,7 @@ category: Modelagem
 ## Imagem de Capa
 
 ### Noção
-- Imagem [anexada]() ao [Card](lexicos.html#card) que aparece na visão geral da [Board](lexicos.html#board)
+- Imagem [anexada](lexicos.html#anexo) ao [Card](lexicos.html#card) que aparece na visão geral da [Board](lexicos.html#board)
 - Última imagem anexada a um card
 - Imagem escolhida, na secção de Anexos do card, para aparecer como capa
 
@@ -154,7 +154,7 @@ category: Modelagem
 ## Time
 
 ### Noção
-- Conjunto de [Usuários]() que tem acesso simultâneo à uma [Board](lexicos.html#board) na qual são realizadas tarefas
+- Conjunto de [Usuários](lexicos.html#usuário) que tem acesso simultâneo à uma [Board](lexicos.html#board) na qual são realizadas tarefas
 
 ### Impacto
 - O time compõe uma board
@@ -170,7 +170,7 @@ category: Modelagem
 - Caractere especial utilizado para ilustrar uma mensagem com uma imagem.
 
 ### Impacto
-- O [usuário]() postou um sticker no comentário.
+- O [usuário](lexicos.html#usuário) postou um sticker no comentário.
 - O [Card](lexicos.html#card) continha um sticker triste.
 
 
