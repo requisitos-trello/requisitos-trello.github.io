@@ -13,9 +13,9 @@ category: Modelagem
 - Contém todas as [Listas](lexicos.html#lista)
 
 ### Impacto
-- Usuários podem criar [Boards](lexicos.html#board) para organizar seu projeto
-- Usuários podem criar [Boards](lexicos.html#board) para organizar suas tarefas diárias
-- Usuários podem participar de um [Board](lexicos.html#board) de um projeto existente
+- [Usuários](lexicos.html#usuario) podem criar [Boards](lexicos.html#board) para organizar seu projeto
+- [Usuários](lexicos.html#usuario) podem criar [Boards](lexicos.html#board) para organizar suas tarefas diárias
+- [Usuários](lexicos.html#usuario) podem participar de um [Board](lexicos.html#board) de um projeto existente
 
 ### Sinonimo
 - Quadro, tabela
@@ -30,7 +30,7 @@ category: Modelagem
 - Organiza todos os [Cards](lexicos.html#card) de um [Board](lexicos.html#board)
 
 ### Impacto
-- Usuários podem criar [Listas]() para organizar seu projeto em colunas de tarefas
+- [Usuários](lexicos.html#usuario) podem criar [Listas](lexicos.html#lista) para organizar seu projeto em colunas de tarefas
 - Um [Card](lexicos.html#card) é criado na [Lista](lexicos.html#lista) To Do
 
 ### Sinonimo
