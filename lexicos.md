@@ -6,16 +6,65 @@ category: Modelagem
 
 # Léxicos
 
+## Board
+
+### Noção
+- Representa um projeto ou um lugar para rastrear informações
+- Contém todas as [Listas](lexicos.html#lista)
+
+### Impacto
+- Usuários podem criar [Boards](lexicos.html#board) para organizar seu projeto
+- Usuários podem criar [Boards](lexicos.html#board) para organizar suas tarefas diárias
+- Usuários podem participar de um [Board](lexicos.html#board) de um projeto existente
+
+### Sinonimo
+- Quadro, tabela
+
+--------------
+
+## Lista
+
+### Noção
+- Representa uma coluna de uma tabela
+- Onde são colocadas os [Cards](lexicos.html#card)
+- Organiza todos os [Cards](lexicos.html#card) de um [Board](lexicos.html#board)
+
+### Impacto
+- Usuários podem criar [Listas]() para organizar seu projeto em colunas de tarefas
+- Um [Card](lexicos.html#card) é criado na [Lista](lexicos.html#lista) To Do
+
+### Sinonimo
+- List, coluna
+
+--------------
+
+## Card
+
+### Noção
+- Unidade fundamental de um [Board](lexicos.html#board)
+- Representa tarefas e/ou ideias
+- Pode ser usado como lembretes
+
+### Impacto
+- O gerente do projeto cria [Cards](lexicos.html#card) e [delega]() ao seus funcionários
+- Um [Card](lexicos.html#card) é criado na [Lista](lexicos.html#lista) To Do
+- Um [Card](lexicos.html#card) foi [movido]() a [Lista](lexicos.html#lista) de tarefas concluídas
+
+### Sinonimo
+- Tarefa
+
+--------------
+
 ## Administrador
 
 ### Noção
-- Um papel desempenhado por um usuário em um [board]()
-- Usuário que tem acesso às configurações de um board
-- Usuário que cria a board
+- Um papel desempenhado por um usuário em um [Board](lexicos.html#board)
+- Usuário que tem acesso às configurações de um [Board](lexicos.html#board)
+- Usuário que cria a [Board](lexicos.html#board)
 - Usuário dito como administrador por outro administrador
 
 ### Impacto
-- Administrador pode alterar o [time]() que tem acesso àquela board
+- Administrador pode alterar o [time](lexicos.html#time) que tem acesso àquela board
 - Administrador pode ativar e desativar as [Imagens de Capa](lexicos.html#imagem-de-capa) dos [cards]()
 - Administrador pode conceder e revogar permissões para [Comentar]()
 - Administrador pode conceder e revogar permissão para [Convidar]() outros usuários para a Board.
@@ -25,7 +74,7 @@ category: Modelagem
 ## Atribuir / Delegar tarefa
 
 ### Noção
-- Relacionar um [card]() com um membro da [board]()
+- Relacionar um [Card](lexicos.html#card) com um membro da [Board](lexicos.html#board)
 
 ### Impacto
 - A foto de perfil do usuário aparece no card
@@ -37,7 +86,7 @@ category: Modelagem
 ## Imagem de Capa
 
 ### Noção
-- Imagem [anexada]() ao [card]() que aparece na visão geral da [board]()
+- Imagem [anexada]() ao [Card](lexicos.html#card) que aparece na visão geral da [Board](lexicos.html#board)
 - Última imagem anexada a um card
 - Imagem escolhida, na secção de Anexos do card, para aparecer como capa
 
@@ -64,12 +113,12 @@ category: Modelagem
 ## Arquivar
 
 ### Noção
-- Usuário arquiva card ou lista.
-- Arquivar é o ato de retirar um card ou lista de uma board, porém mantê-lo acessível em um local reservado.
+- Usuário arquiva card ou [Lista](lexicos.html#lista).
+- Arquivar é o ato de retirar um card ou [Lista](lexicos.html#lista) de uma board, porém mantê-lo acessível em um local reservado.
 
 ### Impacto
-- Usuário pode retirar cards de uma lista sem excluí-lo.
-- Usuário pode retirar listas de uma board sem ter que excluí-las diretamente.
+- Usuário pode retirar cards de uma [Lista](lexicos.html#lista) sem excluí-lo.
+- Usuário pode retirar [Listas](lexicos.html#lista) de uma board sem ter que excluí-las diretamente.
 
 ### Sinonimo
 - reter, guardar
@@ -92,7 +141,7 @@ category: Modelagem
 ## Time
 
 ### Noção
-- Conjunto de [Usuários]() que tem acesso simultâneo à uma [board]() na qual são realizadas tarefas
+- Conjunto de [Usuários]() que tem acesso simultâneo à uma [Board](lexicos.html#board) na qual são realizadas tarefas
 
 ### Impacto
 - O time compõe uma board
@@ -109,7 +158,7 @@ category: Modelagem
 
 ### Impacto
 - O [usuário]() postou um sticker no comentário.
-- O [card]() continha um sticker triste.
+- O [Card](lexicos.html#card) continha um sticker triste.
 
 
 --------------
@@ -123,8 +172,8 @@ category: Modelagem
 
 ### Noção
 - Termo que referencia o tempo máximo que uma tarefa deve ser cumprida.
-- Característica de um [card]().
-- Define a posição de um [card]() numa coluna.
+- Característica de um [Card](lexicos.html#card).
+- Define a posição de um [Card](lexicos.html#card) numa coluna.
 
 ### Impacto
 - A tarefa foi arquivada pois o duedate expirou.
