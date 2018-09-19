@@ -7,7 +7,7 @@ category: Modelagem
 # Cenários
 
 ------------
-## Cenário de [Login](lexicos.html#login) 
+## Cenário de Login
 
 **Título:** [Login](lexicos.html#login)  comum 
 
@@ -32,9 +32,9 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuario) estará logado na aplicação.
 
 ------------
-## Cenário de [Login](lexicos.html#login) 
+## Cenário de Login
 
-**Título:** Login com o Google
+**Título:** [Login](lexicos.html#login) com o Google
 
 **Objetivo:** Logar no Trello através de sua conta Google.
 
@@ -213,7 +213,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuario) terá convidado um [usuário](lexicos.html#usuario) para seu [Time](lexicos.html#time).
 
 ------------
-## Cenário de imprimir[Board](lexicos.html#board)
+## Cenário de imprimir Board
 
 **Título:** Impressão de [Board](lexicos.html#board) 
 
@@ -454,7 +454,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) realiza [LOGIN]().
+- [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa [time](lexicos.html#time).
 - Senão, fluxo encerrado. (exceção)
 - [Administrador](lexicos.html#administrador) acessa [Lista](lexicos.html#lista) de membros.
@@ -483,7 +483,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuario) entra no Trello.
-- [Usuário](lexicos.html#usuario) realiza login.
+- [Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Usuário](lexicos.html#usuario) acessa criar time.
 - [Usuário](lexicos.html#usuario) adiciona nome.
 - [Usuário](lexicos.html#usuario) adiciona descrição do [time](lexicos.html#time).
@@ -510,7 +510,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) realiza login.
+- [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa time.
 - Senão, fluxo encerrado. (Exceção)
 - [Administrador](lexicos.html#administrador) acessa editar perfil.
@@ -536,7 +536,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuario) entra no Trello.
-- [Usuário](lexicos.html#usuario) realiza login.
+- [Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Usuário](lexicos.html#usuario) acessa time.
 - Senão, fluxo encerrado.  (exceção)
 - [Usuário](lexicos.html#usuario) acessa configurações do time.
@@ -565,12 +565,12 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) realiza login.
+- [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acecssa time.
 - Senão, [Administrador](lexicos.html#administrador) cria time. (restrição)
 - [Administrador](lexicos.html#administrador) acessa configurações do time.
 - [Administrador](lexicos.html#administrador) acessa ADD TO SLACK.
-- Se há conta no slack, [Administrador](lexicos.html#administrador) realiza login em sua conta do slack.
+- Se há conta no slack, [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login) em sua conta do slack.
 - Senão [Administrador](lexicos.html#administrador) cria conta no slack.
 - Se há canal no slack do [Administrador](lexicos.html#administrador), [Administrador](lexicos.html#administrador) [VINCULA](lexicos.html#vincular) TIME COM O SLACK.
 - Senão [Administrador](lexicos.html#administrador) cria canal no slack e realiza o passo anterior.
@@ -593,7 +593,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) realiza login.
+- [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa time.
 - Senão, [Administrador](lexicos.html#administrador) cria time. (restrição)
 - Se há [Board](lexicos.html#board), [Administrador](lexicos.html#administrador) acessa[board](lexicos.html#board) do [time](lexicos.html#time).
@@ -622,7 +622,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) realiza login.
+- [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa time.
 - Senão, [Administrador](lexicos.html#administrador) CRIA TIME. (restrição)
 - Se há [Board](lexicos.html#board), [Administrador](lexicos.html#administrador) acessa [board](lexicos.html#board) do [time](lexicos.html#time).
@@ -649,7 +649,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -675,7 +675,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -699,7 +699,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -725,7 +725,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -750,7 +750,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -776,7 +776,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -802,7 +802,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -828,7 +828,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -854,7 +854,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -1182,7 +1182,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário]() entra no Trello;
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - [Usuário]() clica no criar [Board](lexicos.html#board);
 ---------------------------
 ## Criar Board do Time
@@ -1205,7 +1205,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário]() entra no Trello;
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - [Usuário]() clica no criar [Board](lexicos.html#board);
 - [Usuário]() adiciona participantes ao [Board](lexicos.html#board);
 ---------------------------
@@ -1229,7 +1229,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário]() entra no Trello;
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - [Usuário]() clica no [Board](lexicos.html#board) para visualizar;
 - [Usuário]() visualiza o [Board](lexicos.html#board).
 ---------------------------
@@ -1253,7 +1253,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário]() entra no Trello;
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - [Usuário]() clica no [Board](lexicos.html#board) para acessar;
 - [Usuário]() clica no [card]() visualizar;
 - [Usuário]() adiciona [power-ups](lexicos.html#power-up) no [card]() utilizar;
