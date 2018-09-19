@@ -1120,6 +1120,49 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuario) clica no nome da [Lista](lexicos.html#lista).
 - [Usuário](lexicos.html#usuario)) altera o nome da [Lista](lexicos.html#lista).
 
+------------
+## Cenário de Arquivar lista
+
+**Título:** [Arquivar](lexicos.html#arquivar) uma [Lista](lexicos.html#lista).
+
+**Objetivo:** [Arquivar](lexicos.html#arquivar) uma determinada [Lista](lexicos.html#lista) que não é necessário.
+
+**Contexto:**
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pós-condição:** : O [Usuário](lexicos.html#usuario) não terá a [Lista](lexicos.html#lista) visível até que queira.
+
+
+**Atores:** [Usuário](lexicos.html#usuario)
+
+**Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo e possuir internet.
+
+**Episódios:**
+- [Usuário](lexicos.html#usuario) entra no [Quadro](lexicos.html#quadro). 
+- [Usuário](lexicos.html#usuario) clica nas opções da [Lista](lexicos.html#lista).
+- [Usuário](lexicos.html#usuario)) clica na opção"Arquivar esta [Lista](lexicos.html#lista)".
+
+------------
+## Cenário de Organizar o quadro em coleções
+
+**Título:** Organizar o [Quadro](lexicos.html#quadro) em [Coleções](lexicos.html#colecao)).
+
+**Objetivo:** Agrupar um conjunto de [Quadro](lexicos.html#quadro).
+
+**Contexto:**
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pós-condição:** : O [Usuário](lexicos.html#usuario) poderá ter um conjunto de [Quadro](lexicos.html#quadro) com determinado tema.
+
+
+**Atores:** [Usuário](lexicos.html#usuario)
+
+**Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo e possuir internet.
+
+**Episódios:**
+- [Usuário](lexicos.html#usuario) entra no menu do Trello. 
+- [Usuário](lexicos.html#usuario) clica nas opções de criar [Coleção](lexicos.html#colecao).
+- [Usuário](lexicos.html#usuario)) adiciona os [Quadros](lexicos.html#lista) desejados.
+-Caso não tenha [Quadros](lexicos.html#quadros) o [Usuário](lexicos.html#usuario) terá que criar mais.
+
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
 
