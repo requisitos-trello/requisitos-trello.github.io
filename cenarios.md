@@ -124,27 +124,27 @@ category: Modelagem
     - Usuário pode digitar termos contidos nos títulos dos cards que está procurando;
     - Usuário pode selecionar [Etiquetas]() contidas nos cards que está procurando;
     - Usuário pode [membros]() assinalados nos cards que está procurando;
-    - Usuário pode selecionar opções de [data de entrega]():
+    - Usuário pode selecionar opções de [data de entrega](lexico.html#duedate):
         - Entregas em um dia;
         - Entregas em uma semana;
         - Entregas emm um mês;
         - Em atraso;
-        - Sem data de entrega;
-        - Data de entrega marcada como concluída;
+        - Sem [data de entrega](lexico.html#duedate);
+        - [Data de entrega](lexico.html#duedate) marcada como concluída;
         - Não marcado como concluído;
     - Usuário pode selecionar se as buscas por etiquetas e membros seguem lógica AND (todos os membros e etiquetas procurados devem estar contido nos cards procurados) ou se seguem lógica OR (qualquer Card que contenha um membro ou etiqueta procurados se enquadra na pesquisa).
 - Aparece um texto na parte superior da [Board]() indicando que a busca está ativada e, por isso, alguns cards podem estar sendo omitidos;
     - Para encerrar a filtragem, o Usuário pode clicar no X ao lado deste texto.
 
 --------------
-## Cenário de Copiar um Quadro
+## Cenário de [Copiar](lexico.html#copiar) um Quadro
 
 **Título:** Cópia de [Board]()
 
 **Objetivo:** Criação de um [Board]() com algumas características iguais às de um [Board]() específico.
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à [Board]() que quer copiar.
+- **Pré-condição:** O Usuário deve ter acesso à [Board]() que quer [copiar](lexico.html#copiar).
 - **Pós-condição:** Será criada uma nova [Board]() com algumas características trazidas de outra.
 
 **Atores:** Usuário
@@ -153,13 +153,13 @@ category: Modelagem
 
 **Episódios:**
 - Usuário faz [Login]();
-- Usuário acessa a [Board]() que quer copiar;
+- Usuário acessa a [Board]() que quer [copiar](lexico.html#copiar);
 - Usuário abre o [Menu Lateral]() e seleciona a opção **Mais**;
 - Usuário seleciona a opção **Copiar Quadro**;
 - Usuário digita um título para o novo [Board]() que será criado;
 - Opcionalmente, o Usuário escolhe um [time](lexicos.html#time) do qual faça parte para popular o novo quadro;
 - Usuário decide a visibilidade do quadro (se é particular, de visibilidade apenas do [time](lexicos.html#time) ou se é público);
-- Usuário decide se quer copiar, também, os [Cards]() contidos no [Board]() atual.
+- Usuário decide se quer [copiar](lexico.html#copiar), também, os [Cards]() contidos no [Board]() atual.
 - É criada uma nova [Board]();
  
 --------------
@@ -167,11 +167,11 @@ category: Modelagem
 
 **Título:** [Seguir]() uma [Board]()
 
-**Objetivo:** Ser notificado de alterações que aconteçam em uma [Board]()
+**Objetivo:** Ser [notificado](lexico.html#notificar) de alterações que aconteçam em uma [Board]()
 
 **Contexto:**
 - **Pré-condição:** O Usuário deve ter acesso à [Board]() que quer seguir.
-- **Pós-condição:** O Usuário será notificado de alterações que ocorrerem na [Board]() em questão.
+- **Pós-condição:** O Usuário será [notificado](lexico.html#notificar) de alterações que ocorrerem na [Board]() em questão.
 
 **Atores:** Usuário
 
@@ -181,7 +181,7 @@ category: Modelagem
 - Usuário faz [Login]();
 - Usuário acessa a [Board]() que quer seguir;
 - Usuário abre o [Menu Lateral]() e seleciona a opção **Seguir**;
-- O sistema passa a notificar o Usuário em seu e-mail e no espaço de notificações do Trello;
+- O sistema passa a [notificar](lexico.html#notificar) o Usuário em seu e-mail e no espaço de [notificações](lexico.html#notificar) do Trello;
 - Aparece um texto no canto superior esquerdo da [Board]() indicando que o Usuário está seguindo esta [Board]().
 - O Usuário pode selecionar novamente a opção **Seguir** para parar de seguir, ou clicar no texto recém-aparecido que ascenderá um botão **Parar de seguir**.
 
@@ -587,11 +587,11 @@ category: Modelagem
 
 **Título:** Seguir [Card]() 
 
-**Objetivo:** Seguir um [Card]() existente para ser notificado de mudanças por meios de notificações para o [Usuário]().
+**Objetivo:** Seguir um [Card]() existente para ser [notificado](lexico.html#notificar) de mudanças por meios de [notificações](lexico.html#notificar) para o [Usuário]().
 
 **Contexto:**
 - **Pré-condição:** O [Usuário]() deve ter acesso à [List]() onde está o [Card]().
-- **Pós-condição:** A aplicação deverá notificar o [usuáro]() quando o [Card]() for modificado.
+- **Pós-condição:** A aplicação deverá [notificar](lexico.html#notificar) o [usuáro]() quando o [Card]() for modificado.
 
 **Atores:** [Usuário]()
 
@@ -661,15 +661,15 @@ category: Modelagem
 - A aplicação mostra uma janela com opções de persnoalização para o [Label]() para o [Usuário]().
 
 ------------
-## Cenário de Adicionar Anexo em um card 
+## Cenário de Adicionar [Anexo](lexicos.html#anexo) em um card 
 
-**Título:** Adicionar Anexo em um [Card]()
+**Título:** Adicionar [Anexo](lexicos.html#anexo) em um [Card]()
 
-**Objetivo:** Adicionar um anexo em um [Card]() do Trello.
+**Objetivo:** Adicionar um [anexo](lexicos.html#anexo) em um [Card]() do Trello.
 
 **Contexto:**
 - **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card]() em uma [List]().
-- **Pós-condição:** : O [Usuário]() terá adicionado um anexo a um [Card]().
+- **Pós-condição:** : O [Usuário]() terá adicionado um [anexo](lexicos.html#anexo) a um [Card]().
 
 **Atores:** [Usuário]()
 
@@ -679,8 +679,8 @@ category: Modelagem
 - [Usuário]() entra na tela onde tem o [Card]() desejado.
 - [Usuário]() clica no [Card](). 
 - No campo ‘Adicionar ao cartão’, o [Usuário]() clica na opção ‘anexo’. 
-- [Usuário]() seleciona o local onde o anexo está. 
-- [Usuário]() seleciona o anexo. 
+- [Usuário]() seleciona o local onde o [anexo](lexicos.html#anexo) está. 
+- [Usuário]() seleciona o [anexo](lexicos.html#anexo). 
 - [Usuário]() clica no botão ‘anexar’. 
 - [Usuário]() terá anexado algo ao [Card]() selecionado. 
 
@@ -703,8 +703,8 @@ category: Modelagem
 - [Usuário]() entra na tela onde tem o [Card]() desejado.
 - [Usuário]() clica no [Card](). 
 - No campo ‘Adicionar ao cartão’, o [Usuário]() clica na opção ‘anexo’. 
-- [Usuário]() seleciona o local onde o anexo está. 
-- [Usuário]() seleciona o anexo. 
+- [Usuário]() seleciona o local onde o [anexo](lexicos.html#anexo) está. 
+- [Usuário]() seleciona o [anexo](lexicos.html#anexo). 
 - [Usuário]() clica no botão ‘anexar’. 
 - [Usuário]() terá anexado algo ao [Card]() selecionado. 
 - [Usuário]() entra na tela onde tem o [Card]() desejado.
