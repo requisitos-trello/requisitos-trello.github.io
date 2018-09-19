@@ -1032,6 +1032,94 @@ possuir conexão a internet.
 - [Usuário]() clica no [Card](lexicos.html#card) .
 - [Usuário]() terá aberto os detalhes do [Card](lexicos.html#card) .
 
+------------
+## Cenário de Vincular ao quadro
+
+**Título:** Vincular a um [Quadro](lexicos.html#quadro) 
+
+**Objetivo:** Vincular uma pessoa a um [Quadro](lexicos.html#quadro) para visualizar toda a interface do projeto e suas respectivas [Tarefa](lexicos.html#tarefa).
+
+**Contexto:**
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pós-condição:** : O [Usuário](lexicos.html#usuario) estará ligado à um [Quadro](lexicos.html#quadro), conseguirá ver [Tarefas](lexicos.html#tarefa) as quais pode fazer/designar.
+
+**Atores:** [Usuário](lexicos.html#usuario)
+
+**Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo e possuir internet.
+
+**Episódios:**
+- [Usuário](lexicos.html#usuario) entra no [Quadro](lexicos.html#quadro). 
+- [Usuário](lexicos.html#usuario) escolhe outro [Usuário](lexicos.html#usuario) que deseja [Vincular](lexicos.html#vincular).
+- [Usuário](lexicos.html#usuario)) adiciona e-mail.
+- [Usuário](lexicos.html#usuario) aceita ser [Vinculado](lexicos.html#vincular) pelo e-mail.
+- Caso o [Usuário](lexicos.html#usuario) não receba o e-mail, verificar caixa de spam.
+-[Usuário](lexicos.html#usuario) copia link para [Vincular](lexicos.html#vincular).
+-[Usuário](lexicos.html#usuario) clica no link para se [Vincular](lexicos.html#vincular).
+
+------------
+## Cenário de Alterar permissões de membros no board
+
+**Título:** Alterar permissão de um [Membro](lexico.html#tarefa) em um [Board](lexico.html#board).
+
+**Objetivo:** Fazer com que determinado [Membro](lexico.html#tarefa) tenha mais ou menos poder em um determinado [Board](lexico.html#board). 
+
+**Contexto:**
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pós-condição:** : O [Usuário](lexicos.html#usuario) terá menos ou mais controle sobre um determinado [Board](lexico.html#board).
+
+
+**Atores:** [Usuário](lexicos.html#usuario)
+
+**Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo e possuir internet.
+
+**Episódios:**
+- [Usuário](lexicos.html#usuario) entra no [Quadro](lexicos.html#quadro). 
+- [Usuário](lexicos.html#usuario) escolhe outro [Usuário](lexicos.html#usuario) que deseja alterar a permissão.
+- [Usuário](lexicos.html#usuario)) altera permissão.
+- Caso o [Usuário](lexicos.html#usuario) não tenha permissão, ele não conseguirá alterar outras.
+
+------------
+## Cenário de Criar lista
+
+**Título:** Criar uma [Lista](lexicos.html#lista).
+
+**Objetivo:** Ter um espaço com um tema específico para colocar [Atividades](lexicos.html#atividade). 
+
+**Contexto:**
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pós-condição:** : O [Usuário](lexicos.html#usuario) terá um espaço [Atribuir](lexicos.html#) [Tarefas](lexicos.html#) de determinado tema ou parte do [Board](lexicos.html#board).
+
+
+**Atores:** [Usuário](lexicos.html#usuario)
+
+**Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo e possuir internet.
+
+**Episódios:**
+- [Usuário](lexicos.html#usuario) entra no [Quadro](lexicos.html#quadro). 
+- [Usuário](lexicos.html#usuario) aperta em "Adicionar outra [Lista](lexicos.html#lista)".
+- [Usuário](lexicos.html#usuario)) coloca um nome na [Lista](lexicos.html#lista).
+
+------------
+## Cenário de Alterar nome da lista
+
+**Título:** alterar o nome de uma [Lista](lexicos.html#lista).
+
+**Objetivo:** Mudar o nome de uma determinada [Lista](lexicos.html#lista) com o objetivo dela. 
+
+**Contexto:**
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pós-condição:** : O [Usuário](lexicos.html#usuario) saberá onde criar determinado [Card](lexicos;html#usuario), dependendo do seu objetivo.
+
+
+**Atores:** [Usuário](lexicos.html#usuario)
+
+**Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo e possuir internet.
+
+**Episódios:**
+- [Usuário](lexicos.html#usuario) entra no [Quadro](lexicos.html#quadro). 
+- [Usuário](lexicos.html#usuario) clica no nome da [Lista](lexicos.html#lista).
+- [Usuário](lexicos.html#usuario)) altera o nome da [Lista](lexicos.html#lista).
+
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
 
