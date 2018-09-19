@@ -202,7 +202,7 @@ category: Modelagem
 ### Impacto
 - É criado um novo objeto com as mesmas características que outro.
 
-
+--------------
 ## Usuário
 
 ### Noção

@@ -7,56 +7,56 @@ category: Modelagem
 # Cenários
 
 ------------
-## Cenário de Login
+## Cenário de [Login](lexicos.html#login) 
 
-**Título:** [Login]() comum 
+**Título:** [Login](lexicos.html#login)  comum 
 
 **Objetivo:** Logar em uma conta do trello.
 
 **Contexto:**
-- **Pré-condição:** O usuário precisará possuir uma conta na plataforma Trello e
+- **Pré-condição:** O [usuário](lexicos.html#usuario) precisará possuir uma conta na plataforma Trello e
 possuir um dispositivo com acesso a internet.
-- **Pós-condição:** O usuário estará logado na aplicação, com acesso a seus
+- **Pós-condição:** O [usuário](lexicos.html#usuario) estará logado na aplicação, com acesso a seus
 boards
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
 possuir conexão a internet.
 
 **Episódios:**
-- Usuário entra na tela de [Login]() da aplicação;
-- Usuário insere o endereço de e-mail de sua conta;
-- Usuário insere a senha de sua conta;
-- Usuário clica no botão ‘Fazer Login’;
-- Usuário estará logado na aplicação.
+- [Usuário](lexicos.html#usuario) entra na tela de [Login](lexicos.html#login)  da aplicação;
+- [Usuário](lexicos.html#usuario) insere o endereço de e-mail de sua conta;
+- [Usuário](lexicos.html#usuario) insere a senha de sua conta;
+- [Usuário](lexicos.html#usuario) clica no botão ‘Fazer [Login](lexicos.html#login) ’;
+- [Usuário](lexicos.html#usuario) estará logado na aplicação.
 
 ------------
-## Cenário de Login
+## Cenário de [Login](lexicos.html#login) 
 
-**Título:** [Login]() com o Google
+**Título:** Login com o Google
 
 **Objetivo:** Logar no Trello através de sua conta Google.
 
 **Contexto:**
-- **Pré-condição:** ​ O usuário precisará possuir uma conta Google e possuir um
+- **Pré-condição:** ​ O [usuário](lexicos.html#usuario) precisará possuir uma conta Google e possuir um
 dispositivo com acesso a internet.
-- **Pós-condição:** O usuário estará logado na aplicação, com acesso a seus
+- **Pós-condição:** O [usuário](lexicos.html#usuario) estará logado na aplicação, com acesso a seus
 [Boards](lexicos.html#board)
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
 possuir conexão a internet.
 
 **Episódios:**
-- Usuário entra na tela de [Login]() da aplicação;
-- Usuário clica em ‘Fazer Login com o Google’;
-- Usuário insere o endereço de e-mail ou telefone;
-- Usuário clica no botão ‘Próxima’;
-- Usuário insere a senha;
-- Usuário clica no botão ‘Próxima’;
-- Usuário estará logado na aplicação.
+- [Usuário](lexicos.html#usuario) entra na tela de [Login](lexicos.html#login)  da aplicação;
+- [Usuário](lexicos.html#usuario) clica em ‘Fazer [Login](lexicos.html#login)  com o Google’;
+- [Usuário](lexicos.html#usuario) insere o endereço de e-mail ou telefone;
+- [Usuário](lexicos.html#usuario) clica no botão ‘Próxima’;
+- [Usuário](lexicos.html#usuario) insere a senha;
+- [Usuário](lexicos.html#usuario) clica no botão ‘Próxima’;
+- [Usuário](lexicos.html#usuario) estará logado na aplicação.
 
 ------------
 ## Cenário de Cadastro
@@ -66,23 +66,23 @@ possuir conexão a internet.
 **Objetivo:** Cadastrar uma nova conta na plataforma Trello.
 
 **Contexto:**
-- **Pré-condição:** O usuário precisará possuir um dispositivo com acesso a
+- **Pré-condição:** O [usuário](lexicos.html#usuario) precisará possuir um dispositivo com acesso a
 internet e um e-mail não cadastrado no sistema do Trello.
-- **Pós-condição:** O usuário terá cadastrado uma nova conta e
+- **Pós-condição:** O [usuário](lexicos.html#usuario) terá cadastrado uma nova conta e
 automaticamente estará logado na aplicação.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
 possuir conexão a internet.
 
 **Episódios:**
-- Usuário entra na tela de cadastro da aplicação;
-- Usuário insere o seu nome;
-- Usuário insere o endereço de e-mail desejado;
-- Usuário insere a senha desejada;
-- Usuário clica no botão ‘Criar Nova Conta’;
-- Usuário estará cadastrado e logado na aplicação.
+- [Usuário](lexicos.html#usuario) entra na tela de cadastro da aplicação;
+- [Usuário](lexicos.html#usuario) insere o seu nome;
+- [Usuário](lexicos.html#usuario) insere o endereço de e-mail desejado;
+- [Usuário](lexicos.html#usuario) insere a senha desejada;
+- [Usuário](lexicos.html#usuario) clica no botão ‘Criar Nova Conta’;
+- [Usuário](lexicos.html#usuario) estará cadastrado e logado na aplicação.
 
 ------------
 ## Cenário de Alterar Senha
@@ -92,25 +92,25 @@ possuir conexão a internet.
 **Objetivo:** Alterar senha de uma conta existente da plataforma Trello.
 
 **Contexto:**
-- **Pré-condição:** O usuário precisará possuir um dispositivo com acesso a
+- **Pré-condição:** O [usuário](lexicos.html#usuario) precisará possuir um dispositivo com acesso a
 internet e uma conta cadastrada no sistema do Trello.
-- **Pós-condição:** O usuário terá alterado a senha de sua conta.
+- **Pós-condição:** O [usuário](lexicos.html#usuario) terá alterado a senha de sua conta.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
 possuir conexão a internet.
 
 **Episódios:**
-- Usuário entra na tela de ’Esqueceu sua senha?’;
-- Usuário insere o endereço de e-mail de sua conta;
-- Usuário clica no botão ‘Enviar’;
-- Usuário recebe um e-mail para redefinir sua senha;
-- Usuário abre o e-mail recebido;
-- Usuário clica no botão ‘Redefinir Senha’;
-- Usuário insere a nova senha;
-- Usuário insere a nova senha novamente;
-- Usuário clica no botão ‘Enviar’.
+- [Usuário](lexicos.html#usuario) entra na tela de ’Esqueceu sua senha?’;
+- [Usuário](lexicos.html#usuario) insere o endereço de e-mail de sua conta;
+- [Usuário](lexicos.html#usuario) clica no botão ‘Enviar’;
+- [Usuário](lexicos.html#usuario) recebe um e-mail para redefinir sua senha;
+- [Usuário](lexicos.html#usuario) abre o e-mail recebido;
+- [Usuário](lexicos.html#usuario) clica no botão ‘Redefinir Senha’;
+- [Usuário](lexicos.html#usuario) insere a nova senha;
+- [Usuário](lexicos.html#usuario) insere a nova senha novamente;
+- [Usuário](lexicos.html#usuario) clica no botão ‘Enviar’.
 
 ------------
 ## Cenário alterar configurações de Notificação
@@ -120,24 +120,24 @@ possuir conexão a internet.
 **Objetivo:** ​Alterar configurações de [Notificação](lexicos.html#notificar) da sua conta Trello.
 
 **Contexto:**
-- **Pré-condição:** O usuário precisará possuir um dispositivo com acesso a
+- **Pré-condição:** O [usuário](lexicos.html#usuario) precisará possuir um dispositivo com acesso a
 internet e estar logado em sua conta Trello.
-- **Pós-condição:** O usuário terá alterado as configurações de [Notificação](lexicos.html#notificar) de
+- **Pós-condição:** O [usuário](lexicos.html#usuario) terá alterado as configurações de [Notificação](lexicos.html#notificar) de
 sua conta.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
 possuir conexão a internet.
 
 **Episódios:**
-- Usuário entra na tela em suas notificações;
-- Usuário clica em ‘Alterar Frequência de [Notificação](lexicos.html#notificar) por Email’;
-- Usuário seleciona uma das três opções: Nunca, Periodicamente e
+- [Usuário](lexicos.html#usuario) entra na tela em suas notificações;
+- [Usuário](lexicos.html#usuario) clica em ‘Alterar Frequência de [Notificação](lexicos.html#notificar) por Email’;
+- [Usuário](lexicos.html#usuario) seleciona uma das três opções: Nunca, Periodicamente e
 Instantaneamente;
-- Usuário terá alterado a frequência de notificações por e-mail;
-- Usuário clica em ‘Permitir [Notificação](lexicos.html#notificar) da Área de Trabalho’;
-- Usuário terá permitido a aplicação a exibir [Notificação](lexicos.html#notificar) da Área de Trabalho.
+- [Usuário](lexicos.html#usuario) terá alterado a frequência de notificações por e-mail;
+- [Usuário](lexicos.html#usuario) clica em ‘Permitir [Notificação](lexicos.html#notificar) da Área de Trabalho’;
+- [Usuário](lexicos.html#usuario) terá permitido a aplicação a exibir [Notificação](lexicos.html#notificar) da Área de Trabalho.
 
 ------------
 ## Cenário ver notificações
@@ -147,21 +147,21 @@ Instantaneamente;
 **Objetivo:** ​Ver [Notificações](lexicos.html#notificar) da sua conta Trello.
 
 **Contexto:**
-- **Pré-condição:** O usuário precisará possuir um dispositivo com acesso a
+- **Pré-condição:** O [usuário](lexicos.html#usuario) precisará possuir um dispositivo com acesso a
 internet e estar logado em sua conta Trello.
-- **Pós-condição:** O usuário terá visto as [Notificações](lexicos.html#notificar) de sua conta, caso
+- **Pós-condição:** O [usuário](lexicos.html#usuario) terá visto as [Notificações](lexicos.html#notificar) de sua conta, caso
 exista.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
 possuir conexão a internet.
 
 **Episódios:**
-- Usuário abre a página inicial;
-- Usuário clica na imagem de um sino na parte superior direita de sua tela;
-- Usuário entra na tela de suas [Notificações](lexicos.html#notificar);
-- Usuário vê suas [Notificações](lexicos.html#notificar), caso exista alguma notificação não lida.
+- [Usuário](lexicos.html#usuario) abre a página inicial;
+- [Usuário](lexicos.html#usuario) clica na imagem de um sino na parte superior direita de sua tela;
+- [Usuário](lexicos.html#usuario) entra na tela de suas [Notificações](lexicos.html#notificar);
+- [Usuário](lexicos.html#usuario) vê suas [Notificações](lexicos.html#notificar), caso exista alguma notificação não lida.
 
 ------------
 ## Cenário criar time
@@ -171,9 +171,9 @@ possuir conexão a internet.
 **Objetivo:** ​Criar um [Time](lexicos.html#time) na plataforma Trello.
 
 **Contexto:**
-- **Pré-condição:** ​ O usuário precisará possuir um dispositivo com acesso a
+- **Pré-condição:** ​ O [usuário](lexicos.html#usuario) precisará possuir um dispositivo com acesso a
 internet e estar logado em sua conta Trello.
-- **Pós-condição:** ​O usuário terá criado um novo [Time](lexicos.html#time).
+- **Pós-condição:** ​O [usuário](lexicos.html#usuario) terá criado um novo [Time](lexicos.html#time).
 
 **Atores:** ​Usuário.
 
@@ -181,12 +181,12 @@ internet e estar logado em sua conta Trello.
 possuir conexão a internet.
 
 **Episódios:**
-- Usuário abre a página inicial;
-- Usuário clica em ‘Criar um time’;
-- Usuário insere o nome do [Time](lexicos.html#time);
-- Usuário insere a descrição do [Time](lexicos.html#time) (opcional);
-- Usuário clica no botão ‘Criar’;
-- Usuário terá criado um novo [Time](lexicos.html#time).
+- [Usuário](lexicos.html#usuario) abre a página inicial;
+- [Usuário](lexicos.html#usuario) clica em ‘Criar um time’;
+- [Usuário](lexicos.html#usuario) insere o nome do [Time](lexicos.html#time);
+- [Usuário](lexicos.html#usuario) insere a descrição do [Time](lexicos.html#time) (opcional);
+- [Usuário](lexicos.html#usuario) clica no botão ‘Criar’;
+- [Usuário](lexicos.html#usuario) terá criado um novo [Time](lexicos.html#time).
 
 ------------
 ## Cenário convidar usuários para um time
@@ -196,9 +196,9 @@ possuir conexão a internet.
 **Objetivo:** ​Convidar usuários da plataforma Trello para participar de um [Time](lexicos.html#time).
 
 **Contexto:**
-- **Pré-condição:** ​ O usuário precisará possuir um dispositivo com acesso a
+- **Pré-condição:** ​ O  [usuário](lexicos.html#usuario)precisará possuir um dispositivo com acesso a
 internet e estar logado em sua conta Trello.
-- **Pós-condição:** ​O usuário terá convidado um ou mais usuários para seu [Time](lexicos.html#time).
+- **Pós-condição:** ​O  [usuário](lexicos.html#usuario)terá convidado um ou mais usuários para seu [Time](lexicos.html#time).
 
 **Atores:** ​Usuário.
 
@@ -206,34 +206,34 @@ internet e estar logado em sua conta Trello.
 possuir conexão a internet.
 
 **Episódios:**
-- Usuário abre a página do [Time](lexicos.html#time);
-- Usuário clica no botão ‘Membros’;
-- Usuário insere o nome do usuário a ser convidado;
-- Usuário clica no botão ‘Convidar para o Time’;
-- Usuário terá convidado um usuário para seu [Time](lexicos.html#time).
+- [Usuário](lexicos.html#usuario) abre a página do [Time](lexicos.html#time);
+- [Usuário](lexicos.html#usuario) clica no botão ‘Membros’;
+- [Usuário](lexicos.html#usuario) insere o nome do  [usuário](lexicos.html#usuario)a ser convidado;
+- [Usuário](lexicos.html#usuario) clica no botão ‘Convidar para o Time’;
+- [Usuário](lexicos.html#usuario) terá convidado um [usuário](lexicos.html#usuario) para seu [Time](lexicos.html#time).
 
 ------------
-## Cenário de imprimir Board
+## Cenário de imprimir[Board](lexicos.html#board)
 
 **Título:** Impressão de [Board](lexicos.html#board) 
 
 **Objetivo:** Passar algumas informações de à [Board](lexicos.html#board) para uma folha de papel.
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à [Board](lexicos.html#board) que quer imprimir.
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) deve ter acesso à [Board](lexicos.html#board) que quer imprimir.
 - **Pós-condição:** A aplicação deverá comunicar ao browser que uma impressão está sendo solicitada.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Dispositivo desktop com browser compatível com os recursos do Trello e com acesso à impressora, além da impressora devidamente preparada para impressão.
 
 **Episódios:**
-- Usuário realiza [Login]();
-- Usuário acessa a [Board](lexicos.html#board) desejada;
-- Usuário abre o [Menu lateral]();
-- Usuário seleciona a opção **Mais**;
-- Usuário seleciona a opção **Imprimir e Exportar**;
-- Usuário seleciona a opção **Imprimir...**;
+- [Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login) ;
+- [Usuário](lexicos.html#usuario) acessa a [Board](lexicos.html#board) desejada;
+- [Usuário](lexicos.html#usuario) abre o [Menu lateral]();
+- [Usuário](lexicos.html#usuario) seleciona a opção **Mais**;
+- [Usuário](lexicos.html#usuario) seleciona a opção **Imprimir e Exportar**;
+- [Usuário](lexicos.html#usuario) seleciona a opção **Imprimir...**;
 - A aplicação converte a [Board](lexicos.html#board) para um formato imprimível;
 - Browser faz a comunicação com o Sistema Operacional, que por sua vez comunica-se com a impressora.
 
@@ -242,22 +242,22 @@ possuir conexão a internet.
 
 **Título:** Adição de [Stickers](lexicos.html#sticker)
 
-**Objetivo:** Adição de elementos visuais que facilitem a orientação intuitiva e visual do Usuário pela [Board](lexicos.html#board).
+**Objetivo:** Adição de elementos visuais que facilitem a orientação intuitiva e visual do [Usuário](lexicos.html#usuario) pela [Board](lexicos.html#board).
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à [Board](lexicos.html#board) na qual quer adicionar [stickers](lexicos.html#sticker).
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) deve ter acesso à [Board](lexicos.html#board) na qual quer adicionar [stickers](lexicos.html#sticker).
 - **Pós-condição:** Um [sticker](lexicos.html#sticker) deve ser adicionado a um [Card](lexicos.html#card) na [Board](lexicos.html#board) em questão.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Acesso à aplicação web por meio de browser em um dispositivo desktop.
 
 **Episódios:**
-- Usuário faz [Login]();
-- Usuário acessa a [Board](lexicos.html#board) desejada;
-- Usuário abre o [Menu Lateral]();
-- Usuário seleciona a opção **[Stickers](lexicos.html#sticker)**;
-- Usuário clica e arrasta o Sticker desejado até o [Card](lexicos.html#card) desejado;
+- [Usuário](lexicos.html#usuario) faz [Login](lexicos.html#login) ;
+- [Usuário](lexicos.html#usuario) acessa a [Board](lexicos.html#board) desejada;
+- [Usuário](lexicos.html#usuario) abre o [Menu Lateral]();
+- [Usuário](lexicos.html#usuario) seleciona a opção **[Stickers](lexicos.html#sticker)**;
+- [Usuário](lexicos.html#usuario) clica e arrasta o Sticker desejado até o [Card](lexicos.html#card) desejado;
 
 --------------
 ## Cenário de editar/remover [Stickers](lexicos.html#sticker)
@@ -267,20 +267,20 @@ possuir conexão a internet.
 **Objetivo:** Editar o estado atual de [sticker](lexicos.html#sticker) previamente adicionado.
 
 **Contexto:**
-- **Pré-condição:** Deve existir um [sticker](lexicos.html#sticker) em uma [Board](lexicos.html#board) com o acesso do Usuário que queira remover ou editar este mesmo [sticker](lexicos.html#sticker).
+- **Pré-condição:** Deve existir um [sticker](lexicos.html#sticker) em uma [Board](lexicos.html#board) com o acesso do [Usuário](lexicos.html#usuario) que queira remover ou editar este mesmo [sticker](lexicos.html#sticker).
 - **Pós-condição:** O [sticker](lexicos.html#sticker) não mais estará onde está.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- Usuário faz [Login]();
-- Usuário acessa a [Board](lexicos.html#board) em questão;
-- Usuário clica com o botão direito do mouse no [Card](lexicos.html#card)  de onde quer mover o [sticker](lexicos.html#sticker);
-- Usuário clica com o botão esquerdo do mouse no [sticker](lexicos.html#sticker) que quer editar;
-- Usuário seleciona uma das opções: **Girar**, **Mover** ou **Remover** segundo sua vontade;
-- Em caso de **Girar** ou **Mover**, o Usuário clica e segura com o botão esquerdo do mouse, movendo o cursos até que o [sticker](lexicos.html#sticker) alcance a posição desejada;
+- [Usuário](lexicos.html#usuario) faz [Login](lexicos.html#login) ;
+- [Usuário](lexicos.html#usuario) acessa a [Board](lexicos.html#board) em questão;
+- [Usuário](lexicos.html#usuario) clica com o botão direito do mouse no [Card](lexicos.html#card)  de onde quer mover o [sticker](lexicos.html#sticker);
+- [Usuário](lexicos.html#usuario) clica com o botão esquerdo do mouse no [sticker](lexicos.html#sticker) que quer editar;
+- [Usuário](lexicos.html#usuario) seleciona uma das opções: **Girar**, **Mover** ou **Remover** segundo sua vontade;
+- Em caso de **Girar** ou **Mover**, o [Usuário](lexicos.html#usuario) clica e segura com o botão esquerdo do mouse, movendo o cursos até que o [sticker](lexicos.html#sticker) alcance a posição desejada;
 
 --------------
 ## Cenário de Alterar Tela de Fundo
@@ -290,21 +290,21 @@ possuir conexão a internet.
 **Objetivo:** Criação de uma identidade visual para a [Board](lexicos.html#board) em questão.
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à [Board](lexicos.html#board) a qual quer alterar o plano de fundo.
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) deve ter acesso à [Board](lexicos.html#board) a qual quer alterar o plano de fundo.
 - **Pós-condição:** A tela de fundo dessa [Board](lexicos.html#board) será alterada.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- Usuário faz [Login]();
-- Usuário acessa a [Board](lexicos.html#board) cujo plano quer alterar;
-- Usuário abre o [Menu Lateral]();
-- Usuário seleciona a opção **Alterar Tela de Fundo**;
-- Usuário seleciona entre as opções **Cores** ou **Fotos**;
+- [Usuário](lexicos.html#usuario) faz [Login](lexicos.html#login) ;
+- [Usuário](lexicos.html#usuario) acessa a [Board](lexicos.html#board) cujo plano quer alterar;
+- [Usuário](lexicos.html#usuario) abre o [Menu Lateral]();
+- [Usuário](lexicos.html#usuario) seleciona a opção **Alterar Tela de Fundo**;
+- [Usuário](lexicos.html#usuario) seleciona entre as opções **Cores** ou **Fotos**;
     - Caso o [Board](lexicos.html#board) seja de um [time](lexicos.html#time) [Business Class](), a opção **Personalizar** também estará disponível;
-- Caso tenha selecionado **Cores**, o Usuário escolhe uma entre as nove cores disponíveis, ou clica na **seta à esqueda** para voltar à tela anterior;
+- Caso tenha selecionado **Cores**, o [Usuário](lexicos.html#usuario) escolhe uma entre as nove cores disponíveis, ou clica na **seta à esqueda** para voltar à tela anterior;
 - Caso tenha selecionado **Fotos**, o usário escollhe uma entre as inúmeras fotos disponibilizadas pelo Unsplash em colaboração com o Trello ou clica na **seta à esqueda** para voltar à tela anterior;
     - É possível pesquisar por termos e a aplicação retornará imagens marcadas com os termos pesquisados.
 
@@ -316,21 +316,21 @@ possuir conexão a internet.
 **Objetivo:** Filtrar cards através de suas características.
 
 **Contexto:**
-- **Pré-condição:** O Usuário está procurando por um ou mais cards que atendam às características pesquisadas em uma [Board](lexicos.html#board) à qual o Usuário tenha acesso.
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) está procurando por um ou mais cards que atendam às características pesquisadas em uma [Board](lexicos.html#board) à qual o [Usuário](lexicos.html#usuario) tenha acesso.
 - **Pós-condição:** Deverão aparecer na tela apenas os cards que atendam às características solicitadas na filtragem.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- Usuário faz [Login]();
-- Usuário acessa a [Board](lexicos.html#board) onde estão os cards que ele procura;
-- Usuário abre o [Menu Lateral]() e seleciona a opção **Filtrar Cartões**;
-    - Usuário pode digitar termos contidos nos títulos dos cards que está procurando;
-    - Usuário pode selecionar [Etiquetas]() contidas nos cards que está procurando;
-    - Usuário pode [membros]() assinalados nos cards que está procurando;
-    - Usuário pode selecionar opções de [data de entrega](lexico.html#duedate):
+- [Usuário](lexicos.html#usuario) faz [Login](lexicos.html#login) ;
+- [Usuário](lexicos.html#usuario) acessa a [Board](lexicos.html#board) onde estão os cards que ele procura;
+- [Usuário](lexicos.html#usuario) abre o [Menu Lateral]() e seleciona a opção **Filtrar Cartões**;
+    - [Usuário](lexicos.html#usuario) pode digitar termos contidos nos títulos dos cards que está procurando;
+    - [Usuário](lexicos.html#usuario) pode selecionar [Etiquetas]() contidas nos cards que está procurando;
+    - [Usuário](lexicos.html#usuario) pode [membros]() assinalados nos cards que está procurando;
+    - [Usuário](lexicos.html#usuario) pode selecionar opções de [data de entrega](lexico.html#duedate):
         - Entregas em um dia;
         - Entregas em uma semana;
         - Entregas emm um mês;
@@ -338,9 +338,9 @@ possuir conexão a internet.
         - Sem [data de entrega](lexico.html#duedate);
         - [Data de entrega](lexico.html#duedate) marcada como concluída;
         - Não marcado como concluído;
-    - Usuário pode selecionar se as buscas por etiquetas e membros seguem lógica AND (todos os membros e etiquetas procurados devem estar contido nos cards procurados) ou se seguem lógica OR (qualquer [Card](lexicos.html#card) que contenha um membro ou etiqueta procurados se enquadra na pesquisa).
+    - [Usuário](lexicos.html#usuario) pode selecionar se as buscas por etiquetas e membros seguem lógica AND (todos os membros e etiquetas procurados devem estar contido nos cards procurados) ou se seguem lógica OR (qualquer [Card](lexicos.html#card) que contenha um membro ou etiqueta procurados se enquadra na pesquisa).
 - Aparece um texto na parte superior da [Board](lexicos.html#board) indicando que a busca está ativada e, por isso, alguns cards podem estar sendo omitidos;
-    - Para encerrar a filtragem, o Usuário pode clicar no X ao lado deste texto.
+    - Para encerrar a filtragem, o [Usuário](lexicos.html#usuario) pode clicar no X ao lado deste texto.
 
 --------------
 ## Cenário de [Copiar](lexico.html#copiar) um Quadro
@@ -350,22 +350,22 @@ possuir conexão a internet.
 **Objetivo:** Criação de um [Board](lexicos.html#board) com algumas características iguais às de um [Board](lexicos.html#board) específico.
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à [Board](lexicos.html#board) que quer [copiar](lexico.html#copiar).
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) deve ter acesso à [Board](lexicos.html#board) que quer [copiar](lexico.html#copiar).
 - **Pós-condição:** Será criada uma nova [Board](lexicos.html#board) com algumas características trazidas de outra.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- Usuário faz [Login]();
-- Usuário acessa a [Board](lexicos.html#board) que quer [copiar](lexico.html#copiar);
-- Usuário abre o [Menu Lateral]() e seleciona a opção **Mais**;
-- Usuário seleciona a opção **Copiar Quadro**;
-- Usuário digita um título para o novo [Board](lexicos.html#board) que será criado;
-- Opcionalmente, o Usuário escolhe um [time](lexicos.html#time) do qual faça parte para popular o novo quadro;
-- Usuário decide a visibilidade do quadro (se é particular, de visibilidade apenas do [time](lexicos.html#time) ou se é público);
-- Usuário decide se quer [copiar](lexico.html#copiar), também, os [Cards]() contidos no [Board](lexicos.html#board) atual.
+- [Usuário](lexicos.html#usuario) faz [Login](lexicos.html#login) ;
+- [Usuário](lexicos.html#usuario) acessa a [Board](lexicos.html#board) que quer [copiar](lexico.html#copiar);
+- [Usuário](lexicos.html#usuario) abre o [Menu Lateral]() e seleciona a opção **Mais**;
+- [Usuário](lexicos.html#usuario) seleciona a opção **Copiar Quadro**;
+- [Usuário](lexicos.html#usuario) digita um título para o novo [Board](lexicos.html#board) que será criado;
+- Opcionalmente, o [Usuário](lexicos.html#usuario) escolhe um [time](lexicos.html#time) do qual faça parte para popular o novo quadro;
+- [Usuário](lexicos.html#usuario) decide a visibilidade do quadro (se é particular, de visibilidade apenas do [time](lexicos.html#time) ou se é público);
+- [Usuário](lexicos.html#usuario) decide se quer [copiar](lexico.html#copiar), também, os [Cards]() contidos no [Board](lexicos.html#board) atual.
 - É criada uma nova [Board](lexicos.html#board);
  
 --------------
@@ -376,42 +376,42 @@ possuir conexão a internet.
 **Objetivo:** Ser [notificado](lexico.html#notificar) de alterações que aconteçam em uma [Board](lexicos.html#board)
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à [Board](lexicos.html#board) que quer seguir.
-- **Pós-condição:** O Usuário será [notificado](lexico.html#notificar) de alterações que ocorrerem na [Board](lexicos.html#board) em questão.
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) deve ter acesso à [Board](lexicos.html#board) que quer seguir.
+- **Pós-condição:** O [Usuário](lexicos.html#usuario) será [notificado](lexico.html#notificar) de alterações que ocorrerem na [Board](lexicos.html#board) em questão.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop ou acesso aplicação mobile conectada à internet.
 
 **Episódios:**
-- Usuário faz [Login]();
-- Usuário acessa a [Board](lexicos.html#board) que quer seguir;
-- Usuário abre o [Menu Lateral]() e seleciona a opção **Seguir**;
-- O sistema passa a [notificar](lexico.html#notificar) o Usuário em seu e-mail e no espaço de [notificações](lexico.html#notificar) do Trello;
-- Aparece um texto no canto superior esquerdo da [Board](lexicos.html#board) indicando que o Usuário está seguindo esta [Board](lexicos.html#board).
-- O Usuário pode selecionar novamente a opção **Seguir** para parar de seguir, ou clicar no texto recém-aparecido que ascenderá um botão **Parar de seguir**.
+- [Usuário](lexicos.html#usuario) faz [Login](lexicos.html#login) ;
+- [Usuário](lexicos.html#usuario) acessa a [Board](lexicos.html#board) que quer seguir;
+- [Usuário](lexicos.html#usuario) abre o [Menu Lateral]() e seleciona a opção **Seguir**;
+- O sistema passa a [notificar](lexico.html#notificar) o [Usuário](lexicos.html#usuario) em seu e-mail e no espaço de [notificações](lexico.html#notificar) do Trello;
+- Aparece um texto no canto superior esquerdo da [Board](lexicos.html#board) indicando que o [Usuário](lexicos.html#usuario) está seguindo esta [Board](lexicos.html#board).
+- O [Usuário](lexicos.html#usuario) pode selecionar novamente a opção **Seguir** para parar de seguir, ou clicar no texto recém-aparecido que ascenderá um botão **Parar de seguir**.
 
 --------------
 ## Cenário de Fechar um Quadro
 
 **Título:** Fechamento de [Board](lexicos.html#board)
 
-**Objetivo:** Enviar a [Board](lexicos.html#board) para um espaço equivalente à lixeira, onde não são imediatamente excluídos mas não mais dividem espaço com outras Boards.
+**Objetivo:** Enviar a [Board](lexicos.html#board) para um espaço equivalente à lixeira, onde não são imediatamente excluídos mas não mais dividem espaço com outras[Boards](lexicos.html#board).
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ser criador do [Board](lexicos.html#board) que quer fechar.
-- **Pós-condição:** O [Board](lexicos.html#board) deve sair do espaço de Boards do Usuário, sem necessariamente ser excluído.
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) deve ser criador do [Board](lexicos.html#board) que quer fechar.
+- **Pós-condição:** O [Board](lexicos.html#board) deve sair do espaço de[Boards](lexicos.html#board) do [Usuário](lexicos.html#usuario), sem necessariamente ser excluído.
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- Usuário faz [Login]();
-- Usuário acessa a [Board](lexicos.html#board) que deseja fechar;
-- Usuário abre o [Menu Lateral]() e seleciona a opção **Mais**;
-- Usuário seleciona a opção **Fechar Quadro...**;
-- Usuário clica no botão vermelhor **Fechar**;
+- [Usuário](lexicos.html#usuario) faz [Login](lexicos.html#login) ;
+- [Usuário](lexicos.html#usuario) acessa a [Board](lexicos.html#board) que deseja fechar;
+- [Usuário](lexicos.html#usuario) abre o [Menu Lateral]() e seleciona a opção **Mais**;
+- [Usuário](lexicos.html#usuario) seleciona a opção **Fechar Quadro...**;
+- [Usuário](lexicos.html#usuario) clica no botão vermelhor **Fechar**;
 
 ------------
 ## Cenário de Exportar um Quadro para JSON
@@ -421,20 +421,20 @@ possuir conexão a internet.
 **Objetivo:** Passar algumas informações de à [Board](lexicos.html#board) para o formato JSON.
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à [Board](lexicos.html#board) que quer exportar.
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) deve ter acesso à [Board](lexicos.html#board) que quer exportar.
 - **Pós-condição:** A aplicação deverá retornar um código JSON que reflita o atual estado da [Board](lexicos.html#board).
 
-**Atores:** Usuário
+**Atores:** [Usuário](lexicos.html#usuario)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- Usuário realiza [Login]();
-- Usuário acessa a [Board](lexicos.html#board) desejada;
-- Usuário abre o [Menu lateral]();
-- Usuário seleciona a opção **Mais**;
-- Usuário seleciona a opção **Imprimir e Exportar**;
-- Usuário seleciona a opção **Exportar como JSON**;
+- [Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login) ;
+- [Usuário](lexicos.html#usuario) acessa a [Board](lexicos.html#board) desejada;
+- [Usuário](lexicos.html#usuario) abre o [Menu lateral]();
+- [Usuário](lexicos.html#usuario) seleciona a opção **Mais**;
+- [Usuário](lexicos.html#usuario) seleciona a opção **Imprimir e Exportar**;
+- [Usuário](lexicos.html#usuario) seleciona a opção **Exportar como JSON**;
 - A aplicação redireciona para uma página que contém apenas o código JSON da [Board](lexicos.html#board);
 
 ------------
@@ -445,8 +445,8 @@ possuir conexão a internet.
 **Objetivo:** Com isto é possível remover um membro de um [time](lexicos.html#time).
 
 **Contexto:**
-- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [Time](lexicos.html#time) e deve ter ao menos um membro além do [administrador](lexicos.html#administrador).
-- **Pós-condição:** Usuário retirado deixará de ser membro do [time](lexicos.html#time).
+- **Pré-condição:** O [usuário](lexicos.html#usuario) deve ser [administrador](lexicos.html#administrador) do [Time](lexicos.html#time) e deve ter ao menos um membro além do [administrador](lexicos.html#administrador).
+- **Pós-condição:** [Usuário](lexicos.html#usuario) retirado deixará de ser membro do [time](lexicos.html#time).
 
 **Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time), membro do [time](lexicos.html#time).
 
@@ -458,7 +458,7 @@ possuir conexão a internet.
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa [time](lexicos.html#time).
 - Senão, fluxo encerrado. (exceção)
 - [Administrador](lexicos.html#administrador) acessa lista de membros.
-- Se há membros, [Administrador](lexicos.html#administrador) EXCLUI MEMBRO que deseja.
+- Se há membros, [Administrador](lexicos.html#administrador) exclui que deseja.
 - Senão, fluxo encerrado. (exceção)
 
 
@@ -470,23 +470,23 @@ possuir conexão a internet.
 **Objetivo:** Permita a adição de descrição de um [time](lexicos.html#time).
 
 **Contexto:**
-- **Pré-condição:** O usuário deve ter acesso aos recursos da plataforma.
+- **Pré-condição:** O [usuário](lexicos.html#usuario) deve ter acesso aos recursos da plataforma.
 - **Pós-condição:** [Time](lexicos.html#time) deverá ser criado e possuir descrição.
 
-**Atores:** Usuário.
+**Atores:** [Usuário](lexicos.html#usuario).
 
 **Recursos:** Conta, [time](lexicos.html#time), computador, internet.
 
-**Restrição:** O usuário deve estar logado.
+**Restrição:** O [usuário](lexicos.html#usuario) deve estar logado.
 
 **Exceção:** Queda do sistema, falta de internet ou falta de energia.
 
 **Episódios:**
-- Usuário entra no Trello.
-- Usuário REALIZA LOGIN.
-- Se há [time](lexicos.html#time), Usuário ACESSA CRIAR UM TIME.
-- Usuário ADICIONA NOME.
-- Usuário ADICIONA DESCRIÇÃO do [time](lexicos.html#time).
+- [Usuário](lexicos.html#usuario) entra no Trello.
+- [Usuário](lexicos.html#usuario) realiza login.
+- Se há [time](lexicos.html#time), [Usuário](lexicos.html#usuario) acessa criar time.
+- [Usuário](lexicos.html#usuario) adiciona nome.
+- [Usuário](lexicos.html#usuario) adiciona descrição do [time](lexicos.html#time).
 
 
 ------------
@@ -497,24 +497,24 @@ possuir conexão a internet.
 **Objetivo:** permite a edição da descrição de um [time](lexicos.html#time).
 
 **Contexto:**
-- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+- **Pré-condição:** O [usuário](lexicos.html#usuario) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 - **Pós-condição:** O [time](lexicos.html#time) deverá possuir uma nova descrição.
 
 **Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 
 **Recursos:** Conta, [time](lexicos.html#time), computador, internet.
 
-**Restrição:** O [time](lexicos.html#time) deve existir, o usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+**Restrição:** O [time](lexicos.html#time) deve existir, o [usuário](lexicos.html#usuario) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 
 **Exceção:** Não há [time](lexicos.html#time).
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) REALIZA LOGIN.
-- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) ACESSA TIME.
+- [Administrador](lexicos.html#administrador) realiza login.
+- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa time.
 - Senão, fluxo encerrado. (Exceção)
-- [Administrador](lexicos.html#administrador) ACESSA EDITAR PERFIL.
-- [Administrador](lexicos.html#administrador) EDITA DESCRIÇÃO do [time](lexicos.html#time).
+- [Administrador](lexicos.html#administrador) acessa editar perfil.
+- [Administrador](lexicos.html#administrador) edita descrição do [time](lexicos.html#time).
 
 
 ------------
@@ -525,7 +525,7 @@ possuir conexão a internet.
 **Objetivo:** Permita a edição da visibilidade de um [time](lexicos.html#time).
 
 **Contexto:**
-- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+- **Pré-condição:** O [usuário](lexicos.html#usuario) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 - **Pós-condição:** O [time](lexicos.html#time) deverá ter sua visibilidade alterada.
 
 **Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -535,13 +535,13 @@ possuir conexão a internet.
 **Exceção:** Não há [time](lexicos.html#time).
 
 **Episódios:**
-- Usuário entra no Trello.
-- Usuário REALIZA LOGIN.
-- Se há [time](lexicos.html#time), Usuário ACESSA TIME.
+- [Usuário](lexicos.html#usuario) entra no Trello.
+- [Usuário](lexicos.html#usuario) realiza login.
+- Se há [time](lexicos.html#time), [Usuário](lexicos.html#usuario) acessa time.
 - Senão, fluxo encerrado.  (exceção)
-- Usuário ACESSA CONFIGURAÇÕES DO TIME.
-- Usuário ACESSA ALTERAR VISIBILIDADE DO TIME.
-- Usuário EDITA VISIBILIDADE do [time](lexicos.html#time).
+- [Usuário](lexicos.html#usuario) acessa configurações do time.
+- [Usuário](lexicos.html#usuario) acessa alterar visibilidade do time.
+- [Usuário](lexicos.html#usuario) edita visibilidade do [time](lexicos.html#time).
 
 
 ------------
@@ -552,7 +552,7 @@ possuir conexão a internet.
 **Objetivo:** Com isto [usuário](lexicos.html#usuario) pode Vincular [Time](lexicos.html#time) com o Slack.
 
 **Contexto:**
-- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+- **Pré-condição:** O [usuário](lexicos.html#usuario) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 - **Pós-condição:** O [time](lexicos.html#time) deverá ser vinculado a [time](lexicos.html#time) do Slack.
 
 **Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -565,14 +565,14 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) REALIZA LOGIN.
-- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) ACESSA TIME.
-- Senão, [Administrador](lexicos.html#administrador) CRIA TIME. (restrição)
-- [Administrador](lexicos.html#administrador) ACESSA CONFIGURAÇÕES DO TIME.
-- [Administrador](lexicos.html#administrador) ACESSA ADD TO SLACK.
-- Se há conta no slack, [Administrador](lexicos.html#administrador) REALIZA LOGIN em sua conta do slack.
+- [Administrador](lexicos.html#administrador) realiza login.
+- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acecssa time.
+- Senão, [Administrador](lexicos.html#administrador) cria time. (restrição)
+- [Administrador](lexicos.html#administrador) acessa configurações do time.
+- [Administrador](lexicos.html#administrador) acessa ADD TO SLACK.
+- Se há conta no slack, [Administrador](lexicos.html#administrador) realiza login em sua conta do slack.
 - Senão [Administrador](lexicos.html#administrador) cria conta no slack.
-- Se há canal no slack do [Administrador](lexicos.html#administrador), [Administrador](lexicos.html#administrador) VINCULA TIME COM O SLACK.
+- Se há canal no slack do [Administrador](lexicos.html#administrador), [Administrador](lexicos.html#administrador) vincula time com Slack.
 - Senão [Administrador](lexicos.html#administrador) cria canal no slack e realiza o passo anterior.
 
 
@@ -584,7 +584,7 @@ possuir conexão a internet.
 **Objetivo:** Permitir a alteração das permissões de membro com relação a comentar em um [Board](lexicos.html#board).
 
 **Contexto:** 
-- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+- **Pré-condição:** O [usuário](lexicos.html#usuario) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 - **Pós-condição:** Membros poderão comentar em um [Board](lexicos.html#board).
 
 **Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -593,16 +593,16 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) REALIZA LOGIN.
-- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) ACESSA TIME.
-- Senão, [Administrador](lexicos.html#administrador) CRIA TIME. (restrição)
-- Se há [Board](lexicos.html#board), [Administrador](lexicos.html#administrador) ACESSA BOARD do [time](lexicos.html#time).
-- Senão, [Administrador](lexicos.html#administrador) CRIA BOARD do [time](lexicos.html#time).
-- [Administrador](lexicos.html#administrador) ACESSA MENU da [Board](lexicos.html#board).
-- [Administrador](lexicos.html#administrador) ACESSA MAIS OPÇÕES DO MENU.
-- [Administrador](lexicos.html#administrador) ACESSA CONFIGURAÇÕES.
-- [Administrador](lexicos.html#administrador) ACESSA PERMISSÕES PARA COMENTÁRIOS.
-- [Administrador](lexicos.html#administrador) SELECIONA MEMBROS.
+- [Administrador](lexicos.html#administrador) realiza login.
+- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa time.
+- Senão, [Administrador](lexicos.html#administrador) cria time. (restrição)
+- Se há [Board](lexicos.html#board), [Administrador](lexicos.html#administrador) acessa[board](lexicos.html#board) do [time](lexicos.html#time).
+- Senão, [Administrador](lexicos.html#administrador) cria [board](lexicos.html#board) do [time](lexicos.html#time).
+- [Administrador](lexicos.html#administrador) acessa menu da [Board](lexicos.html#board).
+- [Administrador](lexicos.html#administrador) acessa mais opções do menu.
+- [Administrador](lexicos.html#administrador) acessa configurações.
+- [Administrador](lexicos.html#administrador) acessa permissões para comentários.
+- [Administrador](lexicos.html#administrador) seleciona membros.
 
 
 ------------
@@ -613,7 +613,7 @@ possuir conexão a internet.
 **Objetivo:** Altera a permissão de um membro de time de ingressar em um [Board](lexicos.html#board).
 
 **Contexto:** 
-- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+- **Pré-condição:** O [usuário](lexicos.html#usuario) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 - **Pós-condição:** Membros não poderão ingressar em um [Board](lexicos.html#board) sem serem convidados.
 
 **Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -622,16 +622,18 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) REALIZA LOGIN.
-- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) ACESSA TIME.
+- [Administrador](lexicos.html#administrador) realiza login.
+- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa time.
 - Senão, [Administrador](lexicos.html#administrador) CRIA TIME. (restrição)
-- Se há [Board](lexicos.html#board), [Administrador](lexicos.html#administrador) ACESSA BOARD do [time](lexicos.html#time).
-- Senão, [Administrador](lexicos.html#administrador) CRIA BOARD do [time](lexicos.html#time). (restrição)
-- [Administrador](lexicos.html#administrador) ACESSA MENU da [Board](lexicos.html#board).
-- [Administrador](lexicos.html#administrador) ACESSA MAIS OPÇÕES DO MENU.
-- [Administrador](lexicos.html#administrador) ACESSA CONFIGURAÇÕES.
-- Se estiver ativo, [Administrador](lexicos.html#administrador) CLICA EM PERMITIR INGRESSO DE MEMBROS DO TIME.
+- Se há [Board](lexicos.html#board), [Administrador](lexicos.html#administrador) acessa [board](lexicos.html#board) do [time](lexicos.html#time).
+- Senão, [Administrador](lexicos.html#administrador) cria [board](lexicos.html#board) do [time](lexicos.html#time). (restrição)
+- [Administrador](lexicos.html#administrador) acessa menu da [Board](lexicos.html#board).
+- [Administrador](lexicos.html#administrador) acessa mais opções do menu.
+- [Administrador](lexicos.html#administrador) acessa configurações.
+- Se estiver ativo, [Administrador](lexicos.html#administrador) clica em permitir ingresso de membros do time.
 - Senão, a permissão já foi negada.
+
+------------
 ## Cenário de Ver Lista
 
 **Título:** Ver [Lista](lexicos.html#lista) 
@@ -896,7 +898,7 @@ possuir conexão a internet.
 **Objetivo:** Mover um [Card](lexicos.html#card)  de uma [Lista](lexicos.html#lista) para outra no Trello. 
 
 **Contexto:**
-- **Pré-condição:**  O usuário precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello, possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista) e uma outra [Lista](lexicos.html#lista) que será o destino do [Card](lexicos.html#card) . 
+- **Pré-condição:**  O [usuário](lexicos.html#usuario) precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello, possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista) e uma outra [Lista](lexicos.html#lista) que será o destino do [Card](lexicos.html#card) . 
 - **Pós-condição:** : O [Usuário]() terá movido um [Card](lexicos.html#card)  de uma [Lista](lexicos.html#lista) para outra.
 
 **Atores:** [Usuário]()
@@ -926,7 +928,7 @@ possuir conexão a internet.
 
 **Contexto:**
 - **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista).
-- **Pós-condição:** : O usuário terá respondido um comentário em um [Card](lexicos.html#card) . 
+- **Pós-condição:** : O [usuário](lexicos.html#usuario) terá respondido um comentário em um [Card](lexicos.html#card) . 
 
 **Atores:** [Usuário]()
 
@@ -1019,7 +1021,7 @@ possuir conexão a internet.
 
 **Contexto:**
 - **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista). 
-- **Pós-condição:** : O usuário terá visualizado detalhes do [Card](lexicos.html#card) . 
+- **Pós-condição:** : O [usuário](lexicos.html#usuario) terá visualizado detalhes do [Card](lexicos.html#card) . 
 
 **Atores:** [Usuário]()
 
@@ -1055,7 +1057,7 @@ possuir conexão a internet.
 -[Usuário](lexicos.html#usuario) clica no link para se [Vincular](lexicos.html#vincular).
 
 ------------
-## Cenário de Alterar permissões de membros no board
+## Cenário de Alterar permissões de membros no [board](lexicos.html#board)
 
 **Título:** Alterar permissão de um [Membro](lexico.html#tarefa) em um [Board](lexico.html#board).
 
@@ -1134,6 +1136,6 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- Usuário faz [Login]();
+- [Usuário](lexicos.html#usuario) faz [Login](lexicos.html#login) ;
 - Usuário
 ------------------ -->
