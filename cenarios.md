@@ -457,7 +457,7 @@ possuir conexão a internet.
 - [Administrador](lexicos.html#administrador) realiza [LOGIN]().
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa [time](lexicos.html#time).
 - Senão, fluxo encerrado. (exceção)
-- [Administrador](lexicos.html#administrador) acessa lista de membros.
+- [Administrador](lexicos.html#administrador) acessa [Lista](lexicos.html#lista) de membros.
 - Se há membros, [Administrador](lexicos.html#administrador) EXCLUI MEMBRO que deseja.
 - Senão, fluxo encerrado. (exceção)
 
@@ -545,11 +545,11 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de Vincular de [Time](lexicos.html#time) do Slack
+## Cenário de [Vincular](lexicos.html#vincular) de [Time](lexicos.html#time) do Slack
 
-**Título:** Vinculação de [Time](lexicos.html#time) do Slack.
+**Título:** [Vinculação](lexicos.html#vincular) de [Time](lexicos.html#time) do Slack.
 
-**Objetivo:** Com isto [usuário](lexicos.html#usuario) pode Vincular [Time](lexicos.html#time) com o Slack.
+**Objetivo:** Com isto [usuário](lexicos.html#usuario) pode [Vincular](lexicos.html#vincular) [Time](lexicos.html#time) com o Slack.
 
 **Contexto:**
 - **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -572,7 +572,7 @@ possuir conexão a internet.
 - [Administrador](lexicos.html#administrador) ACESSA ADD TO SLACK.
 - Se há conta no slack, [Administrador](lexicos.html#administrador) REALIZA LOGIN em sua conta do slack.
 - Senão [Administrador](lexicos.html#administrador) cria conta no slack.
-- Se há canal no slack do [Administrador](lexicos.html#administrador), [Administrador](lexicos.html#administrador) VINCULA TIME COM O SLACK.
+- Se há canal no slack do [Administrador](lexicos.html#administrador), [Administrador](lexicos.html#administrador) [VINCULA](lexicos.html#vincular) TIME COM O SLACK.
 - Senão [Administrador](lexicos.html#administrador) cria canal no slack e realiza o passo anterior.
 
 
@@ -632,7 +632,7 @@ possuir conexão a internet.
 - [Administrador](lexicos.html#administrador) ACESSA CONFIGURAÇÕES.
 - Se estiver ativo, [Administrador](lexicos.html#administrador) CLICA EM PERMITIR INGRESSO DE MEMBROS DO TIME.
 - Senão, a permissão já foi negada.
-## Cenário de Ver Lista
+## Cenário de Ver [Lista](lexicos.html#lista)
 
 **Título:** Ver [Lista](lexicos.html#lista) 
 
@@ -942,7 +942,7 @@ possuir conexão a internet.
 - [Usuário]() terá respondido o comentário selecionado.
 
 ------------
-## Cenário de Excluir comentário no card
+## Cenário de Excluir comentário no [Card](lexicos.html#card)
 
 **Título:** Excluir comentário no [Card](lexicos.html#card) 
 
@@ -1031,14 +1031,14 @@ possuir conexão a internet.
 - [Usuário]() terá aberto os detalhes do [Card](lexicos.html#card) .
 
 ------------
-## Cenário de Vincular ao quadro
+## Cenário de [Vincular](lexicos.html#) ao [Quadro](lexicos.html#quadro)
 
-**Título:** Vincular a um [Quadro](lexicos.html#quadro) 
+**Título:** [Vincular](lexicos.html#) a um [Quadro](lexicos.html#quadro). 
 
-**Objetivo:** Vincular uma pessoa a um [Quadro](lexicos.html#quadro) para visualizar toda a interface do projeto e suas respectivas [Tarefa](lexicos.html#tarefa).
+**Objetivo:** [Vincular](lexicos.html#) uma pessoa a um [Quadro](lexicos.html#quadro) para visualizar toda a interface do projeto e suas respectivas [Tarefa](lexicos.html#tarefa).
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [Vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuario) estará ligado à um [Quadro](lexicos.html#quadro), conseguirá ver [Tarefas](lexicos.html#tarefa) as quais pode fazer/designar.
 
 **Atores:** [Usuário](lexicos.html#usuario)
@@ -1062,7 +1062,7 @@ possuir conexão a internet.
 **Objetivo:** Fazer com que determinado [Membro](lexico.html#tarefa) tenha mais ou menos poder em um determinado [Board](lexico.html#board). 
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [Vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuario) terá menos ou mais controle sobre um determinado [Board](lexico.html#board).
 
 
@@ -1077,14 +1077,14 @@ possuir conexão a internet.
 - Caso o [Usuário](lexicos.html#usuario) não tenha permissão, ele não conseguirá alterar outras.
 
 ------------
-## Cenário de Criar lista
+## Cenário de Criar [Lista](lexicos.html#lista)
 
 **Título:** Criar uma [Lista](lexicos.html#lista).
 
 **Objetivo:** Ter um espaço com um tema específico para colocar [Atividades](lexicos.html#atividade). 
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuario) terá um espaço [Atribuir](lexicos.html#) [Tarefas](lexicos.html#) de determinado tema ou parte do [Board](lexicos.html#board).
 
 
@@ -1098,14 +1098,14 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuario)) coloca um nome na [Lista](lexicos.html#lista).
 
 ------------
-## Cenário de Alterar nome da lista
+## Cenário de Alterar nome da [Lista](lexicos.html#lista)
 
 **Título:** alterar o nome de uma [Lista](lexicos.html#lista).
 
 **Objetivo:** Mudar o nome de uma determinada [Lista](lexicos.html#lista) com o objetivo dela. 
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuario) saberá onde criar determinado [Card](lexicos;html#usuario), dependendo do seu objetivo.
 
 
@@ -1119,14 +1119,14 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuario)) altera o nome da [Lista](lexicos.html#lista).
 
 ------------
-## Cenário de Arquivar lista
+## Cenário de Arquivar [Lista](lexicos.html#lista)
 
 **Título:** [Arquivar](lexicos.html#arquivar) uma [Lista](lexicos.html#lista).
 
 **Objetivo:** [Arquivar](lexicos.html#arquivar) uma determinada [Lista](lexicos.html#lista) que não é necessário.
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuario) não terá a [Lista](lexicos.html#lista) visível até que queira.
 
 
@@ -1147,7 +1147,7 @@ possuir conexão a internet.
 **Objetivo:** Agrupar um conjunto de [Quadro](lexicos.html#quadro).
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuario) poderá ter um conjunto de [Quadro](lexicos.html#quadro) com determinado tema.
 
 
