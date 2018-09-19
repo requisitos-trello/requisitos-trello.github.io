@@ -175,7 +175,7 @@ possuir conexão a internet.
 internet e estar logado em sua conta Trello.
 - **Pós-condição:** ​O [usuário](lexicos.html#usuário) terá criado um novo [Time](lexicos.html#time).
 
-**Atores:** ​Usuário.
+**Atores:** ​[Usuário](lexicos.html#usuário).
 
 **Recursos:** ​Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
 possuir conexão a internet.
@@ -189,18 +189,18 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) terá criado um novo [Time](lexicos.html#time).
 
 ------------
-## Cenário convidar usuários para um time
+## Cenário convidar [Usuários](lexicos.html#usuário) para um time
 
-**Título:** ​Convidar usuários para um [Time](lexicos.html#time).
+**Título:** ​Convidar [Usuários](lexicos.html#usuário) para um [Time](lexicos.html#time).
 
-**Objetivo:** ​Convidar usuários da plataforma Trello para participar de um [Time](lexicos.html#time).
+**Objetivo:** ​Convidar [Usuários](lexicos.html#usuário) da plataforma Trello para participar de um [Time](lexicos.html#time).
 
 **Contexto:**
 - **Pré-condição:** ​ O  [usuário](lexicos.html#usuário)precisará possuir um dispositivo com acesso a
 internet e estar logado em sua conta Trello.
-- **Pós-condição:** ​O  [usuário](lexicos.html#usuário)terá convidado um ou mais usuários para seu [Time](lexicos.html#time).
+- **Pós-condição:** ​O  [usuário](lexicos.html#usuário)terá convidado um ou mais [Usuários](lexicos.html#usuário) para seu [Time](lexicos.html#time).
 
-**Atores:** ​Usuário.
+**Atores:** [Usuário](lexicos.html#usuário)​
 
 **Recursos:** ​Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
 possuir conexão a internet.
@@ -636,25 +636,25 @@ possuir conexão a internet.
 
 **Título:** Ver [Lista](lexicos.html#lista) 
 
-**Objetivo:** Mostrar o conteúdo de uma [Lista](lexicos.html#lista) para o [Usuário]().
+**Objetivo:** Mostrar o conteúdo de uma [Lista](lexicos.html#lista) para o [Usuário](lexicos.html#usuário).
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() deve ter acesso à [Lista](lexicos.html#lista) que quer visualizar.
-- **Pós-condição:** A aplicação deverá mostrar a [Lista](lexicos.html#lista) para o [Usuário]().
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) que quer visualizar.
+- **Pós-condição:** A aplicação deverá mostrar a [Lista](lexicos.html#lista) para o [Usuário](lexicos.html#usuário).
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Restrições** 
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
-- [Usuário]() realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
-- [Usuário]() realiza [VER LIST]();
-- A aplicação mostra a [Lista](lexicos.html#lista) desejada para o [Usuário]().
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
+- [Usuário](lexicos.html#usuário) realiza [VER LIST]();
+- A aplicação mostra a [Lista](lexicos.html#lista) desejada para o [Usuário](lexicos.html#usuário).
 
 
 ------------
@@ -667,21 +667,21 @@ possuir conexão a internet.
 **Objetivo:** Criar um novo [Card](lexicos.html#card)  para armazenar dados dentro de uma [Lista](lexicos.html#lista).
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() deve ter acesso à [Lista](lexicos.html#lista) onde quer criar o [Card](lexicos.html#card) .
-- **Pós-condição:** A aplicação deverá criar o [Card](lexicos.html#card)  dentro da [Lista](lexicos.html#lista) para o [Usuário]().
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde quer criar o [Card](lexicos.html#card) .
+- **Pós-condição:** A aplicação deverá criar o [Card](lexicos.html#card)  dentro da [Lista](lexicos.html#lista) para o [Usuário](lexicos.html#usuário).
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
-- [Usuário]() realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
-- [Usuário]() realiza [VER LISTA]();
-- [Usuário]() realiza [CRIAR CARD]()
-- A aplicação mostra a [Lista](lexicos.html#lista) desejada para o [Usuário]().
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
+- [Usuário](lexicos.html#usuário) realiza [CRIAR CARD]()
+- A aplicação mostra a [Lista](lexicos.html#lista) desejada para o [Usuário](lexicos.html#usuário).
 
 ------------
 ## Cenário de Modificar Card
@@ -691,48 +691,48 @@ possuir conexão a internet.
 **Objetivo:** Modificar um [Card](lexicos.html#card)  existente para atualizar os seus dados dentro de uma [Lista](lexicos.html#lista).
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
 - **Pós-condição:** A aplicação deverá atualizar o [Card](lexicos.html#card)  com os novos dados.
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
-- [Usuário]() realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
-- [Usuário]() realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](), realiza [CRIAR CARD]();
-- [Usuário]() realiza [VER CARD]();
-- [Usuário]() realiza [MODIFICAR CARD]();
-- A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário]().
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
+- [Usuário](lexicos.html#usuário) realiza [MODIFICAR CARD]();
+- A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
 
 ------------
 ## Cenário de Ver Card
 
 **Título:** Ver [Card](lexicos.html#card)  
 
-**Objetivo:** Visualizar um [Card](lexicos.html#card)  existente para mostrar o seu conteúdo para o [Usuário]().
+**Objetivo:** Visualizar um [Card](lexicos.html#card)  existente para mostrar o seu conteúdo para o [Usuário](lexicos.html#usuário).
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
 - **Pós-condição:** A aplicação deverá mostrar o [Card](lexicos.html#card)  com seu conteúdo.
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
-- [Usuário]() realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
-- [Usuário]() realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](), realiza [CRIAR CARD]();
-- [Usuário]() realiza [VER CARD]();
-- A aplicação mostra uma janela com os dados do [Card](lexicos.html#card)  desejado para o [Usuário]().
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
+- A aplicação mostra uma janela com os dados do [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
 
 ------------
 ## Cenário de Modificar Card
@@ -742,23 +742,23 @@ possuir conexão a internet.
 **Objetivo:** Modificar um [Card](lexicos.html#card)  existente para atualizar os seus dados dentro de uma [Lista](lexicos.html#lista).
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
 - **Pós-condição:** A aplicação deverá atualizar o [Card](lexicos.html#card)  com os novos dados.
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
-- [Usuário]() realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
-- [Usuário]() realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](), realiza [CRIAR CARD]();
-- [Usuário]() realiza [VER CARD]();
-- [Usuário]() realiza [MODIFICAR CARD]();
-- A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário]().
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
+- [Usuário](lexicos.html#usuário) realiza [MODIFICAR CARD]();
+- A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
 
 ------------
 ## Cenário de Modificar Card
@@ -768,48 +768,48 @@ possuir conexão a internet.
 **Objetivo:** Modificar um [Card](lexicos.html#card)  existente para atualizar os seus dados dentro de uma [Lista](lexicos.html#lista).
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
 - **Pós-condição:** A aplicação deverá atualizar o [Card](lexicos.html#card)  com os novos dados.
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
-- [Usuário]() realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
-- [Usuário]() realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](), realiza [CRIAR CARD]();
-- [Usuário]() realiza [VER CARD]();
-- [Usuário]() realiza [MODIFICAR CARD]();
-- A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário]().
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
+- [Usuário](lexicos.html#usuário) realiza [MODIFICAR CARD]();
+- A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
 
 ------------
 ## Cenário de Seguir Card
 
 **Título:** Seguir [Card](lexicos.html#card)  
 
-**Objetivo:** Seguir um [Card](lexicos.html#card)  existente para ser [notificado](lexico.html#notificar) de mudanças por meios de [notificações](lexico.html#notificar) para o [Usuário]().
+**Objetivo:** Seguir um [Card](lexicos.html#card)  existente para ser [notificado](lexico.html#notificar) de mudanças por meios de [notificações](lexico.html#notificar) para o [Usuário](lexicos.html#usuário).
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
 - **Pós-condição:** A aplicação deverá [notificar](lexico.html#notificar) o [usuáro]() quando o [Card](lexicos.html#card)  for modificado.
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
-- [Usuário]() realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
-- [Usuário]() realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](), realiza [CRIAR CARD]();
-- [Usuário]() realiza [VER CARD]();
-- [Usuário]() realiza [SEGUIR CARD]() pressionando o botão seguir;
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
+- [Usuário](lexicos.html#usuário) realiza [SEGUIR CARD]() pressionando o botão seguir;
 - A aplicação retorna à tela de [VER CARD]().
 
 ------------
@@ -820,22 +820,22 @@ possuir conexão a internet.
 **Objetivo:** [Arquivar](lexicos.html#arquivar) um [Card](lexicos.html#card)  existente para removê-lo de uma [Lista](lexicos.html#lista) sem perder seus dados.
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
 - **Pós-condição:** A aplicação deverá [Arquivar](lexicos.html#arquivar) o [Card](lexicos.html#card)  selecionado.
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
-- [Usuário]() realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
-- [Usuário]() realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](), realiza [CRIAR CARD]();
-- [Usuário]() realiza [VER CARD]();
-- [Usuário]() realiza [ARQUIVAR CARD]() pressionando o botão [Arquivar](lexicos.html#arquivar);
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
+- [Usuário](lexicos.html#usuário) realiza [ARQUIVAR CARD]() pressionando o botão [Arquivar](lexicos.html#arquivar);
 - A aplicação retorna à tela de [VER LISTA]().
 
 ------------
@@ -846,23 +846,23 @@ possuir conexão a internet.
 **Objetivo:** Personalizar a [Label]() atribuído à um [Card](lexicos.html#card) para diferenciar ou destacá-lo em relação aos outros.
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
 - **Pós-condição:** A aplicação deverá mostrar o [Card](lexicos.html#card)  com seu novo [Label]().
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
-- [Usuário]() realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
-- [Usuário]() realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](), realiza [CRIAR CARD]();
-- [Usuário]() realiza [VER CARD]();
-- [Usuário]() realiza [PERSONALIZAR Label]();
-- A aplicação mostra uma janela com opções de persnoalização para o [Label]() para o [Usuário]().
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
+- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
+- [Usuário](lexicos.html#usuário) realiza [PERSONALIZAR Label]();
+- A aplicação mostra uma janela com opções de persnoalização para o [Label]() para o [Usuário](lexicos.html#usuário).
 
 ------------
 ## Cenário de Adicionar [Anexo](lexicos.html#anexo) em um card
@@ -872,21 +872,21 @@ possuir conexão a internet.
 **Objetivo:** Adicionar um [anexo](lexicos.html#anexo) em um [Card](lexicos.html#card)  do Trello.
 
 **Contexto:**
-- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista).
-- **Pós-condição:** : O [Usuário]() terá adicionado um [anexo](lexicos.html#anexo) a um [Card](lexicos.html#card) .
+- **Pré-condição:**  O [Usuário](lexicos.html#usuário) precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista).
+- **Pós-condição:** : O [Usuário](lexicos.html#usuário) terá adicionado um [anexo](lexicos.html#anexo) a um [Card](lexicos.html#card) .
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() entra na tela onde tem o [Card](lexicos.html#card)  desejado.
-- [Usuário]() clica no [Card](lexicos.html#card) . 
-- No campo ‘Adicionar ao cartão’, o [Usuário]() clica na opção ‘anexo’. 
-- [Usuário]() seleciona o local onde o [anexo](lexicos.html#anexo) está. 
-- [Usuário]() seleciona o [anexo](lexicos.html#anexo). 
-- [Usuário]() clica no botão ‘anexar’. 
-- [Usuário]() terá anexado algo ao [Card](lexicos.html#card)  selecionado. 
+- [Usuário](lexicos.html#usuário) entra na tela onde tem o [Card](lexicos.html#card)  desejado.
+- [Usuário](lexicos.html#usuário) clica no [Card](lexicos.html#card) . 
+- No campo ‘Adicionar ao cartão’, o [Usuário](lexicos.html#usuário) clica na opção ‘anexo’. 
+- [Usuário](lexicos.html#usuário) seleciona o local onde o [anexo](lexicos.html#anexo) está. 
+- [Usuário](lexicos.html#usuário) seleciona o [anexo](lexicos.html#anexo). 
+- [Usuário](lexicos.html#usuário) clica no botão ‘anexar’. 
+- [Usuário](lexicos.html#usuário) terá anexado algo ao [Card](lexicos.html#card)  selecionado. 
 
 ------------
 ## Cenário de Mover um [Card](lexicos.html#card) para outra list 
@@ -897,24 +897,24 @@ possuir conexão a internet.
 
 **Contexto:**
 - **Pré-condição:**  O [usuário](lexicos.html#usuário) precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello, possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista) e uma outra [Lista](lexicos.html#lista) que será o destino do [Card](lexicos.html#card) . 
-- **Pós-condição:** : O [Usuário]() terá movido um [Card](lexicos.html#card)  de uma [Lista](lexicos.html#lista) para outra.
+- **Pós-condição:** : O [Usuário](lexicos.html#usuário) terá movido um [Card](lexicos.html#card)  de uma [Lista](lexicos.html#lista) para outra.
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() entra na tela onde tem o [Card](lexicos.html#card)  desejado.
-- [Usuário]() clica no [Card](lexicos.html#card) . 
-- No campo ‘Adicionar ao cartão’, o [Usuário]() clica na opção ‘anexo’. 
-- [Usuário]() seleciona o local onde o [anexo](lexicos.html#anexo) está. 
-- [Usuário]() seleciona o [anexo](lexicos.html#anexo). 
-- [Usuário]() clica no botão ‘anexar’. 
-- [Usuário]() terá anexado algo ao [Card](lexicos.html#card)  selecionado. 
-- [Usuário]() entra na tela onde tem o [Card](lexicos.html#card)  desejado.
-- [Usuário]() clica no [Card](lexicos.html#card)  e segura o botão do mouse. 
-- [Usuário]() arrasta o [Card](lexicos.html#card)  para a [Lista](lexicos.html#lista) desejada. 
-- [Usuário]() terá movido o [Card](lexicos.html#card)  de uma [Lista](lexicos.html#lista) para outra. 
+- [Usuário](lexicos.html#usuário) entra na tela onde tem o [Card](lexicos.html#card)  desejado.
+- [Usuário](lexicos.html#usuário) clica no [Card](lexicos.html#card) . 
+- No campo ‘Adicionar ao cartão’, o [Usuário](lexicos.html#usuário) clica na opção ‘anexo’. 
+- [Usuário](lexicos.html#usuário) seleciona o local onde o [anexo](lexicos.html#anexo) está. 
+- [Usuário](lexicos.html#usuário) seleciona o [anexo](lexicos.html#anexo). 
+- [Usuário](lexicos.html#usuário) clica no botão ‘anexar’. 
+- [Usuário](lexicos.html#usuário) terá anexado algo ao [Card](lexicos.html#card)  selecionado. 
+- [Usuário](lexicos.html#usuário) entra na tela onde tem o [Card](lexicos.html#card)  desejado.
+- [Usuário](lexicos.html#usuário) clica no [Card](lexicos.html#card)  e segura o botão do mouse. 
+- [Usuário](lexicos.html#usuário) arrasta o [Card](lexicos.html#card)  para a [Lista](lexicos.html#lista) desejada. 
+- [Usuário](lexicos.html#usuário) terá movido o [Card](lexicos.html#card)  de uma [Lista](lexicos.html#lista) para outra. 
 
 
 ------------
@@ -925,21 +925,21 @@ possuir conexão a internet.
 **Objetivo:** Responder um comentário em um [Card](lexicos.html#card)  do Trello. 
 
 **Contexto:**
-- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista).
+- **Pré-condição:**  O [Usuário](lexicos.html#usuário) precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista).
 - **Pós-condição:** : O [usuário](lexicos.html#usuário) terá respondido um comentário em um [Card](lexicos.html#card) . 
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() entra na tela onde tem o [Card](lexicos.html#card)  desejado.
-- [Usuário]() clica no [Card](lexicos.html#card) . 
-- [Usuário]() acha o comentário que deseja responder. 
-- [Usuário]() clica no botão ‘responder’ abaixo do comentário. 
-- [Usuário]() escreve a resposta que deseja.
-- [Usuário]() clica no botão ‘salvar’.
-- [Usuário]() terá respondido o comentário selecionado.
+- [Usuário](lexicos.html#usuário) entra na tela onde tem o [Card](lexicos.html#card)  desejado.
+- [Usuário](lexicos.html#usuário) clica no [Card](lexicos.html#card) . 
+- [Usuário](lexicos.html#usuário) acha o comentário que deseja responder. 
+- [Usuário](lexicos.html#usuário) clica no botão ‘responder’ abaixo do comentário. 
+- [Usuário](lexicos.html#usuário) escreve a resposta que deseja.
+- [Usuário](lexicos.html#usuário) clica no botão ‘salvar’.
+- [Usuário](lexicos.html#usuário) terá respondido o comentário selecionado.
 
 ------------
 ## Cenário de Excluir comentário no [Card](lexicos.html#card)
@@ -949,20 +949,20 @@ possuir conexão a internet.
 **Objetivo:** Excluir um comentário em um [Card](lexicos.html#card) do Trello. 
 
 **Contexto:**
-- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello, possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista) e ter feito um comentário neste [Card](lexicos.html#card) . 
-- **Pós-condição:** : O [Usuário]() terá excluído um comentário em um [Card](lexicos.html#card) . 
+- **Pré-condição:**  O [Usuário](lexicos.html#usuário) precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello, possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista) e ter feito um comentário neste [Card](lexicos.html#card) . 
+- **Pós-condição:** : O [Usuário](lexicos.html#usuário) terá excluído um comentário em um [Card](lexicos.html#card) . 
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() entra na tela onde tem o [Card](lexicos.html#card)  desejado.
-- [Usuário]() clica no [Card](lexicos.html#card) . 
-- [Usuário]() acha o seu comentário que deseja excluir. 
-- [Usuário]() clica no botão ‘excluir’ logo abaixo do comentário. 
-- [Usuário]() clica no botão ‘Excluir Comentário’. 
-- [Usuário]() terá excluído o comentário desejado. 
+- [Usuário](lexicos.html#usuário) entra na tela onde tem o [Card](lexicos.html#card)  desejado.
+- [Usuário](lexicos.html#usuário) clica no [Card](lexicos.html#card) . 
+- [Usuário](lexicos.html#usuário) acha o seu comentário que deseja excluir. 
+- [Usuário](lexicos.html#usuário) clica no botão ‘excluir’ logo abaixo do comentário. 
+- [Usuário](lexicos.html#usuário) clica no botão ‘Excluir Comentário’. 
+- [Usuário](lexicos.html#usuário) terá excluído o comentário desejado. 
 
 ------------
 ## Cenário de Usar Power-Up no quadro 
@@ -972,21 +972,21 @@ possuir conexão a internet.
 **Objetivo:** Usar um Power-up em um quadro no Trello.
 
 **Contexto:**
-- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um quadro. 
-- **Pós-condição:** : O [Usuário]() terá usado um Power-Up em um quadro. 
+- **Pré-condição:**  O [Usuário](lexicos.html#usuário) precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um quadro. 
+- **Pós-condição:** : O [Usuário](lexicos.html#usuário) terá usado um Power-Up em um quadro. 
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() entra no quadro desejado. 
-- [Usuário]() clica no botão ‘Mostrar Menu’. 
-- [Usuário]() clica na opção ‘Power-Ups’. 
-- [Usuário]() usa o campo de pesquisa, se necessário. 
-- [Usuário]() clica no botão adicionar no Power-Up desejado. 
-- [Usuário]() pode adicionar mais Power-Ups a um mesmo quadro se possuir conta diferente da ‘Grátis’. 
-- [Usuário]() terá adicionado um Power-Up a um quadro.
+- [Usuário](lexicos.html#usuário) entra no quadro desejado. 
+- [Usuário](lexicos.html#usuário) clica no botão ‘Mostrar Menu’. 
+- [Usuário](lexicos.html#usuário) clica na opção ‘Power-Ups’. 
+- [Usuário](lexicos.html#usuário) usa o campo de pesquisa, se necessário. 
+- [Usuário](lexicos.html#usuário) clica no botão adicionar no Power-Up desejado. 
+- [Usuário](lexicos.html#usuário) pode adicionar mais Power-Ups a um mesmo quadro se possuir conta diferente da ‘Grátis’. 
+- [Usuário](lexicos.html#usuário) terá adicionado um Power-Up a um quadro.
 
 ------------
 ## Cenário de Compartilhar card
@@ -996,19 +996,19 @@ possuir conexão a internet.
 **Objetivo:** Compartilhar um [Card](lexicos.html#card)  do Trello. 
 
 **Contexto:**
-- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista). 
-- **Pós-condição:** : O [Usuário]() terá compartilhado um [Card](lexicos.html#card) . 
+- **Pré-condição:**  O [Usuário](lexicos.html#usuário) precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista). 
+- **Pós-condição:** : O [Usuário](lexicos.html#usuário) terá compartilhado um [Card](lexicos.html#card) . 
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() entra na tela onde tem o [Card](lexicos.html#card)  desejado. 
-- [Usuário]() clica no [Card](lexicos.html#card) . 
-- [Usuário]() clica na opção ‘Compartilhar e mais...’. 
-- [Usuário]() escolhe como deseja compartilhar o [Card](lexicos.html#card) . 
-- Ao selecionar uma das opções, o [Usuário]() terá um referencial do [Card](lexicos.html#card) de acordo com a opção escolhida. 
+- [Usuário](lexicos.html#usuário) entra na tela onde tem o [Card](lexicos.html#card)  desejado. 
+- [Usuário](lexicos.html#usuário) clica no [Card](lexicos.html#card) . 
+- [Usuário](lexicos.html#usuário) clica na opção ‘Compartilhar e mais...’. 
+- [Usuário](lexicos.html#usuário) escolhe como deseja compartilhar o [Card](lexicos.html#card) . 
+- Ao selecionar uma das opções, o [Usuário](lexicos.html#usuário) terá um referencial do [Card](lexicos.html#card) de acordo com a opção escolhida. 
 
 ------------
 ## Cenário de Exibir detalhes do card
@@ -1018,17 +1018,17 @@ possuir conexão a internet.
 **Objetivo:** Exibir detalhes de um [Card](lexicos.html#card)  do Trello. 
 
 **Contexto:**
-- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista). 
+- **Pré-condição:**  O [Usuário](lexicos.html#usuário) precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card](lexicos.html#card)  em uma [Lista](lexicos.html#lista). 
 - **Pós-condição:** : O [usuário](lexicos.html#usuário) terá visualizado detalhes do [Card](lexicos.html#card) . 
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() entra na tela onde tem o [Card](lexicos.html#card)  desejado. 
-- [Usuário]() clica no [Card](lexicos.html#card) .
-- [Usuário]() terá aberto os detalhes do [Card](lexicos.html#card) .
+- [Usuário](lexicos.html#usuário) entra na tela onde tem o [Card](lexicos.html#card)  desejado. 
+- [Usuário](lexicos.html#usuário) clica no [Card](lexicos.html#card) .
+- [Usuário](lexicos.html#usuário) terá aberto os detalhes do [Card](lexicos.html#card) .
 
 ------------
 ## Cenário de [Vincular](lexicos.html#) ao [Quadro](lexicos.html#quadro)
@@ -1169,21 +1169,21 @@ possuir conexão a internet.
 **Objetivo:** Criar um [Board](lexicos.html#board).
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet.
-- **Pós-condição:** O [Usuário]() terá um [Board](lexicos.html#board) para designar, planejar e executar tarefas para seu respectivo time.
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet.
+- **Pós-condição:** O [Usuário](lexicos.html#usuário) terá um [Board](lexicos.html#board) para designar, planejar e executar tarefas para seu respectivo time.
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Conta Trello, internet.
 
-**Restrições** O [Usuário]() precisa ter uma conta Trello com acesso a internet.
+**Restrições** O [Usuário](lexicos.html#usuário) precisa ter uma conta Trello com acesso a internet.
 
 **Excessões** Não ter internet na criação do [Board](lexicos.html#board), não ter energia na criação do [Board](lexicos.html#board).
 
 **Episódios:**
-- [Usuário]() entra no Trello;
-- [Usuário]() realiza [Login](lexicos.html#login);
-- [Usuário]() clica no criar [Board](lexicos.html#board);
+- [Usuário](lexicos.html#usuário) entra no Trello;
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- [Usuário](lexicos.html#usuário) clica no criar [Board](lexicos.html#board);
 ---------------------------
 ## Criar Board do Time
 
@@ -1192,22 +1192,22 @@ possuir conexão a internet.
 **Objetivo:** Criar um [Board](lexicos.html#board) para o time se organizar.
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet e ter possíveis membros para adicionar ao time.
-- **Pós-condição:** O [Usuário]() terá um [Board](lexicos.html#board) para designar, planejar e executar tarefas para seu respectivo time.
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet e ter possíveis membros para adicionar ao time.
+- **Pós-condição:** O [Usuário](lexicos.html#usuário) terá um [Board](lexicos.html#board) para designar, planejar e executar tarefas para seu respectivo time.
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Conta Trello, internet, time.
 
-**Restrições** O [Usuário]() precisa ter uma conta Trello com acesso a internet.
+**Restrições** O [Usuário](lexicos.html#usuário) precisa ter uma conta Trello com acesso a internet.
 
 **Excessões** Não ter internet na criação do [Board](lexicos.html#board), não ter energia na criação do [Board](lexicos.html#board), não ter um time para convidar ao [Board](lexicos.html#board).
 
 **Episódios:**
-- [Usuário]() entra no Trello;
-- [Usuário]() realiza [Login](lexicos.html#login);
-- [Usuário]() clica no criar [Board](lexicos.html#board);
-- [Usuário]() adiciona participantes ao [Board](lexicos.html#board);
+- [Usuário](lexicos.html#usuário) entra no Trello;
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- [Usuário](lexicos.html#usuário) clica no criar [Board](lexicos.html#board);
+- [Usuário](lexicos.html#usuário) adiciona participantes ao [Board](lexicos.html#board);
 ---------------------------
 ## Ver um Board
 
@@ -1216,22 +1216,22 @@ possuir conexão a internet.
 **Objetivo:** Ver um [Board](lexicos.html#board) para acompanhar andamento.
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet. E possuir um [Board](lexicos.html#board) que possa ser visualizado.
-- **Pós-condição:** O [Usuário]() poderá ver atividades e descrições a respeito daquele [Board](lexicos.html#board) nos [cards]() levantados.
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet. E possuir um [Board](lexicos.html#board) que possa ser visualizado.
+- **Pós-condição:** O [Usuário](lexicos.html#usuário) poderá ver atividades e descrições a respeito daquele [Board](lexicos.html#board) nos [cards]() levantados.
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Conta Trello, internet, um [Board](lexicos.html#board) para participar.
 
-**Restrições** O [Usuário]() precisa ter um [Board](lexicos.html#board).
+**Restrições** O [Usuário](lexicos.html#usuário) precisa ter um [Board](lexicos.html#board).
 
 **Excessões** Não ter um [Board](lexicos.html#board) para ser visualizado.
 
 **Episódios:**
-- [Usuário]() entra no Trello;
-- [Usuário]() realiza [Login](lexicos.html#login);
-- [Usuário]() clica no [Board](lexicos.html#board) para visualizar;
-- [Usuário]() visualiza o [Board](lexicos.html#board).
+- [Usuário](lexicos.html#usuário) entra no Trello;
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- [Usuário](lexicos.html#usuário) clica no [Board](lexicos.html#board) para visualizar;
+- [Usuário](lexicos.html#usuário) visualiza o [Board](lexicos.html#board).
 ---------------------------
 ## Administrar Power-ups
 
@@ -1240,23 +1240,23 @@ possuir conexão a internet.
 **Objetivo:** Ter uma noção de qual ferramenta caberia para alocação como [power-ups](lexicos.html#power-up).
 
 **Contexto:**
-- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet. E possuir um [Board](lexicos.html#board) no qual possa ter permissões para tomar decisões de gerente.
-- **Pós-condição:** O [Usuário]() terá um projeto podendo adicionar [power-ups](lexicos.html#power-up) no seu contexto..
+- **Pré-condição:** O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet. E possuir um [Board](lexicos.html#board) no qual possa ter permissões para tomar decisões de gerente.
+- **Pós-condição:** O [Usuário](lexicos.html#usuário) terá um projeto podendo adicionar [power-ups](lexicos.html#power-up) no seu contexto..
 
-**Atores:** [Usuário]()
+**Atores:** [Usuário](lexicos.html#usuário)
 
 **Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo e possuir internet. Um [Board](lexicos.html#board) no qual possa adicionar [power-ups](lexicos.html#power-up).
 
-**Restrições** O [Usuário]() precisa ter um [Board](lexicos.html#board) no qual ele possua a posição de administrador, e conta [gold]() no Trello.
+**Restrições** O [Usuário](lexicos.html#usuário) precisa ter um [Board](lexicos.html#board) no qual ele possua a posição de administrador, e conta [gold]() no Trello.
 
 **Excessões** Não ter a posição de administrador em um [Board](lexicos.html#board).
 
 **Episódios:**
-- [Usuário]() entra no Trello;
-- [Usuário]() realiza [Login](lexicos.html#login);
-- [Usuário]() clica no [Board](lexicos.html#board) para acessar;
-- [Usuário]() clica no [card]() visualizar;
-- [Usuário]() adiciona [power-ups](lexicos.html#power-up) no [card]() utilizar;
+- [Usuário](lexicos.html#usuário) entra no Trello;
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
+- [Usuário](lexicos.html#usuário) clica no [Board](lexicos.html#board) para acessar;
+- [Usuário](lexicos.html#usuário) clica no [card]() visualizar;
+- [Usuário](lexicos.html#usuário) adiciona [power-ups](lexicos.html#power-up) no [card]() utilizar;
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
 
