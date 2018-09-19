@@ -74,12 +74,12 @@ category: Modelagem
 ## Atribuir / Delegar tarefa
 
 ### Noção
-- Relacionar um [Card](lexicos.html#card) com um membro da [Board](lexicos.html#board)
+- Relacionar um [Card](lexicos.html#card) com um [membro](lexicos.html#membro) da [Board](lexicos.html#board)
 
 ### Impacto
 - A foto de perfil do usuário aparece no card
 - O usuário passa a [seguir]() o card
-- O usuário é dito como um membro do card
+- O usuário é dito como um [membro](lexicos.html#membro) do card
 
 --------------
 
