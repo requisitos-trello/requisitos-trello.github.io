@@ -440,10 +440,10 @@ possuir conexão a internet.
 ------------
 ## Cenário de Retirar Membros de um [Time](lexicos.html#time)
 
-**Título:**
-	Retirar membros de um [time](lexicos.html#time).
-**Objetivo:**
-	Retirar um membro de um [time](lexicos.html#time).
+**Título:** Retirar membros de um [time](lexicos.html#time).
+
+**Objetivo:** Com isto é possível remover um membro de um [time](lexicos.html#time).
+
 **Contexto:**
 - **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [Time](lexicos.html#time) e deve ter ao menos um membro além do [administrador](lexicos.html#administrador).
 - **Pós-condição:** Usuário retirado deixará de ser membro do [time](lexicos.html#time).
@@ -452,14 +452,12 @@ possuir conexão a internet.
 
 **Recursos:** Conta, [time](lexicos.html#time), membro, computador, internet.
 
-**Exceção:** Não há [time](lexicos.html#time), não há outro membro.
-
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) REALIZA LOGIN.
-- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) ACESSA TIME.
+- [Administrador](lexicos.html#administrador) realiza [LOGIN]().
+- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa [time](lexicos.html#time).
 - Senão, fluxo encerrado. (exceção)
-- [Administrador](lexicos.html#administrador) ACESSA LISTA DE MEMBROS.
+- [Administrador](lexicos.html#administrador) acessa lista de membros.
 - Se há membros, [Administrador](lexicos.html#administrador) EXCLUI MEMBRO que deseja.
 - Senão, fluxo encerrado. (exceção)
 
@@ -469,7 +467,7 @@ possuir conexão a internet.
 
 **Título:** Adicionar descrição de [time](lexicos.html#time).
 
-**Objetivo:** Adicionar descrição de um [time](lexicos.html#time).
+**Objetivo:** Permita a adição de descrição de um [time](lexicos.html#time).
 
 **Contexto:**
 - **Pré-condição:** O usuário deve ter acesso aos recursos da plataforma.
@@ -496,7 +494,7 @@ possuir conexão a internet.
 
 **Título:** Editar descrição de [time](lexicos.html#time).
 
-**Objetivo:** Editar descrição de um [time](lexicos.html#time).
+**Objetivo:** permite a edição da descrição de um [time](lexicos.html#time).
 
 **Contexto:**
 - **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -524,7 +522,7 @@ possuir conexão a internet.
 
 **Título:** Editar visibilidade do [time](lexicos.html#time).
 
-**Objetivo:** Editar visibilidade de um [time](lexicos.html#time).
+**Objetivo:** Permita a edição da visibilidade de um [time](lexicos.html#time).
 
 **Contexto:**
 - **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -551,7 +549,7 @@ possuir conexão a internet.
 
 **Título:** Vinculação de [Time](lexicos.html#time) do Slack.
 
-**Objetivo:** Vincular [Time](lexicos.html#time) com o Slack.
+**Objetivo:** Com isto [usuário](lexicos.html#usuario) pode Vincular [Time](lexicos.html#time) com o Slack.
 
 **Contexto:**
 - **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -583,7 +581,7 @@ possuir conexão a internet.
 
 **Título:** Permitir membro comentar em um [Board](lexicos.html#board).
 
-**Objetivo:** Permitir membro comentar em um [Board](lexicos.html#board).
+**Objetivo:** Permitir a alteração das permissões de membro com relação a comentar em um [Board](lexicos.html#board).
 
 **Contexto:** 
 - **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -612,7 +610,7 @@ possuir conexão a internet.
 
 **Título:** Negar membro ingressar em um [Board](lexicos.html#board).
 
-**Objetivo:** Negar membro ingressar em um [Board](lexicos.html#board).
+**Objetivo:** Altera a permissão de um membro de time de ingressar em um [Board](lexicos.html#board).
 
 **Contexto:** 
 - **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
