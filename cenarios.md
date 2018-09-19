@@ -7,14 +7,14 @@ category: Modelagem
 # Cenários
 
 ------------
-## Cenário de imprimir Board
+## Cenário de imprimir [Board]()
 
 **Título:** Impressão de [Board]() 
 
-**Objetivo:** Passar algumas informações de à Board para uma folha de papel.
+**Objetivo:** Passar algumas informações de à [Board]() para uma folha de papel.
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à Board que quer imprimir.
+- **Pré-condição:** O Usuário deve ter acesso à [Board]() que quer imprimir.
 - **Pós-condição:** A aplicação deverá comunicar ao browser que uma impressão está sendo solicitada.
 
 **Atores:** Usuário
@@ -23,24 +23,24 @@ category: Modelagem
 
 **Episódios:**
 - Usuário realiza [Login]();
-- Usuário acessa a Board desejada;
+- Usuário acessa a [Board]() desejada;
 - Usuário abre o [Menu lateral]();
 - Usuário seleciona a opção **Mais**;
 - Usuário seleciona a opção **Imprimir e Exportar**;
 - Usuário seleciona a opção **Imprimir...**;
-- A aplicação converte a Board para um formato imprimível;
+- A aplicação converte a [Board]() para um formato imprimível;
 - Browser faz a comunicação com o Sistema Operacional, que por sua vez comunica-se com a impressora.
 
 --------------
-## Cenário de adicionar Stickers
+## Cenário de adicionar [Stickers](lexicos.html#sticker)
 
-**Título:** Adição de [Stickers]()
+**Título:** Adição de [Stickers](lexicos.html#sticker)
 
 **Objetivo:** Adição de elementos visuais que facilitem a orientação intuitiva e visual do Usuário pela [Board]().
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à Board na qual quer adicionar stickers.
-- **Pós-condição:** Um sticker deve ser adicionado a um Card na Board em questão.
+- **Pré-condição:** O Usuário deve ter acesso à [Board]() na qual quer adicionar [stickers](lexicos.html#sticker).
+- **Pós-condição:** Um [sticker](lexicos.html#sticker) deve ser adicionado a um Card na [Board]() em questão.
 
 **Atores:** Usuário
 
@@ -48,21 +48,21 @@ category: Modelagem
 
 **Episódios:**
 - Usuário faz [Login]();
-- Usuário acessa a Board desejada;
+- Usuário acessa a [Board]() desejada;
 - Usuário abre o [Menu Lateral]();
-- Usuário seleciona a opção **Stickers**;
+- Usuário seleciona a opção **[Stickers](lexicos.html#sticker)**;
 - Usuário clica e arrasta o Sticker desejado até o Card desejado;
 
 --------------
-## Cenário de editar/remover Stickers
+## Cenário de editar/remover [Stickers](lexicos.html#sticker)
 
-**Título:** Edição de [Stickers]()
+**Título:** Edição de [Stickers](lexicos.html#sticker)
 
-**Objetivo:** Editar o estado atual de sticker previamente adicionado.
+**Objetivo:** Editar o estado atual de [sticker](lexicos.html#sticker) previamente adicionado.
 
 **Contexto:**
-- **Pré-condição:** Deve existir um sticker em uma [Board]() com o acesso do Usuário que queira remover ou editar este mesmo sticker.
-- **Pós-condição:** O sticker não mais estará onde está.
+- **Pré-condição:** Deve existir um [sticker](lexicos.html#sticker) em uma [Board]() com o acesso do Usuário que queira remover ou editar este mesmo [sticker](lexicos.html#sticker).
+- **Pós-condição:** O [sticker](lexicos.html#sticker) não mais estará onde está.
 
 **Atores:** Usuário
 
@@ -70,22 +70,22 @@ category: Modelagem
 
 **Episódios:**
 - Usuário faz [Login]();
-- Usuário acessa a Board em questão;
-- Usuário clica com o botão direito do mouse no [Card]() de onde quer mover o sticker;
-- Usuário clica com o botão esquerdo do mouse no sticker que quer editar;
+- Usuário acessa a [Board]() em questão;
+- Usuário clica com o botão direito do mouse no [Card]() de onde quer mover o [sticker](lexicos.html#sticker);
+- Usuário clica com o botão esquerdo do mouse no [sticker](lexicos.html#sticker) que quer editar;
 - Usuário seleciona uma das opções: **Girar**, **Mover** ou **Remover** segundo sua vontade;
-- Em caso de **Girar** ou **Mover**, o Usuário clica e segura com o botão esquerdo do mouse, movendo o cursos até que o sticker alcance a posição desejada;
+- Em caso de **Girar** ou **Mover**, o Usuário clica e segura com o botão esquerdo do mouse, movendo o cursos até que o [sticker](lexicos.html#sticker) alcance a posição desejada;
 
 --------------
 ## Cenário de Alterar Tela de Fundo
 
 **Título:** Alteração da Tela de Fundo de uma [Board]()
 
-**Objetivo:** Criação de uma identidade visual para a Board em questão.
+**Objetivo:** Criação de uma identidade visual para a [Board]() em questão.
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à Board a qual quer alterar o plano de fundo.
-- **Pós-condição:** A tela de fundo dessa Board será alterada.
+- **Pré-condição:** O Usuário deve ter acesso à [Board]() a qual quer alterar o plano de fundo.
+- **Pós-condição:** A tela de fundo dessa [Board]() será alterada.
 
 **Atores:** Usuário
 
@@ -93,11 +93,11 @@ category: Modelagem
 
 **Episódios:**
 - Usuário faz [Login]();
-- Usuário acessa a Board cujo plano quer alterar;
+- Usuário acessa a [Board]() cujo plano quer alterar;
 - Usuário abre o [Menu Lateral]();
 - Usuário seleciona a opção **Alterar Tela de Fundo**;
 - Usuário seleciona entre as opções **Cores** ou **Fotos**;
-    - Caso o Board seja de um time [Business Class](), a opção **Personalizar** também estará disponível;
+    - Caso o [Board]() seja de um [time](lexicos.html#time) [Business Class](), a opção **Personalizar** também estará disponível;
 - Caso tenha selecionado **Cores**, o Usuário escolhe uma entre as nove cores disponíveis, ou clica na **seta à esqueda** para voltar à tela anterior;
 - Caso tenha selecionado **Fotos**, o usário escollhe uma entre as inúmeras fotos disponibilizadas pelo Unsplash em colaboração com o Trello ou clica na **seta à esqueda** para voltar à tela anterior;
     - É possível pesquisar por termos e a aplicação retornará imagens marcadas com os termos pesquisados.
@@ -119,7 +119,7 @@ category: Modelagem
 
 **Episódios:**
 - Usuário faz [Login]();
-- Usuário acessa a Board onde estão os cards que ele procura;
+- Usuário acessa a [Board]() onde estão os cards que ele procura;
 - Usuário abre o [Menu Lateral]() e seleciona a opção **Filtrar Cartões**;
     - Usuário pode digitar termos contidos nos títulos dos cards que está procurando;
     - Usuário pode selecionar [Etiquetas]() contidas nos cards que está procurando;
@@ -133,7 +133,7 @@ category: Modelagem
         - Data de entrega marcada como concluída;
         - Não marcado como concluído;
     - Usuário pode selecionar se as buscas por etiquetas e membros seguem lógica AND (todos os membros e etiquetas procurados devem estar contido nos cards procurados) ou se seguem lógica OR (qualquer Card que contenha um membro ou etiqueta procurados se enquadra na pesquisa).
-- Aparece um texto na parte superior da Board indicando que a busca está ativada e, por isso, alguns cards podem estar sendo omitidos;
+- Aparece um texto na parte superior da [Board]() indicando que a busca está ativada e, por isso, alguns cards podem estar sendo omitidos;
     - Para encerrar a filtragem, o Usuário pode clicar no X ao lado deste texto.
 
 --------------
@@ -141,11 +141,11 @@ category: Modelagem
 
 **Título:** Cópia de [Board]()
 
-**Objetivo:** Criação de um Board com algumas características iguais às de um Board específico.
+**Objetivo:** Criação de um [Board]() com algumas características iguais às de um [Board]() específico.
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à Board que quer copiar.
-- **Pós-condição:** Será criada uma nova Board com algumas características trazidas de outra.
+- **Pré-condição:** O Usuário deve ter acesso à [Board]() que quer copiar.
+- **Pós-condição:** Será criada uma nova [Board]() com algumas características trazidas de outra.
 
 **Atores:** Usuário
 
@@ -153,25 +153,25 @@ category: Modelagem
 
 **Episódios:**
 - Usuário faz [Login]();
-- Usuário acessa a Board que quer copiar;
+- Usuário acessa a [Board]() que quer copiar;
 - Usuário abre o [Menu Lateral]() e seleciona a opção **Mais**;
 - Usuário seleciona a opção **Copiar Quadro**;
-- Usuário digita um título para o novo Board que será criado;
-- Opcionalmente, o Usuário escolhe um [time]() do qual faça parte para popular o novo quadro;
-- Usuário decide a visibilidade do quadro (se é particular, de visibilidade apenas do time ou se é público);
-- Usuário decide se quer copiar, também, os [Cards]() contidos no Board atual.
-- É criada uma nova Board;
+- Usuário digita um título para o novo [Board]() que será criado;
+- Opcionalmente, o Usuário escolhe um [time](lexicos.html#time) do qual faça parte para popular o novo quadro;
+- Usuário decide a visibilidade do quadro (se é particular, de visibilidade apenas do [time](lexicos.html#time) ou se é público);
+- Usuário decide se quer copiar, também, os [Cards]() contidos no [Board]() atual.
+- É criada uma nova [Board]();
  
 --------------
 ## Cenário de Seguir Quadro
 
 **Título:** [Seguir]() uma [Board]()
 
-**Objetivo:** Ser notificado de alterações que aconteçam em uma Board
+**Objetivo:** Ser notificado de alterações que aconteçam em uma [Board]()
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à Board que quer seguir.
-- **Pós-condição:** O Usuário será notificado de alterações que ocorrerem na Board em questão.
+- **Pré-condição:** O Usuário deve ter acesso à [Board]() que quer seguir.
+- **Pós-condição:** O Usuário será notificado de alterações que ocorrerem na [Board]() em questão.
 
 **Atores:** Usuário
 
@@ -179,10 +179,10 @@ category: Modelagem
 
 **Episódios:**
 - Usuário faz [Login]();
-- Usuário acessa a Board que quer seguir;
+- Usuário acessa a [Board]() que quer seguir;
 - Usuário abre o [Menu Lateral]() e seleciona a opção **Seguir**;
 - O sistema passa a notificar o Usuário em seu e-mail e no espaço de notificações do Trello;
-- Aparece um texto no canto superior esquerdo da Board indicando que o Usuário está seguindo esta Board.
+- Aparece um texto no canto superior esquerdo da [Board]() indicando que o Usuário está seguindo esta [Board]().
 - O Usuário pode selecionar novamente a opção **Seguir** para parar de seguir, ou clicar no texto recém-aparecido que ascenderá um botão **Parar de seguir**.
 
 --------------
@@ -190,11 +190,11 @@ category: Modelagem
 
 **Título:** Fechamento de [Board]()
 
-**Objetivo:** Enviar a Board para um espaço equivalente à lixeira, onde não são imediatamente excluídos mas não mais dividem espaço com outras Boards.
+**Objetivo:** Enviar a [Board]() para um espaço equivalente à lixeira, onde não são imediatamente excluídos mas não mais dividem espaço com outras Boards.
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ser criador do Board que quer fechar.
-- **Pós-condição:** O Board deve sair do espaço de Boards do Usuário, sem necessariamente ser excluído.
+- **Pré-condição:** O Usuário deve ser criador do [Board]() que quer fechar.
+- **Pós-condição:** O [Board]() deve sair do espaço de Boards do Usuário, sem necessariamente ser excluído.
 
 **Atores:** Usuário
 
@@ -202,7 +202,7 @@ category: Modelagem
 
 **Episódios:**
 - Usuário faz [Login]();
-- Usuário acessa a Board que deseja fechar;
+- Usuário acessa a [Board]() que deseja fechar;
 - Usuário abre o [Menu Lateral]() e seleciona a opção **Mais**;
 - Usuário seleciona a opção **Fechar Quadro...**;
 - Usuário clica no botão vermelhor **Fechar**;
@@ -212,11 +212,11 @@ category: Modelagem
 
 **Título:** Exportação de [Board]() para JSON 
 
-**Objetivo:** Passar algumas informações de à Board para o formato JSON.
+**Objetivo:** Passar algumas informações de à [Board]() para o formato JSON.
 
 **Contexto:**
-- **Pré-condição:** O Usuário deve ter acesso à Board que quer exportar.
-- **Pós-condição:** A aplicação deverá retornar um código JSON que reflita o atual estado da Board.
+- **Pré-condição:** O Usuário deve ter acesso à [Board]() que quer exportar.
+- **Pós-condição:** A aplicação deverá retornar um código JSON que reflita o atual estado da [Board]().
 
 **Atores:** Usuário
 
@@ -224,54 +224,54 @@ category: Modelagem
 
 **Episódios:**
 - Usuário realiza [Login]();
-- Usuário acessa a Board desejada;
+- Usuário acessa a [Board]() desejada;
 - Usuário abre o [Menu lateral]();
 - Usuário seleciona a opção **Mais**;
 - Usuário seleciona a opção **Imprimir e Exportar**;
 - Usuário seleciona a opção **Exportar como JSON**;
-- A aplicação redireciona para uma página que contém apenas o código JSON da Board;
+- A aplicação redireciona para uma página que contém apenas o código JSON da [Board]();
 
 ------------
-## Cenário de Retirar Membros de um Time
+## Cenário de Retirar Membros de um [Time](lexicos.html#time)
 
 **Título:**
-	Retirar membros de um time.
+	Retirar membros de um [time](lexicos.html#time).
 **Objetivo:**
-	Retirar um membro de um time.
+	Retirar um membro de um [time](lexicos.html#time).
 **Contexto:**
-- **Pré-condição:** O usuário deve ser administrador do time e deve ter ao menos um membro além do administrador.
-- **Pós-condição:** Usuário retirado deixará de ser membro do time.
+- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [Time](lexicos.html#time) e deve ter ao menos um membro além do [administrador](lexicos.html#administrador).
+- **Pós-condição:** Usuário retirado deixará de ser membro do [time](lexicos.html#time).
 
-**Atores:** Administrador do time, membro do time.
+**Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time), membro do [time](lexicos.html#time).
 
-**Recursos:** Conta, time, membro, computador, internet.
+**Recursos:** Conta, [time](lexicos.html#time), membro, computador, internet.
 
-**Exceção:** Não há time, não há outro membro.
+**Exceção:** Não há [time](lexicos.html#time), não há outro membro.
 
 **Episódios:**
-- Administrador entra no Trello.
-- Administrador REALIZA LOGIN.
-- Se há time, Administrador ACESSA TIME.
+- [Administrador](lexicos.html#administrador) entra no Trello.
+- [Administrador](lexicos.html#administrador) REALIZA LOGIN.
+- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) ACESSA TIME.
 - Senão, fluxo encerrado. (exceção)
-- Administrador ACESSA LISTA DE MEMBROS.
-- Se há membros, Administrador EXCLUI MEMBRO que deseja.
+- [Administrador](lexicos.html#administrador) ACESSA LISTA DE MEMBROS.
+- Se há membros, [Administrador](lexicos.html#administrador) EXCLUI MEMBRO que deseja.
 - Senão, fluxo encerrado. (exceção)
 
 
 ------------
-## Cenário de Adicionar Descrição de Time
+## Cenário de Adicionar Descrição de [Time](lexicos.html#time)
 
-**Título:** Adicionar descrição de time.
+**Título:** Adicionar descrição de [time](lexicos.html#time).
 
-**Objetivo:** Adicionar descrição de um time.
+**Objetivo:** Adicionar descrição de um [time](lexicos.html#time).
 
 **Contexto:**
 - **Pré-condição:** O usuário deve ter acesso aos recursos da plataforma.
-- **Pós-condição:** Time deverá ser criado e possuir descrição.
+- **Pós-condição:** [Time](lexicos.html#time) deverá ser criado e possuir descrição.
 
 **Atores:** Usuário.
 
-**Recursos:** Conta, time, computador, internet.
+**Recursos:** Conta, [time](lexicos.html#time), computador, internet.
 
 **Restrição:** O usuário deve estar logado.
 
@@ -280,153 +280,153 @@ category: Modelagem
 **Episódios:**
 - Usuário entra no Trello.
 - Usuário REALIZA LOGIN.
-- Se há time, Usuário ACESSA CRIAR UM TIME.
+- Se há [time](lexicos.html#time), Usuário ACESSA CRIAR UM TIME.
 - Usuário ADICIONA NOME.
-- Usuário ADICIONA DESCRIÇÃO do time.
+- Usuário ADICIONA DESCRIÇÃO do [time](lexicos.html#time).
 
 
 ------------
-## Cenário de Editar Descrição de Time
+## Cenário de Editar Descrição de [Time](lexicos.html#time)
 
-**Título:** Editar descrição de time.
+**Título:** Editar descrição de [time](lexicos.html#time).
 
-**Objetivo:** Editar descrição de um time.
+**Objetivo:** Editar descrição de um [time](lexicos.html#time).
 
 **Contexto:**
-- **Pré-condição:** O usuário deve ser administrador do time.
-- **Pós-condição:** O time deverá possuir uma nova descrição.
+- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+- **Pós-condição:** O [time](lexicos.html#time) deverá possuir uma nova descrição.
 
-**Atores:** Administrador do time.
+**Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 
-**Recursos:** Conta, time, computador, internet.
+**Recursos:** Conta, [time](lexicos.html#time), computador, internet.
 
-**Restrição:** O time deve existir, o usuário deve ser administrador do time.
+**Restrição:** O [time](lexicos.html#time) deve existir, o usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 
-**Exceção:** Não há time.
+**Exceção:** Não há [time](lexicos.html#time).
 
 **Episódios:**
-- Administrador entra no Trello.
-- Administrador REALIZA LOGIN.
-- Se há time, Administrador ACESSA TIME.
+- [Administrador](lexicos.html#administrador) entra no Trello.
+- [Administrador](lexicos.html#administrador) REALIZA LOGIN.
+- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) ACESSA TIME.
 - Senão, fluxo encerrado. (Exceção)
-- Administrador ACESSA EDITAR PERFIL.
-- Administrador EDITA DESCRIÇÃO do time.
+- [Administrador](lexicos.html#administrador) ACESSA EDITAR PERFIL.
+- [Administrador](lexicos.html#administrador) EDITA DESCRIÇÃO do [time](lexicos.html#time).
 
 
 ------------
-## Cenário de Editar Visibilidade do Time
+## Cenário de Editar Visibilidade do [Time](lexicos.html#time)
 
-**Título:** Editar visibilidade do time.
+**Título:** Editar visibilidade do [time](lexicos.html#time).
 
-**Objetivo:** Editar visibilidade de um time.
+**Objetivo:** Editar visibilidade de um [time](lexicos.html#time).
 
 **Contexto:**
-- **Pré-condição:** O usuário deve ser administrador do time.
-- **Pós-condição:** O time deverá ter sua visibilidade alterada.
+- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+- **Pós-condição:** O [time](lexicos.html#time) deverá ter sua visibilidade alterada.
 
-**Atores:** Administrador do time.
+**Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 
-**Recursos:** Conta, time, computador, internet.
+**Recursos:** Conta, [time](lexicos.html#time), computador, internet.
 
-**Exceção:** Não há time.
+**Exceção:** Não há [time](lexicos.html#time).
 
 **Episódios:**
 - Usuário entra no Trello.
 - Usuário REALIZA LOGIN.
-- Se há time, Usuário ACESSA TIME.
+- Se há [time](lexicos.html#time), Usuário ACESSA TIME.
 - Senão, fluxo encerrado.  (exceção)
 - Usuário ACESSA CONFIGURAÇÕES DO TIME.
 - Usuário ACESSA ALTERAR VISIBILIDADE DO TIME.
-- Usuário EDITA VISIBILIDADE do time.
+- Usuário EDITA VISIBILIDADE do [time](lexicos.html#time).
 
 
 ------------
-## Cenário de Vincular de Time do Slack
+## Cenário de Vincular de [Time](lexicos.html#time) do Slack
 
-**Título:** Vinculação de Time do Slack.
+**Título:** Vinculação de [Time](lexicos.html#time) do Slack.
 
-**Objetivo:** Vincular Time com o Slack.
+**Objetivo:** Vincular [Time](lexicos.html#time) com o Slack.
 
 **Contexto:**
-- **Pré-condição:** O usuário deve ser administrador do time.
-- **Pós-condição:** O time deverá ser vinculado a time do Slack.
+- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+- **Pós-condição:** O [time](lexicos.html#time) deverá ser vinculado a [time](lexicos.html#time) do Slack.
 
-**Atores:** Administrador do time.
+**Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 
-**Recursos:** Conta, time, computador, internet.
+**Recursos:** Conta, [time](lexicos.html#time), computador, internet.
 
-**Restrição:** Administrador deve possuir conta e canal no slack.
+**Restrição:** [Administrador](lexicos.html#administrador) deve possuir conta e canal no slack.
 
-**Exceção:** Não há time, não há conta nem canal no slack.
+**Exceção:** Não há [time](lexicos.html#time), não há conta nem canal no slack.
 
 **Episódios:**
-- Administrador entra no Trello.
-- Administrador REALIZA LOGIN.
-- Se há time, Administrador ACESSA TIME.
-- Senão, Administrador CRIA TIME. (restrição)
-- Administrador ACESSA CONFIGURAÇÕES DO TIME.
-- Administrador ACESSA ADD TO SLACK.
-- Se há conta no slack, Administrador REALIZA LOGIN em sua conta do slack.
-- Senão Administrador cria conta no slack.
-- Se há canal no slack do Administrador, Administrador VINCULA TIME COM O SLACK.
-- Senão Administrador cria canal no slack e realiza o passo anterior.
+- [Administrador](lexicos.html#administrador) entra no Trello.
+- [Administrador](lexicos.html#administrador) REALIZA LOGIN.
+- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) ACESSA TIME.
+- Senão, [Administrador](lexicos.html#administrador) CRIA TIME. (restrição)
+- [Administrador](lexicos.html#administrador) ACESSA CONFIGURAÇÕES DO TIME.
+- [Administrador](lexicos.html#administrador) ACESSA ADD TO SLACK.
+- Se há conta no slack, [Administrador](lexicos.html#administrador) REALIZA LOGIN em sua conta do slack.
+- Senão [Administrador](lexicos.html#administrador) cria conta no slack.
+- Se há canal no slack do [Administrador](lexicos.html#administrador), [Administrador](lexicos.html#administrador) VINCULA TIME COM O SLACK.
+- Senão [Administrador](lexicos.html#administrador) cria canal no slack e realiza o passo anterior.
 
 
 ------------
-## Cenário de Permitir Membro Comentar em um Board 
+## Cenário de Permitir Membro Comentar em um [Board]() 
 
-**Título:** Permitir membro comentar em um board.
+**Título:** Permitir membro comentar em um [board]().
 
-**Objetivo:** Permitir membro comentar em um board.
+**Objetivo:** Permitir membro comentar em um [board]().
 
 **Contexto:** 
-- **Pré-condição:** O usuário deve ser administrador do time.
-- **Pós-condição:** Membros poderão comentar em um board.
+- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+- **Pós-condição:** Membros poderão comentar em um [board]().
 
-**Atores:** Administrador do time.
+**Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 
-**Recursos:** Conta, time, board, lista, card, comentário, computador, internet.
+**Recursos:** Conta, [time](lexicos.html#time), [board](), lista, card, comentário, computador, internet.
 
 **Episódios:**
-- Administrador entra no Trello.
-- Administrador REALIZA LOGIN.
-- Se há time, Administrador ACESSA TIME.
-- Senão, Administrador CRIA TIME. (restrição)
-- Se há board, Administrador ACESSA BOARD do time.
-- Senão, Administrador CRIA BOARD do time.
-- Administrador ACESSA MENU da board.
-- Administrador ACESSA MAIS OPÇÕES DO MENU.
-- Administrador ACESSA CONFIGURAÇÕES.
-- Administrador ACESSA PERMISSÕES PARA COMENTÁRIOS.
-- Administrador SELECIONA MEMBROS.
+- [Administrador](lexicos.html#administrador) entra no Trello.
+- [Administrador](lexicos.html#administrador) REALIZA LOGIN.
+- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) ACESSA TIME.
+- Senão, [Administrador](lexicos.html#administrador) CRIA TIME. (restrição)
+- Se há [board](), [Administrador](lexicos.html#administrador) ACESSA BOARD do [time](lexicos.html#time).
+- Senão, [Administrador](lexicos.html#administrador) CRIA BOARD do [time](lexicos.html#time).
+- [Administrador](lexicos.html#administrador) ACESSA MENU da [board]().
+- [Administrador](lexicos.html#administrador) ACESSA MAIS OPÇÕES DO MENU.
+- [Administrador](lexicos.html#administrador) ACESSA CONFIGURAÇÕES.
+- [Administrador](lexicos.html#administrador) ACESSA PERMISSÕES PARA COMENTÁRIOS.
+- [Administrador](lexicos.html#administrador) SELECIONA MEMBROS.
 
 
 ------------
-## Cenário de Negar Membro Ingressar em um Board 
+## Cenário de Negar Membro Ingressar em um [Board]() 
 
-**Título:** Negar membro ingressar em um board.
+**Título:** Negar membro ingressar em um [board]().
 
-**Objetivo:** Negar membro ingressar em um board.
+**Objetivo:** Negar membro ingressar em um [board]().
 
 **Contexto:** 
-- **Pré-condição:** O usuário deve ser administrador do time.
-- **Pós-condição:** Membros não poderão ingressar em um Board sem serem convidados.
+- **Pré-condição:** O usuário deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
+- **Pós-condição:** Membros não poderão ingressar em um [Board]() sem serem convidados.
 
-**Atores:** Administrador do time.
+**Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 
-**Recursos:** Conta, time, computador, internet.
+**Recursos:** Conta, [time](lexicos.html#time), computador, internet.
 
 **Episódios:**
-- Administrador entra no Trello.
-- Administrador REALIZA LOGIN.
-- Se há time, Administrador ACESSA TIME.
-- Senão, Administrador CRIA TIME. (restrição)
-- Se há board, Administrador ACESSA BOARD do time.
-- Senão, Administrador CRIA BOARD do time. (restrição)
-- Administrador ACESSA MENU da board.
-- Administrador ACESSA MAIS OPÇÕES DO MENU.
-- Administrador ACESSA CONFIGURAÇÕES.
-- Se estiver ativo, Administrador CLICA EM PERMITIR INGRESSO DE MEMBROS DO TIME.
+- [Administrador](lexicos.html#administrador) entra no Trello.
+- [Administrador](lexicos.html#administrador) REALIZA LOGIN.
+- Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) ACESSA TIME.
+- Senão, [Administrador](lexicos.html#administrador) CRIA TIME. (restrição)
+- Se há [board](), [Administrador](lexicos.html#administrador) ACESSA BOARD do [time](lexicos.html#time).
+- Senão, [Administrador](lexicos.html#administrador) CRIA BOARD do [time](lexicos.html#time). (restrição)
+- [Administrador](lexicos.html#administrador) ACESSA MENU da [board]().
+- [Administrador](lexicos.html#administrador) ACESSA MAIS OPÇÕES DO MENU.
+- [Administrador](lexicos.html#administrador) ACESSA CONFIGURAÇÕES.
+- Se estiver ativo, [Administrador](lexicos.html#administrador) CLICA EM PERMITIR INGRESSO DE MEMBROS DO TIME.
 - Senão, a permissão já foi negada.
 ## Cenário de Ver List
 
@@ -609,15 +609,15 @@ category: Modelagem
 - A aplicação retorna à tela de [VER CARD]().
 
 ------------
-## Cenário de Arquivar Card
+## Cenário de [Arquivar](lexicos.html#arquivar) Card
 
-**Título:** Arquivar [Card]() 
+**Título:** [Arquivar](lexicos.html#arquivar) [Card]() 
 
-**Objetivo:** Arquivar um [Card]() existente para removê-lo de uma [List]() sem perder seus dados.
+**Objetivo:** [Arquivar](lexicos.html#arquivar) um [Card]() existente para removê-lo de uma [List]() sem perder seus dados.
 
 **Contexto:**
 - **Pré-condição:** O [Usuário]() deve ter acesso à [List]() onde está o [Card]().
-- **Pós-condição:** A aplicação deverá arquivar o [Card]() selecionado.
+- **Pós-condição:** A aplicação deverá [Arquivar](lexicos.html#arquivar) o [Card]() selecionado.
 
 **Atores:** [Usuário]()
 
@@ -631,7 +631,7 @@ category: Modelagem
 - [Usuário]() realiza [VER LISTA]();
 - Se não há [Card](), [Usuário](), realiza [CRIAR CARD]();
 - [Usuário]() realiza [VER CARD]();
-- [Usuário]() realiza [ARQUIVAR CARD]() pressionando o botão arquivar;
+- [Usuário]() realiza [ARQUIVAR CARD]() pressionando o botão [Arquivar](lexicos.html#arquivar);
 - A aplicação retorna à tela de [VER LISTA]().
 
 ------------
