@@ -1461,7 +1461,80 @@ Episódios:
 - [Usuário](lexicos.html#usuário) clica no [Board](lexicos.html#board) para acessar;
 - [Usuário](lexicos.html#usuário) clica no [card]() visualizar;
 - [Usuário](lexicos.html#usuário) adiciona [power-ups](lexicos.html#power-up) no [card]() utilizar;
+<<<<<<< HEAD
 >>>>>>> b435c3ca11297943a0058b87b55d6f3343fc0013
+=======
+
+--------------------
+## Cenário de Adicionar Membros ao Card
+
+**Título:** Adicionar membros em um [card](). 
+
+**Objetivo:** Adicionar membros em um [card]().
+
+**Contexto:**
+
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) precisará possuir um [card]() a ser realizado e membros para serem adicionados.
+- **Pós-condição:** O [Usuário](lexicos.html#usuario) terá delegado o [card]() para determinado membro. 
+
+**Atores:** [Usuário](lexicos.html#usuario) de [Board](lexicos.html#board).
+
+**Recursos:** Conta, [Board](lexicos.html#board), [card](), computador, internet.
+
+**Restrição:** Card deve ter sido selecionado pelo [Usuário](lexicos.html#usuario) da [Board](lexicos.html#board).
+
+**Exceção:** Não há [card]() para adicionar membros. 
+
+**Episódios:**
+-[Usuário](lexicos.html#usuario) entra no trello. 
+-[Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
+-[Usuário](lexicos.html#usuario) visualiza [Board](lexicos.html#board). 
+-Se não há board, [Usuário](lexicos.html#usuario) cria [Board](lexicos.html#board). 
+-[Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
+-Se não há lista, [Usuário](lexicos.html#usuario) cria [Lista](lexicos.html#lista).
+-[Usuário](lexicos.html#usuario) vizualiza card.
+-Se não há card, [Usuário](lexicos.html#usuario) cria [card]().
+-[Usuário](lexicos.html#usuario) seleciona [card]().
+-[Usuário](lexicos.html#usuario) clica no botão “Adicionar membros”.
+-[Usuário](lexicos.html#usuario) insere nome do membro a ser adicionado.
+-[Usuário](lexicos.html#usuario) seleciona membro a ser adicionado.
+
+------------------------
+
+## Adicionar Descrição ao Card
+
+**Título:** Adicionar descrição ao [card]().
+
+**Objetivo:** Adicionar uma descrição ao [card]() selecionado.
+
+**Contexto:**
+
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) precisará possuir um [card]() sem descrição em uma lista qualquer em sua [Board](lexicos.html#board).
+- **Pós-condição:** O [Usuário](lexicos.html#usuario) terá adicionado uma descrição ao card selecionado. 
+
+**Atores:** [Usuário](lexicos.html#usuario) de [Board](lexicos.html#board) 
+
+**Recursos:** Conta, [Board](lexicos.html#board), [card](), computador, internet.
+
+**Restrição:** [Card]() deve ter sido selecionado pelo usuário da [Board](lexicos.html#board).
+
+**Exceção:** Não há [card]() para adicionar descrição.
+
+**Episódios:**
+
+-[Usuário](lexicos.html#usuario) entra no trello. 
+-[Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
+-[Usuário](lexicos.html#usuario) visualiza [Board](lexicos.html#board). 
+-Se não há board, usuário cria [Board](lexicos.html#board). 
+-[Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
+-Se não há lista, usuário cria [Lista](lexicos.html#lista).
+-[Usuário](lexicos.html#usuario) vizualiza [card]().
+-Se não há card, usuário cria [card]().
+-[Usuário](lexicos.html#usuario) seleciona [card]().
+-Se não há descrição, usuário insere uma descrição.
+-[Usuário](lexicos.html#usuario) clica no botão “salvar”.
+
+>>>>>>> 229d55a1e665d338f0761ddaefd159221bd7ce45
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
 
