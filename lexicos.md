@@ -71,6 +71,19 @@ category: Modelagem
  
 --------------
 
+## Business Class
+
+### Noção
+- Plano que ser comprado para um [time](lexicos.html#time)
+- Conjunto de features adicionais que podem ser agregadas à [board](lexicos.html#board) de um [time](lexicos.html#time) específico.
+- Aumento da robustez na segurança dos dados
+
+### Impacto
+- Quantidade ilimitada de [Power-Ups](lexicos.html#power-up) pode ser usada nas [boards](lexicos.html#board) quando um [time](lexicos.html#time) compra Business Class
+- É possível criar [coleções de boards](lexicos.html#coleções)
+ 
+--------------
+
 ## Atribuir / Delegar tarefa
 
 ### Noção
