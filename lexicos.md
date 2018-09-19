@@ -45,3 +45,47 @@ category: Modelagem
 - A visão do card não selecionado comporta a imagem escolhida como capa
 
 --------------
+
+## Coleções
+
+### Noção
+- Criado por usuário bussiness.
+- É um conjunto de boards para facilitar organização.
+
+### Impacto
+- Coleções de um usuário com conta bussiness permite organizar melhor quadros de um time.
+- Coleção de board facilita a visualização geral de um projeto.
+
+### Sinonimo
+- Grupos de boards, conjunto de boards
+ 
+--------------
+
+## Arquivar
+
+### Noção
+- Usuário arquiva card ou lista.
+- Arquivar é o ato de retirar um card ou lista de uma board, porém mantê-lo acessível em um local reservado.
+
+### Impacto
+- Usuário pode retirar cards de uma lista sem excluí-lo.
+- Usuário pode retirar listas de uma board sem ter que excluí-las diretamente.
+
+### Sinonimo
+- reter, guardar
+ 
+--------------
+
+## Anexo
+
+### Noção
+- Arquivo que um usuário adiciona a um card.
+- Arquivo encontra-se no card.
+
+### Impacto
+- Assim um usuário pode compartilhar dados com outros usuários e adicionar arquivos relevantes a uma atividade.
+
+### Sinonimo
+- Anexos
+ 
+--------------

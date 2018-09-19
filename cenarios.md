@@ -231,6 +231,203 @@ category: Modelagem
 - Usuário seleciona a opção **Exportar como JSON**;
 - A aplicação redireciona para uma página que contém apenas o código JSON da board;
 
+------------
+## Cenário de Retirar Membros de um Time
+
+**Título:**
+	Retirar membros de um time.
+**Objetivo:**
+	Retirar um membro de um time.
+**Contexto:**
+- **Pré-condição:** O usuário deve ser administrador do time e deve ter ao menos um membro além do administrador.
+- **Pós-condição:** Usuário retirado deixará de ser membro do time.
+
+**Atores:** Administrador do time, membro do time.
+
+**Recursos:** Conta, time, membro, computador, internet.
+
+**Exceção:** Não há time, não há outro membro.
+
+**Episódios:**
+- Administrador entra no Trello.
+- Administrador REALIZA LOGIN.
+- Se há time, Administrador ACESSA TIME.
+- Senão, fluxo encerrado. (exceção)
+- Administrador ACESSA LISTA DE MEMBROS.
+- Se há membros, Administrador EXCLUI MEMBRO que deseja.
+- Senão, fluxo encerrado. (exceção)
+
+
+------------
+## Cenário de Adicionar Descrição de Time
+
+**Título:** Adicionar descrição de time.
+
+**Objetivo:** Adicionar descrição de um time.
+
+**Contexto:**
+- **Pré-condição:** O usuário deve ter acesso aos recursos da plataforma.
+- **Pós-condição:** Time deverá ser criado e possuir descrição.
+
+**Atores:** Usuário.
+
+**Recursos:** Conta, time, computador, internet.
+
+**Restrição:** O usuário deve estar logado.
+
+**Exceção:** Queda do sistema, falta de internet ou falta de energia.
+
+**Episódios:**
+- Usuário entra no Trello.
+- Usuário REALIZA LOGIN.
+- Se há time, Usuário ACESSA CRIAR UM TIME.
+- Usuário ADICIONA NOME.
+- Usuário ADICIONA DESCRIÇÃO do time.
+
+
+------------
+## Cenário de Editar Descrição de Time
+
+**Título:** Editar descrição de time.
+
+**Objetivo:** Editar descrição de um time.
+
+**Contexto:**
+- **Pré-condição:** O usuário deve ser administrador do time.
+- **Pós-condição:** O time deverá possuir uma nova descrição.
+
+**Atores:** Administrador do time.
+
+**Recursos:** Conta, time, computador, internet.
+
+**Restrição:** O time deve existir, o usuário deve ser administrador do time.
+
+**Exceção:** Não há time.
+
+**Episódios:**
+- Administrador entra no Trello.
+- Administrador REALIZA LOGIN.
+- Se há time, Administrador ACESSA TIME.
+- Senão, fluxo encerrado. (Exceção)
+- Administrador ACESSA EDITAR PERFIL.
+- Administrador EDITA DESCRIÇÃO do time.
+
+
+------------
+## Cenário de Editar Visibilidade do Time
+
+**Título:** Editar visibilidade do time.
+
+**Objetivo:** Editar visibilidade de um time.
+
+**Contexto:**
+- **Pré-condição:** O usuário deve ser administrador do time.
+- **Pós-condição:** O time deverá ter sua visibilidade alterada.
+
+**Atores:** Administrador do time.
+
+**Recursos:** Conta, time, computador, internet.
+
+**Exceção:** Não há time.
+
+**Episódios:**
+- Usuário entra no Trello.
+- Usuário REALIZA LOGIN.
+- Se há time, Usuário ACESSA TIME.
+- Senão, fluxo encerrado.  (exceção)
+- Usuário ACESSA CONFIGURAÇÕES DO TIME.
+- Usuário ACESSA ALTERAR VISIBILIDADE DO TIME.
+- Usuário EDITA VISIBILIDADE do time.
+
+
+------------
+## Cenário de Vincular de Time do Slack
+
+**Título:** Vinculação de Time do Slack.
+
+**Objetivo:** Vincular Time com o Slack.
+
+**Contexto:**
+- **Pré-condição:** O usuário deve ser administrador do time.
+- **Pós-condição:** O time deverá ser vinculado a time do Slack.
+
+**Atores:** Administrador do time.
+
+**Recursos:** Conta, time, computador, internet.
+
+**Restrição:** Administrador deve possuir conta e canal no slack.
+
+**Exceção:** Não há time, não há conta nem canal no slack.
+
+**Episódios:**
+- Administrador entra no Trello.
+- Administrador REALIZA LOGIN.
+- Se há time, Administrador ACESSA TIME.
+- Senão, Administrador CRIA TIME. (restrição)
+- Administrador ACESSA CONFIGURAÇÕES DO TIME.
+- Administrador ACESSA ADD TO SLACK.
+- Se há conta no slack, Administrador REALIZA LOGIN em sua conta do slack.
+- Senão Administrador cria conta no slack.
+- Se há canal no slack do Administrador, Administrador VINCULA TIME COM O SLACK.
+- Senão Administrador cria canal no slack e realiza o passo anterior.
+
+
+------------
+## Cenário de Permitir Membro Comentar em um Board 
+
+**Título:** Permitir membro comentar em um board.
+
+**Objetivo:** Permitir membro comentar em um board.
+
+**Contexto:** 
+- **Pré-condição:** O usuário deve ser administrador do time.
+- **Pós-condição:** Membros poderão comentar em um board.
+
+**Atores:** Administrador do time.
+
+**Recursos:** Conta, time, board, lista, card, comentário, computador, internet.
+
+**Episódios:**
+- Administrador entra no Trello.
+- Administrador REALIZA LOGIN.
+- Se há time, Administrador ACESSA TIME.
+- Senão, Administrador CRIA TIME. (restrição)
+- Se há board, Administrador ACESSA BOARD do time.
+- Senão, Administrador CRIA BOARD do time.
+- Administrador ACESSA MENU da board.
+- Administrador ACESSA MAIS OPÇÕES DO MENU.
+- Administrador ACESSA CONFIGURAÇÕES.
+- Administrador ACESSA PERMISSÕES PARA COMENTÁRIOS.
+- Administrador SELECIONA MEMBROS.
+
+
+------------
+## Cenário de Negar Membro Ingressar em um Board 
+
+**Título:** Negar membro ingressar em um board.
+
+**Objetivo:** Negar membro ingressar em um board.
+
+**Contexto:** 
+- **Pré-condição:** O usuário deve ser administrador do time.
+- **Pós-condição:** Membros não poderão ingressar em um Board sem serem convidados.
+
+**Atores:** Administrador do time.
+
+**Recursos:** Conta, time, computador, internet.
+
+**Episódios:**
+- Administrador entra no Trello.
+- Administrador REALIZA LOGIN.
+- Se há time, Administrador ACESSA TIME.
+- Senão, Administrador CRIA TIME. (restrição)
+- Se há board, Administrador ACESSA BOARD do time.
+- Senão, Administrador CRIA BOARD do time. (restrição)
+- Administrador ACESSA MENU da board.
+- Administrador ACESSA MAIS OPÇÕES DO MENU.
+- Administrador ACESSA CONFIGURAÇÕES.
+- Se estiver ativo, Administrador CLICA EM PERMITIR INGRESSO DE MEMBROS DO TIME.
+- Senão, a permissão já foi negada.
 
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
