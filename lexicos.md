@@ -129,3 +129,27 @@ category: Modelagem
 ### Impacto
 - A tarefa foi arquivada pois o duedate expirou.
 - A deadline desta tarefa é estipulada para daqui a um mês.
+
+
+--------------
+
+## Notificar
+
+### Noção
+- Ação que tem o objetivo de chamar a atenção de algum usuário sobre uma informação.
+
+### Impacto
+- Uma notificação é criada na aba de notificações.
+- O usuário recebe uma notificação.
+
+
+--------------
+
+## Copiar
+
+### Noção
+- Ação que tem o objetivo de criar um outro objeto a partir de um já existente.
+
+### Impacto
+- É criado um novo objeto com as mesmas características que outro.
+
