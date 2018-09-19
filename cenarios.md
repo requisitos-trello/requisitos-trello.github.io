@@ -1161,6 +1161,102 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuario)) adiciona os [Quadros](lexicos.html#lista) desejados.
 -Caso não tenha [Quadros](lexicos.html#quadros) o [Usuário](lexicos.html#usuario) terá que criar mais.
 
+----------------
+## Criar Board
+
+**Título:** Criar um [Board](lexicos.html#board).
+
+**Objetivo:** Criar um [Board](lexicos.html#board).
+
+**Contexto:**
+- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet.
+- **Pós-condição:** O [Usuário]() terá um [Board](lexicos.html#board) para designar, planejar e executar tarefas para seu respectivo time.
+
+**Atores:** [Usuário]()
+
+**Recursos:** Conta Trello, internet.
+
+**Restrições** O [Usuário]() precisa ter uma conta Trello com acesso a internet.
+
+**Excessões** Não ter internet na criação do [Board](lexicos.html#board), não ter energia na criação do [Board](lexicos.html#board).
+
+**Episódios:**
+- [Usuário]() entra no Trello;
+- [Usuário]() realiza [LOGIN]();
+- [Usuário]() clica no criar [Board](lexicos.html#board);
+---------------------------
+## Criar Board do Time
+
+**Título:** Criar um [Board](lexicos.html#board) e alocar time.
+
+**Objetivo:** Criar um [Board](lexicos.html#board) para o time se organizar.
+
+**Contexto:**
+- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet e ter possíveis membros para adicionar ao time.
+- **Pós-condição:** O [Usuário]() terá um [Board](lexicos.html#board) para designar, planejar e executar tarefas para seu respectivo time.
+
+**Atores:** [Usuário]()
+
+**Recursos:** Conta Trello, internet, time.
+
+**Restrições** O [Usuário]() precisa ter uma conta Trello com acesso a internet.
+
+**Excessões** Não ter internet na criação do [Board](lexicos.html#board), não ter energia na criação do [Board](lexicos.html#board), não ter um time para convidar ao [Board](lexicos.html#board).
+
+**Episódios:**
+- [Usuário]() entra no Trello;
+- [Usuário]() realiza [LOGIN]();
+- [Usuário]() clica no criar [Board](lexicos.html#board);
+- [Usuário]() adiciona participantes ao [Board](lexicos.html#board);
+---------------------------
+## Ver um Board
+
+**Título:** Ver um [Board](lexicos.html#board).
+
+**Objetivo:** Ver um [Board](lexicos.html#board) para acompanhar andamento.
+
+**Contexto:**
+- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet. E possuir um [Board](lexicos.html#board) que possa ser visualizado.
+- **Pós-condição:** O [Usuário]() poderá ver atividades e descrições a respeito daquele [Board](lexicos.html#board) nos [cards]() levantados.
+
+**Atores:** [Usuário]()
+
+**Recursos:** Conta Trello, internet, um [Board](lexicos.html#board) para participar.
+
+**Restrições** O [Usuário]() precisa ter um [Board](lexicos.html#board).
+
+**Excessões** Não ter um [Board](lexicos.html#board) para ser visualizado.
+
+**Episódios:**
+- [Usuário]() entra no Trello;
+- [Usuário]() realiza [LOGIN]();
+- [Usuário]() clica no [Board](lexicos.html#board) para visualizar;
+- [Usuário]() visualiza o [Board](lexicos.html#board).
+---------------------------
+## Administrar Power-ups
+
+**Título:** Administrar [power-ups](lexicos.html#power-up) em um projeto..
+
+**Objetivo:** Ter uma noção de qual ferramenta caberia para alocação como [power-ups](lexicos.html#power-up).
+
+**Contexto:**
+- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet. E possuir um [Board](lexicos.html#board) no qual possa ter permissões para tomar decisões de gerente.
+- **Pós-condição:** O [Usuário]() terá um projeto podendo adicionar [power-ups](lexicos.html#power-up) no seu contexto..
+
+**Atores:** [Usuário]()
+
+**Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo e possuir internet. Um [Board](lexicos.html#board) no qual possa adicionar [power-ups](lexicos.html#power-up).
+
+**Restrições** O [Usuário]() precisa ter um [Board](lexicos.html#board) no qual ele possua a posição de administrador, e conta [gold]() no Trello.
+
+**Excessões** Não ter a posição de administrador em um [Board](lexicos.html#board).
+
+**Episódios:**
+- [Usuário]() entra no Trello;
+- [Usuário]() realiza [LOGIN]();
+- [Usuário]() clica no [Board](lexicos.html#board) para acessar;
+- [Usuário]() clica no [card]() visualizar;
+- [Usuário]() adiciona [power-ups](lexicos.html#power-up) no [card]() utilizar;
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
 
