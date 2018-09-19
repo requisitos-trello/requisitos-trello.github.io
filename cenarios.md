@@ -7,7 +7,7 @@ category: Modelagem
 # Cenários
 
 ------------
-## Cenário de [Login](lexicos.html#login) 
+## Cenário de Login
 
 **Título:** [Login](lexicos.html#login)  comum 
 
@@ -17,7 +17,7 @@ category: Modelagem
 - **Pré-condição:** O [usuário](lexicos.html#usuário) precisará possuir uma conta na plataforma Trello e
 possuir um dispositivo com acesso a internet.
 - **Pós-condição:** O [usuário](lexicos.html#usuário) estará logado na aplicação, com acesso a seus
-boards
+[Boards](lexicos.html#board)
 
 **Atores:** [Usuário](lexicos.html#usuário)
 
@@ -32,9 +32,9 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) estará logado na aplicação.
 
 ------------
-## Cenário de [Login](lexicos.html#login) 
+## Cenário de Login
 
-**Título:** Login com o Google
+**Título:** [Login](lexicos.html#login) com o Google
 
 **Objetivo:** Logar no Trello através de sua conta Google.
 
@@ -213,7 +213,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) terá convidado um [usuário](lexicos.html#usuário) para seu [Time](lexicos.html#time).
 
 ------------
-## Cenário de imprimir[Board](lexicos.html#board)
+## Cenário de imprimir Board
 
 **Título:** Impressão de [Board](lexicos.html#board) 
 
@@ -454,11 +454,11 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) realiza [LOGIN]().
+- [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa [time](lexicos.html#time).
 - Senão, fluxo encerrado. (exceção)
-- [Administrador](lexicos.html#administrador) acessa lista de [membros](lexicos.html#membro).
-- Se há [membros](lexicos.html#membro), [Administrador](lexicos.html#administrador) exclui que deseja.
+- [Administrador](lexicos.html#administrador) acessa [Lista](lexicos.html#lista) de [membros](lexicos.html#membro).
+- Se há [membros](lexicos.html#membro), [Administrador](lexicos.html#administrador) EXCLUI MEMBRO que deseja.
 - Senão, fluxo encerrado. (exceção)
 
 
@@ -483,7 +483,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuário) entra no Trello.
-- [Usuário](lexicos.html#usuário) realiza login.
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Usuário](lexicos.html#usuário) acessa criar time.
 - [Usuário](lexicos.html#usuário) adiciona nome.
 - [Usuário](lexicos.html#usuário) adiciona descrição do [time](lexicos.html#time).
@@ -510,7 +510,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) realiza login.
+- [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa time.
 - Senão, fluxo encerrado. (Exceção)
 - [Administrador](lexicos.html#administrador) acessa editar perfil.
@@ -536,7 +536,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuário) entra no Trello.
-- [Usuário](lexicos.html#usuário) realiza login.
+- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Usuário](lexicos.html#usuário) acessa time.
 - Senão, fluxo encerrado.  (exceção)
 - [Usuário](lexicos.html#usuário) acessa configurações do time.
@@ -545,11 +545,11 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de Vincular de [Time](lexicos.html#time) do Slack
+## Cenário de [Vincular](lexicos.html#vincular) de [Time](lexicos.html#time) do Slack
 
-**Título:** Vinculação de [Time](lexicos.html#time) do Slack.
+**Título:** [Vinculação](lexicos.html#vincular) de [Time](lexicos.html#time) do Slack.
 
-**Objetivo:** Com isto [usuário](lexicos.html#usuário) pode Vincular [Time](lexicos.html#time) com o Slack.
+**Objetivo:** Com isto [usuário](lexicos.html#usuário) pode [Vincular](lexicos.html#vincular) [Time](lexicos.html#time) com o Slack.
 
 **Contexto:**
 - **Pré-condição:** O [usuário](lexicos.html#usuário) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -565,14 +565,14 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) realiza login.
+- [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acecssa time.
 - Senão, [Administrador](lexicos.html#administrador) cria time. (restrição)
 - [Administrador](lexicos.html#administrador) acessa configurações do time.
 - [Administrador](lexicos.html#administrador) acessa ADD TO SLACK.
-- Se há conta no slack, [Administrador](lexicos.html#administrador) realiza login em sua conta do slack.
+- Se há conta no slack, [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login) em sua conta do slack.
 - Senão [Administrador](lexicos.html#administrador) cria conta no slack.
-- Se há canal no slack do [Administrador](lexicos.html#administrador), [Administrador](lexicos.html#administrador) vincula time com Slack.
+- Se há canal no slack do [Administrador](lexicos.html#administrador), [Administrador](lexicos.html#administrador) [VINCULA](lexicos.html#vincular) TIME COM O SLACK.
 - Senão [Administrador](lexicos.html#administrador) cria canal no slack e realiza o passo anterior.
 
 
@@ -593,7 +593,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) realiza login.
+- [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa time.
 - Senão, [Administrador](lexicos.html#administrador) cria time. (restrição)
 - Se há [Board](lexicos.html#board), [Administrador](lexicos.html#administrador) acessa[board](lexicos.html#board) do [time](lexicos.html#time).
@@ -606,15 +606,15 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de Negar Membro Ingressar em um [Board](lexicos.html#board) 
+## Cenário de Negar [Membro](lexicos.html#membro) Ingressar em um [Board](lexicos.html#board) 
 
-**Título:** Negar membro ingressar em um [Board](lexicos.html#board).
+**Título:** Negar [membro](lexicos.html#membro) ingressar em um [Board](lexicos.html#board).
 
-**Objetivo:** Altera a permissão de um membro de time de ingressar em um [Board](lexicos.html#board).
+**Objetivo:** Altera a permissão de um [membro](lexicos.html#membro) de time de ingressar em um [Board](lexicos.html#board).
 
 **Contexto:** 
 - **Pré-condição:** O [usuário](lexicos.html#usuário) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
-- **Pós-condição:** Membros não poderão ingressar em um [Board](lexicos.html#board) sem serem convidados.
+- **Pós-condição:** [membro](lexicos.html#membro)s não poderão ingressar em um [Board](lexicos.html#board) sem serem convidados.
 
 **Atores:** [Administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 
@@ -622,7 +622,7 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
-- [Administrador](lexicos.html#administrador) realiza login.
+- [Administrador](lexicos.html#administrador) realiza [Login](lexicos.html#login).
 - Se há [time](lexicos.html#time), [Administrador](lexicos.html#administrador) acessa time.
 - Senão, [Administrador](lexicos.html#administrador) CRIA TIME. (restrição)
 - Se há [Board](lexicos.html#board), [Administrador](lexicos.html#administrador) acessa [board](lexicos.html#board) do [time](lexicos.html#time).
@@ -632,9 +632,7 @@ possuir conexão a internet.
 - [Administrador](lexicos.html#administrador) acessa configurações.
 - Se estiver ativo, [Administrador](lexicos.html#administrador) clica em permitir ingresso de [membros](lexicos.html#membro) do time.
 - Senão, a permissão já foi negada.
-
-------------
-## Cenário de Ver Lista
+## Cenário de Ver [Lista](lexicos.html#lista)
 
 **Título:** Ver [Lista](lexicos.html#lista) 
 
@@ -651,7 +649,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -677,7 +675,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -701,7 +699,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -727,7 +725,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -752,7 +750,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -778,7 +776,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -804,7 +802,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -830,7 +828,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -856,7 +854,7 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário]() realiza [LOGIN]();
+- [Usuário]() realiza [Login](lexicos.html#login);
 - Se não há [Board](lexicos.html#board), [Usuário]() realiza [CRIAR BOARD]();
 - [Usuário]() realiza [VER BOARD]();
 - Se não há [Lista](lexicos.html#lista), [Usuário]() realiza [CRIAR LISTA]();
@@ -944,7 +942,7 @@ possuir conexão a internet.
 - [Usuário]() terá respondido o comentário selecionado.
 
 ------------
-## Cenário de Excluir comentário no card
+## Cenário de Excluir comentário no [Card](lexicos.html#card)
 
 **Título:** Excluir comentário no [Card](lexicos.html#card) 
 
@@ -1033,14 +1031,14 @@ possuir conexão a internet.
 - [Usuário]() terá aberto os detalhes do [Card](lexicos.html#card) .
 
 ------------
-## Cenário de Vincular ao quadro
+## Cenário de [Vincular](lexicos.html#) ao [Quadro](lexicos.html#quadro)
 
-**Título:** Vincular a um [Quadro](lexicos.html#quadro) 
+**Título:** [Vincular](lexicos.html#) a um [Quadro](lexicos.html#quadro). 
 
-**Objetivo:** Vincular uma pessoa a um [Quadro](lexicos.html#quadro) para visualizar toda a interface do projeto e suas respectivas [Tarefa](lexicos.html#tarefa).
+**Objetivo:** [Vincular](lexicos.html#) uma pessoa a um [Quadro](lexicos.html#quadro) para visualizar toda a interface do projeto e suas respectivas [Tarefa](lexicos.html#tarefa).
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [Vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuário) estará ligado à um [Quadro](lexicos.html#quadro), conseguirá ver [Tarefas](lexicos.html#tarefa) as quais pode fazer/designar.
 
 **Atores:** [Usuário](lexicos.html#usuário)
@@ -1064,7 +1062,7 @@ possuir conexão a internet.
 **Objetivo:** Fazer com que determinado [Membro](lexico.html#tarefa) tenha mais ou menos poder em um determinado [Board](lexico.html#board). 
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [Vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuário) terá menos ou mais controle sobre um determinado [Board](lexico.html#board).
 
 
@@ -1079,14 +1077,14 @@ possuir conexão a internet.
 - Caso o [Usuário](lexicos.html#usuário) não tenha permissão, ele não conseguirá alterar outras.
 
 ------------
-## Cenário de Criar lista
+## Cenário de Criar [Lista](lexicos.html#lista)
 
 **Título:** Criar uma [Lista](lexicos.html#lista).
 
 **Objetivo:** Ter um espaço com um tema específico para colocar [Atividades](lexicos.html#atividade). 
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuário) terá um espaço [Atribuir](lexicos.html#) [Tarefas](lexicos.html#) de determinado tema ou parte do [Board](lexicos.html#board).
 
 
@@ -1100,14 +1098,14 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário)) coloca um nome na [Lista](lexicos.html#lista).
 
 ------------
-## Cenário de Alterar nome da lista
+## Cenário de Alterar nome da [Lista](lexicos.html#lista)
 
 **Título:** alterar o nome de uma [Lista](lexicos.html#lista).
 
 **Objetivo:** Mudar o nome de uma determinada [Lista](lexicos.html#lista) com o objetivo dela. 
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuário) saberá onde criar determinado [Card](lexicos;html#usuário), dependendo do seu objetivo.
 
 
@@ -1121,14 +1119,14 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário)) altera o nome da [Lista](lexicos.html#lista).
 
 ------------
-## Cenário de Arquivar lista
+## Cenário de Arquivar [Lista](lexicos.html#lista)
 
 **Título:** [Arquivar](lexicos.html#arquivar) uma [Lista](lexicos.html#lista).
 
 **Objetivo:** [Arquivar](lexicos.html#arquivar) uma determinada [Lista](lexicos.html#lista) que não é necessário.
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuário) não terá a [Lista](lexicos.html#lista) visível até que queira.
 
 
@@ -1149,7 +1147,7 @@ possuir conexão a internet.
 **Objetivo:** Agrupar um conjunto de [Quadro](lexicos.html#quadro).
 
 **Contexto:**
-- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar vinculada à um [Quadro](lexicos.html#quadro). 
+- **Pré-condição:**O [Usuário](lexicos.html#usuário) precisa ter uma conta no Trello e estar [Logada](lexicos.html#login), utilizando um dispositivo com acesso a internet, estar [vinculada](lexicos.html#vincular) à um [Quadro](lexicos.html#quadro). 
 - **Pós-condição:** : O [Usuário](lexicos.html#usuário) poderá ter um conjunto de [Quadro](lexicos.html#quadro) com determinado tema.
 
 
@@ -1163,6 +1161,102 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário)) adiciona os [Quadros](lexicos.html#lista) desejados.
 -Caso não tenha [Quadros](lexicos.html#quadros) o [Usuário](lexicos.html#usuário) terá que criar mais.
 
+----------------
+## Criar Board
+
+**Título:** Criar um [Board](lexicos.html#board).
+
+**Objetivo:** Criar um [Board](lexicos.html#board).
+
+**Contexto:**
+- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet.
+- **Pós-condição:** O [Usuário]() terá um [Board](lexicos.html#board) para designar, planejar e executar tarefas para seu respectivo time.
+
+**Atores:** [Usuário]()
+
+**Recursos:** Conta Trello, internet.
+
+**Restrições** O [Usuário]() precisa ter uma conta Trello com acesso a internet.
+
+**Excessões** Não ter internet na criação do [Board](lexicos.html#board), não ter energia na criação do [Board](lexicos.html#board).
+
+**Episódios:**
+- [Usuário]() entra no Trello;
+- [Usuário]() realiza [Login](lexicos.html#login);
+- [Usuário]() clica no criar [Board](lexicos.html#board);
+---------------------------
+## Criar Board do Time
+
+**Título:** Criar um [Board](lexicos.html#board) e alocar time.
+
+**Objetivo:** Criar um [Board](lexicos.html#board) para o time se organizar.
+
+**Contexto:**
+- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet e ter possíveis membros para adicionar ao time.
+- **Pós-condição:** O [Usuário]() terá um [Board](lexicos.html#board) para designar, planejar e executar tarefas para seu respectivo time.
+
+**Atores:** [Usuário]()
+
+**Recursos:** Conta Trello, internet, time.
+
+**Restrições** O [Usuário]() precisa ter uma conta Trello com acesso a internet.
+
+**Excessões** Não ter internet na criação do [Board](lexicos.html#board), não ter energia na criação do [Board](lexicos.html#board), não ter um time para convidar ao [Board](lexicos.html#board).
+
+**Episódios:**
+- [Usuário]() entra no Trello;
+- [Usuário]() realiza [Login](lexicos.html#login);
+- [Usuário]() clica no criar [Board](lexicos.html#board);
+- [Usuário]() adiciona participantes ao [Board](lexicos.html#board);
+---------------------------
+## Ver um Board
+
+**Título:** Ver um [Board](lexicos.html#board).
+
+**Objetivo:** Ver um [Board](lexicos.html#board) para acompanhar andamento.
+
+**Contexto:**
+- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet. E possuir um [Board](lexicos.html#board) que possa ser visualizado.
+- **Pós-condição:** O [Usuário]() poderá ver atividades e descrições a respeito daquele [Board](lexicos.html#board) nos [cards]() levantados.
+
+**Atores:** [Usuário]()
+
+**Recursos:** Conta Trello, internet, um [Board](lexicos.html#board) para participar.
+
+**Restrições** O [Usuário]() precisa ter um [Board](lexicos.html#board).
+
+**Excessões** Não ter um [Board](lexicos.html#board) para ser visualizado.
+
+**Episódios:**
+- [Usuário]() entra no Trello;
+- [Usuário]() realiza [Login](lexicos.html#login);
+- [Usuário]() clica no [Board](lexicos.html#board) para visualizar;
+- [Usuário]() visualiza o [Board](lexicos.html#board).
+---------------------------
+## Administrar Power-ups
+
+**Título:** Administrar [power-ups](lexicos.html#power-up) em um projeto..
+
+**Objetivo:** Ter uma noção de qual ferramenta caberia para alocação como [power-ups](lexicos.html#power-up).
+
+**Contexto:**
+- **Pré-condição:** O [Usuário]() precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet. E possuir um [Board](lexicos.html#board) no qual possa ter permissões para tomar decisões de gerente.
+- **Pós-condição:** O [Usuário]() terá um projeto podendo adicionar [power-ups](lexicos.html#power-up) no seu contexto..
+
+**Atores:** [Usuário]()
+
+**Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo e possuir internet. Um [Board](lexicos.html#board) no qual possa adicionar [power-ups](lexicos.html#power-up).
+
+**Restrições** O [Usuário]() precisa ter um [Board](lexicos.html#board) no qual ele possua a posição de administrador, e conta [gold]() no Trello.
+
+**Excessões** Não ter a posição de administrador em um [Board](lexicos.html#board).
+
+**Episódios:**
+- [Usuário]() entra no Trello;
+- [Usuário]() realiza [Login](lexicos.html#login);
+- [Usuário]() clica no [Board](lexicos.html#board) para acessar;
+- [Usuário]() clica no [card]() visualizar;
+- [Usuário]() adiciona [power-ups](lexicos.html#power-up) no [card]() utilizar;
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
 
