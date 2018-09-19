@@ -153,6 +153,9 @@ category: Modelagem
 --------------
 ## Time
 
+### Sinônimos
+- Times
+
 ### Noção
 - Conjunto de [Usuários](lexicos.html#usuário) que tem acesso simultâneo à uma [Board](lexicos.html#board) na qual são realizadas tarefas
 
@@ -165,6 +168,9 @@ category: Modelagem
 --------------
 
 ## Sticker
+
+### Sinônimos
+- Stickers
 
 ### Noção
 - Caractere especial utilizado para ilustrar uma mensagem com uma imagem.
@@ -386,3 +392,50 @@ category: Modelagem
 ### Impacto
 - Fazer determinada [Tarefa](lexicos.html#tarefa).
 - Cumprir uma [Tarefa](lexicos.html#tarefa).
+
+--------------------------
+
+## Fechar
+
+### Sinônimos
+- Sair
+
+### Noção
+- Ação de sair de um modo de visão de uma janela descartando qualquer mudança não salva.
+
+### Impacto
+- Fechar o cartão
+- Fechar o Trello.
+
+--------------------
+
+## Perfil
+
+### Sinônimos
+- Conta
+- Perfis
+
+### Noção
+- Objeto que armazena as informações pessoais do usuário 
+- Objeto que facilita a comunicação entre usuários.
+
+### Impacto
+- Criar o perfil
+- Entrar no perfil
+- Atualizar o perfil.
+
+-----------------------
+
+## Convidar
+
+## Sinônimos
+- Chamar
+
+## Noção
+- Ação de propor a um outro usuário não membro, a possibilidade de se tornar membro do quadro em questão
+
+## Impacto
+- Convidar um membro
+- Convidar com link.
+
+-----------------
