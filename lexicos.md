@@ -202,3 +202,59 @@ category: Modelagem
 ### Impacto
 - É criado um novo objeto com as mesmas características que outro.
 
+
+## Usuário
+
+### Noção
+- Pessoa que utiliza o sistema.
+- Pessoa cadastrado no sistema.
+
+### Impacto
+- Ser usuário permite à pessoa acessa a maioria das ferramentas do sistema.
+- Somente usuário pode criar quadros e listas.
+- Somente usuário pode criar times
+
+--------------
+
+## Login
+
+### Noção
+- Realizado pelo usuário.
+- Permite acesso ao sistema.
+
+### Impacto
+- O sistema identifica o usuário após o login.
+- O usuário entra no sistema tendo acesso a todas suas informações.
+
+### Sinonimo
+- acessar conta
+--------------
+
+## Vincular
+
+### Noção
+- Associar pessoa a quadro.
+- Ação realizada por usuário.
+
+### Impacto
+- Vincular pessoa ao quadro a torna integrante do mesmo.
+- Pessoa vinculada tem acesso aos dados do board.
+
+### Sinonimo
+- linkar, associar
+
+--------------
+
+## Membro
+
+### Noção
+- Usuário pertencente a um time.
+
+### Impacto
+- Vincular pessoa ao quadro a torna integrante do mesmo.
+- Pessoa vinculada tem acesso aos dados do board.
+
+### Sinonimo
+- integrante
+
+--------------
