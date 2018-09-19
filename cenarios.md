@@ -660,6 +660,172 @@ category: Modelagem
 - [Usuário]() realiza [PERSONALIZAR Label]();
 - A aplicação mostra uma janela com opções de persnoalização para o [Label]() para o [Usuário]().
 
+------------
+## Cenário de Adicionar Anexo em um card 
+
+**Título:** Adicionar Anexo em um [Card]()
+
+**Objetivo:** Adicionar um anexo em um [Card]() do Trello.
+
+**Contexto:**
+- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card]() em uma [List]().
+- **Pós-condição:** : O [Usuário]() terá adicionado um anexo a um [Card]().
+
+**Atores:** [Usuário]()
+
+**Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
+
+**Episódios:**
+- [Usuário]() entra na tela onde tem o [Card]() desejado.
+- [Usuário]() clica no [Card](). 
+- No campo ‘Adicionar ao cartão’, o [Usuário]() clica na opção ‘anexo’. 
+- [Usuário]() seleciona o local onde o anexo está. 
+- [Usuário]() seleciona o anexo. 
+- [Usuário]() clica no botão ‘anexar’. 
+- [Usuário]() terá anexado algo ao [Card]() selecionado. 
+
+------------
+## Cenário de Mover um card para outra list 
+
+**Título:** Mover um [Card]() para outra [List]()
+
+**Objetivo:** Mover um [Card]() de uma [List]() para outra no Trello. 
+
+**Contexto:**
+- **Pré-condição:**  O usuário precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello, possuir um [Card]() em uma [List]() e uma outra [List]() que será o destino do [Card](). 
+- **Pós-condição:** : O [Usuário]() terá movido um [Card]() de uma [List]() para outra.
+
+**Atores:** [Usuário]()
+
+**Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
+
+**Episódios:**
+- [Usuário]() entra na tela onde tem o [Card]() desejado.
+- [Usuário]() clica no [Card](). 
+- No campo ‘Adicionar ao cartão’, o [Usuário]() clica na opção ‘anexo’. 
+- [Usuário]() seleciona o local onde o anexo está. 
+- [Usuário]() seleciona o anexo. 
+- [Usuário]() clica no botão ‘anexar’. 
+- [Usuário]() terá anexado algo ao [Card]() selecionado. 
+- [Usuário]() entra na tela onde tem o [Card]() desejado.
+- [Usuário]() clica no [Card]() e segura o botão do mouse. 
+- [Usuário]() arrasta o [Card]() para a [List]() desejada. 
+- [Usuário]() terá movido o [Card]() de uma [List]() para outra. 
+
+
+------------
+## Cenário de Responder um comentário no card 
+
+**Título:** Responder um comentário no [Card]()
+
+**Objetivo:** Responder um comentário em um [Card]() do Trello. 
+
+**Contexto:**
+- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card]() em uma [List]().
+- **Pós-condição:** : O usuário terá respondido um comentário em um [Card](). 
+
+**Atores:** [Usuário]()
+
+**Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
+
+**Episódios:**
+- [Usuário]() entra na tela onde tem o [Card]() desejado.
+- [Usuário]() clica no [Card](). 
+- [Usuário]() acha o comentário que deseja responder. 
+- [Usuário]() clica no botão ‘responder’ abaixo do comentário. 
+- [Usuário]() escreve a resposta que deseja.
+- [Usuário]() clica no botão ‘salvar’.
+- [Usuário]() terá respondido o comentário selecionado.
+
+------------
+## Cenário de Excluir comentário no card
+
+**Título:** Excluir comentário no [Card]()
+
+**Objetivo:** Excluir um comentário em um card do Trello. 
+
+**Contexto:**
+- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello, possuir um [Card]() em uma [List]() e ter feito um comentário neste [Card](). 
+- **Pós-condição:** : O [Usuário]() terá excluído um comentário em um [Card](). 
+
+**Atores:** [Usuário]()
+
+**Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
+
+**Episódios:**
+- [Usuário]() entra na tela onde tem o [Card]() desejado.
+- [Usuário]() clica no [Card](). 
+- [Usuário]() acha o seu comentário que deseja excluir. 
+- [Usuário]() clica no botão ‘excluir’ logo abaixo do comentário. 
+- [Usuário]() clica no botão ‘Excluir Comentário’. 
+- [Usuário]() terá excluído o comentário desejado. 
+
+------------
+## Cenário de Usar Power-Up no quadro 
+
+**Título:** Usar Power-Up no quadro
+
+**Objetivo:** Usar um Power-up em um quadro no Trello.
+
+**Contexto:**
+- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um quadro. 
+- **Pós-condição:** : O [Usuário]() terá usado um Power-Up em um quadro. 
+
+**Atores:** [Usuário]()
+
+**Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
+
+**Episódios:**
+- [Usuário]() entra no quadro desejado. 
+- [Usuário]() clica no botão ‘Mostrar Menu’. 
+- [Usuário]() clica na opção ‘Power-Ups’. 
+- [Usuário]() usa o campo de pesquisa, se necessário. 
+- [Usuário]() clica no botão adicionar no Power-Up desejado. 
+- [Usuário]() pode adicionar mais Power-Ups a um mesmo quadro se possuir conta diferente da ‘Grátis’. 
+- [Usuário]() terá adicionado um Power-Up a um quadro.
+
+------------
+## Cenário de Compartilhar card 
+
+**Título:** Compartilhar [Card]()
+
+**Objetivo:** Compartilhar um [Card]() do Trello. 
+
+**Contexto:**
+- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card]() em uma [List](). 
+- **Pós-condição:** : O [Usuário]() terá compartilhado um [Card](). 
+
+**Atores:** [Usuário]()
+
+**Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
+
+**Episódios:**
+- [Usuário]() entra na tela onde tem o [Card]() desejado. 
+- [Usuário]() clica no [Card](). 
+- [Usuário]() clica na opção ‘Compartilhar e mais...’. 
+- [Usuário]() escolhe como deseja compartilhar o [Card](). 
+- Ao selecionar uma das opções, o [Usuário]() terá um referencial do card de acordo com a opção escolhida. 
+
+------------
+## Cenário de Exibir detalhes do card 
+
+**Título:** Exibir detalhes do [Card]()
+
+**Objetivo:** Exibir detalhes de um [Card]() do Trello. 
+
+**Contexto:**
+- **Pré-condição:**  O [Usuário]() precisará possuir um dispositivo com acesso a internet, estar logado em sua conta Trello e possuir um [Card]() em uma [List](). 
+- **Pós-condição:** : O usuário terá visualizado detalhes do [Card](). 
+
+**Atores:** [Usuário]()
+
+**Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
+
+**Episódios:**
+- [Usuário]() entra na tela onde tem o [Card]() desejado. 
+- [Usuário]() clica no [Card]().
+- [Usuário]() terá aberto os detalhes do [Card]().
+
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
 
