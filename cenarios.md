@@ -1223,210 +1223,6 @@ possuir conexão a internet.
 
 **Recursos:** Conta Trello, internet, um [Board](lexicos.html#board) para participar.
 
-<<<<<<< HEAD
-------------
-## Cenário de Adicionar Membros ao Card
-
-**Título:** Adicionar membros em um card.
-
-**Objetivo:**Adicionar membros em um card.
-
-**Contexto:**
-- **Pré-condição:** ​ O usuário precisará possuir um card a ser realizado e membros
-para serem adicionados.
-- **Pós-condição:** : O usuário terá delegado o card para determinado membro.
-
-
-**Atores:** Usuário de board.
-
-**Recursos:** Conta, board, card, computador, internet.
-
-**Restrição:**​ Card deve ter sido selecionado pelo usuário da board.
-
-**Exceção:** Não há card para adicionar membros.
-
-**Episódios:**
-- Usuário entra no trello.
-- Usuário realiza login.
-- Usuário visualiza board.
-- Se não há board, usuário cria board.
-- Usuário visualiza lista.
-- Se não há lista, usuário cria lista.
-- Usuário vizualiza card.
-- Se não há card, usuário cria card.
-- Usuário seleciona card.
-- Usuário clica no botão “Adicionar membros”.
-- Usuário insere nome do membro a ser adicionado.
-- Usuário seleciona membro a ser adicionado.
-
-------------
-**Adicionar Descrição ao Card**
-
-**Título:**​ Adicionar descrição ao card.
-
-**Objetivo:** ​ Adicionar uma descrição ao card selecionado.
-
-**Contexto:**
-
-- **Pré-condição:**​ O usuário precisará possuir um card sem descrição em uma lista
-qualquer em sua board.
-
-- **Pós-condição:** ​ O usuário terá adicionado uma descrição ao card selecionado.
-
-Atores:​ Usuário de board
-Recursos:​ Conta, board, card, computador, internet.
-Restrição: ​ Card deve ter sido selecionado pelo usuário da board.
-Exceção:​ Não há card para adicionar descrição.
-Episódios:
-● Usuário entra no trello.
-● Usuário realiza login.
-● Usuário visualiza board.
-● Se não há board, usuário cria board.●
-Usuário visualiza lista.
-Se não há lista, usuário cria lista.
-Usuário vizualiza card.
-Se não há card, usuário cria card.
-Usuário seleciona card.
-Se não há descrição, usuário insere uma descrição.
-Usuário clica no botão “salvar”.
-
-------------------
-Adicionar Checklist
-Título:​ Adicionar checklist ao card.
-Objetivo: ​ Adicionar uma checklist a um card.
-Contexto:
-● Pré-condição:​ O usuário precisará possuir um card com subtarefas a serem
-realizadas.
-● Pós-condição: ​ O usuário terá criado uma checklist com todas as subtarefas a
-serem realizadas.
-Atores:​ Usuário de board.
-Recursos:​ Conta, board, card, computador, internet.
-Restrição: ​ Card deve ter sido selecionado pelo usuário da board.
-Exceção:
-● Não há card para adicionar checklist.
-● Card selecionado não dá para ser dividido em subtarefas.
-Episódios:
-● Usuário entra no trello.
-● Usuário realiza login.
-● Usuário visualiza board.
-● Se não há board, usuário cria board.
-● Usuário visualiza lista.
-● Se não há lista, usuário cria lista.
-● Usuário vizualiza card.
-● Se não há card, usuário cria card.
-● Usuário seleciona card.
-● Se não há checklist, usuário clica no botão “Adicionar checklist”.
-● Usuário insere nome das subtarefas a serem realizadas.
-● Usuário para de adicionar subtarefas quando desejar.
-
--------------------------
-
-Adicionar Etiqueta ao Card
-Título:​ Adicionar etiqueta em um card.
-Objetivo: ​ Adicionar uma etiqueta ao card selecionado.
-Contexto:
-● Pré-condição:​ O usuário precisará possuir um card em uma lista qualquer em
-sua board.
-● Pós-condição: ​ O usuário terá adicionado uma ou mais etiquetas ao card
-selecionado.
-Atores:​ Usuário de board
-Recursos:​ Conta, board, card, computador, internet.
-Restrição: ​ Card deve ter sido selecionado pelo usuário da board.
-Exceção:
-● Não há card para adicionar etiqueta.
-● Não é necessário etiquetar o card.
-Episódios:
-● Usuário entra no trello.
-● Usuário realiza login.
-● Usuário visualiza board.
-● Se não há board, usuário cria board.
-● Usuário visualiza lista.
-● Se não há lista, usuário cria lista.
-● Usuário vizualiza card.
-● Se não há card, usuário cria card.
-● Usuário seleciona card.
-● Usuário clica no botão “adicionar etiquetas”.
-● Usuário para de adicionar etiquetas quando desejar.
-
------------------------
-
-Adicionar Deadline
-Título:​ Adicionar deadline em um card.
-Objetivo: ​ Adicionar deadline a um card.
-Contexto:
-● Pré-condição:​ O usuário precisará possuir um card que deve ser realizado até
-uma data limite.
-● Pós-condição: ​ O usuário terá criado uma data de entrega para o card.
-Atores:​ Usuário de board.
-Recursos:​ Conta, board, card, computador, internet.
-Restrição: ​ Card deve ter sido selecionado pelo usuário da board.
-Exceção:
-● Não há card para adicionar data de entrega.
-● Não há tempo limite para se realizar a tarefa do card.
-Episódios:
-Usuário entra no trello.
-Usuário realiza login.
-Usuário visualiza board.
-Se não há board, usuário cria board.
-Usuário visualiza lista.
-Se não há lista, usuário cria lista.
-Usuário vizualiza card.
-Se não há card, usuário cria card.
-Usuário seleciona card.
-Usuário clica no botão “Adicionar deadline”.
-Usuário escolhe a data limite da entrega.
-Usuário clica em “salvar” para manter a data da entrega escolhida.
-
---------------------
-
-Adicionar Comentários ao Card
-Título:​ Adicionar comentário em um card.
-Objetivo: ​ Adicionar um comentário em um card.
-Contexto:
-● Pré-condição:​ O usuário precisará possuir um card em uma lista no trello.
-● Pós-condição: ​ O usuário terá postado um comentário em um card específico.
-Atores:​ Usuário de board.
-Recursos:​ Conta, board, card, computador, internet.
-Restrição: ​ Card deve ter sido selecionado pelo usuário da board.
-Exceção:​ Não há card para adicionar comentários.
-Episódios:
-● Usuário entra no trello.
-● Usuário realiza login.
-● Usuário visualiza board.
-● Se não há board, usuário cria board.
-● Usuário visualiza lista.
-● Se não há lista, usuário cria lista.
-● Usuário vizualiza card.
-● Se não há card, usuário cria card.
-● Usuário seleciona card.
-● Usuário visualiza a área “Adicionar comentários”.
-● Usuário escreve um comentário.
-● Usuário clica em “salvar” para manter o comentário feito.
-
-------------------------------------
-
-Alterar Permissão de Comentário
-Título:​ Alterar permissão de comentário.
-Objetivo: ​ Alterar quem é permitido comentar no card.
-Contexto:
-● Pré-condição:​ O usuário possui um board com permissões de comentário
-indesejadas.
-● Pós-condição: ​ O usuário terá alterado as permissões de comentário do board.
-Atores:​ Usuário de board.
-Recursos:​ Conta, board, card, computador, internet.
-Restrição: ​ O usuário deve ser dono do board com as permissões de comentário indesejadas.
-Episódios:
-● Usuário entra no trello.
-● Usuário realiza login.
-● Usuário visualiza board.
-● Se não há board, usuário cria board.
-● Usuário clica no botão “Mostrar menu”.
-● Usuário clica no botão “Mais”.
-● Usuário clica no botão “Configurações”.
-● Usuário seleciona as “Permissões de comentário”.
-● Usuário escolhe as “Permissões de comentário” desejadas.
-
-=======
 **Restrições** O [Usuário](lexicos.html#usuário) precisa ter um [Board](lexicos.html#board).
 
 **Excessões** Não ter um [Board](lexicos.html#board) para ser visualizado.
@@ -1461,9 +1257,6 @@ Episódios:
 - [Usuário](lexicos.html#usuário) clica no [Board](lexicos.html#board) para acessar;
 - [Usuário](lexicos.html#usuário) clica no [card]() visualizar;
 - [Usuário](lexicos.html#usuário) adiciona [power-ups](lexicos.html#power-up) no [card]() utilizar;
-<<<<<<< HEAD
->>>>>>> b435c3ca11297943a0058b87b55d6f3343fc0013
-=======
 
 --------------------
 ## Cenário de Adicionar Membros ao Card
@@ -1486,18 +1279,18 @@ Episódios:
 **Exceção:** Não há [card]() para adicionar membros. 
 
 **Episódios:**
--[Usuário](lexicos.html#usuario) entra no trello. 
--[Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
--[Usuário](lexicos.html#usuario) visualiza [Board](lexicos.html#board). 
--Se não há board, [Usuário](lexicos.html#usuario) cria [Board](lexicos.html#board). 
--[Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
--Se não há lista, [Usuário](lexicos.html#usuario) cria [Lista](lexicos.html#lista).
--[Usuário](lexicos.html#usuario) vizualiza card.
--Se não há card, [Usuário](lexicos.html#usuario) cria [card]().
--[Usuário](lexicos.html#usuario) seleciona [card]().
--[Usuário](lexicos.html#usuario) clica no botão “Adicionar membros”.
--[Usuário](lexicos.html#usuario) insere nome do membro a ser adicionado.
--[Usuário](lexicos.html#usuario) seleciona membro a ser adicionado.
+- [Usuário](lexicos.html#usuario) entra no trello. 
+- [Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
+- [Usuário](lexicos.html#usuario) visualiza [Board](lexicos.html#board). 
+- Se não há board, [Usuário](lexicos.html#usuario) cria [Board](lexicos.html#board). 
+- [Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
+- Se não há lista, [Usuário](lexicos.html#usuario) cria [Lista](lexicos.html#lista).
+- [Usuário](lexicos.html#usuario) vizualiza card.
+- Se não há card, [Usuário](lexicos.html#usuario) cria [card]().
+- [Usuário](lexicos.html#usuario) seleciona [card]().
+- [Usuário](lexicos.html#usuario) clica no botão “Adicionar membros”.
+- [Usuário](lexicos.html#usuario) insere nome do membro a ser adicionado.
+- [Usuário](lexicos.html#usuario) seleciona membro a ser adicionado.
 
 ------------------------
 
@@ -1522,19 +1315,18 @@ Episódios:
 
 **Episódios:**
 
--[Usuário](lexicos.html#usuario) entra no trello. 
--[Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
--[Usuário](lexicos.html#usuario) visualiza [Board](lexicos.html#board). 
--Se não há board, usuário cria [Board](lexicos.html#board). 
--[Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
--Se não há lista, usuário cria [Lista](lexicos.html#lista).
--[Usuário](lexicos.html#usuario) vizualiza [card]().
--Se não há card, usuário cria [card]().
--[Usuário](lexicos.html#usuario) seleciona [card]().
--Se não há descrição, usuário insere uma descrição.
--[Usuário](lexicos.html#usuario) clica no botão “salvar”.
+- [Usuário](lexicos.html#usuario) entra no trello. 
+- [Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
+- [Usuário](lexicos.html#usuario) visualiza [Board](lexicos.html#board). 
+- Se não há board, usuário cria [Board](lexicos.html#board). 
+- [Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
+- Se não há lista, usuário cria [Lista](lexicos.html#lista).
+- [Usuário](lexicos.html#usuario) vizualiza [card]().
+- Se não há card, usuário cria [card]().
+- [Usuário](lexicos.html#usuario) seleciona [card]().
+- Se não há descrição, usuário insere uma descrição.
+- [Usuário](lexicos.html#usuario) clica no botão “salvar”.
 
->>>>>>> 229d55a1e665d338f0761ddaefd159221bd7ce45
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
 
