@@ -7,6 +7,212 @@ category: Modelagem
 # Cenários
 
 ------------
+## Cenário de Login
+
+**Título:** [Login]() comum 
+
+**Objetivo:** Logar em uma conta do trello.
+
+**Contexto:**
+- **Pré-condição:** O usuário precisará possuir uma conta na plataforma Trello e
+possuir um dispositivo com acesso a internet.
+- **Pós-condição:** O usuário estará logado na aplicação, com acesso a seus
+boards
+
+**Atores:** Usuário
+
+**Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
+possuir conexão a internet.
+
+**Episódios:**
+- Usuário entra na tela de [Login]() da aplicação;
+- Usuário insere o endereço de e-mail de sua conta;
+- Usuário insere a senha de sua conta;
+- Usuário clica no botão ‘Fazer Login’;
+- Usuário estará logado na aplicação.
+
+------------
+## Cenário de Login
+
+**Título:** [Login]() com o Google
+
+**Objetivo:** Logar no Trello através de sua conta Google.
+
+**Contexto:**
+- **Pré-condição:** ​ O usuário precisará possuir uma conta Google e possuir um
+dispositivo com acesso a internet.
+- **Pós-condição:** O usuário estará logado na aplicação, com acesso a seus
+[Boards]()
+
+**Atores:** Usuário
+
+**Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
+possuir conexão a internet.
+
+**Episódios:**
+- Usuário entra na tela de [Login]() da aplicação;
+- Usuário clica em ‘Fazer Login com o Google’;
+- Usuário insere o endereço de e-mail ou telefone;
+- Usuário clica no botão ‘Próxima’;
+- Usuário insere a senha;
+- Usuário clica no botão ‘Próxima’;
+- Usuário estará logado na aplicação.
+
+------------
+## Cenário de Cadastro
+
+**Título:** Cadastrar no Trello.
+
+**Objetivo:** Cadastrar uma nova conta na plataforma Trello.
+
+**Contexto:**
+- **Pré-condição:** O usuário precisará possuir um dispositivo com acesso a
+internet e um e-mail não cadastrado no sistema do Trello.
+- **Pós-condição:** O usuário terá cadastrado uma nova conta e
+automaticamente estará logado na aplicação.
+
+**Atores:** Usuário
+
+**Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
+possuir conexão a internet.
+
+**Episódios:**
+- Usuário entra na tela de cadastro da aplicação;
+- Usuário insere o seu nome;
+- Usuário insere o endereço de e-mail desejado;
+- Usuário insere a senha desejada;
+- Usuário clica no botão ‘Criar Nova Conta’;
+- Usuário estará cadastrado e logado na aplicação.
+
+------------
+## Cenário de Alterar Senha
+
+**Título:**  ​Alterar senha.
+
+**Objetivo:** Alterar senha de uma conta existente da plataforma Trello.
+
+**Contexto:**
+- **Pré-condição:** O usuário precisará possuir um dispositivo com acesso a
+internet e uma conta cadastrada no sistema do Trello.
+- **Pós-condição:** O usuário terá alterado a senha de sua conta.
+
+**Atores:** Usuário
+
+**Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
+possuir conexão a internet.
+
+**Episódios:**
+- Usuário entra na tela de ’Esqueceu sua senha?’;
+- Usuário insere o endereço de e-mail de sua conta;
+- Usuário clica no botão ‘Enviar’;
+- Usuário recebe um e-mail para redefinir sua senha;
+- Usuário abre o e-mail recebido;
+- Usuário clica no botão ‘Redefinir Senha’;
+- Usuário insere a nova senha;
+- Usuário insere a nova senha novamente;
+- Usuário clica no botão ‘Enviar’.
+
+------------
+## Cenário alterar configurações de Notificação
+
+**Título:**  ​Alterar configurações de [Notificação](lexicos.html#notificar).
+
+**Objetivo:** ​Alterar configurações de [Notificação](lexicos.html#notificar) da sua conta Trello.
+
+**Contexto:**
+- **Pré-condição:** O usuário precisará possuir um dispositivo com acesso a
+internet e estar logado em sua conta Trello.
+- **Pós-condição:** O usuário terá alterado as configurações de [Notificação](lexicos.html#notificar) de
+sua conta.
+
+**Atores:** Usuário
+
+**Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
+possuir conexão a internet.
+
+**Episódios:**
+- Usuário entra na tela em suas notificações;
+- Usuário clica em ‘Alterar Frequência de [Notificação](lexicos.html#notificar) por Email’;
+- Usuário seleciona uma das três opções: Nunca, Periodicamente e
+Instantaneamente;
+- Usuário terá alterado a frequência de notificações por e-mail;
+- Usuário clica em ‘Permitir [Notificação](lexicos.html#notificar) da Área de Trabalho’;
+- Usuário terá permitido a aplicação a exibir [Notificação](lexicos.html#notificar) da Área de Trabalho.
+
+------------
+## Cenário ver notificações
+
+**Título:**  ​Ver [Notificações](lexicos.html#notificar).
+
+**Objetivo:** ​Ver [Notificações](lexicos.html#notificar) da sua conta Trello.
+
+**Contexto:**
+- **Pré-condição:** O usuário precisará possuir um dispositivo com acesso a
+internet e estar logado em sua conta Trello.
+- **Pós-condição:** O usuário terá visto as [Notificações](lexicos.html#notificar) de sua conta, caso
+exista.
+
+**Atores:** Usuário
+
+**Recursos:** Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
+possuir conexão a internet.
+
+**Episódios:**
+- Usuário abre a página inicial;
+- Usuário clica na imagem de um sino na parte superior direita de sua tela;
+- Usuário entra na tela de suas [Notificações](lexicos.html#notificar);
+- Usuário vê suas [Notificações](lexicos.html#notificar), caso exista alguma notificação não lida.
+
+------------
+## Cenário criar time
+
+**Título:** ​Criar [Time](lexicos.html#time).
+
+**Objetivo:** ​Criar um [Time](lexicos.html#time) na plataforma Trello.
+
+**Contexto:**
+- **Pré-condição:** ​ O usuário precisará possuir um dispositivo com acesso a
+internet e estar logado em sua conta Trello.
+- **Pós-condição:** ​O usuário terá criado um novo [Time](lexicos.html#time).
+
+**Atores:** ​Usuário.
+
+**Recursos:** ​Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
+possuir conexão a internet.
+
+**Episódios:**
+- Usuário abre a página inicial;
+- Usuário clica em ‘Criar um time’;
+- Usuário insere o nome do [Time](lexicos.html#time);
+- Usuário insere a descrição do [Time](lexicos.html#time) (opcional);
+- Usuário clica no botão ‘Criar’;
+- Usuário terá criado um novo [Time](lexicos.html#time).
+
+------------
+## Cenário convidar usuários para um time
+
+**Título:** ​Convidar usuários para um [Time](lexicos.html#time).
+
+**Objetivo:** ​Convidar usuários da plataforma Trello para participar de um [Time](lexicos.html#time).
+
+**Contexto:**
+- **Pré-condição:** ​ O usuário precisará possuir um dispositivo com acesso a
+internet e estar logado em sua conta Trello.
+- **Pós-condição:** ​O usuário terá convidado um ou mais usuários para seu [Time](lexicos.html#time).
+
+**Atores:** ​Usuário.
+
+**Recursos:** ​Dispositivo com acesso a um navegador ou ao aplicativo Trello, ambos devem
+possuir conexão a internet.
+
+**Episódios:**
+- Usuário abre a página do [Time](lexicos.html#time);
+- Usuário clica no botão ‘Membros’;
+- Usuário insere o nome do usuário a ser convidado;
+- Usuário clica no botão ‘Convidar para o Time’;
+- Usuário terá convidado um usuário para seu [Time](lexicos.html#time).
+
+------------
 ## Cenário de imprimir [Board]()
 
 **Título:** Impressão de [Board]() 
