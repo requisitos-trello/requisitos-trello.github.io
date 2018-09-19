@@ -197,24 +197,33 @@ category: Modelagem
 
 ## Notificar
 
+### Sinônimo
+- Avisar
+- Alertar
+
 ### Noção
 - Ação que tem o objetivo de chamar a atenção de algum usuário sobre uma informação.
+- Mostrar visualmente uma informação.
 
 ### Impacto
-- Uma notificação é criada na aba de notificações.
-- O usuário recebe uma notificação.
+- Avisar o [Usuário](lexicos.html#usuario).
+- O [Usuário](lexicos.html#usuario) recebe uma [Notificação](lexicos.html#notificar).
 
 
 --------------
 
 ## Copiar
 
+### Sinônimo
+- clonar
+
 ### Noção
 - Ação que tem o objetivo de criar um outro objeto a partir de um já existente.
 
 ### Impacto
-- É criado um novo objeto com as mesmas características que outro.
-
+- Copiar [Card](lexicos.html#card)
+- Copiar [Lista](lexicos.html#lista)
+- Copiar [Board](lexicos.html#board)
 --------------
 ## Usuário
 
@@ -281,7 +290,7 @@ category: Modelagem
 ### Impacto
 - [Arrastar](lexicos.html#arrastar) [Card](lexicos.html#card).
 - [Arrastar](lexicos.html#arrastar) [Tarefa](lexicos.html#tarefa).
--Quando terminar a [Tarefa](lexicos.html#tarefa) é só [Arrastar](lexicos.html#arrastar) o [Card](lexicos.html#card) para a última [Lista](lexicos.html#lista).
+- Quando terminar a [Tarefa](lexicos.html#tarefa) é só [Arrastar](lexicos.html#arrastar) o [Card](lexicos.html#card) para a última [Lista](lexicos.html#lista).
 
 ### Sinonimo
 - Mover [Card](lexicos.html#card)
@@ -303,6 +312,9 @@ category: Modelagem
 
 ## Atividade
 
+###Sinônimo
+- [Feed](lexicos.html#atividade)
+
 ### Noção
 - [Atividade](lexicos.html#atividade) dentro de um [Card](lexicos.html#card) que fala o que determinada pessoa tem pra fazer.
 - [Tarefa](lexicos.html#tarefa) para ser feita na [Lista](lexicos.html#lista).
@@ -313,9 +325,6 @@ category: Modelagem
 - Fazer uma [Atividade](lexicos.html#atividade) da [Lista](lexicos.html#lista).
 - Fazer algo do [Feed](lexicos.ntml#atividades)
 - Adicionar uma [Tarefa](lexicos.html#tarefa) no [Feed](lexicos.ntml#atividades).
-
-### Impacto
-- [Feed](lexicos.ntml#atividades)
 
 --------------
 
@@ -329,7 +338,8 @@ category: Modelagem
 - Objeto que tem o objetivo de listar os requisitos para conclusão de atividade em um card.
 
 ### Impacto
-- Criar check-list, marcar requisito que já foi atendido.
+- Criar check-list.
+- marcar requisito que já foi atendido.
 
 ---------------
 
@@ -342,7 +352,8 @@ category: Modelagem
 - Uma possibilidade adicional que pode promover ou não um auxilio na resolução ou desenvolvimento de um card.
 
 ### Impacto
-- Adicionar power-up, usar o power-up.
+- Adicionar power-up
+- usar o power-up.
 
 ---------------
 
@@ -356,4 +367,22 @@ category: Modelagem
 - Objeto que auxilia na descrição e rastreabilidade, tem como objetivo marcar um card da maneira mais adequada ao usuário.
 
 ### Impacto
-- Criar etiqueta, personalizar etiqueta, adicionar etiqueta ao card.
+- Criar etiqueta.
+- personalizar etiqueta.
+- adicionar etiqueta ao card.
+
+---------------
+
+## Tarefa
+
+### Sinônimos
+- Dever
+- Afazer
+
+### Noção
+- Designação de um Objetivo para um [Usuário](lexicos.html#usuario).
+- Descrição de um determinado objetivo.
+
+### Impacto
+- Fazer determinada [Tarefa](lexicos.html#tarefa).
+- Cumprir uma [Tarefa](lexicos.html#tarefa).
