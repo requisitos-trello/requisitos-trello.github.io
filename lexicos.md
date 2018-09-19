@@ -271,6 +271,55 @@ category: Modelagem
 - integrante
 
 --------------
+
+## Arrastar Card
+
+### Noção
+- Ação que faz você mudar um determinado [Card](lexicos.html#card) de uma [Lista](lexicos.html#lista) para outra.
+- Levar uma [Tarefa](lexicos.html#tarefa) de uma fase para outra do [Quadro](lexicos.html#quadros), seja anterior ou posterior.
+
+### Impacto
+- [Arrastar](lexicos.html#arrastar) [Card](lexicos.html#card).
+- [Arrastar](lexicos.html#arrastar) [Tarefa](lexicos.html#tarefa).
+-Quando terminar a [Tarefa](lexicos.html#tarefa) é só [Arrastar](lexicos.html#arrastar) o [Card](lexicos.html#card) para a última [Lista](lexicos.html#lista).
+
+### Sinonimo
+- Mover [Card](lexicos.html#card)
+- Deslizar [Card](lexicos.html#card)
+
+--------------
+
+## Seguir
+
+### Noção
+- Ação que faz você ter notificações de determinada [Lista](lexicos.html#lista).
+- Ação notificará o [Usuário](lexicos.html#usuario) se qualquer outro fizer uma alteração no [Quadro](lexicos.html#quadros).
+
+### Impacto
+- [Seguir](lexicos.html#seguir) [Card](lexicos.html#card).
+- Para receber notificações basta [Seguir](lexicos.html#seguir) o [Card](lexicos.html#card).
+
+--------------
+
+## Atividade
+
+### Noção
+- [Atividade](lexicos.html#atividade) dentro de um [Card](lexicos.html#card) que fala o que determinada pessoa tem pra fazer.
+- [Tarefa](lexicos.html#tarefa) para ser feita na [Lista](lexicos.html#lista).
+-O que determinado [Usuário](lexicos.html#usuario) precisa fazer em certa [Lista](lexicos.html#lista).
+
+###Impacto
+- Preciso saber a [Atividade](lexicos.html#atividade) para concluir.
+- Fazer uma [Atividade](lexicos.html#atividade) da [Lista](lexicos.html#lista).
+- Fazer algo do [Feed](lexicos.ntml#atividades)
+- Adicionar uma [Tarefa](lexicos.html#tarefa) no [Feed](lexicos.ntml#atividades).
+
+### Impacto
+- [Feed](lexicos.ntml#atividades)
+
+--------------
+
+
 ## Check-list
 
 ### Sinônimos
