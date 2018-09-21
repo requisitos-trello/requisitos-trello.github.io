@@ -57,3 +57,11 @@ Foi feito também um rich picture sem muitas especificações, com seu foco prin
 ![visão macro](imagens/rich pictures/visao macro do aplicativo.png)
 
 Dessa forma têm-se uma noção da realação entre os usuários juntamente com as possibilidades de funcionalidades dentro da aplicação e ao longo dos projetos. Tais funcionalidades que serão úteis em contextos específicos e outras que auxiliam até necessidades mais básicas.
+
+### Integração com o Google Calendar
+
+![Google Calendar](imagens/rich pictures/GoogleCalendar_OpenAPI-Trello-v2.png)
+
+Nesse rich picture é possivel observar algumas das funcionalidades em que a integração do trello com o Google Calendar traz a aplicação. Essa integração é feita a partir da API aberta do Trello, onde programadores podem usa-la para criar esse tipos de integração, desde que siga o regulamento do Trello.
+
+
