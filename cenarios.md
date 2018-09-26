@@ -632,6 +632,7 @@ possuir conexão a internet.
 - [Administrador](lexicos.html#administrador) acessa configurações.
 - Se estiver ativo, [Administrador](lexicos.html#administrador) clica em permitir ingresso de [membros](lexicos.html#membro) do time.
 - Senão, a permissão já foi negada.
+
 ## Cenário de Ver [Lista](lexicos.html#lista)
 
 **Título:** Ver [Lista](lexicos.html#lista) 
@@ -649,11 +650,11 @@ possuir conexão a internet.
 **Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
 
 **Episódios:**
-- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
-- [Usuário](lexicos.html#usuário) realiza [VER LIST]();
+- [Usuário](lexicos.html#usuário) realiza [LOGIN](#cenário-de-login);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD](#criar-board);
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD](#ver-um-board);
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA](#cenário-de-criar-lista);
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA](#cenário-de-ver-lista);
 - A aplicação mostra a [Lista](lexicos.html#lista) desejada para o [Usuário](lexicos.html#usuário).
 
 
@@ -676,11 +677,11 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
-- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
-- [Usuário](lexicos.html#usuário) realiza [CRIAR CARD]()
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD](#criar-board);
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD](#ver-um-board);
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA](#cenário-de-criar-lista);
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA](#cenário-de-ver-lista);
+- [Usuário](lexicos.html#usuário) realiza [CRIAR CARD](#cenário-de-criar-card)
 - A aplicação mostra a [Lista](lexicos.html#lista) desejada para o [Usuário](lexicos.html#usuário).
 
 ------------
@@ -700,13 +701,13 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
-- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
-- [Usuário](lexicos.html#usuário) realiza [MODIFICAR CARD]();
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD](#criar-board);
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD](#ver-um-board);
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA](cenário-de-criar-lista);
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA][cenário-de-ver-lista);
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD](#cenário-de-criar-card);
+- [Usuário](lexicos.html#usuário) realiza [VER CARD](#cenário-de-criar-card);
+- [Usuário](lexicos.html#usuário) realiza [MODIFICAR CARD](#cenário-de-modificar-card);
 - A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
 
 ------------
@@ -726,12 +727,12 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
-- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD](#criar-board);
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD](#ver-um-board);
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA](#cenário-de-criar-lista);
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA](#cenário-de-ver-lista);
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD](#cenário-de-criar-card);
+- [Usuário](lexicos.html#usuário) realiza [VER CARD](#cenário-de-ver-card);
 - A aplicação mostra uma janela com os dados do [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
 
 ------------
@@ -751,39 +752,13 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
-- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
-- [Usuário](lexicos.html#usuário) realiza [MODIFICAR CARD]();
-- A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
-
-------------
-## Cenário de Modificar Card
-
-**Título:** Modificar [Card](lexicos.html#card)  
-
-**Objetivo:** Modificar um [Card](lexicos.html#card)  existente para atualizar os seus dados dentro de uma [Lista](lexicos.html#lista).
-
-**Contexto:**
-- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
-- **Pós-condição:** A aplicação deverá atualizar o [Card](lexicos.html#card)  com os novos dados.
-
-**Atores:** [Usuário](lexicos.html#usuário)
-
-**Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
-
-**Episódios:**
-- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
-- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
-- [Usuário](lexicos.html#usuário) realiza [MODIFICAR CARD]();
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD](#criar-board);
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD](#ver-um-board);
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA](#cenário-de-criar-lista);
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA](#cenário-de-ver-lista);
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD](#cenário-de-criar-card);
+- [Usuário](lexicos.html#usuário) realiza [VER CARD](#cenário-de-ver-card);
+- [Usuário](lexicos.html#usuário) realiza [MODIFICAR CARD](#cenário-de-modificar-card);
 - A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
 
 ------------
@@ -803,14 +778,14 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
-- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
-- [Usuário](lexicos.html#usuário) realiza [SEGUIR CARD]() pressionando o botão seguir;
-- A aplicação retorna à tela de [VER CARD]().
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD](#criar-um-board);
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD](#ver-um-board);
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA](#cenário-de-criar-lista);
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA](#cenário-de-ver-lista);
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD](#cenário-de-criar-card);
+- [Usuário](lexicos.html#usuário) realiza [VER CARD](#cenário-de-ver-card);
+- [Usuário](lexicos.html#usuário) realiza [SEGUIR CARD](#cenário-de-seguir-card) pressionando o botão seguir;
+- A aplicação retorna à tela de [VER CARD](#cenário-de-ver-card).
 
 ------------
 ## Cenário de [Arquivar](lexicos.html#arquivar) Card
@@ -829,21 +804,21 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
-- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
-- [Usuário](lexicos.html#usuário) realiza [ARQUIVAR CARD]() pressionando o botão [Arquivar](lexicos.html#arquivar);
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD](#criar-board);
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD](#ver-um-board);
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA](#cenário-de-criar-lista);
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA](#cenário-de-ver-lista);
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD](#cenário-de-criar-card);
+- [Usuário](lexicos.html#usuário) realiza [VER CARD](#cenário-de-ver-card);
+- [Usuário](lexicos.html#usuário) realiza [ARQUIVAR CARD](#cenário-de-arquivar-card) pressionando o botão [Arquivar](lexicos.html#arquivar);
 - A aplicação retorna à tela de [VER LISTA]().
 
 ------------
-## Cenário de Personalizar Label
+## Cenário de Personalizar [Label](lexicos.html#label)
 
-**Título:** Personalizar [Label]() 
+**Título:** Personalizar [Label](lexicos.html#label) 
 
-**Objetivo:** Personalizar a [Label]() atribuído à um [Card](lexicos.html#card) para diferenciar ou destacá-lo em relação aos outros.
+**Objetivo:** Personalizar a [Label](lexicos.html#label) atribuído à um [Card](lexicos.html#card) para diferenciar ou destacá-lo em relação aos outros.
 
 **Contexto:**
 - **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
@@ -855,14 +830,14 @@ possuir conexão a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER BOARD]();
-- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA]();
-- [Usuário](lexicos.html#usuário) realiza [VER LISTA]();
-- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD]();
-- [Usuário](lexicos.html#usuário) realiza [VER CARD]();
-- [Usuário](lexicos.html#usuário) realiza [PERSONALIZAR Label]();
-- A aplicação mostra uma janela com opções de persnoalização para o [Label]() para o [Usuário](lexicos.html#usuário).
+- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD](#criar-board);
+- [Usuário](lexicos.html#usuário) realiza [VER BOARD](#ver-um-board);
+- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA](#cenário-de-criar-lista);
+- [Usuário](lexicos.html#usuário) realiza [VER LISTA](#cenário-de-ver-lista);
+- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD](#cenário-de-criar-card);
+- [Usuário](lexicos.html#usuário) realiza [VER CARD](#cenário-de-ver-card);
+- [Usuário](lexicos.html#usuário) realiza [PERSONALIZAR LABEL](#cenário-de-personalizar-label);
+- A aplicação mostra uma janela com opções de persnoalização para o [Label](lexicos.html#label) para o [Usuário](lexicos.html#usuário).
 
 ------------
 ## Cenário de Adicionar [Anexo](lexicos.html#anexo) em um card
