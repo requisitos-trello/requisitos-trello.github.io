@@ -1255,28 +1255,28 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) entra no Trello;
 - [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
 - [Usuário](lexicos.html#usuário) clica no [Board](lexicos.html#board) para acessar;
-- [Usuário](lexicos.html#usuário) clica no [card]() visualizar;
-- [Usuário](lexicos.html#usuário) adiciona [power-ups](lexicos.html#power-up) no [card]() utilizar;
+- [Usuário](lexicos.html#usuário) clica no [card](lexicos.html#card) visualizar;
+- [Usuário](lexicos.html#usuário) adiciona [power-ups](lexicos.html#power-up) no [card](lexicos.html#card) utilizar;
 
 --------------------
 ## Cenário de Adicionar Membros ao Card
 
-**Título:** Adicionar membros em um [card](). 
+**Título:** Adicionar [membros](lexicos.html#membro) em um [card](lexicos.html#card). 
 
-**Objetivo:** Adicionar membros em um [card]().
+**Objetivo:** Adicionar [membros](lexicos.html#membro) em um [card](lexicos.html#card).
 
 **Contexto:**
 
-- **Pré-condição:** O [Usuário](lexicos.html#usuario) precisará possuir um [card]() a ser realizado e membros para serem adicionados.
-- **Pós-condição:** O [Usuário](lexicos.html#usuario) terá delegado o [card]() para determinado membro. 
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) precisará possuir um [card](lexicos.html#card) a ser realizado e [membros](lexicos.html#membro) para serem adicionados.
+- **Pós-condição:** O [Usuário](lexicos.html#usuario) terá delegado o [card](lexicos.html#card) para determinado[membro](lexicos.html#membro). 
 
 **Atores:** [Usuário](lexicos.html#usuario) de [Board](lexicos.html#board).
 
-**Recursos:** Conta, [Board](lexicos.html#board), [card](), computador, internet.
+**Recursos:** Conta, [Board](lexicos.html#board), [card](lexicos.html#card), computador, internet.
 
 **Restrição:** Card deve ter sido selecionado pelo [Usuário](lexicos.html#usuario) da [Board](lexicos.html#board).
 
-**Exceção:** Não há [card]() para adicionar membros. 
+**Exceção:** Não há [card](lexicos.html#card) para adicionar [membros](lexicos.html#membro). 
 
 **Episódios:**
 - [Usuário](lexicos.html#usuario) entra no trello. 
@@ -1286,32 +1286,32 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
 - Se não há lista, [Usuário](lexicos.html#usuario) cria [Lista](lexicos.html#lista).
 - [Usuário](lexicos.html#usuario) vizualiza card.
-- Se não há card, [Usuário](lexicos.html#usuario) cria [card]().
-- [Usuário](lexicos.html#usuario) seleciona [card]().
+- Se não há [card](lexicos.html#card), [Usuário](lexicos.html#usuario) cria [card](lexicos.html#card).
+- [Usuário](lexicos.html#usuario) seleciona [card](lexicos.html#card).
 - [Usuário](lexicos.html#usuario) clica no botão “Adicionar membros”.
-- [Usuário](lexicos.html#usuario) insere nome do membro a ser adicionado.
-- [Usuário](lexicos.html#usuario) seleciona membro a ser adicionado.
+- [Usuário](lexicos.html#usuario) insere nome do [membro](lexicos.html#membro) a ser adicionado.
+- [Usuário](lexicos.html#usuario) seleciona [membro](lexicos.html#membro) a ser adicionado.
 
 ------------------------
 
 ## Adicionar Descrição ao Card
 
-**Título:** Adicionar descrição ao [card]().
+**Título:** Adicionar descrição ao [card](lexicos.html#card).
 
-**Objetivo:** Adicionar uma descrição ao [card]() selecionado.
+**Objetivo:** Adicionar uma descrição ao [card](lexicos.html#card) selecionado.
 
 **Contexto:**
 
-- **Pré-condição:** O [Usuário](lexicos.html#usuario) precisará possuir um [card]() sem descrição em uma lista qualquer em sua [Board](lexicos.html#board).
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) precisará possuir um [card](lexicos.html#card) sem descrição em uma lista qualquer em sua [Board](lexicos.html#board).
 - **Pós-condição:** O [Usuário](lexicos.html#usuario) terá adicionado uma descrição ao card selecionado. 
 
 **Atores:** [Usuário](lexicos.html#usuario) de [Board](lexicos.html#board) 
 
-**Recursos:** Conta, [Board](lexicos.html#board), [card](), computador, internet.
+**Recursos:** Conta, [Board](lexicos.html#board), [card](lexicos.html#card), computador, internet.
 
-**Restrição:** [Card]() deve ter sido selecionado pelo usuário da [Board](lexicos.html#board).
+**Restrição:** [Card](lexicos.html#card) deve ter sido selecionado pelo usuário da [Board](lexicos.html#board).
 
-**Exceção:** Não há [card]() para adicionar descrição.
+**Exceção:** Não há [card](lexicos.html#card) para adicionar descrição.
 
 **Episódios:**
 
@@ -1321,9 +1321,9 @@ possuir conexão a internet.
 - Se não há board, usuário cria [Board](lexicos.html#board). 
 - [Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
 - Se não há lista, usuário cria [Lista](lexicos.html#lista).
-- [Usuário](lexicos.html#usuario) vizualiza [card]().
-- Se não há card, usuário cria [card]().
-- [Usuário](lexicos.html#usuario) seleciona [card]().
+- [Usuário](lexicos.html#usuario) vizualiza [card](lexicos.html#card).
+- Se não há card, usuário cria [card](lexicos.html#card).
+- [Usuário](lexicos.html#usuario) seleciona [card](lexicos.html#card).
 - Se não há descrição, usuário insere uma descrição.
 - [Usuário](lexicos.html#usuario) clica no botão “salvar”.
 
@@ -1331,25 +1331,25 @@ possuir conexão a internet.
 
 ## Adicionar Checklist
 
-**Título:** Adicionar checklist ao [card](). 
+**Título:** Adicionar checklist ao [card](lexicos.html#card). 
 
-**Objetivo:** Adicionar uma checklist a um [card]().
+**Objetivo:** Adicionar uma checklist a um [card](lexicos.html#card).
 
 **Contexto:** 
 
-- **Pré-condição:** O [Usuário](lexicos.html#usuario) precisará possuir um [card]() com subtarefas a serem realizadas.
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) precisará possuir um [card](lexicos.html#card) com subtarefas a serem realizadas.
 - **Pós-condição:** O [Usuário](lexicos.html#usuario) terá criado uma checklist com todas as subtarefas a serem realizadas.
 
 **Atores:** [Usuário](lexicos.html#usuario) de [Board](lexicos.html#board).
 
-**Recursos:** Conta, [Board](lexicos.html#board), [card](), computador, internet.
+**Recursos:** Conta, [Board](lexicos.html#board), [card](lexicos.html#card), computador, internet.
 
-**Restrição:** [Card]() deve ter sido selecionado pelo usuário da [Board](lexicos.html#board).
+**Restrição:** [Card](lexicos.html#card) deve ter sido selecionado pelo usuário da [Board](lexicos.html#board).
 
 **Exceção:**
 
-- Não há [card]() para adicionar checklist. 
-- [Card]() selecionado não dá para ser dividido em subtarefas.
+- Não há [card](lexicos.html#card) para adicionar checklist. 
+- [Card](lexicos.html#card) selecionado não dá para ser dividido em subtarefas.
 
 **Episódios:**
 
@@ -1359,34 +1359,34 @@ possuir conexão a internet.
 - Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuario) cria [Board](lexicos.html#board). 
 - Usuário visualiza [Lista](lexicos.html#lista). 
 - Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuario) cria [Lista](lexicos.html#lista).
-- [Usuário](lexicos.html#usuario) vizualiza [card]().
-- Se não há [card](), usuário cria [card]().
-- [Usuário](lexicos.html#usuario) seleciona [card]().
+- [Usuário](lexicos.html#usuario) vizualiza [card](lexicos.html#card).
+- Se não há [card](lexicos.html#card), usuário cria [card](lexicos.html#card).
+- [Usuário](lexicos.html#usuario) seleciona [card](lexicos.html#card).
 - Se não há checklist, [Usuário](lexicos.html#usuario) clica no botão “Adicionar checklist”.
 - [Usuário](lexicos.html#usuario) insere nome das subtarefas a serem realizadas.
 - [Usuário](lexicos.html#usuario) para de adicionar subtarefas quando desejar.
 
 --------------------------
 ## Adicionar Etiqueta ao Card 
-**Título:** Adicionar etiqueta em um card.
+**Título:** Adicionar etiqueta em um [card](lexicos.html#card).
 
-**Objetivo:** Adicionar uma etiqueta ao card selecionado.
+**Objetivo:** Adicionar uma etiqueta ao [card](lexicos.html#card) selecionado.
 
 **Contexto:** 
 
-- **Pré-condição:** O [Usuário](lexicos.html#usuario)o precisará possuir um card em uma [Lista](lexicos.html#lista) qualquer em sua board.
-- **Pós-condição:** O [Usuário](lexicos.html#usuario) terá adicionado uma ou mais etiquetas ao card selecionado.
+- **Pré-condição:** O [Usuário](lexicos.html#usuario) precisará possuir um card em uma [Lista](lexicos.html#lista) qualquer em sua board.
+- **Pós-condição:** O [Usuário](lexicos.html#usuario) terá adicionado uma ou mais etiquetas ao [card](lexicos.html#card) selecionado.
 
 **Atores:**[Usuário](lexicos.html#usuario) de board 
 
-**Recursos:** Conta, board, [card](), computador, internet.
+**Recursos:** Conta,[Board](lexicos.html#board), [card](lexicos.html#card), computador, internet.
 
-**Restrição:** [Card]() deve ter sido selecionado pelo usuário da [Board](lexicos.html#board).
+**Restrição:** [Card](lexicos.html#card) deve ter sido selecionado pelo usuário da [Board](lexicos.html#board).
 
 **Exceção:**
 
-- Não há [card]() para adicionar etiqueta. 
-- Não é necessário etiquetar o [card]().
+- Não há [card](lexicos.html#card) para adicionar etiqueta. 
+- Não é necessário etiquetar o [card](lexicos.html#card).
 
 **Episódios:**
 
@@ -1396,11 +1396,118 @@ possuir conexão a internet.
 - Se não há [Board](lexicos.html#board), usuário cria [Board](lexicos.html#board). 
 - [Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
 - Se não há [Lista](lexicos.html#lista), usuário cria [Lista](lexicos.html#lista).
-- [Usuário](lexicos.html#usuario) vizualiza [card]().
-- Se não há card, usuário cria [card]().
-- [Usuário](lexicos.html#usuario) seleciona [card]().
+- [Usuário](lexicos.html#usuario) vizualiza [card](lexicos.html#card).
+- Se não há [card](lexicos.html#card), usuário cria [card](lexicos.html#card).
+- [Usuário](lexicos.html#usuario) seleciona [card](lexicos.html#card).
 - [Usuário](lexicos.html#usuario) clica no botão “adicionar etiquetas”.
 - [Usuário](lexicos.html#usuario) para de adicionar etiquetas quando desejar.
+
+-----------------------------
+
+## Adicionar [Deadline](lexico.html#duedate) 
+
+**Título:** Adicionar [deadline](lexico.html#duedate)  em um [card](lexicos.html#card). 
+
+**Objetivo:** Adicionar [deadline](lexico.html#duedate)  a um [card](lexicos.html#card). 
+
+**Contexto:**
+
+- **Pré-condição:** O [usuário](lexicos.html#usuario) precisará possuir um [card](lexicos.html#card) que deve ser realizado até uma data limite.
+- **Pós-condição:** O [usuário](lexicos.html#usuario) terá criado uma [data de entrega](lexico.html#duedate)  para o [card](lexicos.html#card). 
+
+**Atores:** [Usuário](lexicos.html#usuario) de [board](lexicos.html#board).
+
+**Recursos:** Conta, [board](lexicos.html#board), [card](lexicos.html#card), computador, internet.
+
+**Restrição:** [Card](lexicos.html#card) deve ter sido selecionado pelo [usuário](lexicos.html#usuario) da [board](lexicos.html#board).
+
+**Exceção:**
+
+- Não há [card](lexicos.html#card) para adicionar [data de entrega](lexico.html#duedate) . 
+- Não há tempo limite para se realizar a tarefa do [card](lexicos.html#card).
+
+**Episódios:**
+
+- [Usuário](lexicos.html#usuario) entra no trello. 
+- [Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
+- [Usuário](lexicos.html#usuario) visualiza [Board](lexicos.html#board). 
+- Se não há [Board](lexicos.html#board), [usuário](lexicos.html#usuario) cria [Board](lexicos.html#board). 
+- [Usuário](lexicos.html#usuario) visualiza [Lista](lexicos.html#lista). 
+- Se não há [Lista](lexicos.html#lista), [usuário](lexicos.html#usuario) cria [Lista](lexicos.html#lista).
+- [Usuário](lexicos.html#usuario) vizualiza [card](lexicos.html#card).
+- Se não há card,[usuário](lexicos.html#usuario) cria [card](lexicos.html#card).
+- [Usuário](lexicos.html#usuario) seleciona [card](lexicos.html#card).
+- [Usuário](lexicos.html#usuario) clica no botão “Adicionar [deadline](lexico.html#duedate) ”.
+- [Usuário](lexicos.html#usuario) escolhe a data limite da entrega.
+- [Usuário](lexicos.html#usuario) clica em “salvar” para manter a [data de entrega](lexico.html#duedate)  escolhida.
+
+---------------------------
+
+## Adicionar Comentários ao Card
+
+**Título:** Adicionar comentário em um [card](lexicos.html#card). 
+
+**Objetivo:**  Adicionar um comentário em um [card](lexicos.html#card). 
+
+**Contexto:** 
+
+- **Pré-condição:** O [usuário](lexicos.html#usuario) precisará possuir um  [card](lexicos.html#card) em uma [lista](lexicos.html#lista) no trello.
+- **Pós-condição:** O[usuário](lexicos.html#usuario) terá postado um comentário em um  [card](lexicos.html#card) específico.
+
+**Atores:** [Usuário](lexicos.html#usuario) de[board](lexicos.html#board).
+
+**Recursos:** Conta, [board](lexicos.html#board),  [card](lexicos.html#card), computador, internet.
+
+**Restrição:** Card deve ter sido selecionado pelo [usuário](lexicos.html#usuario) da [board](lexicos.html#board).
+
+**Exceção:** Não há [card](lexicos.html#card) para adicionar comentários.
+
+**Episódios:**
+
+- [Usuário](lexicos.html#usuario) entra no trello. 
+- [Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
+- [Usuário](lexicos.html#usuario) visualiza [Board](lexicos.html#board). 
+- Se não há [Board](lexicos.html#board), [usuário](lexicos.html#usuario) cria [Board](lexicos.html#board). 
+- [Usuário](lexicos.html#usuario) visualiza [lista](lexicos.html#lista). 
+- Se não há [lista](lexicos.html#lista), usuário cria [lista](lexicos.html#lista).
+- [Usuário](lexicos.html#usuario) vizualiza  [card](lexicos.html#card).
+- Se não há  [card](lexicos.html#card), [usuário](lexicos.html#usuario) cria  [card](lexicos.html#card).
+- [Usuário](lexicos.html#usuario) seleciona  [card](lexicos.html#card).
+- [Usuário](lexicos.html#usuario) visualiza a área “Adicionar comentários”.
+- [Usuário](lexicos.html#usuario) escreve um comentário.
+- [Usuário](lexicos.html#usuario) clica em “salvar” para manter o comentário feito.
+
+--------------------------
+
+## Alterar Permissão de Comentário
+
+**Título:** Alterar permissão de comentário. 
+
+**Objetivo:** Alterar quem é permitido comentar em [cards](). 
+
+**Contexto:**
+
+- **Pré-condição:** O [usuário](lexicos.html#usuario) possui um [board](lexicos.html#board) com permissões de comentário indesejadas.
+- **Pós-condição:** O [usuário](lexicos.html#usuario) terá alterado as permissões de comentário do [board](lexicos.html#board). 
+
+**Atores:** [Usuário](lexicos.html#usuario) de [board](lexicos.html#board).
+
+**Recursos:** Conta, [board](lexicos.html#board), computador, internet.
+
+**Restrição:** O [usuário](lexicos.html#usuario) deve ser dono do [board](lexicos.html#board) com as permissões de comentário indesejadas.
+
+**Episódios:**
+
+- [Usuário](lexicos.html#usuario) entra no trello. 
+- [Usuário](lexicos.html#usuario) realiza [Login](lexicos.html#login).
+- [Usuário](lexicos.html#usuario) visualiza [board](lexicos.html#board). 
+- Se não há [board](lexicos.html#board), usuário cria [board](lexicos.html#board). 
+- [Usuário](lexicos.html#usuario) clica no botão “Mostrar menu”.
+- [Usuário](lexicos.html#usuario) clica no botão “Mais”.
+- [Usuário](lexicos.html#usuario) clica no botão “Configurações”.
+- [Usuário](lexicos.html#usuario) seleciona as “Permissões de comentário”.
+- [Usuário](lexicos.html#usuario) escolhe as “Permissões de comentário” desejadas.
+
 
 <!-- ----------------------
 ## Cenário de Fechar um Quadro
