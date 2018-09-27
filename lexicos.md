@@ -404,7 +404,7 @@ category: Modelagem
 - Ação de sair de um modo de visão de uma janela descartando qualquer mudança não salva.
 
 ### Impacto
-- Fechar o cartão
+- Fechar o [cartão](lexicos.html#card)
 - Fechar o Trello.
 
 --------------------
@@ -416,8 +416,8 @@ category: Modelagem
 - Perfis
 
 ### Noção
-- Objeto que armazena as informações pessoais do usuário 
-- Objeto que facilita a comunicação entre usuários.
+- Objeto que armazena as informações pessoais do [usuário](lexicos.html#usuario). 
+- Objeto que facilita a comunicação entre [usuários](lexicos.html#usuario).
 
 ### Impacto
 - Criar o perfil
@@ -432,10 +432,10 @@ category: Modelagem
 - Chamar
 
 ## Noção
-- Ação de propor a um outro usuário não membro, a possibilidade de se tornar membro do quadro em questão
+- Ação de propor a um outro [usuário](lexicos.html#usuario) não [membro](lexicos.html#membro), a possibilidade de se tornar [membro](lexicos.html#membro) do [quadro](lexicos.html#quadros) em questão
 
 ## Impacto
-- Convidar um membro
+- Convidar um [membro](lexicos.html#membro)
 - Convidar com link.
 
 -----------------
