@@ -518,7 +518,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 |  |  |
 |  ------: | :------ |
-| **Descrição** | Eu, como usuário, desejo poder modificar um ou mais atributos de um card existente.
+| **Descrição** | Ter a possibilidade de modificar um card existente.
 | **Atores** | Usuário
 | **Pré Condições** | O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
 | **Pós Condições** | O usuário terá modificado algum atributo do card selecionado caso o modifique.
