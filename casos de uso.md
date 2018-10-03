@@ -382,6 +382,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 ![Caso 10](imagens/casos de uso/Casos de Uso - Board.png)
 
 ### UC01 - Criar Board
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** | Criar um board para planejamento de projeto ou uso da maneira que melhor se enquadra ao contexto do usuário.|
@@ -392,6 +393,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** |1. O usuário ser convidado para um Board. <br> 2. O usuário criar um time.
 
 ### UC02 - Ver um Board
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** | Ter uma visão macro do board.|
@@ -402,6 +404,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | O usuário ter imprimido o board anteriormente, poderá visualizá-lo sem a necessidade de entrar na aplicação.|
 
 ### UC03 - Seguir um Board
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** | Ter um vinculo a um board para poder acompanhar toda e qualquer alteração realizada no board.|
@@ -412,6 +415,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | 1. Falta de internet, fazendo com que apareça a mensagem de erro|
 
 ### UC04 - Adicionar membros em um Board
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** | Vincular membros a que contribuam ou não para o contexto do board.|
@@ -422,6 +426,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** |1. Após logar na aplicação o usuário pode criar um time <br> 2. O usuário irá poder adicionar os membros e entrar no novo board criado <br> 3. Ao clicar em adicionar membros o usuário pode convidar pelo e-mail <br> 4. Ao clicar em adicionar membros o usuário pode convidar pela conta trello|
 
 ### UC05 - Imprimir um Board
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** | Ter impresso a visão macro de um board.|
@@ -432,6 +437,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** |1. Falta de internet, apresentando a mensagem de erro ao usuário <br> 2.Falha na conexão com a impresora que irá imprimir o board.|
 
 ### UC06 - Ser convidado para um Board
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** |Ter recebido um convite para participação de um board.|
@@ -442,6 +448,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | 1. Falta de internet, apresentando a mensagem de erro ao usuário. <br> 2. O usuário não apresenta interesse.|
 
 ### UC07 - Criar um time
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** |Ter um time para designar e coordenar tarefas, de acordo com o contexto do usuário.|
@@ -452,6 +459,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | 1. O usuário loga na aplicação <br> 2. O usuário clica em um board <br> 3. O usuário clica em adicionar membros|
 
 ## UC08 - Convidar por E-mail
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** | Ter a possibilidade de convidar mais participantes para contribuírem com o contexto do board.|
@@ -462,6 +470,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | 1. Falta de internet, apresentando a mensagem de erro ao usuário.|
 
 ### UC09 - Convidar pela Conta
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** | Ter a possibilidade de convidar mais participantes para contribuírem com o contexto do board.|
@@ -472,6 +481,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** |1. Falta de internet, apresentando a mensagem de erro ao usuário.|
 
 ## UC10 - Fechar Board
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** |Ter a possibilidade de fechar o board, para finalização do projeto que estava em andamento.|
@@ -482,6 +492,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** |1. Falta de internet, apresentando a mensagem de erro ao usuário.|
 
 ### UC11 - Vincular Board
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** |Ter a possibilidade de vincular o board, para outro contexto.|
@@ -492,6 +503,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** |1. Falta de internet, apresentando a mensagem de erro ao usuário.|
 
 ###  UC020 - Arquivar uma lista
+
 |  |  |
 |  ------: | :------ |
 |  **Descrição** | Tem como objetivo o arquivamento de uma lista para melhorar a organização de quadros, e remediar a poluição visual causada por listas desnecessárias. |
