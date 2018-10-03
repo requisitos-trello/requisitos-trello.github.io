@@ -592,6 +592,17 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos Alternativos** | [UC25-Adicionar Membro](#uc25---adicionar-membro-a-um-card) <br> [UC26-Adicionar Descrição](#uc26---adicionar-descrição-a-um-card) <br> [UC27-Adicionar Checklist](#uc27---adicionar-check-list-a-um-card) <br> [UC28-Adicionar Etiqueta](#uc28---adicionar-etiqueta-a-um-card) <br> [UC29-Adicionar Deadline](#uc29---adicionar-deadline-a-um-card) <br> [UC32-Adicionar Anexo](#uc32---adicionar-anexo-a-um-card) <br> [UC35-Adicionar Power-Up](#uc35---adicionar-power-up)
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.
 
+###   UC023 - Personalizar etiqueta
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo personalizar uma etiqueta para facilitar seu entendimento. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br>Página de etiquetas deve estar selecionada. |
+| **Fluxo Principal** | **FP01 - Personalizar Etiqueta**<br>1. Usuário clica em “Mostrar Menu”.<br>2. Usuário clica em “Etiquetas”.<br>3. Usuário clica em no botão de personalização de etiquetas.<br> 4. Usuário digita um nome e escolhe uma cor, depois clica em “salvar”.<br> 5. Etiqueta personalizada com sucesso, usuário é redirecionado para página principal das etiquetas. |
+| **Fluxos Alternativos** | **FA01 - Personalizar Etiqueta pelo Card**<br>1. Usuário seleciona um card.<br>2. Usuário clica em “Etiquetas”.<br>3. Usuário clica em no botão de personalização de etiquetas.<br> 4. Usuário digita um nome e escolhe uma cor, depois clica em “salvar”.<br> 5. Etiqueta personalizada com sucesso, usuário é redirecionado para página principal das etiquetas. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Etiqueta é personalizada para facilitar o seu entendimento. |
+
 ## UC25 - Adicionar Membro a um Card
 
 | **Descrição** | Ter a possibilidade de adicionar um membro a um card existente.
