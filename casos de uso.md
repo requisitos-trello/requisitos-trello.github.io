@@ -213,7 +213,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ### Caso 7: Alterar configurações de time
 
-![Caso 7](imagens/casos de uso/caso7 (1).png)
+![Caso 7](imagens/casos%20de%20uso/caso7%20(1).png)
 
 #### UC01 - Acessar configurações de time
 
@@ -735,3 +735,58 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** | **FP01 - Cadastro**<br>1. Abre a página inicial do trello.<br>2. Usuário clica em "adicionar um cartão".<br>3. Usuário informa o novo nome do cartão desejado.<br>4. Usuário adiciona descrição do card. <br>5. Caso de uso encerrado. |
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Usuário terá um card com descrição de uma tarefa. |
+
+------------
+
+### Caso 14: Atualizar time para Business Class
+
+![Diagrama de uso para atualização](imagens/casos%20de%20uso/business.png)
+
+### UC01 - Criar time para Business Class
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Cria um time com a finalidade que esse time se torne business class logo após sua criação. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br> |
+| **Fluxo Principal** | **FP01 - Criar time para Business Class**<br>1. Usuário clica na opção "Criar time do Business"<br>2. Usuário nomeia o grupo que quer criar<br>3. Usuário adiciona opcionalmente uma descrição<br>4. Usuário aciona o UC04|
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | O usuário se encontra na tela de atualização |
+
+### UC02 - Escolher Time para Business Class
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Escolhe um time para atualizar para o Business Class. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br> O usuário deve ser membro de um time.|
+| **Fluxo Principal** | **FP01 Escolhe time para business class**<br>1. Usuário abre a página de business<br>2. Usuário escolhe entre os times que quer atualizar<br>Usuário aciona o UC04|
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | O usuário se encontra na tela de atualização |
+
+### UC03 - Ver benefícios do Business Class
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Exibe informações a respeito do business class |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br> O usuário deve ser membro de um time.|
+| **Fluxo Principal** | **FP01 Escolhe time para business class**<br>1. Usuário abre a página de business<br>2. Ao escrollar a página, o usuário encontra informações a respeito do Business Class|
+| **Fluxos Alternativos** | **FA01 o usuário decide por aderir ao Business**<br>1. O usuário clica em atualizar meu time e aciona o UC04.<br>**FA02 o usuário retorna aos seus quadros**<br>1. O usuário clica em "Ir para os Seus Quadros", na navbar |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | O usuário se encontra na tela de atualização |
+
+
+### UC04 - Atualizar para business class
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Ponto de afunilamento para a atualização ocorrer |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve ter passado por UC01, UC02 ou UC03 |
+| **Fluxo Principal** | **FP01 Atualização**<br>1. Usuário escolhe o time que quer atualizar|
+| **Fluxos Alternativos** | **FA01 Ver benefícios**<br>1. Usuário clica em "Ver todos os Beneícios"<br>2. Usuário aciona o UC03 |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Não se aplica |
