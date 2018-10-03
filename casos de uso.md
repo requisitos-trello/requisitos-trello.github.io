@@ -323,6 +323,31 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 ### Fluxos de Exceção
 - Falta de internet, apresentando a mensagem de erro ao usuário.
 
+### UC25 - Alterar permissão de comentário 
+### Descrição
+- Ter a possibilidade de alterar quem pode comentar em cards de um board.
+
+### Atores
+- Usuário
+
+### Pré Condições
+- O usuário deve estar logado na aplicação e possuir acesso a internet e possuir um board.
+
+### Pós Condições
+- O usuário terá gerenciado quem pode comentar cards em um determinado board.
+
+### Fluxo Principal
+- O usuário loga na aplicação
+- O usuário clica em um board
+- O usuário clica no botão 'Mostrar menu'.
+- O	usuário clica no botão 'Mais'.
+- O	usuário clica no botão 'Configurações'.
+-	O usuário seleciona as 'Permissões de comentário'.
+- O	usuário escolhe as 'Permissões de comentário' desejadas.
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+
 ### UC26 - Mover um card para outra list
 ### Descrição
 - Ter a possibilidade de mover um card de uma lista para outra, para outro contexto.
@@ -363,31 +388,6 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 - O usuário clica no card desejado
 - O usuário clica na opção 'Compartilhar e mais...'
 - O usuário terá um referencial do card.
-
-### Fluxos de Exceção
-- Falta de internet, apresentando a mensagem de erro ao usuário.
-
-### UC25 - Alterar permissão de comentário 
-### Descrição
-- Ter a possibilidade de alterar quem pode comentar em cards de um board.
-
-### Atores
-- Usuário
-
-### Pré Condições
-- O usuário deve estar logado na aplicação e possuir acesso a internet e possuir um board.
-
-### Pós Condições
-- O usuário terá gerenciado quem pode comentar cards em um determinado board.
-
-### Fluxo Principal
-- O usuário loga na aplicação
-- O usuário clica em um board
-- O usuário clica no botão 'Mostrar menu'.
-- O	usuário clica no botão 'Mais'.
-- O	usuário clica no botão 'Configurações'.
--	O usuário seleciona as 'Permissões de comentário'.
-- O	usuário escolhe as 'Permissões de comentário' desejadas.
 
 ### Fluxos de Exceção
 - Falta de internet, apresentando a mensagem de erro ao usuário.
