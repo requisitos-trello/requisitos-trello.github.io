@@ -68,7 +68,7 @@ category: Modelagem
 - Administrador pode ativar e desativar as [Imagens de Capa](lexicos.html#imagem-de-capa) dos [cards](lexicos.html#card)
 - Administrador pode conceder e revogar permissões para comentar
 - Administrador pode conceder e revogar permissão para [Convidar](lexicos.html#convidar) outros usuários para a Board.
- 
+
 --------------
 
 ## Business Class
@@ -81,7 +81,7 @@ category: Modelagem
 ### Impacto
 - Quantidade ilimitada de [Power-Ups](lexicos.html#power-up) pode ser usada nas [boards](lexicos.html#board) quando um [time](lexicos.html#time) compra Business Class
 - É possível criar [coleções de boards](lexicos.html#coleções)
- 
+
 --------------
 
 ## Atribuir / Delegar tarefa
@@ -120,7 +120,7 @@ category: Modelagem
 
 ### Sinonimo
 - Grupos de boards, conjunto de boards
- 
+
 --------------
 
 ## Arquivar
@@ -135,7 +135,7 @@ category: Modelagem
 
 ### Sinonimo
 - reter, guardar
- 
+
 --------------
 
 ## Anexo
@@ -149,7 +149,7 @@ category: Modelagem
 
 ### Sinonimo
 - Anexos
- 
+
 --------------
 ## Time
 
@@ -403,7 +403,7 @@ category: Modelagem
 - Ação de sair de um modo de visão de uma janela descartando qualquer mudança não salva.
 
 ### Impacto
-- Fechar o cartão
+- Fechar o [cartão](lexicos.html#card)
 - Fechar o Trello.
 
 --------------------
@@ -415,8 +415,8 @@ category: Modelagem
 - Perfis
 
 ### Noção
-- Objeto que armazena as informações pessoais do usuário 
-- Objeto que facilita a comunicação entre usuários.
+- Objeto que armazena as informações pessoais do [usuário](lexicos.html#usuario).
+- Objeto que facilita a comunicação entre [usuários](lexicos.html#usuario).
 
 ### Impacto
 - Criar o perfil
@@ -431,10 +431,43 @@ category: Modelagem
 - Chamar
 
 ## Noção
-- Ação de propor a um outro usuário não membro, a possibilidade de se tornar membro do quadro em questão
+- Ação de propor a um outro [usuário](lexicos.html#usuario) não [membro](lexicos.html#membro), a possibilidade de se tornar [membro](lexicos.html#membro) do [quadro](lexicos.html#quadros) em questão
 
 ## Impacto
-- Convidar um membro
+- Convidar um [membro](lexicos.html#membro)
 - Convidar com link.
 
 -----------------
+
+## Update
+
+## Sinônimos
+- Atualizar
+- Melhorar
+
+## Noção
+- Atualizar projeto
+- Melhorar projeto
+
+## Impacto
+- Usuários versionam o projeto
+- Usuários acompanham o avanço
+
+-----------------
+
+## Gerente
+
+## Sinônimos
+- Líder
+- Administrador
+
+## Noção
+- Membro com poderes sobre o time;
+- Tem visão ampla de projeto;
+- Age atribuindo tarefas;
+- Age acompanhando tarefas;
+- Age auxiliando da melhor forma o desenvolvimento.
+## Impacto
+- Usuários possuem um apoio no desenvolvimento;
+- Usuários recebem tarefas;
+- O projeto recebe alguém responsável pelas diretrizes.
