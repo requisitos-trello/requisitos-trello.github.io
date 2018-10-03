@@ -650,3 +650,33 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 ### Fluxos de Exceção
 - Falta de internet, apresentando a mensagem de erro ao usuário.
 - Caso não seja o primeiro power-up no card e o usuário não esteja em algum plano pago, não é possível adicionar outro power-up.
+
+### Caso 11: Criar Lista
+
+![Caso 11](imagens/casos de uso/UC018.png)
+
+### UC011 - Criar Lista
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo criar uma nova lista para colocar cards. |
+| **Atores** | Usuário |
+| **Pré Condições** | Usuário deve possuir uma conta do trello e estar vinculado a um board. |
+| **Fluxo Principal** | **FP01 - Cadastro**<br>1. Abre a página inicial do trello.<br>2. Usuário clica no botão “Adicionar outra lista”.<br>3. Usuário informa o nome da lista desejada.<br>4. Caso de uso encerrado. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Usuário terá criado uma nova lista para colocar novos cards. |
+
+### Caso 12: Alterar nome de uma lista
+
+![Caso 12](imagens/casos de uso/UC019.png)
+
+### UC012 - Alterar nome de uma lista
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo alterar o nome de uma lista. |
+| **Atores** | Usuário |
+| **Pré Condições** | Usuário deve possuir email, estar vinculado a uma lista. |
+| **Fluxo Principal** | **FP01 - Cadastro**<br>1. Abre a página inicial do trello.<br>2. Usuário clica no nome da lista atual.<br>3. Usuário informa o novo nome da lista desejada.<br>4. Caso de uso encerrado. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Usuário terá outro nome para uma determinada lista. |
