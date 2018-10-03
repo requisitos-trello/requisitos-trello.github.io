@@ -570,6 +570,17 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 ### Fluxos de Exceção
 - Falta de internet, apresentando a mensagem de erro ao usuário.
 
+###  UC020 - Arquivar uma lista
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo o arquivamento de uma lista para melhorar a organização de quadros, e remediar a poluição visual causada por listas desnecessárias. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br>O tooltip de ações da lista deve estar selecionado. |
+| **Fluxo Principal** | **FP01 - Arquivar Lista**<br>1. Usuário acessa as opções da lista.<br>2. Usuário clica em “Arquivar Lista”.<br>3. Lista arquivada com sucesso. Tooltip de ações da lista e fechado.<br> |
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | A lista em questão é arquivada pelo usuário. |
 
 ## UC22 - Modificar um Card
 
