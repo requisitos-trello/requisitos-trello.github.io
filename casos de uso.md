@@ -305,7 +305,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 - O usuário clica em um board
 - O usuário clica em adicionar membros
 
-### UC08 - Convidar por E-mail
+## UC08 - Convidar por E-mail
 ### Descrição
 - Ter a possibilidade de convidar mais participantes para contribuírem com o contexto do board.
 
@@ -349,7 +349,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 ### Fluxos de Exceção
 - Falta de internet, apresentando a mensagem de erro ao usuário.
 
-### UC10 - Fechar Board
+## UC10 - Fechar Board
 ### Descrição
 - Ter a possibilidade de fechar o board, para finalização do projeto que estava em andamento.
 
@@ -391,71 +391,262 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 ### Fluxos de Exceção
 - Falta de internet, apresentando a mensagem de erro ao usuário.
 
-### UC25 - Alterar permissão de comentário 
+
+## UC22 - Modificar um Card
+
 ### Descrição
-- Ter a possibilidade de alterar quem pode comentar em cards de um board.
+- Eu, como usuário, desejo poder modificar um ou mais atributos de um card existente.
 
 ### Atores
 - Usuário
 
 ### Pré Condições
-- O usuário deve estar logado na aplicação e possuir acesso a internet e possuir um board.
+- O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
 
 ### Pós Condições
-- O usuário terá gerenciado quem pode comentar cards em um determinado board.
+- O usuário terá modificado algum atributo do card selecionado caso o modifique.
 
 ### Fluxo Principal
-- O usuário loga na aplicação
-- O usuário clica em um board
-- O usuário clica no botão 'Mostrar menu'.
-- O	usuário clica no botão 'Mais'.
-- O	usuário clica no botão 'Configurações'.
--	O usuário seleciona as 'Permissões de comentário'.
-- O	usuário escolhe as 'Permissões de comentário' desejadas.
+- O usuário loga na aplicação.
+- O usuário clica em um card.
+- O usuário escolhe um dos atributos a ser modificado.
+
+### Fluxos Alternativos 
 
 ### Fluxos de Exceção
 - Falta de internet, apresentando a mensagem de erro ao usuário.
 
-### UC26 - Mover um card para outra list
+
+## UC25 - Adicionar Membro a um Card
+
 ### Descrição
-- Ter a possibilidade de mover um card de uma lista para outra, para outro contexto.
+- Eu, como usuário, desejo adicionar mais membros a um card existente.
 
 ### Atores
-- Usuário
+- Usuário.
 
 ### Pré Condições
-- O usuário deve estar logado na aplicação e possuir acesso a internet, possuir ou estar vinculado a um board, e este board possuir 2 ou mais listas com ao menos 1 card em alguma delas.
+- O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
 
 ### Pós Condições
-- O usuário terá movido o card a uma outra lista.
+- O usuário terá adicionado um novo membro caso o tenha feito.
 
 ### Fluxo Principal
-- O usuário loga na aplicação
-- O usuário clica em um board
-- O usuário arrasta o card desejado para outra lista
+- O usuário loga na aplicação.
+- O usuário clica em um card.
+- O usuário clica em 'Adicionar Membro ao Card'.
+- O usuário escolhe o membro da board a ser adicionado ao card.
 
 ### Fluxos de Exceção
 - Falta de internet, apresentando a mensagem de erro ao usuário.
 
-### UC27 - Compartilhar card 
+
+## UC26 - Adicionar Descrição a um Card
+
 ### Descrição
-- Ter a possibilidade de compartilhar um card.
+- Eu, como usuário, desejo adicionar uma descrição a um card existente.
 
 ### Atores
-- Usuário
+- Usuário.
 
 ### Pré Condições
-- O usuário deve estar logado na aplicação e possuir acesso a internet, possuir ou estar vinculado a um board, e este board possuir 1 ou mais listas com ao menos 1 card em alguma delas.
+- O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
 
 ### Pós Condições
-- O usuário terá compartilhado o card.
+- O usuário terá adicionado uma nova descrição caso o tenha feito.
 
 ### Fluxo Principal
-- O usuário loga na aplicação
-- O usuário clica em um board
-- O usuário clica no card desejado
-- O usuário clica na opção 'Compartilhar e mais...'
-- O usuário terá um referencial do card.
+- O usuário loga na aplicação.
+- O usuário clica em um card.
+- O usuário clica em 'Adicionar Descrição ao Card'.
+- O usuário insere a nova descrição do card.
 
 ### Fluxos de Exceção
 - Falta de internet, apresentando a mensagem de erro ao usuário.
+
+
+## UC26 - Adicionar Check-list a um Card
+
+### Descrição
+- Eu, como usuário, desejo adicionar uma checklist a um card existente.
+
+### Atores
+- Usuário.
+
+### Pré Condições
+- O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
+
+### Pós Condições
+- O usuário terá adicionado uma nova check-list caso a tenha feito.
+
+### Fluxo Principal
+- O usuário loga na aplicação.
+- O usuário clica em um card.
+- O usuário clica em 'Adicionar Check-list ao Card'.
+- O usuário insere a nova check-list ao card.
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+
+
+## UC28 - Adicionar Etiqueta a um Card
+### Descrição
+- Eu, como usuário, desejo adicionar uma etiqueta a um card existente.
+
+### Atores
+- Usuário.
+
+### Pré Condições
+- O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
+
+### Pós Condições
+- O usuário terá adicionado uma nova etiqueta caso a tenha feito.
+
+### Fluxo Principal
+- O usuário loga na aplicação.
+- O usuário clica em um card.
+- O usuário clica em 'Adicionar Etiqueta ao Card'.
+- O usuário insere a nova etiqueta ao card.
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+
+
+## UC29 - Adicionar Deadline a um Card
+### Descrição
+- Eu, como usuário, desejo adicionar uma deadline a um card existente.
+
+### Atores
+- Usuário.
+
+### Pré Condições
+- O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
+
+### Pós Condições
+- O usuário terá adicionado uma nova deadline caso a tenha feito.
+
+### Fluxo Principal
+- O usuário loga na aplicação.
+- O usuário clica em um card.
+- O usuário clica em 'Adicionar Deadline ao Card'.
+- O usuário insere a nova deadline ao card.
+
+#### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+
+
+## UC30 - Adicionar Comentário a um Card
+### Descrição
+- Eu, como usuário, desejo adicionar um comentário a um card existente.
+
+## Atores
+- Usuário.
+
+## Pré Condições
+- O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
+
+## Pós Condições
+- O usuário terá adicionado um novo comentário caso a tenha feito.
+
+## Fluxo Principal
+- O usuário loga na aplicação.
+- O usuário clica em um card.
+- O usuário clica no ícone de balão de fala.
+- O usuário insere o comentário.
+
+## Fluxos Alternativos
+- O usuário loga na aplicação.
+- O usuário clica em um card.
+- O usuário clica no ícone de balão de fala.
+- O usuário clica em um comentário já existente.
+- O usuário insere um novo comentário respondendo o anterior.
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+
+
+### UC31 - Alterar permissão de comentário
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Ter a possibilidade de alterar quem pode comentar em cards de um board.
+|
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado na aplicação e possuir acesso a internet e possuir um board.|
+| **Fluxo Principal** | 1. O usuário loga na aplicação<br>2. O usuário clica em um board<br>3. O usuário clica no botão 'Mostrar menu'. <br>4. O usuário clica no botão 'Mais'. <br>5. O usuário clica no botão 'Configurações'. <br>6. O usuário seleciona as 'Permissões de comentário'. <br>7. O usuário escolhe as 'Permissões de comentário' desejadas.|
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.|
+| **Pós Condições** | O usuário terá gerenciado quem pode comentar cards em um determinado board.|
+
+
+## UC32 - Adicionar Anexo a um Card
+### Descrição
+- Eu, como usuário, desejo adicionar um anexo a um card existente.
+
+## Atores
+- Usuário.
+
+## Pré Condições
+- O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
+
+## Pós Condições
+- O usuário terá adicionado um novo anexo caso a tenha feito.
+
+## Fluxo Principal
+- O usuário loga na aplicação.
+- O usuário clica em um card.
+- O usuário clica em  'Adicionar Anexo'
+- O usuário insere o arquivo desejado.
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+
+
+### UC33 - Mover um card para outra list
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Ter a possibilidade de mover um card de uma lista para outra, para outro contexto.|
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado na aplicação e possuir acesso a internet, possuir ou estar vinculado a um board, e este board possuir 2 ou mais listas com ao menos 1 card em alguma delas.|
+| **Fluxo Principal** | 1. O usuário loga na aplicação.<br>2. O usuário clica em um board.<br>3. O usuário arrasta o card desejado para outra lista.|
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.|
+| **Pós Condições** | O usuário terá movido o card a uma outra lista.|
+
+
+### UC34 - Compartilhar card
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Ter a possibilidade de compartilhar um card.|
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado na aplicação e possuir acesso a internet, possuir ou estar vinculado a um board, e este board possuir 1 ou mais listas com ao menos 1 card em alguma delas.|
+| **Fluxo Principal** | 1. O usuário loga na aplicação.<br>2. O usuário clica em um board.<br>3. O usuário clica no card desejado. .<br>4. O usuário clica na opção 'Compartilhar e mais...'. .<br>5. O usuário terá um referencial do card .|
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.|
+| **Pós Condições** | O usuário terá compartilhado o card. |
+
+
+## UC32 - Adicionar Power-Up
+### Descrição
+- Eu, como usuário, desejo adicionar um anexo a um card existente.
+
+## Atores
+- Usuário.
+
+## Pré Condições
+- O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
+
+## Pós Condições
+- O usuário terá adicionado um novo power-up no card.
+
+## Fluxo Principal
+- O usuário loga na aplicação.
+- O usuário clica em um card.
+- O usuário clica em  'Adicionar Powe-Up'
+- O usuário seleciona o power-up desejado.
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+- Caso não seja o primeiro power-up no card e o usuário não esteja em algum plano pago, não é possível adicionar outro power-up.
