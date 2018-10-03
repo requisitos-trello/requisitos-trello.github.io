@@ -148,3 +148,177 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ### Fluxos de Exceção
 - Falta de internet, fazendo com que apareça a mensagem de erro
+
+### UC04 - Adicionar membros em um Board
+### Descrição
+- Vincular membros a que contribuam ou não para o contexto do board.
+
+### Atores
+- Usuário
+
+### Pré Condições
+- O usuário deve estar logado na aplicação e possuir acesso a internet, possuir ou estar vinculado a um board.
+
+### Pós Condições
+- O usuário terá outras pessoas que podem editar e realizar atividades no board e atreladas ao board.
+
+### Fluxo Principal
+- O usuário loga na aplicação
+- O usuário clica em um board
+- O usuário clica em adicionar membros
+
+### Fluxos de Exceção
+- Após logar na aplicação o usuário pode criar um time
+- O usuário irá poder adicionar os membros e entrar no novo board criado
+- Ao clicar em adicionar membros o usuário pode convidar pelo e-mail
+- Ao clicar em adicionar membros o usuário pode convidar pela conta trello
+
+### UC05 - Imprimir um Board
+### Descrição
+- Ter impresso a visão macro de um board.
+
+### Atores
+- Usuário
+
+### Pré Condições
+- O usuário deve estar logado na aplicação e possuir acesso a internet, ter acesso a uma impressora, possuir ou estar vinculado a um board.
+
+### Pós Condições
+- O usuário terá em suas mãos uma versão impressa da versão macro do board.
+
+### Fluxo Principal
+- O usuário loga na aplicação
+- O usuário clica em um board
+- O usuário clica em imprimir board
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário
+- Falha na conexão com a impresora que irá imprimir o board.
+
+### UC06 - Ser convidado para um Board
+### Descrição
+- Ter recebido um convite para participação de um board.
+
+### Atores
+- Usuário
+
+### Pré Condições
+- O usuário deve possuir uma conta de e-mail.
+
+### Pós Condições
+- O usuário terá um convite que lhe dá acesso a um board.
+
+### Fluxo Principal
+- O usuário confirma o convite
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+- O usuário não apresenta interesse.
+
+### UC07 - Criar um time
+### Descrição
+- Ter um time para designar e coordenar tarefas, de acordo com o contexto do usuário.
+
+### Atores
+- Usuário
+
+### Pré Condições
+- O usuário deve estar logado na aplicação e possuir acesso a internet.
+
+### Pós Condições
+- O usuário terá um board com um time vinculado.
+
+### Fluxo Principal
+- O usuário loga na aplicação
+- O usuário clica em criar um time
+
+### Fluxos de Exceção
+- O usuário loga na aplicação
+- O usuário clica em um board
+- O usuário clica em adicionar membros
+
+### UC08 - Convidar por E-mail
+### Descrição
+- Ter a possibilidade de convidar mais participantes para contribuírem com o contexto do board.
+
+### Atores
+- Usuário
+
+### Pré Condições
+- O usuário deve estar logado na aplicação e possuir acesso a internet, possuir ou estar vinculado a um board.
+
+### Pós Condições
+- O usuário terá enviado um convite para uma ou mais pessoas de colaboração.
+
+### Fluxo Principal
+- O usuário loga na aplicação
+- O usuário clica em um board
+- O usuário clica em adicionar membros
+- O usuário escreve o e-mail do membro que quer adicionar
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+
+### UC09 - Convidar pela Conta
+### Descrição
+- Ter a possibilidade de convidar mais participantes para contribuírem com o contexto do board.
+
+### Atores
+- Usuário
+
+### Pré Condições
+- O usuário deve estar logado na aplicação e possuir acesso a internet, possuir ou estar vinculado a um board.
+
+### Pós Condições
+- O usuário terá enviado um convite para uma ou mais pessoas de colaboração.
+
+### Fluxo Principal
+- O usuário loga na aplicação
+- O usuário clica em um board
+- O usuário clica em adicionar membros
+- O usuário escreve nome da conta do membro que quer adicionar
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+
+### UC10 - Fechar Board
+### Descrição
+- Ter a possibilidade de fechar o board, para finalização do projeto que estava em andamento.
+
+### Atores
+- Usuário
+
+### Pré Condições
+- O usuário deve estar logado na aplicação e possuir acesso a internet, possuir ou estar vinculado a um board para que possa ser fechado.
+
+### Pós Condições
+- O usuário terá fechado o board da sua escolha.
+
+### Fluxo Principal
+- O usuário loga na aplicação
+- O usuário clica em um board
+- O usuário clica em fechar board
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
+
+### UC11 - Vincular Board
+### Descrição
+- Ter a possibilidade de vincular o board, para outro contexto.
+
+### Atores
+- Usuário
+
+### Pré Condições
+- O usuário deve estar logado na aplicação e possuir acesso a internet, possuir ou estar vinculado a um board.
+
+### Pós Condições
+- O usuário terá vinculado o seu board a um outro contexto, ligando ambos.
+
+### Fluxo Principal
+- O usuário loga na aplicação
+- O usuário clica em um board
+- O usuário gera o link para vincular o board
+
+### Fluxos de Exceção
+- Falta de internet, apresentando a mensagem de erro ao usuário.
