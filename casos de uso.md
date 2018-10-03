@@ -667,24 +667,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.|
 | **Pós Condições** | O usuário terá compartilhado o card. |
 
-
-## UC35 - Adicionar Power-Up
-
-## Pré Condições
-- O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
-
-## Pós Condições
-- O usuário terá adicionado um novo power-up no card.
-
-## Fluxo Principal
-- O usuário loga na aplicação.
-- O usuário clica em um card.
-- O usuário clica em  'Adicionar Powe-Up'
-- O usuário seleciona o power-up desejado.
-
-| **Fluxos de Exceção** |
-- Falta de internet, apresentando a mensagem de erro ao usuário.
-- Caso não seja o primeiro power-up no card e o usuário não esteja em algum plano pago, não é possível adicionar outro power-up.
+### UC35 - Adicionar power-up
 
 |  |  |
 |  ------: | :------ |
