@@ -154,15 +154,15 @@ category: Modelagem
 ## Time
 
 ### Sinônimos
-- Times
+- Times, equipe
 
 ### Noção
 - Conjunto de [Usuários](lexicos.html#usuário) que tem acesso simultâneo à uma [Board](lexicos.html#board) na qual são realizadas tarefas
+- Grupo de colaboladores de uma [Board](#board)
 
 ### Impacto
-- O time compõe uma board
-- O time realizou uma tarefa
-- O time terminou um projeto
+- O time pode compor uma [Board](#board);
+- O time pode ser atribuída uma [Tarefa](#card)
 
 
 --------------
@@ -170,10 +170,11 @@ category: Modelagem
 ## Sticker
 
 ### Sinônimos
-- Stickers
+- Stickers, emote
 
 ### Noção
 - Caractere especial utilizado para ilustrar uma mensagem com uma imagem.
+- Enfeite usado em comentários.
 
 ### Impacto
 - O [usuário](lexicos.html#usuário) postou um sticker no comentário.
@@ -185,9 +186,7 @@ category: Modelagem
 ## Duedate
 
 ### Sinônimos
-- Deadline
-- Prazo de Entrega
-- Prazo Limite
+- Deadline, prazo de Entrega, prazo Limite
 
 ### Noção
 - Termo que referencia o tempo máximo que uma tarefa deve ser cumprida.
