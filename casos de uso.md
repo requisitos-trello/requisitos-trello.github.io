@@ -570,6 +570,17 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 ### Fluxos de Exceção
 - Falta de internet, apresentando a mensagem de erro ao usuário.
 
+###  UC020 - Arquivar uma lista
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo o arquivamento de uma lista para melhorar a organização de quadros, e remediar a poluição visual causada por listas desnecessárias. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br>O tooltip de ações da lista deve estar selecionado. |
+| **Fluxo Principal** | **FP01 - Arquivar Lista**<br>1. Usuário acessa as opções da lista.<br>2. Usuário clica em “Arquivar Lista”.<br>3. Lista arquivada com sucesso. Tooltip de ações da lista e fechado.<br> |
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | A lista em questão é arquivada pelo usuário. |
 
 ## UC22 - Modificar um Card
 
@@ -580,6 +591,17 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** | O usuário loga na aplicação. <br> O usuário clica em um card. <br> O usuário escolhe um dos atributos a ser modificado.
 | **Fluxos Alternativos** | [UC25-Adicionar Membro](#uc25---adicionar-membro-a-um-card) <br> [UC26-Adicionar Descrição](#uc26---adicionar-descrição-a-um-card) <br> [UC27-Adicionar Checklist](#uc27---adicionar-check-list-a-um-card) <br> [UC28-Adicionar Etiqueta](#uc28---adicionar-etiqueta-a-um-card) <br> [UC29-Adicionar Deadline](#uc29---adicionar-deadline-a-um-card) <br> [UC32-Adicionar Anexo](#uc32---adicionar-anexo-a-um-card) <br> [UC35-Adicionar Power-Up](#uc35---adicionar-power-up)
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.
+
+###   UC023 - Personalizar etiqueta
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo personalizar uma etiqueta para facilitar seu entendimento. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br>Página de etiquetas deve estar selecionada. |
+| **Fluxo Principal** | **FP01 - Personalizar Etiqueta**<br>1. Usuário clica em “Mostrar Menu”.<br>2. Usuário clica em “Etiquetas”.<br>3. Usuário clica em no botão de personalização de etiquetas.<br> 4. Usuário digita um nome e escolhe uma cor, depois clica em “salvar”.<br> 5. Etiqueta personalizada com sucesso, usuário é redirecionado para página principal das etiquetas. |
+| **Fluxos Alternativos** | **FA01 - Personalizar Etiqueta pelo Card**<br>1. Usuário seleciona um card.<br>2. Usuário clica em “Etiquetas”.<br>3. Usuário clica em no botão de personalização de etiquetas.<br> 4. Usuário digita um nome e escolhe uma cor, depois clica em “salvar”.<br> 5. Etiqueta personalizada com sucesso, usuário é redirecionado para página principal das etiquetas. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Etiqueta é personalizada para facilitar o seu entendimento. |
 
 ## UC25 - Adicionar Membro a um Card
 
