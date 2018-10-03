@@ -790,3 +790,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos Alternativos** | **FA01 Ver benefícios**<br>1. Usuário clica em "Ver todos os Beneícios"<br>2. Usuário aciona o UC03 |
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Não se aplica |
+
+### Caso 15: Filtrar cartões
+
+![Diagrama de caso de uso da filtragem de cartões](imagens/casos%20de%20uso/filtro.png)
