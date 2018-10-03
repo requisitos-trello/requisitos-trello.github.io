@@ -10,6 +10,74 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ## Diagramas:
 
+### Caso 1: Fazer Login
+
+![Caso 1](imagens/casos de uso/UC01.png)
+
+### UC01 - Fazer Login
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo Ter acesso a seus boards e times. |
+| **Atores** | Usuário |
+| **Pré Condições** | Usuário deve possuir cadastro no sistema. |
+| **Fluxo Principal** | **FP01 - Fazer Login**<br>1. Abre a página inicial do trello.<br>2. Usuário clica no botão “Fazer Login”.<br>3. Usuário informa seu e-mail e senha.<br>4. Usuário clica no botão “Fazer Login”.<br>5. Caso de uso encerrado. |
+| **Fluxos Alternativos** | **FA01 - Alterar senha [UC03]**<br>1. Abre a página de Login.<br>2. Usuário clica no link “Esqueceu sua senha?”.<br>3. Usuário digita seu “Email”.<br>4. Usuário clica no botão “Enviar”.<br>5. Usuário recebe um e-mail para redefinir sua senha. <br>6. Usuário abre o e-mail recebido.<br>7. Usuário clica no botão “Redefinir Senha”.<br>8. Usuário insere a nova senha.<br>9. Usuário insere a nova senha novamente.<br>10. Usuário clica no botão ‘Enviar’.<br>11. Usuário retorna para o primeiro passo do fluxo principal.<br>**FA02 - Fazer Login com o Google**<br>1. Abre a página inicial do trello.<br>2. Usuário clica no botão “Fazer Login”.<br>3. Usuário clica no botão “Fazer Login com o Google”.<br>4. Usuário insere o endereço de e-mail ou telefone.<br>5. Usuário clica no botão “Próxima”.<br>6. Usuário insere a senha.<br>7. Usuário clica no botão “Próxima”.<br>8. Usuário estará logado na aplicação.<br>9. Caso de uso encerrado. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Usuário estará logado no sistema. |
+
+
+### Caso 2: Cadastro
+
+![Caso 2](imagens/casos de uso/UC02.png)
+
+### UC02 - Cadastro
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo criar uma nova conta no sistema. |
+| **Atores** | Usuário |
+| **Pré Condições** | Usuário deve possuir email. |
+| **Fluxo Principal** | **FP01 - Cadastro**<br>1. Abre a página inicial do trello.<br>2. Usuário clica no botão “Cadastre-se”.<br>3. Usuário informa seu nome, e-mail e senha.<br>4. Usuário clica no botão “Criar Nova Conta”.<br>5. Caso de uso encerrado. |
+| **Fluxos Alternativos** | **FA01 - Fazer Cadastro com o Google**<br>1. Abre a página de Login.<br>2. Usuário clica no botão “Cadastre-se”.<br>3. Usuário clica no botão “Cadastre-se com o Google”.<br>4. Usuário insere o endereço de e-mail.<br>5. Usuário clica no botão “Próxima”. <br>6. Usuário insere a senha.<br>7. Usuário clica no botão “Próxima”.<br>8. Caso de uso encerrado. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Usuário terá criado uma nova conta no sistema. |
+
+
+### Caso 3: Alterar Senha
+
+![Caso 3](imagens/casos de uso/UC03.png)
+
+### UC03 - Alterar Senha
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo alterar senha de uma conta existente. |
+| **Atores** | Usuário |
+| **Pré Condições** | Usuário deve possuir uma conta. |
+| **Fluxo Principal** | **FP01 - Alterar Senha**<br>1. Abre a página inicial do trello.<br>2. Usuário clica no seu avatar.<br>3. Usuário clica em “Configurações”.<br>4. Usuário clica em “Alterar Senha…”.<br>5. Usuário informa sua senha atual e sua nova senha.<br>6. Usuário clica no botão “Salvar”.<br>7. Caso de uso encerrado. |
+| **Fluxos Alternativos** | **FA01 - Esqueci minha senha**<br>1. Abre a página de Login.<br>2. Usuário clica no link “Esqueceu sua senha?”.<br>3. Usuário digita seu “Email”.<br>4. Usuário clica no botão “Enviar”.<br>5. Usuário recebe um e-mail para redefinir sua senha. <br>6. Usuário abre o e-mail recebido.<br>7. Usuário clica no botão “Redefinir Senha”.<br>8. Usuário insere a nova senha.<br>9. Usuário insere a nova senha novamente.<br>10. Usuário clica no botão ‘Enviar’.<br>11. Caso de uso encerrado. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Usuário terá alterado a senha de sua conta no sistema. |
+
+
+### Caso 4: Alterar Configurações
+
+![Caso 4](imagens/casos de uso/UC04.png)
+
+### UC04 - Alterar Configurações
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo alterar configurações, tanto do trello quanto da conta. |
+| **Atores** | Usuário |
+| **Pré Condições** | Usuário deve possuir uma conta. |
+| **Fluxo Principal** | **FP01 - Alterar Configurações**<br>1. Abre a página inicial do trello estando logado.<br>2. Usuário clica no seu avatar.<br>3. Usuário clica em “Configurações”.<br>4. Caso de uso encerrado. |
+| **Fluxos Alternativos** | **FA01 - Alterar nome**<br>1. A partir do passo 3 do fluxo principal.<br>2. Usuário clica no link “Alterar Nome, Iniciais ou Biografia...”.<br>3. Usuário digita os dados a serem editados.<br>4. Usuário clica no botão “Salvar”.<br>5. Caso de uso encerrado.<br>**FA02 - Alterar Senha [UC04]**<br>1. A partir do passo 3 do fluxo principal.<br>2. Usuário clica no link “Alterar Senha...”.<br>3. Usuário digita os dados exigidos.<br>4. Usuário clica no botão “Salvar”.<br>5. Caso de uso encerrado.<br>**FA03 - Alterar avatar**<br>1. A partir do passo 3 do fluxo principal.<br>2. Usuário clica no link “Alterar Avatar...”.<br>3. Usuário escolhe a nova imagem.<br>4. Caso de uso encerrado.<br>**FA04 - Alterar email**<br>1. A partir do passo 3 do fluxo principal.<br>2. Usuário clica no link “Alterar Email...”<br>3. Usuário digita o novo email.<br>4. Usuário clica no botão “Alterar E-mail”.<br>5. Caso de uso encerrado.<br>**FA05 - Adicionar novo email**<br>1. A partir do passo 3 do fluxo principal.<br>2. Usuário clica no botão “Adicionar novo endereço de email”.<br>3. Usuário digita o novo email.<br>4. Usuário clica no botão “Enviar Email de Confirmação”.<br>5. Caso de uso encerrado.<br>**FA06 - Alterar frequência de email de notificação**<br>1. A partir do passo 3 do fluxo principal.<br>2. Usuário clica no botão “Alterar frequência de email de notificação”.<br>3. Usuário escolhe a opção desejada.<br>4. Caso de uso encerrado.<br>**FA07 - Permitir notificações da Área de Trabalho**<br>1. A partir do passo 3 do fluxo principal.<br>2. Usuário clica no botão “Permitir Notificações da Área de Trabalho”.<br>3. Caso de uso encerrado. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Usuário terá alterado as configurações de sua conta no sistema. |
+
+
 ### Caso 5: Criar time
 
 ![Caso 5](imagens/casos de uso/caso5.png)
