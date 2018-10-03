@@ -727,7 +727,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ### Caso 11: Criar Lista
 
-![Caso 11](imagens/casos de uso/UC018.png)
+![Caso 11](imagens/casos de uso/caso018.png)
 
 ### UC011 - Criar Lista
 
@@ -742,7 +742,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ### Caso 12: Alterar nome de uma lista
 
-![Caso 12](imagens/casos de uso/UC019.png)
+![Caso 12](imagens/casos de uso/caso019.png)
 
 ### UC012 - Alterar nome de uma lista
 
@@ -750,7 +750,22 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 |  ------: | :------ |
 |  **Descrição** | Tem como objetivo alterar o nome de uma lista. |
 | **Atores** | Usuário |
-| **Pré Condições** | Usuário deve possuir email, estar vinculado a uma lista. |
+| **Pré Condições** | Usuário deve possuir email, estar vinculado a um board e ter uma lista no board. |
 | **Fluxo Principal** | **FP01 - Cadastro**<br>1. Abre a página inicial do trello.<br>2. Usuário clica no nome da lista atual.<br>3. Usuário informa o novo nome da lista desejada.<br>4. Caso de uso encerrado. |
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Usuário terá outro nome para uma determinada lista. |
+
+### Caso 13: Criar card
+
+![Caso 13](imagens/casos de uso/caso021.png)
+
+### UC013 - Criar card
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo criar um card. |
+| **Atores** | Usuário |
+| **Pré Condições** | Usuário deve possuir email, estar vinculado a um board e ter no mínimo uma lista. |
+| **Fluxo Principal** | **FP01 - Cadastro**<br>1. Abre a página inicial do trello.<br>2. Usuário clica em "adicionar um cartão".<br>3. Usuário informa o novo nome do cartão desejado.<br>4. Usuário adiciona descrição do card. <br>5. Caso de uso encerrado. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Usuário terá um card com descrição de uma tarefa. |
