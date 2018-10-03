@@ -503,6 +503,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Pós Condições** | A lista em questão é arquivada pelo usuário. |
 
 ## UC22 - Modificar um Card
+
 |  |  |
 |  ------: | :------ |
 | **Descrição** | Eu, como usuário, desejo poder modificar um ou mais atributos de um card existente.
@@ -514,6 +515,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.
 
 ###   UC023 - Personalizar etiqueta
+
 |  |  |
 |  ------: | :------ |
 |  **Descrição** | Tem como objetivo personalizar uma etiqueta para facilitar seu entendimento. |
@@ -525,6 +527,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Pós Condições** | Etiqueta é personalizada para facilitar o seu entendimento. |
 
 ###   UC024 - Arquivar um Card
+
 |  |  |
 |  ------: | :------ |
 |  **Descrição** | Tem como objetivo o arquivamento de um card para melhorar a organização de quadros e listas, remediando assim a poluição visual causada por cards desnecessários. |
@@ -536,6 +539,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Pós Condições** | Card é arquivado pelo usuário.|
 
 ###   UC024 - Seguir um Card
+
 |  |  |
 |  ------: | :------ |
 |  **Descrição** | Tem como objetivo Seguir um card para ser notificado de quando acontecem ações envolvendo o card seguido. |
@@ -548,6 +552,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ## UC25 - Adicionar Membro a um Card
 
+|  ------: | :------ |
 | **Descrição** | Ter a possibilidade de adicionar um membro a um card existente.
 | **Atores** | Usuário.
 | **Pré Condições** | O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
@@ -558,6 +563,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ## UC26 - Adicionar Descrição a um Card
 
+|  ------: | :------ |
 | **Descrição** | Ter a possibilidade de adicionar a descrição a um card.
 | **Atores** | Usuário.
 | **Pré Condições** | O usuário deve estar logado na aplicação, possuir acesso a internet, possuir ou estar vinculado a um board, lista e card.
