@@ -288,7 +288,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Atores** | Usuário |
 | **Pré Condições** | O usuário deve estar logado no sistema.<br> |
 | **Fluxo Principal** | **FP01 - Acessar configurações de time**<br>1. Usuário clica em boards no menu lateral ou no header.<br>2. O sistema retorna lista de boards que o usuário participa.<br>3. Usuário seleciona board. [FE01]<br>4. sistema redireciona para página do board selecionado.<br>5. Aciona UC05 - Visualizar atividade. [FA01][FA02][FA03] |
-| **Fluxos Alternativos** | **FA01 - Acessar mais opções do menu** [UC02].<br>**FA02 - Alterar tela de fundo** [UC03].<br>**FA01 - Adicionar/remover power-up** [UC04]. |
+| **Fluxos Alternativos** | **FA01 - Acessar mais opções do menu** [UC02].<br>**FA02 - Alterar tela de fundo** [UC03].<br>**FA03 - Adicionar/remover power-up** [UC04]. |
 | **Fluxos de Exceção** | Usuário não participa de nenhum board. |
 | **Pós Condições** | Usuário tem acesso aos dados do board. |
 
@@ -299,8 +299,8 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 |  **Descrição** | Tem como objetivo permitir o acesso a configurações do board selecionado. |
 | **Atores** | Usuário |
 | **Pré Condições** | O usuário deve estar logado no sistema. |
-| **Fluxo Principal** | **FP01 - Acessar mais opções do menu**<br>1. Usuário clica em mostrar menu caso menu não esteja aberto.<br>2. Usuário clica em mais.<br>3. O sistema retorna mais opções para o menu |
-| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxo Principal** | **FP01 - Acessar mais opções do menu**<br>1. Usuário clica em mostrar menu caso menu não esteja aberto.<br>2. Usuário clica em mais.<br>3. O sistema retorna mais opções para o menu[FA01][FA02][FA03] |
+| **Fluxos Alternativos** | **FA01 - Editar permissão de adicionar/remover membros** [UC06].<br>**FA02 - Editar permissão de comentário** [UC07].<br>**FA03 - Editar permissão de ingresso de membro** [UC08]. |
 | **Fluxos de Exceção** | Usuário não participa de nenhum board. |
 | **Pós Condições** | Usuário tem acesso aos dados do board. |
 
@@ -327,6 +327,54 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos Alternativos** | Não se aplica. |
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Power-ups do board são atualizados. |
+
+#### UC05 - Visualizar atividade
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo gerar um relatório geral de atividades referentes a board. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br>O usuário deve ser membro do board. |
+| **Fluxo Principal** | **FP01 - Visualizar atividade**<br>1. Usuário clica em mostrar menu caso menu não esteja aberto.<br>2. O sistema retorna relatório de atividades do boards. |
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Relatório de atividades é gerado e fica visível para usuário. |
+
+#### UC06 - Editar permissão de adicionar/remover membros
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo alterar permissão de modificação de quadro de membros. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br>O usuário deve ser administrador do board. |
+| **Fluxo Principal** | **FP01 - Editar permissão de adicionar/remover membros**<br>1. Usuário clica em Configurações.<br>2. Usuário clica em Adicionar/remover permissões.<br>3. Usuário seleciona nível de permissão. |
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Permissões de membro são atualizadas. |
+
+#### UC07 - Editar permissão de comentário
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo alterar permissão de comentários de membros. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br>O usuário deve ser administrador do board. |
+| **Fluxo Principal** | **FP01 - Editar permissão de comentário**<br>1. Usuário clica em Configurações.<br>2. Usuário clica em permissões para comentários.<br>3. Usuário seleciona nível de permissão. |
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Permissões de comentário são atualizadas. |
+
+#### UC08 - Editar permissão de ingresso de membro
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo alterar permissão de ingresso de membros. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br>O usuário deve ser administrador do board. |
+| **Fluxo Principal** | **FP01 - Visualizar atividade**<br>1. Usuário clica em Configurações.<br>2. Usuário altera permissão. |
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Permissões de ingresso de membros são atualizadas. |
 
 
 ### Caso 10: Board
