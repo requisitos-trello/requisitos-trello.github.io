@@ -603,6 +603,28 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Etiqueta é personalizada para facilitar o seu entendimento. |
 
+###   UC024 - Arquivar um Card
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo o arquivamento de um card para melhorar a organização de quadros e listas, remediando assim a poluição visual causada por cards desnecessários. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br>O Usuário deve estar em um Board. |
+| **Fluxo Principal** | **FP01 - Arquivar Card**<br>1. Usuário seleciona card.<br>2. Usuário clica em arquivar card.<br>3. Card arquivado com sucesso.<br>  |
+| **Fluxos Alternativos** | **FA01 - Arquivar Card pelas Opções**<br>1. Usuário clica no botão de opções do card.<br>2. Usuário clica em arquivar card.<br>3. Card arquivado com sucesso.<br> |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Card é arquivado pelo usuário.|
+
+###   UC024 - Seguir um Card
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo Seguir um card para ser notificado de quando acontecem ações envolvendo o card seguido. |
+| **Atores** | Usuário |
+| **Pré Condições** | O usuário deve estar logado no sistema.<br>Card deve estar selecionado. |
+| **Fluxo Principal** | **FP01 - Seguir Card**<br>1. Usuário seleciona card.<br>2. Usuário clica em “Seguir”. <br>3. Card sendo seguido com sucesso.<br>  |
+| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxos de Exceção** | Não se aplica. |
+| **Pós Condições** | Card passa a ser seguido pelo usuário.|
+
 ## UC25 - Adicionar Membro a um Card
 
 | **Descrição** | Ter a possibilidade de adicionar um membro a um card existente.
