@@ -113,69 +113,21 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | [FE01] Não há membros no time |
 | **Pós Condições** | Lista de membros do time é acessada pelo usuário |
 
-### Caso 7: Alterar configurações de time
+### Caso 7: Acessar configurações de time
 
 ![Caso 7](imagens/casos%20de%20uso/caso7%20(1).png)
 
-#### UC01 - Acessar configurações de time
+#### UC07 - Acessar configurações de time
 
 |  |  |
 |  ------: | :------ |
 |  **Descrição** | Tem como objetivo permitir o acesso às configurações de um time para alteração ou simples visualização. |
 | **Atores** | Usuário |
 | **Pré Condições** | O usuário deve estar logado no sistema.<br>Usuário deve ser membro do time. |
-| **Fluxo Principal** | **FP01 - Acessar configurações de time**<br>1. Usuário clica no time que deseja visualizar dentre os presentes no menu lateral.<br>2. O usuário clica em configurações.<br>3. Sistema mostra configurações do time. [FA01]<br>4. Aciona UC03 - Alterar visibilidade do time.<br>5. Aciona UC04 - Vincular time do slack. |
-| **Fluxos Alternativos** | **FA01 - Editar perfil** [UC02]. |
+| **Fluxo Principal** | **FP01 - Acessar configurações de time**<br>1. Usuário clica no time que deseja visualizar dentre os presentes no menu lateral.<br>2. O usuário clica em configurações.<br>3. Sistema mostra configurações do time. [FA01]<br>4. Usuário clica em alterar, que se encontra a frente da visibilidade do time.<br>5. O usuário seleciona a visibilidade que deseja para o time.<br>6. O usuário clica em salvar.<br>7. Usuário clica em add to Slack. [FA02]<br>8. O usuário informa o nome do workspace do slack.<br>9. Sistema retorna página de termos<br>10. Usuário autoriza vinculação. |
+| **Fluxos Alternativos** | **FA01 - Editar perfil**<br>1. Usuário clica em editar perfil do time.<br>2. O usuário altera as informações de perfil.<br>3. O usuário clica em salvar.<br>**FA01 - Acessar informações de vinculação** <br>1. Usuário clica em saiba mais na sessão vinculação ao slack.<br>2. Sistema redireciona para página de informações de vinculação ao slack. |
 | **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Configurações são acecssadas pelo usuário. |
-
-#### UC02 - Editar perfil
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Tem como objetivo editar informações básicas de um time. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>Usuário deve ser administrador do time. |
-| **Fluxo Principal** | **FP01 - Editar perfil**<br>1. Usuário clica em editar perfil do time.<br>2. O usuário altera as informações de perfil.<br>3. O usuário clica em salvar<br>4. Aciona UC01 - Acessar configurações de time, passo 3. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Informações de perfil de time devem ser atualizadas. |
-
-#### UC03 - Alterar visibilidade do time
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite alterar nível de visibilidade do time (público ou particular). |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>Usuário deve ser administrador do time. |
-| **Fluxo Principal** | **FP01 - Alterar visibilidade do time**<br>1. Usuário clica em alterar, que se encontra a frente da visibilidade do time.<br>2. O usuário seleciona a visibilidade que deseja para o time.<br>3. O usuário clica em salvar<br>4. Aciona UC01 - Acessar configurações de time, passo 3. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Visibilidade do time deve ser atualizada. |
-
-#### UC04 - Vincular time do slack
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite vincular time do trello com time do slack, facilitando a comunicação com o grupo. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>Usuário deve ser administrador do time. |
-| **Fluxo Principal** | **FP01 - Vincular time do slack**<br>1. Usuário clica em add to Slack. [FA01]<br>2. O usuário informa o nome do workspace do slack.<br>3. Sistema retorna página de termos<br>4. Usuário autoriza vinculação.<br>5. Aciona UC01 - Acessar configurações de time, passo 3. |
-| **Fluxos Alternativos** |  **FA01 - Acessar informações de vinculação** [UC05] |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Time deve ser vinculado ao slack. |
-
-#### UC05 - Acessar informações de vinculação
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite ao usuário entender quais as vantagens de se vincular o time do trello com o time do slack. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>Usuário deve ser membro do time. |
-| **Fluxo Principal** | **FP01 - Acessar informações de vinculação**<br>1. Usuário clica em saiba mais na sessão vinculação ao slack.<br>2. Sistema redireciona para página de informações de vinculação ao slack. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Usuário tem acesso a informações relevantes sobre vinculação com trello |
+| **Pós Condições** | Configurações são acessadas pelo usuário. |
 
 
 ### Caso 8:  Alterar configurações de board
