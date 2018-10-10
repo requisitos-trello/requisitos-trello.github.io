@@ -1,7 +1,7 @@
 ## Backlog do Produto Time
 
 
-### US27 - CRUD de Times
+### US38 - CRUD de Times
 
 - [ ] -  A funcionalidade deve aparecer após ser efetuado o login do usuário e ao tentar criar uma cópia de um quadro.
 
