@@ -742,55 +742,26 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ![Diagrama de uso para atualização](imagens/casos%20de%20uso/business.png)
 
-### UC01 - Criar time para Business Class
-
 |  |  |
 |  ------: | :------ |
-|  **Descrição** | Cria um time com a finalidade que esse time se torne business class logo após sua criação. |
+|  **Descrição** | Aqui o usuário deseja atualizar o plano do seu time para Business Class. |
 | **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br> |
-| **Fluxo Principal** | **FP01 - Criar time para Business Class**<br>1. Usuário clica na opção "Criar time do Business"<br>2. Usuário nomeia o grupo que quer criar<br>3. Usuário adiciona opcionalmente uma descrição<br>4. Usuário aciona o UC04|
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | O usuário se encontra na tela de atualização |
-
-### UC02 - Escolher Time para Business Class
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Escolhe um time para atualizar para o Business Class. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br> O usuário deve ser membro de um time.|
-| **Fluxo Principal** | **FP01 Escolhe time para business class**<br>1. Usuário abre a página de business<br>2. Usuário escolhe entre os times que quer atualizar<br>Usuário aciona o UC04|
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | O usuário se encontra na tela de atualização |
-
-### UC03 - Ver benefícios do Business Class
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Exibe informações a respeito do business class |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br> O usuário deve ser membro de um time.|
-| **Fluxo Principal** | **FP01 Escolhe time para business class**<br>1. Usuário abre a página de business<br>2. Ao escrollar a página, o usuário encontra informações a respeito do Business Class|
-| **Fluxos Alternativos** | **FA01 o usuário decide por aderir ao Business**<br>1. O usuário clica em atualizar meu time e aciona o UC04.<br>**FA02 o usuário retorna aos seus quadros**<br>1. O usuário clica em "Ir para os Seus Quadros", na navbar |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | O usuário se encontra na tela de atualização |
-
-
-### UC04 - Atualizar para business class
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Ponto de afunilamento para a atualização ocorrer |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve ter passado por UC01, UC02 ou UC03 |
-| **Fluxo Principal** | **FP01 Atualização**<br>1. Usuário escolhe o time que quer atualizar|
-| **Fluxos Alternativos** | **FA01 Ver benefícios**<br>1. Usuário clica em "Ver todos os Beneícios"<br>2. Usuário aciona o UC03 |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Não se aplica |
+| **Pré Condições** | Usuário deve possuir cadastro no sistema.<br>Usuário deve possuir um time |
+| **Fluxo Principal** | **FP01 - Atualizar para Business Class**<br>1. O usuário seleciona um time para atualizá-lo para business class<br>2. Usuário abre a de atualização para business class.<br>3. Usuário escolhe um plano de pagamento, anual ou mensal<br>4. Usuário Insere as informações do cartão de crédito. |
+| **Fluxos Alternativos** | **FA01 - Alterar senha [UC01]**<br>1. Usuário cria um time para que iniciar como Business Class<br>2. Continua do Passo 2 do FP01<br>**FA02 - Usuário inicia da página do Business Class**<br>1. Usuário começa na página de informações do business class<br>2. Usuário visualiza estudos de caso de empresas de sucesso que utilizaram o Trello<br>3. Usuário pode voltar a suas boards<br>**FA03 - Usuário**|
+| **Fluxos de Exceção** | **FE01 - Informações erradas do cartão de crédito**<br>1. [FP01.4] Usuário insere informações de cartão de crédito que não conferem<br>2. Mensagem de erro é exibida ao usuário|
+| **Pós Condições** | O time escolhido/ criado pelo usuário será convertido para business class e terá direitor às vantagens do plano. |
 
 ### Caso 15: Filtrar cartões
 
 ![Diagrama de caso de uso da filtragem de cartões](imagens/casos%20de%20uso/filtro.png)
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem-se como objetivo aqui a exibição apenas de cards que batam com características desejadas pelo usuário. |
+| **Atores** | Usuário |
+| **Pré Condições** | Usuário deve possuir cadastro no sistema.<br>Usuário deve ter acesso a um board populado |
+| **Fluxo Principal** | **FP01 - Filtrar Cartões**<br>1. O usuário abre as opções da board<br>2. O usuário clica em "Filtrar"<br>3. O usuário seleciona as opções de filtragem<br>4. O sistema exibe apenas os cards que batem com a pesquisa|
+| **Fluxos Alternativos** | **FA01 - Buscar por títulos**<br>1. O usuário digita o título pelo qual procura<br>**FA02 - Buscar por etiquetas**<br>1. O usuário seleciona as etiquetas que deseja<br>**FA02|
+| **Fluxos de Exceção** | **FE01 - Informações erradas do cartão de crédito**<br>1. [FP01.4] Usuário insere informações de cartão de crédito que não conferem<br>2. Mensagem de erro é exibida ao usuário|
+| **Pós Condições** | O time escolhido/ criado pelo usuário será convertido para business class e terá direitor às vantagens do plano. |
