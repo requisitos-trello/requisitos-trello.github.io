@@ -1,5 +1,6 @@
 ## Backlog do Produto Time
 
+![tabela backlog](imagens/backlog/time.jpg)
 
 ### US38 - CRUD de Times
 

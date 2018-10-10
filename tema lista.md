@@ -1,5 +1,6 @@
 ## Backlog do Produto Lista
 
+![tabela backlog](imagens/backlog/lista.jpg)
 
 ### US25 - CRUD de Listas
 

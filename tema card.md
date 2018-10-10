@@ -1,5 +1,7 @@
 ## Backlog do Produto Card
 
+![tabela backlog](imagens/backlog/card.jpg)
+
 ### US2 - CRUD do card
 
 - [ ] - A funcionalidade deve exibir botão para adicionar novo card.

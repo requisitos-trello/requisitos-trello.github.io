@@ -1,5 +1,6 @@
 ## Backlog do Produto Quadro
 
+![tabela backlog](imagens/backlog/quadro.jpg)
 
 ### US27 - CRUD de Quadros
 
