@@ -14,7 +14,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ![Caso 1](imagens/casos de uso/UC01.png)
 
-### UC01 - Fazer Login
+#### UC01 - Fazer Login
 
 |  |  |
 |  ------: | :------ |
@@ -31,7 +31,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ![Caso 2](imagens/casos de uso/UC02.png)
 
-### UC02 - Cadastro
+#### UC02 - Cadastro
 
 |  |  |
 |  ------: | :------ |
@@ -48,7 +48,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ![Caso 3](imagens/casos de uso/UC03.png)
 
-### UC03 - Alterar Senha
+#### UC03 - Alterar Senha
 
 |  |  |
 |  ------: | :------ |
@@ -65,7 +65,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ![Caso 4](imagens/casos de uso/UC04.png)
 
-### UC04 - Alterar Configurações
+#### UC04 - Alterar Configurações
 
 |  |  |
 |  ------: | :------ |
@@ -82,64 +82,26 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ![Caso 5](imagens/casos de uso/caso5.png)
 
-#### UC01 - Criar time
+#### UC05 - Criar time
 
 |  |  |
 |  ------: | :------ |
 |  **Descrição** | Tem como objetivo a criação de um time para melhorar a organização de quadros e arquivos que devem pertencer a um grupo específico de usuários. |
 | **Atores** | Usuário |
 | **Pré Condições** | O usuário deve estar logado no sistema. |
-| **Fluxo Principal** | **FP01 - Criar time**<br>1. Usuário acessa a opção de criar time.<br>2. Aciona UC02 - Adicionar nome. [FA01][FA02]<br>3. Time criado com sucesso. Usuário é redirecionado para página do time. |
-| **Fluxos Alternativos** | **FA01 - Adicionar descrição** [UC03].<br>**FA02 - Acessar informações de business class** [UC04] |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Time é criado com informações dadas pelo usuário. |
-
-
-#### UC02 - Adicionar nome
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite nomear times criados pelo usuário. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br> Formulário de criação de time deve estar selecionado.|
-| **Fluxo Principal** | **FP01 - Adicionar nome**<br>1. Usuário digita o nome do time.<br>2. Usuário clica em no botão "criar".<br> 3. Retorna para UC01 - criar time, passo 3. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Time é criado com informações dadas pelo usuário. |
-
-
-#### UC03 - Adicionar descrição
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite adicionar descrição a times criados pelo usuário. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br> Formulário de criação de time deve estar selecionado.|
-| **Fluxo Principal** | **FP01 - Adicionar descrição**<br>1. Usuário digita o nome do time.<br>2. Usuário digita descrição do time.<br>3. Usuário clica em no botão "criar".<br> 4. Retorna para UC01 - criar time, passo 3. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Time é criado com informações dadas pelo usuário. |
-
-
-#### UC04 - Acessar informações de business class
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite ter acesso a informações relevantes sobre as vantagens da assinatura do plano de business class. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br> Formulário de criação de time deve estar selecionado.|
-| **Fluxo Principal** | **FP01 - Acessar informações de business class**<br>1. Usuário clica "saiba mais" no texto referente ao business class.<br>2. Nova guia do navegador é aberta contendo informações referentes ao business class.<br> |
-| **Fluxos Alternativos** | Não se aplica. |
+| **Fluxo Principal** | **FP01 - Criar time**<br>1. Usuário acessa a opção de criar time.<br>2. Usuário digita o nome do time.<br>3. Usuário clica em no botão "criar". [FA01][FA02]<br>4. Time criado com sucesso. Usuário é redirecionado para página do time. |
+| **Fluxos Alternativos** | **FA01 - Adicionar descrição**<br>1. Usuário digita o nome do time.<br>2. Usuário digita descrição do time.<br>3. Usuário clica em no botão "criar".<br> 4. Retorna para UC01 - criar time, passo 3.<br>**FA02 - Acessar informações de business class**<br>1. Usuário clica "saiba mais" no texto referente ao business class.<br>2. Nova guia do navegador é aberta contendo informações referentes ao business class. |
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Time é criado com informações dadas pelo usuário. |
 
 
 
-### Caso 6: Adicionar/remover membros de time
+
+### Caso 6: Acessar lista de membros
 
 ![Caso 6](imagens/casos de uso/caso6.png)
 
-#### UC01 - Acessar lista de membros
+#### UC06 - Acessar lista de membros
 
 |  |  |
 |  ------: | :------ |
@@ -147,136 +109,28 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Atores** | Administrador<br>Usuário |
 | **Pré Condições** | O administrador do time deve estar logado no sistema.<br>|
 | **Fluxo Principal** | **FP01 - Acessar lista de membros**<br>1. Usuário clica no time que deseja visualizar dentre os presentes no menu lateral.<br>2. O usuário clica em membros.<br>3. Sistema mostra lista de membros do time. [FE01][FA01][FA02] |
-| **Fluxos Alternativos** | **FA01 - Remover membro** [UC02].<br>**FA02 - Convidar membro** [UC03] |
-| **Fluxos de Exceção** | Não há membros no time. [UC03] |
+| **Fluxos Alternativos** | **FA01 - Remover membro**<br>1. O administrador do time clica em remover, logo a frente do nome do usuário e confirma. [FE01].<br>**FA02 - Convidar membro**<br>1. Sistema mostra lista de membros do time.[FE01] <br>2. O administrador do time clica em Convidar membros do time<br>3. Administrador do time digita nome de usuário ou email no formulário<br>4. Administrador clica em Adicionar ao time.[FA03][FA04]<br>4. Lista de membro é atualizada com o(s) novo(s) membro(s).<br>**FA03 - Enviar link de convite** <br>1. Administrador do time clica em criar link.<br>2. Administrador do time clica em copiar.<br>3. Administrador envia link para usuários de sua escolha.<br>**FA04 - Adicionar várias pessoas**<br>1. Administrador do time clica em Adicionar várias pessoas de uma vez.<br>2. Administrador do time insere todos os emails e nomes de usuário que deseja adicionar no time.<br>3. Administrador clica em Adicionar ao time. |
+| **Fluxos de Exceção** | [FE01] Não há membros no time |
 | **Pós Condições** | Lista de membros do time é acessada pelo usuário |
 
-#### UC02 - Remover membro
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite ao usuário remover membros de um time. |
-| **Atores** | Administrador<br>Usuário |
-| **Pré Condições** | O administrador do time deve estar logado no sistema.<br> O usuário deve pertencer ao time.|
-| **Fluxo Principal** | **FP01 - Remover membro**<br>1. O administrador do time clica em remover, logo a frente do nome do usuário e confirma. [FE01]<br>2. Sistema retorna mensagem de confirmação de remoção e atuliza lista. |
-| **Fluxos Alternativos** | Não se aplica |
-| **Fluxos de Exceção** | Não há membros no time. |
-| **Pós Condições** | Membro é removido do time e lista de membros é atualizada. |
-
-#### UC03 - Convidar membro
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite ao usuário convidar membros para um time. |
-| **Atores** | Administrador<br>Usuário |
-| **Pré Condições** | O administrador do time deve estar logado no sistema.<br> O usuário deve possuir conta no trello.|
-| **Fluxo Principal** | **FP01 - Convidar membro**<br>1. Sistema mostra lista de membros do time.[FE01] <br>2. O administrador do time clica em Convidar membros do time<br>3. Aciona UC04 - convidar por email/nome de usuário.[FA01][FA02]<br>4. Lista de membro é atualizada com o(s) novo(s) membro(s). |
-| **Fluxos Alternativos** | **FA01 - Enviar link de convite** [UC05].<br>**FA02 - Adicionar várias pessoas** [UC06] |
-| **Fluxos de Exceção** | Não há membros no time. Redireciona para passo 3. |
-| **Pós Condições** | Membro é adicionado ao time. |
-
-#### UC04 - Convidar por email/nome de usuário 
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite ao administrador do time convidar membros para um time através de seu email ou nome de usuário. |
-| **Atores** | Administrador<br>Usuário |
-| **Pré Condições** | O administrador do time deve estar logado no sistema.<br> O usuário deve possuir conta no trello.|
-| **Fluxo Principal** | **FP01 - convidar por email/nome de usuário**<br>1. Administrador do time digita nome de usuário ou email no formulário<br>2. Administrador clica em Adicionar ao time.<br>3. Retorna para UC03 - Convidar membro, passo 4. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Membro é adicionado ao time. |
-
-#### UC05 - Enviar link de convite
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite ao administrador do time convidar membros através da criação de link. |
-| **Atores** | Administrador<br>Usuário |
-| **Pré Condições** | O administrador do time deve estar logado no sistema.<br> O usuário deve possuir conta no trello.|
-| **Fluxo Principal** | **FP01 - convidar por email/nome de usuário**<br>1. Administrador do time clica em criar link.<br>2. Administrador do time clica em copiar.<br>3. Administrador envia link para usuários de sua escolha. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** |Link de acesso ao grupo é criado. |
-
-#### UC06 - Adicionar várias pessoas
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite ao administrador do time convidar mais de um membro por vez. |
-| **Atores** | Administrador<br>Usuário |
-| **Pré Condições** | O administrador do time deve estar logado no sistema.<br> O usuário deve possuir conta no trello.|
-| **Fluxo Principal** | **FP01 - convidar por email/nome de usuário**<br>1. Administrador do time clica em Adicionar várias pessoas de uma vez.<br>2. Administrador do time insere todos os emails e nomes de usuário que deseja adicionar no time.<br>3. Administrador clica em Adicionar eo time.<br>4. Retorna para UC03 - Convidar membro, passo 4 |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** |Link de acesso ao grupo é criado. |
-
-### Caso 7: Alterar configurações de time
+### Caso 7: Acessar configurações de time
 
 ![Caso 7](imagens/casos%20de%20uso/caso7%20(1).png)
 
-#### UC01 - Acessar configurações de time
+#### UC07 - Acessar configurações de time
 
 |  |  |
 |  ------: | :------ |
 |  **Descrição** | Tem como objetivo permitir o acesso às configurações de um time para alteração ou simples visualização. |
 | **Atores** | Usuário |
 | **Pré Condições** | O usuário deve estar logado no sistema.<br>Usuário deve ser membro do time. |
-| **Fluxo Principal** | **FP01 - Acessar configurações de time**<br>1. Usuário clica no time que deseja visualizar dentre os presentes no menu lateral.<br>2. O usuário clica em configurações.<br>3. Sistema mostra configurações do time. [FA01]<br>4. Aciona UC03 - Alterar visibilidade do time.<br>5. Aciona UC04 - Vincular time do slack. |
-| **Fluxos Alternativos** | **FA01 - Editar perfil** [UC02]. |
+| **Fluxo Principal** | **FP01 - Acessar configurações de time**<br>1. Usuário clica no time que deseja visualizar dentre os presentes no menu lateral.<br>2. O usuário clica em configurações.<br>3. Sistema mostra configurações do time. [FA01]<br>4. Usuário clica em alterar, que se encontra a frente da visibilidade do time.<br>5. O usuário seleciona a visibilidade que deseja para o time.<br>6. O usuário clica em salvar.<br>7. Usuário clica em add to Slack. [FA02]<br>8. O usuário informa o nome do workspace do slack.<br>9. Sistema retorna página de termos<br>10. Usuário autoriza vinculação. |
+| **Fluxos Alternativos** | **FA01 - Editar perfil**<br>1. Usuário clica em editar perfil do time.<br>2. O usuário altera as informações de perfil.<br>3. O usuário clica em salvar.<br>**FA01 - Acessar informações de vinculação** <br>1. Usuário clica em saiba mais na sessão vinculação ao slack.<br>2. Sistema redireciona para página de informações de vinculação ao slack. |
 | **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Configurações são acecssadas pelo usuário. |
-
-#### UC02 - Editar perfil
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Tem como objetivo editar informações básicas de um time. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>Usuário deve ser administrador do time. |
-| **Fluxo Principal** | **FP01 - Editar perfil**<br>1. Usuário clica em editar perfil do time.<br>2. O usuário altera as informações de perfil.<br>3. O usuário clica em salvar<br>4. Aciona UC01 - Acessar configurações de time, passo 3. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Informações de perfil de time devem ser atualizadas. |
-
-#### UC03 - Alterar visibilidade do time
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite alterar nível de visibilidade do time (público ou particular). |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>Usuário deve ser administrador do time. |
-| **Fluxo Principal** | **FP01 - Alterar visibilidade do time**<br>1. Usuário clica em alterar, que se encontra a frente da visibilidade do time.<br>2. O usuário seleciona a visibilidade que deseja para o time.<br>3. O usuário clica em salvar<br>4. Aciona UC01 - Acessar configurações de time, passo 3. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Visibilidade do time deve ser atualizada. |
-
-#### UC04 - Vincular time do slack
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite vincular time do trello com time do slack, facilitando a comunicação com o grupo. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>Usuário deve ser administrador do time. |
-| **Fluxo Principal** | **FP01 - Vincular time do slack**<br>1. Usuário clica em add to Slack. [FA01]<br>2. O usuário informa o nome do workspace do slack.<br>3. Sistema retorna página de termos<br>4. Usuário autoriza vinculação.<br>5. Aciona UC01 - Acessar configurações de time, passo 3. |
-| **Fluxos Alternativos** |  **FA01 - Acessar informações de vinculação** [UC05] |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Time deve ser vinculado ao slack. |
-
-#### UC05 - Acessar informações de vinculação
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Permite ao usuário entender quais as vantagens de se vincular o time do trello com o time do slack. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>Usuário deve ser membro do time. |
-| **Fluxo Principal** | **FP01 - Acessar informações de vinculação**<br>1. Usuário clica em saiba mais na sessão vinculação ao slack.<br>2. Sistema redireciona para página de informações de vinculação ao slack. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Usuário tem acesso a informações relevantes sobre vinculação com trello |
+| **Pós Condições** | Configurações são acessadas pelo usuário. |
 
 
-### Caso 8:  Alterar configurações de board
+### Caso 8: Acessar board
 
 ![Caso 8](imagens/casos de uso/caso8.png)
 
@@ -287,94 +141,10 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 |  **Descrição** | Tem como objetivo permitir o acesso boards dos quais participa. |
 | **Atores** | Usuário |
 | **Pré Condições** | O usuário deve estar logado no sistema.<br> |
-| **Fluxo Principal** | **FP01 - Acessar configurações de time**<br>1. Usuário clica em boards no menu lateral ou no header.<br>2. O sistema retorna lista de boards que o usuário participa.<br>3. Usuário seleciona board. [FE01]<br>4. sistema redireciona para página do board selecionado.<br>5. Aciona UC05 - Visualizar atividade. [FA01][FA02][FA03] |
-| **Fluxos Alternativos** | **FA01 - Acessar mais opções do menu** [UC02].<br>**FA02 - Alterar tela de fundo** [UC03].<br>**FA03 - Adicionar/remover power-up** [UC04]. |
+| **Fluxo Principal** | **FP01 - Acessar configurações de time**<br>1. Usuário clica em boards no menu lateral ou no header.<br>2. O sistema retorna lista de boards que o usuário participa.<br>3. Usuário seleciona board. [FE01]<br>4. sistema redireciona para página do board selecionado.<br>5. Usuário clica em mostrar menu caso menu não esteja aberto.<br>6. O sistema retorna relatório de atividades do boards. [FA01][FA02][FA03] |
+| **Fluxos Alternativos** | **FA01 - Acessar mais opções do menu**<br>1. Usuário clica em mostrar menu caso menu não esteja aberto.<br>2. Usuário clica em mais.<br>3. O sistema retorna mais opções para o menu[FA04][FA05][FA06].<br>**FA02 - Alterar tela de fundo**<br>1. Usuário clica em mostrar menu caso menu não esteja aberto.<br>2. Usuário clica em Alterar tela de fundo.<br>3. O sistema retorna opções de tela de fundo.<br>4. Usuário seleciona entre as cores e fotos disponíveis..<br>**FA03 - Adicionar/remover power-up**<br>1. Usuário clica em mostrar menu caso menu não esteja aberto.<br>2. Usuário clica em Power-ups.<br>3. O sistema retorna opções de power-ups que podem ser adicionados ao board.<br>4. Usuário seleciona entre os power-ups disponíveis.<br>**FA04 - Editar permissão de adicionar/remover membros**<br>1. Usuário clica em Configurações.<br>2. Usuário clica em Adicionar/remover permissões.<br>3. Usuário seleciona nível de permissão.<br>**FA05 - Editar permissão de comentário**<br>1. Usuário clica em Configurações.<br>2. Usuário clica em permissões para comentários.<br>3. Usuário seleciona nível de permissão.<br>**FA06 - Editar permissão de ingresso de membro**<br>1. Usuário clica em Configurações.<br>2. Usuário altera permissão. |
 | **Fluxos de Exceção** | Usuário não participa de nenhum board. |
 | **Pós Condições** | Usuário tem acesso aos dados do board. |
-
-#### UC02 - Acessar mais opções do menu
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Tem como objetivo permitir o acesso a configurações do board selecionado. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema. |
-| **Fluxo Principal** | **FP01 - Acessar mais opções do menu**<br>1. Usuário clica em mostrar menu caso menu não esteja aberto.<br>2. Usuário clica em mais.<br>3. O sistema retorna mais opções para o menu[FA01][FA02][FA03] |
-| **Fluxos Alternativos** | **FA01 - Editar permissão de adicionar/remover membros** [UC06].<br>**FA02 - Editar permissão de comentário** [UC07].<br>**FA03 - Editar permissão de ingresso de membro** [UC08]. |
-| **Fluxos de Exceção** | Usuário não participa de nenhum board. |
-| **Pós Condições** | Usuário tem acesso aos dados do board. |
-
-#### UC03 - Alterar tela de fundo
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Tem como objetivo permitir a estilização do board. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>O usuário deve ser membro do board. |
-| **Fluxo Principal** | **FP01 - Alterar tela de fundo**<br>1. Usuário clica em mostrar menu caso menu não esteja aberto.<br>2. Usuário clica em Alterar tela de fundo.<br>3. O sistema retorna opções de tela de fundo.<br>4. Usuário seleciona entre as cores e fotos disponíveis. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Tela de fundo do board é alterada. |
-
-#### UC04 - Adicionar/remover power-ups
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Tem como objetivo editar os power-ups de um board. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>O usuário deve ser membro do board. |
-| **Fluxo Principal** | **FP01 - Adicionar/remover power-ups**<br>1. Usuário clica em mostrar menu caso menu não esteja aberto.<br>2. Usuário clica em Power-ups.<br>3. O sistema retorna opções de power-ups que podem ser adicionados ao board.<br>4. Usuário seleciona entre os power-ups disponíveis. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Power-ups do board são atualizados. |
-
-#### UC05 - Visualizar atividade
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Tem como objetivo gerar um relatório geral de atividades referentes a board. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>O usuário deve ser membro do board. |
-| **Fluxo Principal** | **FP01 - Visualizar atividade**<br>1. Usuário clica em mostrar menu caso menu não esteja aberto.<br>2. O sistema retorna relatório de atividades do boards. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Relatório de atividades é gerado e fica visível para usuário. |
-
-#### UC06 - Editar permissão de adicionar/remover membros
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Tem como objetivo alterar permissão de modificação de quadro de membros. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>O usuário deve ser administrador do board. |
-| **Fluxo Principal** | **FP01 - Editar permissão de adicionar/remover membros**<br>1. Usuário clica em Configurações.<br>2. Usuário clica em Adicionar/remover permissões.<br>3. Usuário seleciona nível de permissão. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Permissões de membro são atualizadas. |
-
-#### UC07 - Editar permissão de comentário
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Tem como objetivo alterar permissão de comentários de membros. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>O usuário deve ser administrador do board. |
-| **Fluxo Principal** | **FP01 - Editar permissão de comentário**<br>1. Usuário clica em Configurações.<br>2. Usuário clica em permissões para comentários.<br>3. Usuário seleciona nível de permissão. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Permissões de comentário são atualizadas. |
-
-#### UC08 - Editar permissão de ingresso de membro
-
-|  |  |
-|  ------: | :------ |
-|  **Descrição** | Tem como objetivo alterar permissão de ingresso de membros. |
-| **Atores** | Usuário |
-| **Pré Condições** | O usuário deve estar logado no sistema.<br>O usuário deve ser administrador do board. |
-| **Fluxo Principal** | **FP01 - Visualizar atividade**<br>1. Usuário clica em Configurações.<br>2. Usuário altera permissão. |
-| **Fluxos Alternativos** | Não se aplica. |
-| **Fluxos de Exceção** | Não se aplica. |
-| **Pós Condições** | Permissões de ingresso de membros são atualizadas. |
 
 
 ### Caso 10: Board
