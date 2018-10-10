@@ -1,5 +1,7 @@
 ## Backlog do Produto Aplicativo
 
+![tabela backlog](imagens/backlog/aplicativo.jpg)
+
 ### US1 - Compatibilidade com atalhos de teclado
 
 - [ ] - A funcionalidade deve possibilitar navegar o site usando apenas atalhos do teclado.
