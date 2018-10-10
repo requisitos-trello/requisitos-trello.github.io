@@ -27,6 +27,22 @@
 
 - [ ] -  A funcionalidade deve conceder aos convidados a possibilidade de edição dos quadros.
 
+### US30 - Adição de times à quadros
+
+- [ ] -  A funcionalidade deve aparecer durante e após a criação de um quadro.
+
+- [ ] -  A funcionalidade deve permitir a escolha do time a serem adicionados ao quadro.
+
+- [ ] -  A funcionalidade deve permitir a remoção dos times atribuídos ao quadro.
+
+### US31 - Adicionar membro ao quadro
+
+- [ ] -  A funcionalidade deve aparecer após a criação de um quadro.
+
+- [ ] -  A funcionalidade deve permitir a escolha dos membros a serem adicionados ao quadro.
+
+- [ ] -  A funcionalidade deve permitir a remoção dos membros atribuídos ao quadro.
+
 ### US34 – Integrar um quadro com ferramentas externas
 
 - [ ] -  A funcionalidade deve aparecer após ser acessado o Menu dentro do quadro.
