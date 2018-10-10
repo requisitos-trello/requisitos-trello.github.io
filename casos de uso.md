@@ -403,8 +403,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 |  |  |
 |  ------: | :------ |
-|  **Descrição** | Ter a possibilidade de alterar quem pode comentar em cards de um board.
-|
+|  **Descrição** | Ter a possibilidade de alterar quem pode comentar em cards de um board.|
 | **Atores** | Usuário |
 | **Pré Condições** | O usuário deve estar logado na aplicação e possuir acesso a internet e possuir um board.|
 | **Fluxo Principal** | 1. O usuário loga na aplicação<br>2. O usuário clica em um board<br>3. O usuário clica no botão 'Mostrar menu'. <br>4. O usuário clica no botão 'Mais'. <br>5. O usuário clica no botão 'Configurações'. <br>6. O usuário seleciona as 'Permissões de comentário'. <br>7. O usuário escolhe as 'Permissões de comentário' desejadas.|
