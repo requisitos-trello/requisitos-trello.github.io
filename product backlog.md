@@ -5,6 +5,8 @@ category: Modelagem
 ---
 ## Backlog do produto
 
+![tabela backlog](imagens/backlog/tabela_backlog.jpg)
+
 [Aplicativo](tema%20aplicativo.html)
 
 [Card](tema%20card.html)
