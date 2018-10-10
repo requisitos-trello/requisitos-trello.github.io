@@ -5,7 +5,9 @@ category: Modelagem
 ---
 ## Backlog do produto
 
-[Aplicativo]()
+![tabela backlog](imagens/backlog/tabela_backlog.jpg)
+
+[Aplicativo](tema%20aplicativo.html)
 
 [Card](tema%20card.html)
 
@@ -15,4 +17,4 @@ category: Modelagem
 
 [Quadro](tema%20quadro.html)
 
-[Time]()
+[Time](tema%20time.html)
