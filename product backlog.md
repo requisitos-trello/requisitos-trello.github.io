@@ -8,7 +8,7 @@ category: Modelagem
 Em estudo de modelagem de requisitos em parâmetros ágeis, a equipe levantou e pontuou 43 histórias de usuário.
 Foram separados em tema para organiação da documentação aqui apresentada.
 
-A tabela com a descrição completa de cada história, sua pontuação e priorização encontram-se em uma [planilha](https://docs.google.com/spreadsheets/d/1EyKtOr6HwFs6j-4FMWIB9myeOj_tIB1VqIv-ibaR7Fk/edit?usp=sharing)
+A tabela com a descrição completa de cada história, sua pontuação e priorização encontram-se em uma [planilha](https://docs.google.com/spreadsheets/d/1C1_Ws-3eDd2tir7LQ1VEYrKwRFVxNcjAmFSVHHkdIMs/edit?usp=sharing)
 
 | Cod | Tema | História de Usuário |
 |  -----: | :------: | :----- |
