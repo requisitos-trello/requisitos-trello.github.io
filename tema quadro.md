@@ -44,6 +44,14 @@
 
 - [ ] -  A funcionalidade deve permitir a remoção dos membros atribuídos ao quadro.
 
+### US32 - Alterar plano de fundo
+
+- [ ] -  A funcionalidade deve aparecer durante e após a criação de um quadro.
+
+- [ ] -  A funcionalidade deve permitir a escolha do plano de fundo a ser exibido.
+
+- [ ] -  A funcionalidade deve permitir a alteração do plano de fundo escolhido.
+
 ### US34 – Integrar um quadro com ferramentas externas
 
 - [ ] -  A funcionalidade deve aparecer após ser acessado o Menu dentro do quadro.
