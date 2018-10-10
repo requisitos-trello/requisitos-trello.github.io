@@ -121,3 +121,11 @@
  - [ ] -  A funcionalidade deve mudar posição e cor do indicativo de data de entrega indicando estado de conclusão.
 
  - [ ] -  A funcionalidade deve atribuir status de concluído ao card.
+
+### US19 - Criar card através de e-mails
+
+ - [ ] -  A funcionalidade deve identificar qual é o usuário através do email recebido.
+
+ - [ ] -  A funcionalidade deve interpretar o corpo do email recebido e transforma-lo em um card.
+
+ - [ ] -  A funcionalidade deve exibir esse card no board do usuário.
