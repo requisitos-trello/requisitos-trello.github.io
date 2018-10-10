@@ -28,6 +28,14 @@
 
 - [ ] -  A funcionalidade deve conceder aos convidados a possibilidade de edição dos quadros.
 
+### US29 - Gestão de visibilidade do quadro
+
+- [ ] - A funcionalidade deve aparecer durante e após a criação de um quadro.
+
+- [ ] - A funcionalidade deve permitir a escolha das permissões de visibilidade do quadro.
+
+- [ ] - A funcionalidade deve permitir a alteração das permissões de visibilidade do quadro.
+
 ### US30 - Adição de times à quadros
 
 - [ ] -  A funcionalidade deve aparecer durante e após a criação de um quadro.
