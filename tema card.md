@@ -122,6 +122,48 @@
 
  - [ ] -  A funcionalidade deve atribuir status de concluído ao card.
 
+### US13 - Compatibilidade com markdown nas descrições dos cards
+
+ - [ ] - A funcionalidade deve ter uma área que abra e mostre os tipos de formatação.
+
+ - [ ] - A funcionalidade deve mostrar os tipos de formatação diferente separado cada uma delas e explicando-as.
+
+ ### US14 - Adição de etiquetas aos cards
+
+ - [ ] - A funcionalidade deve ter um botão que dê ao usuário a possibilidade de etiquetar um card.
+
+ - [ ] - A funcionalidade deve mostrar todas as etiquetas existentes no projeto.
+
+ - [ ] - A funcionalidade deve escolher a etiqueta e ela ser vinculada ao card logo em seguida.
+
+ ### US15 - Pesquisar cartões
+
+ - [ ] - A funcionalidade deve ter uma barra de pesquisa na página inicial do board.
+
+ - [ ] - A funcionalidade deve encontrar todas os cards existêntes no projeto.
+
+### US16 - Anexar cartões a outros cartões 
+
+ - [ ] - A funcionalidade deve ter um botão para que possa anexar algo ao card.
+
+ - [ ] - A funcionalidade deve encontrar todas os cards existêntes no projeto que possam ser anexados ao card.
+
+ - [ ] - A funcionalidade deve mostrar o card anexado no card de origem.
+
+### US17 - Anexar quadros a cartões 
+
+ - [ ] - A funcionalidade deve ter um botão para que possa anexar algo ao card.
+
+ - [ ] - A funcionalidade deve ter uma área para colocar o URL de um quadro que deseja anexar.
+
+ - [ ] - A funcionalidade deve mostrar o quadro anexado no card de origem.
+
+### US18 - Seguir um cartão
+
+ - [ ] -  A funcionalidade deve ter um botão para que possa seguir o card.
+
+ - [ ] - A funcionalidade deve mostrar no botão que o usuário está seguindo o card.
+
 ### US19 - Criar card através de e-mails
 
  - [ ] -  A funcionalidade deve identificar qual é o usuário através do email recebido.
