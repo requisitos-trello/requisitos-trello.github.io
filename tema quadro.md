@@ -60,6 +60,16 @@
 
 - [ ] -  A funcionalidade deve permitir a alteração do plano de fundo escolhido.
 
+### US33 - Oferecer biblioteca de imagens para plano de fundo
+
+- [ ] -  A funcionalidade deve aparecer durante e após a criação de um quadro.
+
+- [ ] -  A funcionalidade deve permitir a escolha do plano de fundo através de uma biblioteca com alta variedade de imagens.
+
+- [ ] -  A funcionalidade deve existir sem a necessidade de se fazer download das imagens.
+
+- [ ] -  A funcionalidade deve permitir a alteração da imagem escolhida para o plano de fundo.
+
 ### US34 – Integrar um quadro com ferramentas externas
 
 - [ ] -  A funcionalidade deve aparecer após ser acessado o Menu dentro do quadro.
