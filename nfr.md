@@ -16,6 +16,7 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 - Privacidade
 - Segurança
 - Suportabilidade
+- Desempenho
 
 ## API
 
@@ -24,6 +25,10 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 ## Acessibilidade
 
 ![nfr-acessibilidade](imagens/NFR/nfr_acessibilidade.png)
+
+## Desempenho
+
+![nfr-desempenho](imagens/NFR/desempenho.jpg)
 
 ## Privacidade
 
