@@ -26,6 +26,14 @@ category: Modelagem
 
 ![sd time](imagens/iStar/usuario_SR_busca_geral.png)
 
+## SD - Card
+
+![sd time](imagens/iStar/iStar Card SD.png)
+
+## SR - Card
+
+![sd time](imagens/iStar/iStar Card SR.png)
+
 ## SD - Filtrar Card
 
 ![sd time](imagens/iStar/iStarBusca.png)
@@ -35,3 +43,4 @@ category: Modelagem
 ![sd time](imagens/iStar/Usuario_SR_busca.png)
 
 ![sd time](imagens/iStar/Trello_SR_busca.png)
+
