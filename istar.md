@@ -16,6 +16,12 @@ category: Modelagem
 
 ![sd time](imagens/iStar/sr-usuario-time-istar.png)
 
+## SD - Board
+![sd board](imagens/iStar/sd-board.png)
+
+## SR - Board
+![sr board](imagens/iStar/sr-board.png)
+
 ## SD - Busca
 
 ![sd time](imagens/iStar/SD_busca_geral.png)
