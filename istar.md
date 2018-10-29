@@ -35,3 +35,9 @@ category: Modelagem
 ![sd time](imagens/iStar/Usuario_SR_busca.png)
 
 ![sd time](imagens/iStar/Trello_SR_busca.png)
+
+## SD - Board
+![sd board](imagens/iStar/sd-board.png)
+
+## SR - Board
+![sr board](imagens/iStar/sr-board.png)
