@@ -32,7 +32,7 @@ category: Modelagem
 
 ## SR - Card
 
-![sd time](imagens/iStar/iStar_Card_qSR.png)
+![sd time](imagens/iStar/iStar_Card_SR.png)
 
 ## SD - Filtrar Card
 
