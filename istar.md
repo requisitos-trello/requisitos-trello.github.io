@@ -28,11 +28,11 @@ category: Modelagem
 
 ## SD - Card
 
-![sd time](imagens/iStar/iStar Card SD.png)
+![sd time](imagens/iStar/iStar_Card_SD.png)
 
 ## SR - Card
 
-![sd time](imagens/iStar/iStar Card SR.png)
+![sd time](imagens/iStar/iStar_Card_qSR.png)
 
 ## SD - Filtrar Card
 
@@ -44,11 +44,3 @@ category: Modelagem
 
 ![sd time](imagens/iStar/Trello_SR_busca.png)
 
-<<<<<<< HEAD
-=======
-## SD - Board
-![sd board](imagens/iStar/sd-board.png)
-
-## SR - Board
-![sr board](imagens/iStar/sr-board.png)
->>>>>>> d7214509f1f7bf90c0fef92e9c3236babb406c75
