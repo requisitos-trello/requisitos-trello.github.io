@@ -24,7 +24,7 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 
 ## Acessibilidade
 
-![nfr-acessibilidade](imagens/NFR/nfr_acessibilidade.png)
+![nfr-acessibilidade](imagens/NFR/nfr_acessibilidade.jpg)
 
 ## Desempenho
 
@@ -40,7 +40,7 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 
 ## Usabilidade 
 
-![nfr-usabilidade](imagens/NFR/nfr_usabilidade.png)
+![nfr-usabilidade](imagens/NFR/nfr_usabilidade.jpg)
 
 ## Usabilidade - Mobile
 
