@@ -32,7 +32,7 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 
 ## Privacidade
 
-![nfr-privacidade](imagens/NFR/nfr_privacidade.png)
+![nfr-privacidade](imagens/NFR/nfr_privacidade_diagrama.png)
 
 ## Interface
 
