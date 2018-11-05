@@ -14,7 +14,7 @@ Segue lista dos artefatos avaliados e quantidade.
 
 ## Artefatos de Elicitação
 
-- [Rich Picture](inspec_richpictures.html)
+- [Rich Picture](inspec_richpictures.html) (6)
 - [Leitura de Documentação](inspec_leitura.html) (único)
 - [Priorização](inspec_priorizacao.html) (MoSCoW e FTF)
 - [Protótipo](inspec_prototipo.html)
@@ -24,6 +24,6 @@ Segue lista dos artefatos avaliados e quantidade.
 
 - Casos de uso (8)
 - Cenários (8)
-- [iStar](inspec_istar.html)
-- Léxicos (5)
+- [iStar](inspec_istar.html) (2)
+- [Léxicos](inspec_lexic.html) (5)
 - [NFR](inspec_nfr.html)  
