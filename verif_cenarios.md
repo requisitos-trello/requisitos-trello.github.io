@@ -37,7 +37,24 @@
 
 ![Alterar Perissões de Comentário](imagens/verificacao/checklist-permissões-comentário.png)
 
------
+![Login](imagens/verificacao/cenarios/casos_de_uso_login.png)
+
+![Login Google](imagens/verificacao/cenarios/casos_de_uso_login_google.png)
+
+![Cadastro](imagens/verificacao/cenarios/casos_de_uso_cadastro.png)
+
+![Alterar Senha](imagens/verificacao/cenarios/casos_de_uso_alterar_senha.png)
+
+![Alterar Configurações](imagens/verificacao/cenarios/casos_de_uso_configuracoes.png)
+
+![Notificações](imagens/verificacao/cenarios/casos_de_uso_notificacao.png)
+
+![Criar Time](imagens/verificacao/cenarios/casos_de_uso_criar_time.png)
+
+![Convidar Time](imagens/verificacao/cenarios/casos_de_uso_convidar_time.png)
+
+![Imprimir Board](imagens/verificacao/cenarios/casos_de_uso_imprimir_board.png)
+
 ![Adicionar descrição de um time](imagens/verificacao/checklist-cenario-adicionardesctime.png)
 
 ![Editar descrição de um time](imagens/verificacao/checklist-cenario-editardesctime.png)
