@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introspecções
+title: Inspeção
 category: Avaliacao
 ---
 
