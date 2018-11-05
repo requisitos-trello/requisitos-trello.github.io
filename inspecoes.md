@@ -15,10 +15,10 @@ Segue lista dos artefatos avaliados e quantidade.
 ## Artefatos de Elicitação
 
 - Rich Pictures (9)
-- Leitura de Documentação (único)
+- [Leitura de Documentação](inspec_leitura.html) (único)
 - [Priorização](inspec_priorizacao.html) (MoSCoW e FTF)
 - Protótipo (único)
-- Backlog do Produto (único)
+- [Backlog do Produto](inspec_backlog.html) (único)
 
 ## Artefatos de Modelagem
 
@@ -26,4 +26,4 @@ Segue lista dos artefatos avaliados e quantidade.
 - Cenários (8)
 - iStar (4)
 - Léxicos (5)
-- NFR (9)
+- [NFR](inspec_nfr.html)  
