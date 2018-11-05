@@ -37,29 +37,25 @@
 ![Adicionar Comentários ao Card](imagens/verificacao/checklist-adicionar-comentário-card.png)
 ## Permissõess Comentário
 ![Alterar Perissões de Comentário](imagens/verificacao/checklist-permissões-comentário.png)
-<<<<<<< HEAD
-## Adicionar Descrição Time
-=======
-
+## Login
 ![Login](imagens/verificacao/cenarios/casos_de_uso_login.png)
-
+## Login Google
 ![Login Google](imagens/verificacao/cenarios/casos_de_uso_login_google.png)
-
+## Cadastro
 ![Cadastro](imagens/verificacao/cenarios/casos_de_uso_cadastro.png)
-
+## Alterar Senha
 ![Alterar Senha](imagens/verificacao/cenarios/casos_de_uso_alterar_senha.png)
-
+## Alterar Confugurações
 ![Alterar Configurações](imagens/verificacao/cenarios/casos_de_uso_configuracoes.png)
-
+## Notificações
 ![Notificações](imagens/verificacao/cenarios/casos_de_uso_notificacao.png)
-
+## Criar Times
 ![Criar Time](imagens/verificacao/cenarios/casos_de_uso_criar_time.png)
-
+## Convidar Time
 ![Convidar Time](imagens/verificacao/cenarios/casos_de_uso_convidar_time.png)
-
+## Imprimir Board
 ![Imprimir Board](imagens/verificacao/cenarios/casos_de_uso_imprimir_board.png)
-
->>>>>>> 2db4808d9d7a319c4f801670632aaaad008c7121
+## Adicionar Descrição Time
 ![Adicionar descrição de um time](imagens/verificacao/checklist-cenario-adicionardesctime.png)
 ## Editar Descrição Time
 ![Editar descrição de um time](imagens/verificacao/checklist-cenario-editardesctime.png)
@@ -77,11 +73,9 @@
 ![Adicionar anexo em um Card](imagens/verificacao/checklist-cenario-anexocard.png)
 ## Mover Card
 ![Mover um Card para outra Lista](imagens/verificacao/checklist-cenario-movecard.png)
-<<<<<<< HEAD
 ## Responder Comentário
 ![Responder um comentário em um Card](imagens/verificacao/checklist-cenario-respcoment.png)
 
----
 ## Alterar Nome Lista
 ![Alterar nome de uma lista](imagens/verificacao/alterar_nome_lista_checklist.png)
 ## Arquivar Card 
@@ -94,7 +88,3 @@
 ![Criar uma lista](imagens/verificacao/criar_lista_checklist.png)
 ## Modificar Card
 ![Modificar um Card](imagens/verificacao/modificar_card_checklist.png)
-=======
-
-![Responder um comentário em um Card](imagens/verificacao/checklist-cenario-respcoment.png)
->>>>>>> 2db4808d9d7a319c4f801670632aaaad008c7121
