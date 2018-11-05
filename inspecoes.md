@@ -14,7 +14,7 @@ Segue lista dos artefatos avaliados e quantidade.
 
 ## Artefatos de Elicitação
 
-- Rich Pictures (9)
+- [Rich Picture](inspec_richpictures.html)
 - [Leitura de Documentação](inspec_leitura.html) (único)
 - [Priorização](inspec_priorizacao.html) (MoSCoW e FTF)
 - [Protótipo](inspec_prototipo.html)
