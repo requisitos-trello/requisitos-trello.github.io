@@ -16,7 +16,7 @@ Segue lista dos artefatos avaliados e quantidade.
 
 - Rich Pictures (9)
 - Leitura de Documentação (único)
-- Priorização (MoSCoW e FTF)
+- [Priorização](inspec_priorizacao.html) (MoSCoW e FTF)
 - Protótipo (único)
 - Backlog do Produto (único)
 
