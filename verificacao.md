@@ -4,6 +4,6 @@ title: Verificação
 category: Verificacao
 ---
 
-# Verificação
-
-![Adicionar Stickers](imagens/verificacao/checklist-adicionar-sticker.png)
+## Verificação
+- [Cenários](verif_cenarios.html)
+- [NFR Framework](verif_nfr.html)
