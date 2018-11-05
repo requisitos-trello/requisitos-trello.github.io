@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introspecções
+title: Inspeção
 category: Avaliacao
 ---
 
@@ -17,7 +17,7 @@ Segue lista dos artefatos avaliados e quantidade.
 - Rich Pictures (9)
 - [Leitura de Documentação](inspec_leitura.html) (único)
 - [Priorização](inspec_priorizacao.html) (MoSCoW e FTF)
-- Protótipo (único)
+- [Protótipo](inspec_prototipo.html)
 - [Backlog do Produto](inspec_backlog.html) (único)
 
 ## Artefatos de Modelagem
