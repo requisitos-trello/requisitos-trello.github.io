@@ -997,7 +997,7 @@ possuir conexão a internet.
 **Episódios:**
 - [Usuário](lexicos.html#usuário) entra no [Quadro](lexicos.html#quadro). 
 - [Usuário](lexicos.html#usuário) escolhe outro [Usuário](lexicos.html#usuário) que deseja [Vincular](lexicos.html#vincular).
-- [Usuário](lexicos.html#usuário)) adiciona e-mail.
+- [Usuário](lexicos.html#usuário) adiciona e-mail.
 - [Usuário](lexicos.html#usuário) aceita ser [Vinculado](lexicos.html#vincular) pelo e-mail.
 - Caso o [Usuário](lexicos.html#usuário) não receba o e-mail, verificar caixa de spam.
 -[Usuário](lexicos.html#usuário) copia link para [Vincular](lexicos.html#vincular).
@@ -1022,7 +1022,7 @@ possuir conexão a internet.
 **Episódios:**
 - [Usuário](lexicos.html#usuário) entra no [Quadro](lexicos.html#quadro). 
 - [Usuário](lexicos.html#usuário) escolhe outro [Usuário](lexicos.html#usuário) que deseja alterar a permissão.
-- [Usuário](lexicos.html#usuário)) altera permissão.
+- [Usuário](lexicos.html#usuário) altera permissão.
 - Caso o [Usuário](lexicos.html#usuário) não tenha permissão, ele não conseguirá alterar outras.
 
 ------------
@@ -1044,7 +1044,7 @@ possuir conexão a internet.
 **Episódios:**
 - [Usuário](lexicos.html#usuário) entra no [Quadro](lexicos.html#quadro). 
 - [Usuário](lexicos.html#usuário) aperta em "Adicionar outra [Lista](lexicos.html#lista)".
-- [Usuário](lexicos.html#usuário)) coloca um nome na [Lista](lexicos.html#lista).
+- [Usuário](lexicos.html#usuário) coloca um nome na [Lista](lexicos.html#lista).
 
 ------------
 ## Cenário de Alterar nome da [Lista](lexicos.html#lista)
@@ -1065,7 +1065,7 @@ possuir conexão a internet.
 **Episódios:**
 - [Usuário](lexicos.html#usuário) entra no [Quadro](lexicos.html#quadro). 
 - [Usuário](lexicos.html#usuário) clica no nome da [Lista](lexicos.html#lista).
-- [Usuário](lexicos.html#usuário)) altera o nome da [Lista](lexicos.html#lista).
+- [Usuário](lexicos.html#usuário) altera o nome da [Lista](lexicos.html#lista).
 
 ------------
 ## Cenário de Arquivar [Lista](lexicos.html#lista)
@@ -1086,7 +1086,7 @@ possuir conexão a internet.
 **Episódios:**
 - [Usuário](lexicos.html#usuário) entra no [Quadro](lexicos.html#quadro). 
 - [Usuário](lexicos.html#usuário) clica nas opções da [Lista](lexicos.html#lista).
-- [Usuário](lexicos.html#usuário)) clica na opção"Arquivar esta [Lista](lexicos.html#lista)".
+- [Usuário](lexicos.html#usuário) clica na opção"Arquivar esta [Lista](lexicos.html#lista)".
 
 ------------
 ## Cenário de Organizar o quadro em coleções
@@ -1107,7 +1107,7 @@ possuir conexão a internet.
 **Episódios:**
 - [Usuário](lexicos.html#usuário) entra no menu do Trello. 
 - [Usuário](lexicos.html#usuário) clica nas opções de criar [Coleção](lexicos.html#colecao).
-- [Usuário](lexicos.html#usuário)) adiciona os [Quadros](lexicos.html#lista) desejados.
+- [Usuário](lexicos.html#usuário) adiciona os [Quadros](lexicos.html#lista) desejados.
 -Caso não tenha [Quadros](lexicos.html#quadros) o [Usuário](lexicos.html#usuário) terá que criar mais.
 
 ----------------
