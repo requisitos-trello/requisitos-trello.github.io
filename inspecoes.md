@@ -23,7 +23,7 @@ Segue lista dos artefatos avaliados e quantidade.
 ## Artefatos de Modelagem
 
 - [Casos de uso](inspec_usercase.html) (8)
-- Cenários (8)
+- [Cenários](inspec_scenario.html) (8)
 - [iStar](inspec_istar.html) (2)
 - [Léxicos](inspec_lexic.html) (5)
 - [NFR](inspec_nfr.html)  
