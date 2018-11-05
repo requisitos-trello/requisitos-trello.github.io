@@ -6,4 +6,4 @@ category: Verificacao
 
 # Verificação
 
-![Adicionar Stickers](imagens/verificacao/checklist-adicionar-sticker.png)
+- [RichPictures](checklist_richpicture.html)
