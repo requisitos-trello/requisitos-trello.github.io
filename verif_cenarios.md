@@ -36,3 +36,24 @@
 ![Adicionar Comentários ao Card](imagens/verificacao/checklist-adicionar-comentário-card.png)
 
 ![Alterar Perissões de Comentário](imagens/verificacao/checklist-permissões-comentário.png)
+
+-----
+![Adicionar descrição de um time](imagens/verificacao/checklist-cenario-adicionardesctime.png)
+
+![Editar descrição de um time](imagens/verificacao/checklist-cenario-editardesctime.png)
+
+![Editar visibilidade do time](imagens/verificacao/checklist-cenario-editvisibilidadetime.png)
+
+![Vincular time no Slack](imagens/verificacao/checklist-cenario-vincularslack.png)
+
+![Permitir membro comentar em um Board](imagens/verificacao/checklist-cenario-permitcoment.png)
+
+![Negar o ingresso de um membro no Board](imagens/verificacao/checklist-cenario-negmembro.png)
+
+![Personalizar Label](imagens/verificacao/checklist-cenario-customlabel.png)
+
+![Adicionar anexo em um Card](imagens/verificacao/checklist-cenario-anexocard.png)
+
+![Mover um Card para outra Lista](imagens/verificacao/checklist-cenario-movecard.png)
+
+![Responder um comentário em um Card](imagens/verificacao/checklist-cenario-respcoment.png)
