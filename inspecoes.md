@@ -24,6 +24,6 @@ Segue lista dos artefatos avaliados e quantidade.
 
 - Casos de uso (8)
 - Cenários (8)
-- iStar (4)
+- [iStar](inspec_istar.html)
 - Léxicos (5)
 - [NFR](inspec_nfr.html)  
