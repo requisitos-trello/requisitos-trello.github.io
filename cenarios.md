@@ -736,32 +736,6 @@ possuir conexão a internet.
 - A aplicação mostra uma janela com os dados do [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
 
 ------------
-## Cenário de Modificar Card
-
-**Título:** Modificar [Card](lexicos.html#card)  
-
-**Objetivo:** Modificar um [Card](lexicos.html#card)  existente para atualizar os seus dados dentro de uma [Lista](lexicos.html#lista).
-
-**Contexto:**
-- **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Lista](lexicos.html#lista) onde está o [Card](lexicos.html#card) .
-- **Pós-condição:** A aplicação deverá atualizar o [Card](lexicos.html#card)  com os novos dados.
-
-**Atores:** [Usuário](lexicos.html#usuário)
-
-**Recursos:** Acesso à aplicação web por meio de browser compatível instalado em dispositivo desktop.
-
-**Episódios:**
-- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
-- Se não há [Board](lexicos.html#board), [Usuário](lexicos.html#usuário) realiza [CRIAR BOARD](#criar-board);
-- [Usuário](lexicos.html#usuário) realiza [VER BOARD](#ver-um-board);
-- Se não há [Lista](lexicos.html#lista), [Usuário](lexicos.html#usuário) realiza [CRIAR LISTA](#cenário-de-criar-lista);
-- [Usuário](lexicos.html#usuário) realiza [VER LISTA](#cenário-de-ver-lista);
-- Se não há [Card](lexicos.html#card) , [Usuário](lexicos.html#usuário), realiza [CRIAR CARD](#cenário-de-criar-card);
-- [Usuário](lexicos.html#usuário) realiza [VER CARD](#cenário-de-ver-card);
-- [Usuário](lexicos.html#usuário) realiza [MODIFICAR CARD](#cenário-de-modificar-card);
-- A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
-
-------------
 ## Cenário de Seguir Card
 
 **Título:** Seguir [Card](lexicos.html#card)  
