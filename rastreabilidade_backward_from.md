@@ -44,3 +44,15 @@
 |  RQ42 | Time | Detalhar time | US42 | Rich Picture, Leitura da Documentação |
 |  RQ43 | Time | Gerenciar membros de um time | US43 | Rich Picture, Introspecção, Leitura da Documentação |
 
+|  Anotações: |
+|  ------ |
+|  Quadro = Board, qual a certa ? |
+|  Vincular com outros softwares |
+|  Crud de cheklist não está presente |
+|  Compartilhamento de Boards não está presente |
+|  Etiquetar o card não está presente |
+|  CURD de Board |
+|  Padronizar linguagem dos requisitos |
+|  Arquivar card não está presente |
+|  Upload de arquivo não está presente |
+|  Mover, copiar, arquivar, imprimir Card não estão presentes |
