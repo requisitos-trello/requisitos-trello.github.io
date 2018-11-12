@@ -1,7 +1,7 @@
 |  **ID** | **Tema** | **Nome** | **Documento Fonte** | Técnica de elicitação |
 |  :------: | :------: | :------: | :------: | :------: |
 |  RQ01 | Aplicativo | Compatibilidade com atalhos de teclado | US1 | [Leitura da Documentação](leituradocumentacao.html) |
-|  RQ02 | Card | CRUD de cartões | US2 | [Rich Picture](rich-pictures.html), [Brainstorm](Brainstorming.html), [Introspecção](instrospeccao.html), [Protótipo](prototipo.html), [Leitura da Documentação](leituradocumentacao.html) |
+|  RQ02 | Card | CRUD de cartões | US2 | [Rich Picture](rich pictures.html), [Brainstorm](Brainstorming.html), [Introspecção](instrospeccao.html), [Protótipo](prototipo.html), [Leitura da Documentação](leituradocumentacao.html) |
 |  RQ03 | Card | Suporte à deadlines nos cartões | US3 | [Rich Picture](rich-pictures.html), [Leitura da Documentação](leituradocumentacao.html), [Introspecção](instrospeccao.html) |
 |  RQ04 | Card | Criação de descrição nos cartões | US4 | [Leitura da Documentação](leituradocumentacao.html), [Introspecção](instrospeccao.html) |
 |  RQ05 | Card | Criação de checklists nos cartões | US5 | [Protótipo](prototipo.html), [Leitura da Documentação](leituradocumentacao.html), [Introspecção](instrospeccao.html) |

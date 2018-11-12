@@ -1,4 +1,4 @@
-| ID   | Tema       | Nome                                                        | Documento Fonte | Modelagem                                                                                                |
+| **ID**   | **Tema**       | **Nome**                                                        | **Documento Fonte** | **Modelagem**                                                                                                |
 |------|------------|-------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------|
 | RQ01 | Aplicativo | Compatibilidade com atalhos de teclado                      | US1             | NFR(Acessibilidade)                                                                                      |
 | RQ02 | Card       | CRUD de cartões                                             | US2             | Caso de uso(UC13/UC22), Cenário(Criar Card/Modificar Card), Léxico([Card](lexicos.html#card))                                 |
