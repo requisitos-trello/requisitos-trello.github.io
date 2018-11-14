@@ -455,23 +455,23 @@ Como a detecção de idioma depende do usuário do sistema, não foi possível c
 
 ## RQ 52 - Pesquisar Qualquer Coisa
 
-[ ] - Criar campo para busca
-[ ] - Pesquisar termo digitado em todas as boards que o usuário tem acesso
-[ ] - Mostrar resultado na barra de pesquisa
+- [ ] Criar campo para busca
+- [ ] Pesquisar termo digitado em todas as boards que o usuário tem acesso
+- [ ] Mostrar resultado na barra de pesquisa
 
-![pesquisa](imagens/foward/pequisa.gif)
+![pesquisa](imagens/foward/pesquisa.gif)
 
 ## RQ 53 - Aba de Notificações
 
-[ ] - Criar ícone para notificações
-[ ] - Alterar aparência do ícone caso hajam uma ou mais notificações
-[ ] - Redirecionar o usuário à origem da notificação
+- [ ]Criar ícone para notificações
+- [ ] Alterar aparência do ícone caso hajam uma ou mais notificações
+- [ ] Redirecionar o usuário à origem da notificação
 
 ![notificacao](imagens/foward/notificacao.gif)
 
 ## RQ 54 - Documentação de Ajuda
 
-[ ] - Criar link para ajuda
-[ ] - Oferecer tópicos pertinentes a dificuldades que o usuário pode encontrar
+- [ ] Criar link para ajuda
+- [ ] Oferecer tópicos pertinentes a dificuldades que o usuário pode encontrar
 
 ![ajuda](imagens/foward/ajuda.gif)
