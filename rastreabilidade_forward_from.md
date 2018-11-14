@@ -2,6 +2,59 @@
 
 Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido durante a execução da aplicação, eles serão aqui relacionados com as tasks de implementação de cada requisito e com as funcionalidades operando no sistema.
 
+## RQ 08 - Criação de cards em massa
+
+ - [ ] - Criar opção de criação de vários cards quando inserido uma lista de temas na criação de cards
+ - [ ] - Criar cards correspondentes aos temas inseridos
+
+ ![Card em massa](imagens/foward/card-em-massa.gif)
+
+## RQ 09 - Mencionar usuários em comentários
+
+ - [ ] - Criar opção de mencionar membros na caixa de comentário
+ - [ ] - Mostrar lista de membros do Board quando opção de mencionar for selecionada
+ - [ ] - Gerar, na caixa de comentário, referencia à membro(s) selecionado(s)
+
+![mencionar](imagens/foward/mencionar-comentario.gif)
+
+## RQ 10 - Delegar cards a usuários
+
+ - [ ] - Criar opção de 'membros' no menu lateral da página card
+ - [ ] - Mostrar lista de membros do Board quando opção 'membros' for selecionada
+ - [ ] - Associar membro à card
+ - [ ] - Mostrar lista de membros aos quais o card foi delegado no topo da página do card
+
+![delegar](imagens/foward/delegar-card.gif)
+
+## RQ 11 - Notificar prazos de entrega próximos a usuários assinalados
+
+ - [ ] - Criar notificação na aba de notificações da aplicação com informações do card que possui prazo de entrega próximo
+ - [ ] - Enviar email com nome do card, link e data de entrega
+
+![modo_daltonico](imagens/foward/entrega-notificacao.png)
+
+## RQ 12 - Marcar data de entrega como concluída
+
+ - [ ] - Criar checklist junto à indicação da data de entrega presente no card
+ - [ ] - Mudar cor da área onde se encontra a data de entrega para indicar a mudança de status da mesma
+
+![data entrega](imagens/foward/marcar-entregue.gif)
+
+## RQ 13 - Compatibilidade com markdown nas descrições dos cards
+
+[ ] - Adicionar compilador de markdown à caixa de texto de descrição dos cards
+
+![descricao markdown](imagens/foward/descricao-markdown.gif)
+
+## RQ 14 - Adição de etiquetas aos cards
+
+[ ] - Criar opção 'etiquetas' no menu lateral da página card
+[ ] - Mostrar lista de membros do Board quando opção 'etiquetas' for selecionada
+[ ] - Associar etiqueta(s) à card
+[ ] - Mostrar lista de etiquetas na página do card
+
+![etiqueta](imagens/foward/etiqueta-card.gif)
+
 ## RQ 44 - Descrição das Imagens no HTML
 
 O Trello não contém imagens siginificativas. As imagens que podem ser 
