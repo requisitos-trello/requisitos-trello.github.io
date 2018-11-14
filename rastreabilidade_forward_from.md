@@ -2,6 +2,69 @@
 
 Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido durante a execução da aplicação, eles serão aqui relacionados com as tasks de implementação de cada requisito e com as funcionalidades operando no sistema.
 
+## RQ 29 - Gestão de visibilidade do Board
+
+- [ ] - Criar opção onde o administrador de um board pode gerenciar quem pode ver determinado Board
+- [ ] - Criar lógica onde o sistema pode distinguir diferentes tipos de usuários dentro de um Board
+
+![visibilidade_board](imagens/foward/RQ29.png)
+
+## RQ 30 - Adição de times aos Boards
+
+- [ ] - Adicionar opção de "Alterar time" nas configurações de um Board
+- [ ] - Dar opções de times a adicionar, mostrando apenas os times em que o usuário está participando
+- [ ] - Adicionar todos os membros do time selecionado naquele Board
+
+![time_board](imagens/foward/RQ30_1.png)
+
+## RQ 31 - Adicionar membro a Board
+
+- [ ] - Adicionar ícone que demonstre a ação de adicionar um membro ao Board
+- [ ] - Mostrar um Input onde pode ser digitado o nome ou o email do usuário a ser adicionado
+- [ ] - Criar a opção da criação de um link onde usuários podem entrar no Board a partir dele
+- [ ] - Criar Input onde será a descrição do convite que o convidade receberá
+
+![membro_board](imagens/foward/RQ31.png)
+
+## RQ 32 - Alterar plano de fundo
+
+- [ ] - Criar opção de alterar tela de fundo no menu do Board
+- [ ] - Criar opção de cores para o plano de fundo
+- [ ] - Criar opção de fotos (planos de fundos padrões)
+- [ ] - Criar opção de planos de fundos personalizados para membros do Business Class
+
+![wallpaper_board](imagens/foward/RQ32_1.png)
+![wallpaper_board](imagens/foward/RQ32_2.png)
+
+## RQ 33 - Oferecer biblioteca de imagens para plano de fundo
+
+- [ ] - Selecionar imagens para servirem como plano de fundo padrões dos Boards
+- [ ] - Adicionar as imagens dentro da opção de fotos de plano de fund
+
+![fotos_board](imagens/foward/RQ33.png)
+
+## RQ 34 - Interações com ferramentas externas
+
+- [ ] - Criar opções de Power-Ups no menu do Board
+- [ ] - Mostrar todos os Power-Ups disponíveis
+- [ ] - Criar um input para pesquisar dentro dos Power-Ups
+- [ ] - Criar categorias de Power-Ups
+
+![powerups_board](imagens/foward/RQ34_1.png)
+![powerups_board](imagens/foward/RQ34_2.png)
+
+## RQ 35 - Copiar Board
+
+- [ ] - Criar opção de Copiar Board dentro do menu do Board
+- [ ] - Dar a opção de escolher um nome para o novo Board
+- [ ] - Dar a opção de escolher um time para ser adicionado esse novo Board
+- [ ] - Criar a opção de alterar a visibilidade do Board(privado, público, etc)
+- [ ] - Checklist de manter os cards do Board copiado
+
+![copiar_board](imagens/foward/RQ35_1.png)
+![copiar_board](imagens/foward/RQ35_2.png)
+![copiar_board](imagens/foward/RQ35_3.png)
+
 ## RQ 44 - Descrição das Imagens no HTML
 
 O Trello não contém imagens siginificativas. As imagens que podem ser 
