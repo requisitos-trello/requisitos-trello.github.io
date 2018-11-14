@@ -1,4 +1,4 @@
-# Foward From
+# Forward From
 
 Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido durante a execução da aplicação, eles serão aqui relacionados com as tasks de implementação de cada requisito e com as funcionalidades operando no sistema.
 
@@ -238,3 +238,26 @@ Como a detecção de idioma depende do usuário do sistema, não foi possível c
 - [ ] O botão não deve ter cor, apenas clarear o fundo
 
 ![botao_home](imagens/foward/botao_home.gif)
+
+## RQ 52 - Pesquisar Qualquer Coisa
+
+[ ] - Criar campo para busca
+[ ] - Pesquisar termo digitado em todas as boards que o usuário tem acesso
+[ ] - Mostrar resultado na barra de pesquisa
+
+![pesquisa](imagens/foward/pequisa.gif)
+
+## RQ 53 - Aba de Notificações
+
+[ ] - Criar ícone para notificações
+[ ] - Alterar aparência do ícone caso hajam uma ou mais notificações
+[ ] - Redirecionar o usuário à origem da notificação
+
+![notificacao](imagens/foward/notificacao.gif)
+
+## RQ 54 - Documentação de Ajuda
+
+[ ] - Criar link para ajuda
+[ ] - Oferecer tópicos pertinentes a dificuldades que o usuário pode encontrar
+
+![ajuda](imagens/foward/ajuda.gif)
