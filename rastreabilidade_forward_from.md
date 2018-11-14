@@ -66,7 +66,7 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 - [ ] - Criar opção onde o administrador de um board pode gerenciar quem pode ver determinado Board
 - [ ] - Criar lógica onde o sistema pode distinguir diferentes tipos de usuários dentro de um Board
 
-![visibilidade_board](imagens/foward/RQ29.png)
+![visibilidade_board](imagens/foward/RQ29.PNG)
 
 ## RQ 30 - Adição de times aos Boards
 
@@ -74,7 +74,7 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 - [ ] - Dar opções de times a adicionar, mostrando apenas os times em que o usuário está participando
 - [ ] - Adicionar todos os membros do time selecionado naquele Board
 
-![time_board](imagens/foward/RQ30_1.png)
+![time_board](imagens/foward/RQ30_1.PNG)
 
 ## RQ 31 - Adicionar membro a Board
 
@@ -83,7 +83,7 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 - [ ] - Criar a opção da criação de um link onde usuários podem entrar no Board a partir dele
 - [ ] - Criar Input onde será a descrição do convite que o convidade receberá
 
-![membro_board](imagens/foward/RQ31.png)
+![membro_board](imagens/foward/RQ31.PNG)
 
 ## RQ 32 - Alterar plano de fundo
 
@@ -92,15 +92,15 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 - [ ] - Criar opção de fotos (planos de fundos padrões)
 - [ ] - Criar opção de planos de fundos personalizados para membros do Business Class
 
-![wallpaper_board](imagens/foward/RQ32_1.png)
-![wallpaper_board](imagens/foward/RQ32_2.png)
+![wallpaper_board](imagens/foward/RQ32_1.PNG)
+![wallpaper_board](imagens/foward/RQ32_2.PNG)
 
 ## RQ 33 - Oferecer biblioteca de imagens para plano de fundo
 
 - [ ] - Selecionar imagens para servirem como plano de fundo padrões dos Boards
 - [ ] - Adicionar as imagens dentro da opção de fotos de plano de fund
 
-![fotos_board](imagens/foward/RQ33.png)
+![fotos_board](imagens/foward/RQ33.PNG)
 
 ## RQ 34 - Interações com ferramentas externas
 
@@ -109,8 +109,8 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 - [ ] - Criar um input para pesquisar dentro dos Power-Ups
 - [ ] - Criar categorias de Power-Ups
 
-![powerups_board](imagens/foward/RQ34_1.png)
-![powerups_board](imagens/foward/RQ34_2.png)
+![powerups_board](imagens/foward/RQ34_1.PNG)
+![powerups_board](imagens/foward/RQ34_2.PNG)
 
 ## RQ 35 - Copiar Board
 
@@ -120,9 +120,9 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 - [ ] - Criar a opção de alterar a visibilidade do Board(privado, público, etc)
 - [ ] - Checklist de manter os cards do Board copiado
 
-![copiar_board](imagens/foward/RQ35_1.png)
-![copiar_board](imagens/foward/RQ35_2.png)
-![copiar_board](imagens/foward/RQ35_3.png)
+![copiar_board](imagens/foward/RQ35_1.PNG)
+![copiar_board](imagens/foward/RQ35_2.PNG)
+![copiar_board](imagens/foward/RQ35_3.PNG)
 
 ## RQ 44 - Descrição das Imagens no HTML
 
