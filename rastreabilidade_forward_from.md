@@ -2,6 +2,7 @@
 
 Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido durante a execução da aplicação, eles serão aqui relacionados com as tasks de implementação de cada requisito e com as funcionalidades operando no sistema.
 
+
 ## RQ 01 - Compatibilidade com atalhos de teclado
 - [ ] Criar possibilidade de utilizar atalhos do teclado
 ![US1-1](imagens/foward/US01_atalhos_teclado.gif)
@@ -214,6 +215,181 @@ Task-8
 
 ![US7-8](imagens/foward/US07_8_reagir_emoji_comentario.gif)
 
+
+## RQ 08 - Criação de cards em massa
+
+ - [ ] Criar opção de criação de vários cards quando inserido uma lista de temas na criação de cards
+ - [ ] Criar cards correspondentes aos temas inseridos
+
+ ![Card em massa](imagens/foward/card-em-massa.gif)
+
+## RQ 09 - Mencionar usuários em comentários
+
+ - [ ] Criar opção de mencionar membros na caixa de comentário
+ - [ ] Mostrar lista de membros do Board quando opção de mencionar for selecionada
+ - [ ] Gerar, na caixa de comentário, referencia à membro(s) selecionado(s)
+
+![mencionar](imagens/foward/mencionar-comentario.gif)
+
+## RQ 10 - Delegar cards a usuários
+
+ - [ ] Criar opção de 'membros' no menu lateral da página card
+ - [ ] Mostrar lista de membros do Board quando opção 'membros' for selecionada
+ - [ ] Associar membro à card
+ - [ ] Mostrar lista de membros aos quais o card foi delegado no topo da página do card
+
+![delegar](imagens/foward/delegar-card.gif)
+
+## RQ 11 - Notificar prazos de entrega próximos a usuários assinalados
+
+ - [ ] Criar notificação na aba de notificações da aplicação com informações do card que possui prazo de entrega próximo
+ - [ ] Enviar email com nome do card, link e data de entrega
+
+![modo_daltonico](imagens/foward/entrega-notificacao.png)
+
+## RQ 12 - Marcar data de entrega como concluída
+
+ - [ ] Criar checklist junto à indicação da data de entrega presente no card
+ - [ ] Mudar cor da área onde se encontra a data de entrega para indicar a mudança de status da mesma
+
+![data entrega](imagens/foward/marcar-entregue.gif)
+
+## RQ 13 - Compatibilidade com markdown nas descrições dos cards
+
+- [ ] Adicionar compilador de markdown à caixa de texto de descrição dos cards
+
+![descricao markdown](imagens/foward/descricao-markdown.gif)
+
+## RQ 14 - Adição de etiquetas aos cards
+
+- [ ] Criar opção 'etiquetas' no menu lateral da página card
+- [ ] Mostrar lista de membros do Board quando opção 'etiquetas' for selecionada
+- [ ] Associar etiqueta(s) à card
+- [ ] Mostrar lista de etiquetas na página do card
+
+![etiqueta](imagens/foward/etiqueta-card.gif)
+
+## RQ 15 - Pesquisar cards
+
+- [ ] Desenvolver barra de busca
+- [ ] A busca deve mostrar todas os cards com o nome relacionado
+- [ ] Deverá haver acesso ao card pela pesquisa
+
+![pesquisar_cards](imagens/foward/Pesquisar&#32;Card.gif)
+
+## RQ 16 - Anexar cards a outros cards
+
+- [ ] Botão para anexar card, boards, links, arquivos e power-ups em um card
+- [ ] Deve exibir uma barra de busca / um espaço para colar o link que deseja ser anexado
+- [ ] Escrever o nome do card faz com que ele apareça, facilitando a questão de anexar
+- [ ] Após o anexo deve ser exibido no card o que foi anexado (card), e quem anexou
+
+![anexar_card](imagens/foward/Anexar&#32;card&#32;a&#32;outro&#32;card.gif)
+
+## RQ 17 - Anexar boards a cards
+
+- [ ] Botão para anexar card, boards, links, arquivos e power-ups em um card
+- [ ] Deve exibir uma barra de busca / um espaço para colar o link que deseja ser anexado
+- [ ] Escrever o nome do card faz com que ele apareça, facilitando a questão de anexar
+- [ ] Após o anexo deve ser exibido no card o que foi anexado (board), e quem anexou
+
+![anexar_board](imagens/foward/Anexar&#32;boards&#32;a&#32;cards.gif)
+
+## RQ 18 - Seguir um Card
+
+- [ ] Criar um botão dentro de card 
+- [ ] Deve ser discreto 
+- [ ] Deve fornecer feedback visual sobre estar seguindo
+- [ ] Permite ao usuário receber notificações sobre o card que está sendo seguido
+
+![seguir_card](imagens/foward/Seguir&#32;um&#32;card.gif)
+
+## RQ 19 - Criar card através de e-mails
+
+- [ ] Fornecer um link para o usuário
+- [ ] Link viincula o quadro como um email para o board
+- [ ] O card pode ser criado através desse link
+- [ ] O link funciona como um email do quadro
+
+![criar_card_email](imagens/foward/Criando&#32;quadro&#32;a&#32;partir&#32;do&#32;email.gif)
+
+## RQ 20 - Login
+
+- [ ] Mostrar na tela inicial o botão do login com email e senha
+- [ ] Move o usuário para dentro da aplicação após a inserção do email e da senha
+
+![login](imagens/foward/Login.gif)
+
+## RQ 21 - Login com o Google
+
+- [ ] Mostrar o botão com nome e logo do Google na tela inicial da aplicação
+- [ ] Botão disponibiliza possíveis contas para login
+- [ ] Ao clicar, e se usuário tiver conta, ele tem acesso a aplicação
+
+![login_com_google](imagens/foward/Login&#32;com&#32;Google.gif)
+
+## RQ 29 - Gestão de visibilidade do Board
+
+- [ ] Criar opção onde o administrador de um board pode gerenciar quem pode ver determinado Board
+- [ ] Criar lógica onde o sistema pode distinguir diferentes tipos de usuários dentro de um Board
+
+![visibilidade_board](imagens/foward/RQ29.PNG)
+
+## RQ 30 - Adição de times aos Boards
+
+- [ ] Adicionar opção de "Alterar time" nas configurações de um Board
+- [ ] Dar opções de times a adicionar, mostrando apenas os times em que o usuário está participando
+- [ ] Adicionar todos os membros do time selecionado naquele Board
+
+![time_board](imagens/foward/RQ30_1.PNG)
+
+## RQ 31 - Adicionar membro a Board
+
+- [ ] Adicionar ícone que demonstre a ação de adicionar um membro ao Board
+- [ ] Mostrar um Input onde pode ser digitado o nome ou o email do usuário a ser adicionado
+- [ ] Criar a opção da criação de um link onde usuários podem entrar no Board a partir dele
+- [ ] Criar Input onde será a descrição do convite que o convidade receberá
+
+![membro_board](imagens/foward/RQ31.PNG)
+
+## RQ 32 - Alterar plano de fundo
+
+- [ ] Criar opção de alterar tela de fundo no menu do Board
+- [ ] Criar opção de cores para o plano de fundo
+- [ ] Criar opção de fotos (planos de fundos padrões)
+- [ ] Criar opção de planos de fundos personalizados para membros do Business Class
+
+![wallpaper_board](imagens/foward/RQ32_1.PNG)
+![wallpaper_board](imagens/foward/RQ32_2.PNG)
+
+## RQ 33 - Oferecer biblioteca de imagens para plano de fundo
+
+- [ ] Selecionar imagens para servirem como plano de fundo padrões dos Boards
+- [ ] Adicionar as imagens dentro da opção de fotos de plano de fund
+
+![fotos_board](imagens/foward/RQ33.PNG)
+
+## RQ 34 - Interações com ferramentas externas
+
+- [ ] Criar opções de Power-Ups no menu do Board
+- [ ] Mostrar todos os Power-Ups disponíveis
+- [ ] Criar um input para pesquisar dentro dos Power-Ups
+- [ ] Criar categorias de Power-Ups
+
+![powerups_board](imagens/foward/RQ34_1.PNG)
+![powerups_board](imagens/foward/RQ34_2.PNG)
+
+## RQ 35 - Copiar Board
+
+- [ ] Criar opção de Copiar Board dentro do menu do Board
+- [ ] Dar a opção de escolher um nome para o novo Board
+- [ ] Dar a opção de escolher um time para ser adicionado esse novo Board
+- [ ] Criar a opção de alterar a visibilidade do Board(privado, público, etc)
+- [ ] Checklist de manter os cards do Board copiado
+
+![copiar_board](imagens/foward/RQ35_1.PNG)
+![copiar_board](imagens/foward/RQ35_2.PNG)
+![copiar_board](imagens/foward/RQ35_3.PNG)
 
 ## RQ 44 - Descrição das Imagens no HTML
 
