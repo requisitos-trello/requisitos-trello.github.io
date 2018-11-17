@@ -12,7 +12,7 @@
 
 - [ ] - A funcionalidade deve exibir um botão para confirmar a adição do novo card.
 
-### US3 - Suporte a deadlines em cards
+### US3 - Criar deadlines nos cards
 
 - [ ] - A funcionalidade deve exibir deadline acima da descrição do card.
 
@@ -25,7 +25,7 @@
 - [ ] - A funcionalidade deve exibir o tempo de atraso caso já passada a data.
 
 
-### US4 - Criação de descrições em cards
+### US4 - Criar descrição nos cards
 
 - [ ] - A funcionalidade deve exibir a descrição do card abaixo do título do card.
 
@@ -35,7 +35,7 @@
 
 - [ ] - A funcionalidade deve não possibilitar excluir a descrição do card, apenas habilitar apagar seu conteúdo.
 
-### US5 - Criação de checklists em cards
+### US5 - Criar checklists nos cards
 
 - [ ] - A funcionalidade deve exibir anexo abaixo da descrição do card.
 
@@ -48,7 +48,7 @@
 - [ ] - A funcionalidade deve possibilitar marcar um item da checklist como pronto.
 
 
-### US6 - Armazenamento de anexos em cards
+### US6 - Armazenar anexos nos cards
 
 - [ ] - A funcionalidade deve exibir anexo abaixo da descrição do card.
 
@@ -60,7 +60,7 @@
 
 - [ ] - A funcionalidade deve ser capaz de anexar conteúdo do Google Drive, OneDrive, Dropbox e do próprio Trello.
 
-### US7 - Comentários nos cards
+### US7 - Comentar nos cards
 
  - [ ] - A funcionalidade deve exibir caixa de texto abaixo da descrição do card.
 
@@ -70,7 +70,7 @@
 
  - [ ] -  A funcionalidade deve exibir botão de adicionar emoji, bem como caixa de diálogo de adição de emoji quando o botão for clicado.
 
- - [ ] -  A funcionalidade deve exibir botão de adicionar card ou quadro, bem como caixa de diálogo de adição de card ou quadro quando o botão for clicado.
+ - [ ] -  A funcionalidade deve exibir botão de adicionar card ou board, bem como caixa de diálogo de adição de card ou board quando o botão for clicado.
 
  - [ ] -  A funcionalidade deve vincular comentário ao card.
 
@@ -78,13 +78,13 @@
 
  - [ ] -  A funcionalidade deve exibir opções de editar e excluir comentário em comentários já feitos.
 
-### US8 - Criação de cartões em massa
+### US8 - Criar cards em massa
 
- - [ ] -  A funcionalidade deve exibir opção de criação de vários cartões quando houver mais de um tópico no título de card.
+ - [ ] -  A funcionalidade deve exibir opção de criação de vários cards quando houver mais de um tópico no título de card.
 
- - [ ] -  A funcionalidade deve criar N cartões de acordo com a quantidade de tópicos do título.
+ - [ ] -  A funcionalidade deve criar N cards de acordo com a quantidade de tópicos do título.
 
- - [ ] -  A funcionalidade deve vincular cartões a lista na qual foi criado.
+ - [ ] -  A funcionalidade deve vincular cards a lista na qual foi criado.
 
 ### US9 - Mencionar usuários em comentários
 
@@ -94,7 +94,7 @@
 
  - [ ] -  A funcionalidade deve exibir barra de busca na caixa de diálogo.
 
- - [ ] -  A funcionalidade deve exibir grupos de membros do card/quadro/com comentários.
+ - [ ] -  A funcionalidade deve exibir grupos de membros do card/board/com comentários.
 
 ### US10 - Delegar cards a usuários
 
@@ -124,13 +124,13 @@
 
  - [ ] -  A funcionalidade deve atribuir status de concluído ao card.
 
-### US13 - Compatibilidade com markdown nas descrições dos cards
+### US13 - Gerar descrições dos cards com markdown
 
  - [ ] - A funcionalidade deve ter uma área que abra e mostre os tipos de formatação.
 
  - [ ] - A funcionalidade deve mostrar os tipos de formatação diferente separado cada uma delas e explicando-as.
 
- ### US14 - Adição de etiquetas aos cards
+ ### US14 - Adicionar etiquetas aos cards
 
  - [ ] - A funcionalidade deve ter um botão que dê ao usuário a possibilidade de etiquetar um card.
 
@@ -138,13 +138,13 @@
 
  - [ ] - A funcionalidade deve escolher a etiqueta e ela ser vinculada ao card logo em seguida.
 
- ### US15 - Pesquisar cartões
+ ### US15 - Pesquisar cards
 
  - [ ] - A funcionalidade deve ter uma barra de pesquisa na página inicial do board.
 
  - [ ] - A funcionalidade deve encontrar todas os cards existêntes no projeto.
 
-### US16 - Anexar cartões a outros cartões 
+### US16 - Anexar cards a outros cards 
 
  - [ ] - A funcionalidade deve ter um botão para que possa anexar algo ao card.
 
@@ -152,15 +152,15 @@
 
  - [ ] - A funcionalidade deve mostrar o card anexado no card de origem.
 
-### US17 - Anexar quadros a cartões 
+### US17 - Anexar boards a cards 
 
  - [ ] - A funcionalidade deve ter um botão para que possa anexar algo ao card.
 
- - [ ] - A funcionalidade deve ter uma área para colocar o URL de um quadro que deseja anexar.
+ - [ ] - A funcionalidade deve ter uma área para colocar o URL de um board que deseja anexar.
 
- - [ ] - A funcionalidade deve mostrar o quadro anexado no card de origem.
+ - [ ] - A funcionalidade deve mostrar o board anexado no card de origem.
 
-### US18 - Seguir um cartão
+### US18 - Seguir um card
 
  - [ ] -  A funcionalidade deve ter um botão para que possa seguir o card.
 

@@ -2,7 +2,7 @@
 
 ![tabela backlog](imagens/backlog/aplicativo.jpg)
 
-### US1 - Compatibilidade com atalhos de teclado
+### US1 - Tornar atalhos de teclado compatíveis
 
 - [ ] - A funcionalidade deve possibilitar navegar o site usando apenas atalhos do teclado.
 

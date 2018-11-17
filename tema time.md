@@ -4,7 +4,7 @@
 
 ### US38 - CRUD de Times
 
-- [ ] -  A funcionalidade deve aparecer após ser efetuado o login do usuário e ao tentar criar uma cópia de um quadro.
+- [ ] -  A funcionalidade deve aparecer após ser efetuado o login do usuário e ao tentar criar uma cópia de um board.
 
 - [ ] - A funcionalidade deve exibir links e botões para criar novos times na aplicação.
 
@@ -22,7 +22,7 @@
 - Exibir a o botão "Salvar" para salvar as alterações realizadas.
 - Exibir a o botão "Calcelar" para cancelar as alterações realizadas.
 
-- [ ] -  A funcionalidade deve exibir o botão "Qadros" para mostrar os quadros relacionados ao time.
+- [ ] -  A funcionalidade deve exibir o botão "Qadros" para mostrar os boards relacionados ao time.
 
 - [ ] -  A funcionalidade deve exibir o botão "Membros" para mostrar os membros do time ou convidar novos membros.
 
@@ -42,7 +42,7 @@
   
 - [ ] Devem ser exibidos dos usuários o nome e o nome cadastrado de usuário.
 
-- [ ] Deve ser exibido o número de quadros do time em que o membro se encontra.
+- [ ] Deve ser exibido o número de boards do time em que o membro se encontra.
 
 - [ ] Deve ser exibido qual é o papel do membro no time (Normal ou Administrador).
 
