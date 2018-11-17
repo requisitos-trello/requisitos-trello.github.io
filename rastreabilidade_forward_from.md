@@ -391,6 +391,64 @@ Task-8
 
 ![login_com_google](imagens/foward/Login&#32;com&#32;Google.gif)
 
+## RQ 22 - Cadastrar
+
+- [ ] Criar opção 'Cadastre-se' na pagina inicial
+- [ ] Criar campos para o usuário inserir suas informações de cadastro
+- [ ] Criar opção ''Criar nova conta' para efetivar o cadastro
+
+![cadastrar](imagens/foward/RQ22.gif)
+
+## RQ 23 - Cadastrar com o google
+
+- [ ] Criar opção 'Cadastre-se' na pagina inicial
+- [ ] Criar opção 'Cadastre-se com Google' na pagina de cadastro
+- [ ] Mostrar contas do Google ja cadastradas e a opção 'outra conta' para entrar com uma ainda não cadastrada no navegador
+
+![cadastrar com o google](imagens/foward/RQ23.gif)
+
+## RQ 24 - Alterar senha
+
+- [ ] Criar opção 'Alterar Senha...' na pagina de configurações do usuario
+- [ ] Criar campo para o usuário inserir sua senha antiga para validação da alteração e campos para inserir a nova senha
+- [ ] Criar opção 'Salvar' para efetivar a alteração
+
+![alterar senha](imagens/foward/RQ24.gif)
+
+## RQ 25 - CRUD de listas
+
+- [ ] Criar opção 'Adicionar outra lista' na pagina inicial do board
+- [ ] Criar campo para o usuário inserir o título da lista
+- [ ] Criar opção ''Criar lista' para efetivar a criação da lista
+
+![CRUD de listas](imagens/foward/RQ25.gif)
+
+## RQ 26 - Seguir lista
+
+- [ ] Criar opção 'Seguir' no menu 'Ações da lista'
+
+![seguir lista](imagens/foward/RQ26.gif)
+
+## RQ 27 - CRUD de Board
+
+- [ ] Criar opção 'Criar um board' na pagina inicial do Trello
+- [ ] Criar campos para o usuário inserir o título, icone, time e a privacidade do board
+- [ ] Criar opção ''Criar quadro' para efetivar a criação da lista
+
+![CRUD de Board](imagens/foward/RQ27.gif)
+
+## RQ 28 - Convite para membros do board
+
+- [ ] Criar opção para convidar membros para o board
+- [ ] Criar campo para o usuario inserir o email ou nome do membro a ser convidado
+- [ ] Criar opção 'enviar convite' para efetivar o convite do membro
+- [ ] Criar opção 'Criar link' para gerar um link com o convite para o board
+- [ ] Criar opção 'Copiar' para copiar o link do convite
+
+![convite para membros do board-1](imagens/foward/RQ28-1.gif)
+
+![convite para membros do board-2](imagens/foward/RQ28-2.gif)
+
 ## RQ 29 - Gestão de visibilidade do Board
 
 - [ ] Criar opção onde o administrador de um board pode gerenciar quem pode ver determinado Board
