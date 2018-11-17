@@ -1,3 +1,9 @@
+---
+layout: default
+title: Especificação Suplementar
+category: Modelagem
+---
+
 # Documento de Especificação Suplementar
 
 Este documento tem por finalidade a descrição mais elaborada de requisitos não funcionais encontrados ao longo da elaboração da documentação de análise de requisitos da aplicação Trello.
