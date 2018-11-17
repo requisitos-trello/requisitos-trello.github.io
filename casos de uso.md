@@ -134,7 +134,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ![Caso 8](imagens/casos de uso/caso8.png)
 
-#### UC01 - Acessar board
+#### UC08 - Acessar board
 
 |  |  |
 |  ------: | :------ |
@@ -147,11 +147,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Pós Condições** | Usuário tem acesso aos dados do board. |
 
 
-### Caso 10: Board
+### Caso 09: Criar Board
 
-![Caso 10](imagens/casos de uso/Casos de Uso - Board.png)
+![Caso 9](imagens/casos de uso/caso9.png)
 
-### UC01 - Criar Board
+### UC09 - Criar Board
 
 |  |  |
 |  ------: | :------ |
@@ -162,7 +162,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clical em criar Board
 | **Fluxos de Exceção** |1. O usuário ser convidado para um Board. <br> 2. O usuário criar um time.
 
-### UC02 - Ver um Board
+### Caso 10 - Ver um Board
+
+![Caso 10](imagens/casos de uso/caso10.png)
+
+### UC10 - Ver um Board
 
 |  |  |
 |  ------: | :------ |
@@ -173,7 +177,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clical em um board que deseja visualizar <br> 3. O usuário visualiza o board
 | **Fluxos de Exceção** | O usuário ter imprimido o board anteriormente, poderá visualizá-lo sem a necessidade de entrar na aplicação.|
 
-### UC03 - Seguir um Board
+### Caso 11 - Seguir um Board
+
+![Caso 11](imagens/casos de uso/caso11.png)
+
+### UC11 - Seguir um Board
 
 |  |  |
 |  ------: | :------ |
@@ -184,7 +192,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br>1. O usuário loga na aplicação <br> 2. O usuário clica em um board <br> 3. O usuário clica em “mais” no menu <br>4. O usuário clica em seguir
 | **Fluxos de Exceção** | 1. Falta de internet, fazendo com que apareça a mensagem de erro|
 
-### UC04 - Adicionar membros em um Board
+### Caso 12 - Adicionar membros em um Board
+
+![Caso 12](imagens/casos de uso/caso12.png)
+
+### UC12 - Adicionar membros em um Board
 
 |  |  |
 |  ------: | :------ |
@@ -195,7 +207,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clica em um board <br> 3. O usuário clica em adicionar membros|
 | **Fluxos de Exceção** |1. Após logar na aplicação o usuário pode criar um time <br> 2. O usuário irá poder adicionar os membros e entrar no novo board criado <br> 3. Ao clicar em adicionar membros o usuário pode convidar pelo e-mail <br> 4. Ao clicar em adicionar membros o usuário pode convidar pela conta trello|
 
-### UC05 - Imprimir um Board
+### Caso 13 - Imprimir um Board
+
+![Caso 13](imagens/casos de uso/)
+
+### UC13 - Imprimir um Board
 
 |  |  |
 |  ------: | :------ |
@@ -206,7 +222,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clica em um board <br> 3. O usuário clica em imprimir board.|
 | **Fluxos de Exceção** |1. Falta de internet, apresentando a mensagem de erro ao usuário <br> 2.Falha na conexão com a impresora que irá imprimir o board.|
 
-### UC06 - Ser convidado para um Board
+### Caso 14 - Ser convidado para um Board
+
+![Caso 14](imagens/casos de uso/)
+
+### UC14 - Ser convidado para um Board
 
 |  |  |
 |  ------: | :------ |
@@ -217,7 +237,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br>1. O usuário confirma o convite|
 | **Fluxos de Exceção** | 1. Falta de internet, apresentando a mensagem de erro ao usuário. <br> 2. O usuário não apresenta interesse.|
 
-### UC07 - Criar um time
+### Caso 15 - Criar um time
+
+![Caso 15](imagens/casos de uso/)
+
+### UC15 - Criar um time
 
 |  |  |
 |  ------: | :------ |
@@ -228,7 +252,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clica em criar um time|
 | **Fluxos de Exceção** | 1. O usuário loga na aplicação <br> 2. O usuário clica em um board <br> 3. O usuário clica em adicionar membros|
 
-## UC08 - Convidar por E-mail
+### Caso 16 - Convidar por E-mail
+
+![Caso 16](imagens/casos de uso/)
+
+## UC16 - Convidar por E-mail
 
 |  |  |
 |  ------: | :------ |
@@ -239,7 +267,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clica em um board <br> 3. O usuário clica em adicionar membros <br> 4. O usuário escreve o e-mail do membro que quer adicionar|
 | **Fluxos de Exceção** | 1. Falta de internet, apresentando a mensagem de erro ao usuário.|
 
-### UC09 - Convidar pela Conta
+### Caso 17 - Convidar pela Conta
+
+![Caso 17](imagens/casos de uso/)
+
+### UC17 - Convidar pela Conta
 
 |  |  |
 |  ------: | :------ |
@@ -250,7 +282,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br>1. O usuário loga na aplicação <br>2. O usuário clica em um board <br>3. O usuário clica em adicionar membros <br>4. O usuário escreve nome da conta do membro que quer adicionar|
 | **Fluxos de Exceção** |1. Falta de internet, apresentando a mensagem de erro ao usuário.|
 
-## UC10 - Fechar Board
+### Caso 18 - Fechar Board
+
+![Caso 18](imagens/casos de uso/)
+
+### UC18 - Fechar Board
 
 |  |  |
 |  ------: | :------ |
@@ -261,7 +297,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clica em um board <br> 3. O usuário clica em fechar board|
 | **Fluxos de Exceção** |1. Falta de internet, apresentando a mensagem de erro ao usuário.|
 
-### UC11 - Vincular Board
+### Caso 19 - Vincular Board
+
+![Caso 19](imagens/casos de uso/)
+
+### UC19 - Vincular Board
 
 |  |  |
 |  ------: | :------ |
@@ -272,7 +312,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clica em um board <br> 3. O usuário gera o link para vincular o board|
 | **Fluxos de Exceção** |1. Falta de internet, apresentando a mensagem de erro ao usuário.|
 
-###  UC020 - Arquivar uma lista
+### Caso 20 - Arquivar uma lista
+
+![Caso 20](imagens/casos de uso/)
+
+###  UC20 - Arquivar uma lista
 
 |  |  |
 |  ------: | :------ |
@@ -284,7 +328,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | A lista em questão é arquivada pelo usuário. |
 
-## UC22 - Modificar um Card
+### Caso 22 - Modificar um Card
+
+![Caso 22](imagens/casos de uso/)
+
+### UC22 - Modificar um Card
 
 |  |  |
 |  ------: | :------ |
@@ -296,7 +344,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos Alternativos** | [UC25-Adicionar Membro](#uc25---adicionar-membro-a-um-card) <br> [UC26-Adicionar Descrição](#uc26---adicionar-descrição-a-um-card) <br> [UC27-Adicionar Checklist](#uc27---adicionar-check-list-a-um-card) <br> [UC28-Adicionar Etiqueta](#uc28---adicionar-etiqueta-a-um-card) <br> [UC29-Adicionar Deadline](#uc29---adicionar-deadline-a-um-card) <br> [UC32-Adicionar Anexo](#uc32---adicionar-anexo-a-um-card) <br> [UC35-Adicionar Power-Up](#uc35---adicionar-power-up)
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.
 
-###   UC023 - Personalizar etiqueta
+### Caso 23 - Personalizar etiqueta
+
+![Caso 23](imagens/casos de uso/)
+
+###   UC23 - Personalizar etiqueta
 
 |  |  |
 |  ------: | :------ |
@@ -308,7 +360,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Etiqueta é personalizada para facilitar o seu entendimento. |
 
-###   UC024 - Arquivar um Card
+### Caso 24 - Arquivar um Card
+
+![Caso 24](imagens/casos de uso/)
+
+###   UC24 - Arquivar um Card
 
 |  |  |
 |  ------: | :------ |
@@ -320,7 +376,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Card é arquivado pelo usuário.|
 
-###   UC024 - Seguir um Card
+### Caso 25 - Seguir um Card
+
+![Caso 25](imagens/casos de uso/)
+
+###   UC025 - Seguir um Card
 
 |  |  |
 |  ------: | :------ |
@@ -332,7 +392,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Card passa a ser seguido pelo usuário.|
 
-## UC25 - Adicionar Membro a um Card
+### Caso 26 - Adicionar Membro a um Card
+
+![Caso 26](imagens/casos de uso/)
+
+### UC26 - Adicionar Membro a um Card
 
 |  ------: | :------ |
 | **Descrição** | Ter a possibilidade de adicionar um membro a um card existente.
@@ -342,8 +406,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** | O usuário loga na aplicação. <br> O usuário clica em um card. <br> O usuário clica em 'Adicionar Membro ao Card'. <br> O usuário escolhe o membro da board a ser adicionado ao card.
 | **Fluxos de Exceção** |Falta de internet, apresentando a mensagem de erro ao usuário.
 
+### Caso 27 - Adicionar Descrição a um Card
 
-## UC26 - Adicionar Descrição a um Card
+![Caso 27](imagens/casos de uso/)
+
+### UC27 - Adicionar Descrição a um Card
 
 |  ------: | :------ |
 | **Descrição** | Ter a possibilidade de adicionar a descrição a um card.
@@ -353,8 +420,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** | O usuário loga na aplicação. <br> O usuário clica em um card. <br> O usuário clica em 'Adicionar Descrição ao Card'. <br> O usuário insere a nova descrição do card.
 | **Fluxos de Exceção** |Falta de internet, apresentando a mensagem de erro ao usuário.
 
+### Caso 28 - Adicionar Check-list a um Card
 
-## UC27 - Adicionar Check-list a um Card
+![Caso 28](imagens/casos de uso/)
+
+### UC28 - Adicionar Check-list a um Card
 
 |  ------: | :------ |
 | **Descrição** | Ter a possibilidade de adicionar a checklist a um card.
@@ -365,7 +435,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.
 
 
-## UC28 - Adicionar Etiqueta a um Card
+### Caso 29 - Adicionar Etiqueta a um Card
+
+![Caso 29](imagens/casos de uso/)
+
+### UC29 - Adicionar Etiqueta a um Card
 
 |  ------: | :------ |
 | **Descrição** | Ter a possibilidade de adicionar a etiqueta a um card existente.
@@ -376,7 +450,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.
 
 
-## UC29 - Adicionar Deadline a um Card
+### Caso 30 - Adicionar Deadline a um Card
+
+![Caso 30](imagens/casos de uso/)
+
+### UC30 - Adicionar Deadline a um Card
 
 |  ------: | :------ |
 | **Descrição** | Ter a possibilidade de adicionar a deadline a um card existente.
@@ -386,8 +464,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** | O usuário loga na aplicação. <br> O usuário clica em um card. <br> O usuário clica em 'Adicionar Deadline ao Card'. <br> O usuário insere a nova deadline ao card.
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.
 
+### Caso 31 - Adicionar Comentário a um Card
 
-## UC30 - Adicionar Comentário a um Card
+![Caso 31](imagens/casos de uso/)
+
+### UC31 - Adicionar Comentário a um Card
 
 |  ------: | :------ |
 | **Descrição** | Ter a possibilidade de adicionar um comentário a um card.
@@ -399,7 +480,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.
 
 
-### UC31 - Alterar permissão de comentário
+### Caso 32 - Adicionar premissão de comentário
+
+![Caso 32](imagens/casos de uso/)
+
+### UC32 - Alterar permissão de comentário
 
 |  |  |
 |  ------: | :------ |
@@ -412,7 +497,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Pós Condições** | O usuário terá gerenciado quem pode comentar cards em um determinado board.|
 
 
-## UC32 - Adicionar Anexo a um Card
+### Caso 33 - Adicionar Anexo a um Card
+
+![Caso 33](imagens/casos de uso/)
+
+### UC33 - Adicionar Anexo a um Card
 
 |  ------: | :------ |
 | **Descrição** | Ter a possibilidade de adicionar um anexo a um card.
@@ -422,8 +511,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxo Principal** | O usuário loga na aplicação. <br> O usuário clica em um card. <br>O usuário clica em  'Adicionar Anexo' <br> O usuário insere o arquivo desejado.
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.
 
+### Caso 34 - Mover um card para outra list
 
-### UC33 - Mover um card para outra list
+![Caso 34](imagens/casos de uso/)
+
+### UC34 - Mover um card para outra list
 
 |  |  |
 |  ------: | :------ |
@@ -435,8 +527,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.|
 | **Pós Condições** | O usuário terá movido o card a uma outra lista.|
 
+### Caso 35 - Compartilhar card
 
-### UC34 - Compartilhar card
+![Caso 35](imagens/casos de uso/)
+
+### UC35 - Compartilhar card
 
 |  |  |
 |  ------: | :------ |
@@ -448,7 +543,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.|
 | **Pós Condições** | O usuário terá compartilhado o card. |
 
-### UC35 - Adicionar power-up
+### Caso 36 - Adicionar power-up
+
+![Caso 36](imagens/casos de uso/)
+
+### UC36 - Adicionar power-up
 
 |  |  |
 |  ------: | :------ |
@@ -460,11 +559,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário. <br> Caso não seja o primeiro power-up no card e o usuário não esteja em algum plano pago, não é possível adicionar outro power-up.
 
 
-### Caso 11: Criar Lista
+### Caso 37: Criar Lista
 
-![Caso 11](imagens/casos de uso/caso018.png)
+![Caso 37](imagens/casos de uso/caso018.png)
 
-### UC011 - Criar Lista
+### UC37 - Criar Lista
 
 |  |  |
 |  ------: | :------ |
@@ -475,11 +574,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Usuário terá criado uma nova lista para colocar novos cards. |
 
-### Caso 12: Alterar nome de uma lista
+### Caso 38: Alterar nome de uma lista
 
-![Caso 12](imagens/casos de uso/caso019.png)
+![Caso 38](imagens/casos de uso/caso019.png)
 
-### UC012 - Alterar nome de uma lista
+### UC38 - Alterar nome de uma lista
 
 |  |  |
 |  ------: | :------ |
@@ -490,11 +589,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Usuário terá outro nome para uma determinada lista. |
 
-### Caso 13: Criar card
+### Caso 39: Criar card
 
-![Caso 13](imagens/casos de uso/caso021.png)
+![Caso 39](imagens/casos de uso/caso021.png)
 
-### UC013 - Criar card
+### UC39 - Criar card
 
 |  |  |
 |  ------: | :------ |
@@ -507,9 +606,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ------------
 
-### Caso 14: Atualizar time para Business Class
+### Caso 40: Atualizar time para Business Class
 
-![Diagrama de uso para atualização](imagens/casos%20de%20uso/business.png)
+![Caso 40](imagens/casos%20de%20uso/business.png)
+
+### UC40 - Adicionar power-up
 
 |  |  |
 |  ------: | :------ |
@@ -521,9 +622,11 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | **FE01 - Informações erradas do cartão de crédito**<br>1. [FP01.4] Usuário insere informações de cartão de crédito que não conferem<br>2. Mensagem de erro é exibida ao usuário|
 | **Pós Condições** | O time escolhido/ criado pelo usuário será convertido para business class e terá direitor às vantagens do plano. |
 
-### Caso 15: Filtrar cartões
+### Caso 41: Filtrar cartões
 
-![Diagrama de caso de uso da filtragem de cartões](imagens/casos%20de%20uso/filtro.png)
+![Caso 41](imagens/casos%20de%20uso/filtro.png)
+
+### UC41 - Adicionar power-up
 
 |  |  |
 |  ------: | :------ |
