@@ -31,21 +31,21 @@ A tabela com a descrição completa de cada história, sua pontuação e prioriz
 |  US17 | Card | Anexar boards a cards |-|
 |  US18 | Card | Seguir um card |-|
 |  US19 | Card | Criar card através de e-mails |-|
-|  US20 | Conta | Login | 1 |
-|  US21 | Conta | Login com o Google |-|
-|  US22 | Conta | Cadastrar | 1 |
-|  US23 | Conta | Cadastrar com o Google |-|
+|  US20 | Conta | Logar | 1 |
+|  US21 | Conta | Logar com o Google |-|
+|  US22 | Conta | Cadastrar usuário | 1 |
+|  US23 | Conta | Cadastrar usuário com o Google |-|
 |  US24 | Conta | Alterar senha | 1 |
 |  US25 | Lista | CRUD de listas |-|
 |  US26 | Lista | Seguir uma lista |-|
 |  US27 | Board | CRUD de boards | 1 |
 |  US28 | Board | Criar Convite para membros do board |-|
 |  US29 | Board | Gerir visibilidade do board |-|
-|  US30 | Board | Adicionar times à boards |-|
+|  US30 | Board | Adicionar times a boards |-|
 |  US31 | Board | Adicionar membro a board |-|
 |  US32 | Board | Alterar plano de fundo |-|
 |  US33 | Board | Oferecer biblioteca de imagens para plano de fundo |-|
-|  US34 | Board | Permitir interações com ferramentas externas |-|
+|  US34 | Board | Integrar board com ferramentas externas |-|
 |  US35 | Board | Copiar board |-|
 |  US36 | Board | Seguir um board |-|
 |  US37 | Board | Favoritar boards |-|

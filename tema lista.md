@@ -4,7 +4,7 @@
 
 ### US25 - CRUD de Listas
 
- - [ ] - A funcionalidade deve aparecer visualmente de forma intuitiva no quadro do usuário.
+ - [ ] - A funcionalidade deve aparecer visualmente de forma intuitiva no board do usuário.
 
  - [ ] -  A funcionalidade deve pedir que o usuário dê um nome a nova lista.
 
@@ -12,7 +12,7 @@
 
  - [ ] -  A funcionalidade deve exibir após criada, um botão para ampliar as possibilidades de edição.
 
- - [ ] -  A funcionalidade deve ser visualizada no quadro após sua criação.
+ - [ ] -  A funcionalidade deve ser visualizada no board após sua criação.
 
  - [ ] -  A funcionalidade deve mostrar dentro de mais opções a possibilidade de excluir e arquivar a lista.
 

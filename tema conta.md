@@ -2,7 +2,7 @@
 
 ![tabela backlog](imagens/backlog/conta.jpg)
 
-### US20 - Login comum
+### US20 - Logar
 
  - [ ] - A funcionalidade deve solicitar o login e senha do usuário.
 
@@ -12,7 +12,7 @@
 
  - [ ] -  A funcionalidade deve mostrar todos os boards em que o usuário tem participação.
 
-### US21 - Login com o Google
+### US21 - Logar com o Google
 
  - [ ] - A funcionalidade deve solicitar o login e senha da conta Google do usuário.
 
@@ -22,7 +22,7 @@
 
  - [ ] -  A funcionalidade deve mostrar todos os boards em que o usuário tem participação.
 
-### US22 - Cadastro comum
+### US22 - Cadastrar usuário
 
  - [ ] - A funcionalidade deve solicitar nome, email e senha da nova conta do usuário.
 
@@ -34,7 +34,7 @@
 
  - [ ] -  A funcionalidade deve mostrar a página inicial do sistema.
 
-### US23 - Cadastro com o Google
+### US23 - Cadastrar usuário com o Google
 
  - [ ] - A funcionalidade deve solicitar o email e senha da conta Google do usuário.
 
