@@ -264,11 +264,11 @@ possuir conexão a internet.
 
 **Título:** Edição de [Stickers](lexicos.html#sticker)
 
-**Objetivo:** Editar o estado atual de [sticker](lexicos.html#sticker) previamente adicionado.
+**Objetivo:** Tornar possível editar a posição ou a exclusão de um [sticker](lexicos.html#sticker) existente num [card](lexicos.html#card)
 
 **Contexto:**
 - **Pré-condição:** Deve existir um [sticker](lexicos.html#sticker) em uma [Board](lexicos.html#board) com o acesso do [Usuário](lexicos.html#usuário) que queira remover ou editar este mesmo [sticker](lexicos.html#sticker).
-- **Pós-condição:** O [sticker](lexicos.html#sticker) não mais estará onde está.
+- **Pós-condição:** O [sticker](lexicos.html#sticker) será movido para a nova posição, caso tenha sido movido. Caso removido, o [sticker](lexicos.html#sticker) deixará de existir.
 
 **Atores:** [Usuário](lexicos.html#usuário)
 
@@ -282,12 +282,14 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) seleciona uma das opções: **Girar**, **Mover** ou **Remover** segundo sua vontade;
 - Em caso de **Girar** ou **Mover**, o [Usuário](lexicos.html#usuário) clica e segura com o botão esquerdo do mouse, movendo o cursos até que o [sticker](lexicos.html#sticker) alcance a posição desejada;
 
+**Exceção:** Falta de conexão com a internet após tentar adicionar o [sticker](lexicos.html#sticker), queda de energia.
+
 --------------
 ## Cenário de Alterar Tela de Fundo
 
 **Título:** Alteração da Tela de Fundo de uma [Board](lexicos.html#board)
 
-**Objetivo:** Criação de uma identidade visual para a [Board](lexicos.html#board) em questão.
+**Objetivo:** Possibilitar a personalização da [Board](lexicos.html#board) pelo [Usuário](lexicos.html#usuário) por meio de uma imagem de fundo nova de sua escolha.
 
 **Contexto:**
 - **Pré-condição:** O [Usuário](lexicos.html#usuário) deve ter acesso à [Board](lexicos.html#board) a qual quer alterar o plano de fundo.
@@ -308,16 +310,18 @@ possuir conexão a internet.
 - Caso tenha selecionado **Fotos**, o usário escollhe uma entre as inúmeras fotos disponibilizadas pelo Unsplash em colaboração com o Trello ou clica na **seta à esqueda** para voltar à tela anterior;
     - É possível pesquisar por termos e a aplicação retornará imagens marcadas com os termos pesquisados.
 
+**Exceção:** Imagem inválida (tamanho grande ou pequeno demais ou extensão incompatível), queda de energia ou de queda de conexão com a internet.
+
 --------------
 ## Cenário de Filtrar Cartões
 
-**Título:** Pesquisa Filtrada de [Cards]()
+**Título:** Pesquisa de [Cards](lexicos.html#card)
 
-**Objetivo:** Filtrar cards através de suas características.
+**Objetivo:** Pesquisa [cards](lexicos.html#card) em relação ao seu conteúdo de acordo com os termos de pesquisa inseridos.
 
 **Contexto:**
-- **Pré-condição:** O [Usuário](lexicos.html#usuário) está procurando por um ou mais cards que atendam às características pesquisadas em uma [Board](lexicos.html#board) à qual o [Usuário](lexicos.html#usuário) tenha acesso.
-- **Pós-condição:** Deverão aparecer na tela apenas os cards que atendam às características solicitadas na filtragem.
+- **Pré-condição:** Pesquisa realizada pelo [Usuário](lexicos.html#usuário) em uma [Board](lexicos.html#board) à qual o [Usuário](lexicos.html#usuário) tenha acesso.
+- **Pós-condição:** Deverão aparecer na tela apenas os [cards](lexicos.html#card) que atendam às características solicitadas na pesquisa.
 
 **Atores:** [Usuário](lexicos.html#usuário)
 
@@ -463,38 +467,11 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de Adicionar Descrição de [Time](lexicos.html#time)
-
-**Título:** Adicionar descrição de [time](lexicos.html#time).
-
-**Objetivo:** Permita a adição de descrição de um [time](lexicos.html#time).
-
-**Contexto:**
-- **Pré-condição:** O [usuário](lexicos.html#usuário) deve ter acesso aos recursos da plataforma.
-- **Pós-condição:** [Time](lexicos.html#time) deverá ser criado e possuir descrição.
-
-**Atores:** [Usuário](lexicos.html#usuário).
-
-**Recursos:** Conta, [time](lexicos.html#time), computador, internet.
-
-**Restrição:** O [usuário](lexicos.html#usuário) deve estar logado.
-
-**Exceção:** Queda do sistema, falta de internet ou falta de energia.
-
-**Episódios:**
-- [Usuário](lexicos.html#usuário) entra no Trello.
-- [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login).
-- Se há [time](lexicos.html#time), [Usuário](lexicos.html#usuário) acessa criar time.
-- [Usuário](lexicos.html#usuário) adiciona nome.
-- [Usuário](lexicos.html#usuário) adiciona descrição do [time](lexicos.html#time).
-
-
-------------
 ## Cenário de Editar Descrição de [Time](lexicos.html#time)
 
 **Título:** Editar descrição de [time](lexicos.html#time).
 
-**Objetivo:** permite a edição da descrição de um [time](lexicos.html#time).
+**Objetivo:** Permite editar o texto atual da descrição de um [time](lexicos.html#time) a qual o [Usuário](lexicos.html#usuário) tenha acesso.
 
 **Contexto:**
 - **Pré-condição:** O [usuário](lexicos.html#usuário) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -506,7 +483,7 @@ possuir conexão a internet.
 
 **Restrição:** O [time](lexicos.html#time) deve existir, o [usuário](lexicos.html#usuário) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
 
-**Exceção:** Não há [time](lexicos.html#time).
+**Exceção:** Queda de energia, falta de conexão com a internet ou [usuário](lexicos.html#usuário) não pertence mais ao [time](lexicos.html#time)
 
 **Episódios:**
 - [Administrador](lexicos.html#administrador) entra no Trello.
@@ -522,7 +499,7 @@ possuir conexão a internet.
 
 **Título:** Editar visibilidade do [time](lexicos.html#time).
 
-**Objetivo:** Permita a edição da visibilidade de um [time](lexicos.html#time).
+**Objetivo:** Permite restringir ou habilitar a visualisação do [time](lexicos.html#time) a um ou mais [Usuários](lexicos.html#usuário) que pertençam à [board](lexicos.html#board) a fim de preservar a privacidade dos [usuários](lexicos.html#usuário) de um [time](lexicos.html#time).
 
 **Contexto:**
 - **Pré-condição:** O [usuário](lexicos.html#usuário) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
@@ -532,7 +509,7 @@ possuir conexão a internet.
 
 **Recursos:** Conta, [time](lexicos.html#time), computador, internet.
 
-**Exceção:** Não há [time](lexicos.html#time).
+**Exceção:** Queda de energia, falta de conexão com a internet.
 
 **Episódios:**
 - [Usuário](lexicos.html#usuário) entra no Trello.
@@ -545,11 +522,11 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de [Vincular](lexicos.html#vincular) de [Time](lexicos.html#time) do Slack
+## Cenário de [Vincular](lexicos.html#vincular) [Time](lexicos.html#time) ao Slack
 
-**Título:** [Vinculação](lexicos.html#vincular) de [Time](lexicos.html#time) do Slack.
+**Título:** [Vinculação](lexicos.html#vincular) [Time](lexicos.html#time) ao Slack.
 
-**Objetivo:** Com isto [usuário](lexicos.html#usuário) pode [Vincular](lexicos.html#vincular) [Time](lexicos.html#time) com o Slack.
+**Objetivo:** Adicionar interoperabilidade entre o [Time](lexicos.html#time) e a plataforma Slack, habilidando o compartilhamento de dados entre ambas.
 
 **Contexto:**
 - **Pré-condição:** O [usuário](lexicos.html#usuário) deve ser [administrador](lexicos.html#administrador) do [time](lexicos.html#time).
