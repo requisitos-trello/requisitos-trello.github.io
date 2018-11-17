@@ -12,24 +12,24 @@ A tabela com a descrição completa de cada história, sua pontuação e prioriz
 
 | Cod | Tema | História de Usuário | Sprint |
 |  -----: | :------: | :-----: | :----- |
-|  US1 | Aplicativo | Compatibilidade com atalhos de teclado |-|
-|  US2 | Card | CRUD de cartões |-|
-|  US3 | Card | Suporte à deadlines nos cartões |-|
-|  US4 | Card | Criação de descrição nos cartões |-|
-|  US5 | Card | Criação de checklists nos cartões |-|
-|  US6 | Card | Armazenamentos de anexos nos cartões |-|
-|  US7 | Card | Comentários nos cartões |-|
-|  US8 | Card | Criação de cartões em massa |-|
+|  US1 | Aplicativo | Tornar atalhos de teclado compatíveis |-|
+|  US2 | Card | CRUD de cards |-|
+|  US3 | Card | Criar deadlines nos cards |-|
+|  US4 | Card | Criar descrição nos cards |-|
+|  US5 | Card | Criar checklists nos cards |-|
+|  US6 | Card | Armazenar anexos nos cards |-|
+|  US7 | Card | Comentar nos cards |-|
+|  US8 | Card | Criar cards em massa |-|
 |  US9 | Card | Mencionar usuários em comentários |-|
 |  US10 | Card | Delegar cards a usuários |-|
 |  US11 | Card | Notificar prazos de entrega próximos a usuários assinalados |-|
 |  US12 | Card | Marcar data de entrega como concluída |-|
-|  US13 | Card | Compatibilidade com markdown nas descrições dos cards |-|
-|  US14 | Card | Adição de etiquetas aos cards |-|
-|  US15 | Card | Pesquisar cartões |-|
-|  US16 | Card | Anexar cartões a outros cartões |-|
-|  US17 | Card | Anexar quadros a cartões |-|
-|  US18 | Card | Seguir um cartão |-|
+|  US13 | Card | Gerar descrições dos cards com markdown |-|
+|  US14 | Card | Adicionar etiquetas aos cards |-|
+|  US15 | Card | Pesquisar cards |-|
+|  US16 | Card | Anexar cards a outros cards |-|
+|  US17 | Card | Anexar boards a cards |-|
+|  US18 | Card | Seguir um card |-|
 |  US19 | Card | Criar card através de e-mails |-|
 |  US20 | Conta | Login | 1 |
 |  US21 | Conta | Login com o Google |-|
@@ -38,17 +38,17 @@ A tabela com a descrição completa de cada história, sua pontuação e prioriz
 |  US24 | Conta | Alterar senha | 1 |
 |  US25 | Lista | CRUD de listas |-|
 |  US26 | Lista | Seguir uma lista |-|
-|  US27 | Quadro | CRUD de Quadros | 1 |
-|  US28 | Quadro | Convite para membros do quadro |-|
-|  US29 | Quadro | Gestão de visibilidade do quadro |-|
-|  US30 | Quadro | Adição de times à quadros |-|
-|  US31 | Quadro | Adicionar membro a quadro |-|
-|  US32 | Quadro | Alterar plano de fundo |-|
-|  US33 | Quadro | Oferecer biblioteca de imagens para plano de fundo |-|
-|  US34 | Quadro | Interações com ferramentas externas |-|
-|  US35 | Quadro | Copiar quadro |-|
-|  US36 | Quadro | Seguir um quadro |-|
-|  US37 | Quadro | Favoritar quadros |-|
+|  US27 | Board | CRUD de boards | 1 |
+|  US28 | Board | Criar Convite para membros do board |-|
+|  US29 | Board | Gerir visibilidade do board |-|
+|  US30 | Board | Adicionar times à boards |-|
+|  US31 | Board | Adicionar membro a board |-|
+|  US32 | Board | Alterar plano de fundo |-|
+|  US33 | Board | Oferecer biblioteca de imagens para plano de fundo |-|
+|  US34 | Board | Permitir interações com ferramentas externas |-|
+|  US35 | Board | Copiar board |-|
+|  US36 | Board | Seguir um board |-|
+|  US37 | Board | Favoritar boards |-|
 |  US38 | Time | CRUD de times | 1 |
 |  US39 | Time | Visualizar membros de um time |-|
 |  US40 | Time | Editar visibilidade do time |-|
@@ -56,7 +56,7 @@ A tabela com a descrição completa de cada história, sua pontuação e prioriz
 |  US42 | Time | Detalhar time |-|
 |  US43 | Time | Gerenciar membros de um time |-|
 
-### Categorias das USs
+### Temas das USs
 
 Abaixo se encontram as páginas que contém os critérios de aceitação de cada US.
 
@@ -64,5 +64,5 @@ Abaixo se encontram as páginas que contém os critérios de aceitação de cada
 - [Card](tema%20card.html)
 - [Conta](tema%20conta.html)
 - [Lista](tema%20lista.html)
-- [Quadro](tema%20quadro.html)
+- [Board](tema%20quadro.html)
 - [Time](tema%20time.html)
