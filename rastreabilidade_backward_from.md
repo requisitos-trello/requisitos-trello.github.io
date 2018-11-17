@@ -43,16 +43,3 @@
 |  RQ41 | Time | Gerenciar administradores do time | US41 | [Rich Picture](rich-pictures.html), [Leitura da Documentação](leituradocumentacao.html) |
 |  RQ42 | Time | Detalhar time | US42 | [Rich Picture](rich-pictures.html), [Leitura da Documentação](leituradocumentacao.html) |
 |  RQ43 | Time | Gerenciar membros de um time | US43 | [Rich Picture](rich-pictures.html), [Introspecção](instrospeccao.html#natal), [Leitura da Documentação](leituradocumentacao.html) |
-
-|  Anotações: |
-|  ------ |
-|  Quadro = Board, qual a certa ? |
-|  Vincular com outros softwares |
-|  Crud de cheklist não está presente |
-|  Compartilhamento de Boards não está presente |
-|  Etiquetar o card não está presente |
-|  CURD de Board |
-|  Padronizar linguagem dos requisitos |
-|  Arquivar card não está presente |
-|  Upload de arquivo não está presente |
-|  Mover, copiar, arquivar, imprimir Card não estão presentes |
