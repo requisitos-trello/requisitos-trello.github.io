@@ -28,7 +28,7 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 
 ## Desempenho
 
-![nfr-desempenho](imagens/NFR/nfr-desempenho.jpg)
+![nfr-desempenho](imagens/NFR/nfr-desempenho.png)
 
 ## Privacidade
 
