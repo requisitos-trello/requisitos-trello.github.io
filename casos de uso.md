@@ -159,7 +159,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Atores** | Usuário.|
 | **Pré Condições** | O usuário deve estar logado na aplicação e possuir acesso a internet.|
 | **Pós Condições** | O usuário terá um board para seu projeto, pessoal ou em grupo, para se organizar.|
-| **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clical em criar Board
+| **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clica em criar Board
 | **Fluxos de Exceção** |1. O usuário ser convidado para um Board. <br> 2. O usuário criar um time.
 
 ### Caso 10 - Ver um Board
@@ -174,7 +174,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Atores** | Usuário.|
 | **Pré Condições** | O usuário deve estar logado na aplicação e possuir acesso a internet, possuir ou estar vinculado a um board para visualizá-lo.|
 | **Pós Condições** | O usuário poderá ver o board de forma macro, como cards e colunas vinculadas.|
-| **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clical em um board que deseja visualizar <br> 3. O usuário visualiza o board
+| **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clica em um board que deseja visualizar <br> 3. O usuário visualiza o board
 | **Fluxos de Exceção** | O usuário ter imprimido o board anteriormente, poderá visualizá-lo sem a necessidade de entrar na aplicação.|
 
 ### Caso 11 - Seguir um Board
@@ -220,7 +220,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Pré Condições** | O usuário deve estar logado na aplicação e possuir acesso a internet, ter acesso a uma impressora, possuir ou estar vinculado a um board.|
 | **Pós Condições** | O usuário terá em suas mãos uma versão impressa da versão macro do board.
 | **Fluxo Principal** |FP01 - Criar Board <br> 1. O usuário loga na aplicação <br> 2. O usuário clica em um board <br> 3. O usuário clica em imprimir board.|
-| **Fluxos de Exceção** |1. Falta de internet, apresentando a mensagem de erro ao usuário <br> 2.Falha na conexão com a impresora que irá imprimir o board.|
+| **Fluxos de Exceção** |1. Falta de internet, apresentando a mensagem de erro ao usuário <br> 2.Falha na conexão com a impressora que irá imprimir o board.|
 
 ### Caso 14 - Ser convidado para um Board
 
@@ -480,9 +480,9 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário.
 
 
-### Caso 32 - Adicionar premissão de comentário
+### Caso 32 - Alterar permissão de comentário
 
-![Caso 32](imagens/casos de uso/)
+![Caso 32](imagens/casos de uso/caso32.png)
 
 ### UC32 - Alterar permissão de comentário
 
@@ -513,7 +513,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ### Caso 34 - Mover um card para outra list
 
-![Caso 34](imagens/casos de uso/)
+![Caso 34](imagens/casos de uso/caso34.png)
 
 ### UC34 - Mover um card para outra list
 
@@ -529,7 +529,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ### Caso 35 - Compartilhar card
 
-![Caso 35](imagens/casos de uso/)
+![Caso 35](imagens/casos de uso/caso35.png)
 
 ### UC35 - Compartilhar card
 
@@ -617,10 +617,10 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 |  **Descrição** | Aqui o usuário deseja atualizar o plano do seu time para Business Class. |
 | **Atores** | Usuário |
 | **Pré Condições** | Usuário deve possuir cadastro no sistema.<br>Usuário deve possuir um time |
-| **Fluxo Principal** | **FP01 - Atualizar para Business Class**<br>1. O usuário seleciona um time para atualizá-lo para business class<br>2. Usuário abre a de atualização para business class.<br>3. Usuário escolhe um plano de pagamento, anual ou mensal<br>4. Usuário Insere as informações do cartão de crédito. |
+| **Fluxo Principal** | **FP01 - Atualizar para Business Class**<br>1. O usuário seleciona um time para atualizá-lo para business class<br>2. Usuário abre a de atualização para business class.<br>3. Usuário escolhe um plano de pagamento, anual ou mensal<br>4. Usuário insere as informações do cartão de crédito. |
 | **Fluxos Alternativos** | **FA01 - Alterar senha [UC01]**<br>1. Usuário cria um time para que iniciar como Business Class<br>2. Continua do Passo 2 do FP01<br>**FA02 - Usuário inicia da página do Business Class**<br>1. Usuário começa na página de informações do business class<br>2. Usuário visualiza estudos de caso de empresas de sucesso que utilizaram o Trello<br>3. Usuário pode voltar a suas boards<br>**FA03 - Usuário**|
 | **Fluxos de Exceção** | **FE01 - Informações erradas do cartão de crédito**<br>1. [FP01.4] Usuário insere informações de cartão de crédito que não conferem<br>2. Mensagem de erro é exibida ao usuário|
-| **Pós Condições** | O time escolhido/ criado pelo usuário será convertido para business class e terá direitor às vantagens do plano. |
+| **Pós Condições** | O time escolhido/ criado pelo usuário será convertido para business class e terá direito às vantagens do plano. |
 
 ### Caso 41: Filtrar cartões
 
@@ -634,6 +634,6 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Atores** | Usuário |
 | **Pré Condições** | Usuário deve possuir cadastro no sistema.<br>Usuário deve ter acesso a um board populado |
 | **Fluxo Principal** | **FP01 - Filtrar Cartões**<br>1. O usuário abre as opções da board<br>2. O usuário clica em "Filtrar"<br>3. O usuário seleciona as opções de filtragem (FAs de 01 a 04, os quais necessariamente voltam ao fluxo principal neste ponto)<br>4. O usuário decide se filtragens por etiquetas e por usuários devem seguir lógica E (apenas cards com *todos* os usuários e etiquetas pesquisados aparecem na pesquisa) ou se deve seguir lógica OU (batem com a pesquisa cards que satisfaçam *qualquer* um dos atributos pesquisados, etiquetas ou usuários)<br>5. O sistema exibe apenas os cards que batem com a pesquisa|
-| **Fluxos Alternativos** | **FA01 - Buscar por títulos**<br>1. O usuário digita o título pelo qual procura<br>**FA02 - Buscar por etiquetas**<br>1. O usuário seleciona as etiquetas que deseja<br>**FA03 - Busca por membros assinalados**<br>1. O usuário seleciona os membros que devem estar nos cards que procura<br>**FA04 - Busca por data de entrega**<br>1. O usuário escolhe uma opção de data de entrega a qual procura, a partir daqui, surge um, e apenas um, dos fluxos alternativos de 05 a 11.<br>**FA05 - Entregas em um dia**<br>1. O usuário seleciona a opção de datas de entrega em um dia<br>**FA06 - Entregas em uma semana**<br>1. O usuário seleciona a opção de datas de entrega em uma semana<br>**FA07 - Entregas em um mês**<br>1. O usuário seleciona a opção de datas de entrega em um mês<br>**FA08 - Entregas atrasadas**<br>1. O usuário seleciona a opção de cards não marcados como concluídos e que a data de entregue já tenha passado<br>**FA09 - Sem data de entrega**<br>1. O usuário seleciona a opção de cards sem data de entrega especificada<br>**FA10 - Entregas concluídas**<br>1. O usuário seleciona a opção de cards marcados como concluídos<br>**FA11 - Entregas não concluídas**<br>1. O usuário seleciona a opção de cards ainda não marcados como conluídos|
+| **Fluxos Alternativos** | **FA01 - Buscar por títulos**<br>1. O usuário digita o título pelo qual procura<br>**FA02 - Buscar por etiquetas**<br>1. O usuário seleciona as etiquetas que deseja<br>**FA03 - Busca por membros assinalados**<br>1. O usuário seleciona os membros que devem estar nos cards que procura<br>**FA04 - Busca por data de entrega**<br>1. O usuário escolhe uma opção de data de entrega a qual procura, a partir daqui, surge um, e apenas um, dos fluxos alternativos de 05 a 11.<br>**FA05 - Entregas em um dia**<br>1. O usuário seleciona a opção de datas de entrega em um dia<br>**FA06 - Entregas em uma semana**<br>1. O usuário seleciona a opção de datas de entrega em uma semana<br>**FA07 - Entregas em um mês**<br>1. O usuário seleciona a opção de datas de entrega em um mês<br>**FA08 - Entregas atrasadas**<br>1. O usuário seleciona a opção de cards não marcados como concluídos e que a data de entregue já tenha passado<br>**FA09 - Sem data de entrega**<br>1. O usuário seleciona a opção de cards sem data de entrega especificada<br>**FA10 - Entregas concluídas**<br>1. O usuário seleciona a opção de cards marcados como concluídos<br>**FA11 - Entregas não concluídas**<br>1. O usuário seleciona a opção de cards ainda não marcados como concluídos|
 | **Fluxos de Exceção** | Não se aplica |
 | **Pós Condições** | 1. O quadro irá exibir apenas cards que satisfaçam os critérios da pesquisa<br>2. Haverá uma opção no canto superior da tela que avisa que o modo de pesquisa está ativo e que oferece a opção de desativar |
