@@ -35,7 +35,7 @@
 - [ ] Criar atalho para marcar membros no item de checklist
 - [ ] Criar atalho pra emoji no item de checklist
 - [ ] Criar botão para excluir Item de Checklist
-- [ ] Possibilitar a converção de um Item em cartão
+- [ ] Possibilitar a converção de um Item em card
 
 
 ### US6 - Armazenar anexos nos cards
@@ -55,7 +55,7 @@
 - [ ] Possibilitar adicionar Comentário
 - [ ] Criar atalho para adicionar anexo no comentário
 - [ ] Criar atalho para Adicionar Emoji ao comentário
-- [ ] Criar atalho para mencionar cartão no comentário
+- [ ] Criar atalho para mencionar card no comentário
 - [ ] Criar atalho para mencionar Membros no comentário
 - [ ] Criar botão para editar comentário
 - [ ] Possibilitar excluir comentário
@@ -131,6 +131,6 @@
 ### US19 - Criar card através de e-mails
 
 - [ ] Fornecer um link para o usuário
-- [ ] Link viincula o quadro como um email para o board
+- [ ] Link vincula o board como um email para o board
 - [ ] O card pode ser criado através desse link
-- [ ] O link funciona como um email do quadro
+- [ ] O link funciona como um email do board
