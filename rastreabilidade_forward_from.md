@@ -5,7 +5,7 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 
 |  **ID** | **Nome** | **Documento Fonte** | **Responsável** | **Tasks** |
 |  :------: | :------: | :------: | :------: | :------: |
-|  RQ01 | Compatibilidade com atalhos de teclado | US1 | Samuel | [ ] - Criar possibilidade de utilizar atalhos do teclado |
+|  [RQ01](#RQ 01) | Compatibilidade com atalhos de teclado | US1 | Samuel | [ ] - Criar possibilidade de utilizar atalhos do teclado |
 |  RQ02 | CRUD de cards | US2 | Samuel | [ ] - Possibilitar criação do Card<br/>[ ] - Possibilitar a edição do Título do Card<br/>[ ] -  Possibilitar a expansão do Card para editar as informações<br/>[ ] - Possibilitar o arquivamento do Card |
 |  RQ03 | Suporte à deadlines nos cards | US3 | Samuel | [ ] - Criar botão para criar uma Deadline<br/>[ ] - Criar botão para editar uma Deadline<br/>[ ] - Criar botão para deletar uma Deadline<br/>[ ] - Possibilitar a escolha da deadline digitando a data<br/>[ ] - Possibilitar a escolha da deadline no calendário |
 |  RQ04 | Criação de descrição nos cards | US4 | Samuel | [ ] - Possibilitar a criação de uma descrição para o Card<br/>[ ] - Criar botão para editar a descrição do Card<br/>[ ] - Possibilitar Formatação Especial na descrição do Card<br/>[ ] - Exibir Ajuda para Formatação |
