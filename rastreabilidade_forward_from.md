@@ -5,7 +5,7 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 
 |  **ID** | **Nome** | **Documento Fonte** | **Responsável** | **Tasks** |
 |  :------: | :------: | :------: | :------: | :------: |
-|  [RQ01](#rq-01---compatibilidade-com-atalhos-de-teclado) | Compatibilidade com atalhos de teclado | US1 | Samuel | [ ] - Criar possibilidade de utilizar atalhos do teclado |
+|  [RQ01](#rq-01---compatibilidade-com-atalhos-de-teclado) | Compatibilidade com atalhos de teclado | [US1](casos-de-uso.html#caso-1:-fazer-login) | Samuel | [ ] - Criar possibilidade de utilizar atalhos do teclado |
 |  [RQ02](#rq-02---crud-de-cartões) | CRUD de cards | US2 | Samuel | [ ] - Possibilitar criação do Card<br/>[ ] - Possibilitar a edição do Título do Card<br/>[ ] -  Possibilitar a expansão do Card para editar as informações<br/>[ ] - Possibilitar o arquivamento do Card |
 |  [RQ03](#rq-03---suporte-à-deadlines-nos-cartões) | Suporte à deadlines nos cards | US3 | Samuel | [ ] - Criar botão para criar uma Deadline<br/>[ ] - Criar botão para editar uma Deadline<br/>[ ] - Criar botão para deletar uma Deadline<br/>[ ] - Possibilitar a escolha da deadline digitando a data<br/>[ ] - Possibilitar a escolha da deadline no calendário |
 |  [RQ04](#rq-04---criação-de-descrição-nos-cartões) | Criação de descrição nos cards | US4 | Samuel | [ ] - Possibilitar a criação de uma descrição para o Card<br/>[ ] - Criar botão para editar a descrição do Card<br/>[ ] - Possibilitar Formatação Especial na descrição do Card<br/>[ ] - Exibir Ajuda para Formatação |
@@ -46,7 +46,7 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 |  [RQ39]() | Visualizar membros de um time | US39 | Érico | [ ]- Criar área na parte superior mostrando algumas fotos de membros do time<br/>[ ]- Criar botão perto das fotos dos membros com o número de membros que mostre todos |
 |  [RQ40]() | Editar visibilidade do time | US40 | Érico | [ ]-  |
 |  [RQ41]() | Gerenciar administradores do time | US41 | Érico |  |
-|  RQ42 | Detalhar time | US42 | Érico |  |
+|  [RQ42]() | Detalhar time | US42 | Érico |  |
 |  [RQ43]() | Gerenciar membros de um time | US43 | Érico |  |
 |  [RQ44](#rq-44---descrição-das-imagens-no-html) | Descrição de imagens no HTML | US44 | Filipe | O Trello não contém imagens siginificativas. Cabe ao usuário adicionar imagens cujo título faça sentido |
 |  [RQ45](#rq-45---modo-daltônico) | Modo daltônico | US45 | Filipe | [ ] - Criar opção de ativação/desativação do modo daltônico em Opções do Usuário<br/>[ ] - Criação de padrões visuais através das quais seja possível identificar labels sem a necessidade de distinção de cor |
