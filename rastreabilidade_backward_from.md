@@ -43,3 +43,4 @@
 |  RQ41 | Time | Gerenciar administradores do time | US41 | [Rich Picture](rich-pictures.html), [Leitura da Documentação](leituradocumentacao.html) |
 |  RQ42 | Time | Detalhar time | US42 | [Rich Picture](rich-pictures.html), [Leitura da Documentação](leituradocumentacao.html) |
 |  RQ43 | Time | Gerenciar membros de um time | US43 | [Rich Picture](rich-pictures.html), [Introspecção](instrospeccao.html#natal), [Leitura da Documentação](leituradocumentacao.html) |
+

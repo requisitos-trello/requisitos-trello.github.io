@@ -1,3 +1,9 @@
+---
+layout: default
+title: Especificação Suplementar
+category: Modelagem
+---
+
 # Documento de Especificação Suplementar
 
 Este documento tem por finalidade a descrição mais elaborada de requisitos não funcionais encontrados ao longo da elaboração da documentação de análise de requisitos da aplicação Trello.
@@ -8,18 +14,13 @@ O objetivo do documento é cobrir os todos os requisitos não funcionais levanta
 
 ### Visão Geral
 
-Os requisitos estão aqui separados por Funcionalidade, Usabilidade, Desempenho, Portabilidade, Suportabilidade, Restrições de Design, Sistemas de Ajuda.
+Os requisitos estão aqui separados por Funcionalidade, Usabilidade, Confiabilidade, Desempenho, Suportabilidade, Restrições de Design, Sistemas de Ajuda.
 
 Embora sejam anexados pelas categorias descritas acima, mantém-se as indexações padronizadas pela wiki, tornando mais fácil a visualização dele ao longo da documentação.
 
 ### Referências
 
-Foram usados para a elaboração dos requisitos aqui descritos:
-
-- os [NFRs](nfr.html) levantados durante a fase de modelagem;
-- [Guia de uso](https://trello.com/guide?utm_source=trello&utm_medium=inapp&utm_content=header-tips&utm_campaign=guide) do Trello;
-- [Documentação de Segurança](http://trello.com/legal/security) do Trello;
-- [Guia para Desenvolvedores](https://developers.trello.com/) que queiram integrar aplicações com o Trello
+Todas as referências de conteúdo estão linkadas ao longo do documento.
 
 A formatação deste documento foi baseada no [template](http://www.funpar.ufpr.br:8080/rup/webtmpl/templates/req/rup_sspec.htm#2.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Functionality) da Fundação da Universidade Federal do Paraná. Algumas alterações foram feitas para melhor adequação à realidade na qual as especificações aqui descritas se enquadram.
 
@@ -47,14 +48,57 @@ Visando ser uma plataforma mudialmente utilizada, o Trello dispõe de vários id
 
 ---
 
-## Desempenho
+## Confiabilidade
 
-### RQ60 - Distribuição de Servidores
+### RQ60 - Limitar Requisições
 
-Para garantir que os dados dos usuários estejam sempre acessíveis e que eles não serão perdidos em caso de algum problema grave com servidores do Trello, é necessário configurar uma rede de servidores que sejam capazes de replicar dados entre si, aumentando a disponibilidade e confiabilidade daqueles dados.
+Para garantir que o sistema não será sobrecarregado pelas aplicações externas, a API deve impor um limite de requisições por chave da API e por token.
 
-### RQ61 - Velocidade de Resposta
+- Limite de 300 requisições a cada 10 segundos por chave de API
+- Limite de 100 requisições a cada 10 segundos por token
 
-O sistema deve ser capaz de receber, pelo menos, 200 requisições por segundo e ainda ser capaz de receber e enviar as informações necessárias dentro do período percebido pelo usuário de 0.5 segundos.
+Esses limites podem ser encontrados na [Documentação da API](https://developers.trello.com/docs/rate-limits).
+
+### RQ61 - Limitar Objetos por Board
+
+Como medida de segurança para evitar que aplicações externas consumam armazenamento demasiado dos sistemas do Trello, exite uma série de limitações sobre quantos objetos podem estar relacionados a um board. É necessário enviar uma requisição de aviso para que as aplicações possam ser preparadas para a ocasião de lotação do limite.
+
+|  Objeto | Limite | Warning |
+|  ------: | :------: | :------: |
+|  Membros | 1520 | 1440 |
+|  Cards Abertos | 4750 | 4500 |
+|  Cards (incluindo arquivados) | 1900000 | 1800000 |
+|  Checklists | 15200 | 14400 |
+|  Labels | 950 | 900 |
+|  Listas | 475 | 450 |
+|  Listas (incluindo arquivadas) | 2850 | 2700 |
+
+Esses limites podem ser encontrados na [Documentação da API](https://developers.trello.com/docs/limits).
+
+### RQ62 - Capacidade de Usuários
+
+Em 2017, [o Trello atingiu 25 milhões de usuários](https://blog.trello.com/25-million-users). Ainda deve-se levar em consideração que, além dos usuários, o sistema também é utilizado por inúmeros robôs que automatizam cargas de trabalho repetitivas, podendo cada um deles gerar até 10 requisições por segundo, em média. O sistema deve ser apto a manter essa carga de trabalho fluindo ininterruptamente.
 
 ---
+
+## Desempenho
+
+### Tem nada ainda
+
+---
+
+## Suportabilidade
+
+### RQ63 - Compatibilidade com navegadores mais comuns
+
+Como a aplicação será executada em um navegador web, é necessário que testes sejam realizados nos navegadores mais comuns no mercado. Segundo [pesquisa](http://gs.statcounter.com/browser-market-share/desktop/worldwide) realisada pela gs.statcounter.com, segue lista dos navegadores mais utilizados em desktop:
+
+| Navegador | Taxa de Uso |
+|  -----: | :------ |
+|  Chrome | 69.56% |
+| Firefox | 10.17% |
+| Internet Explorer | 6.02% |
+|  Safari | 5.63% |
+|    Edge | 4.22% |
+
+Para que se garanta compatibilidade com pelo menos 95% do público, deve-se haver garantia de que a aplicação funcionará sem problemas pelo menos nesses 5 navegadores.
