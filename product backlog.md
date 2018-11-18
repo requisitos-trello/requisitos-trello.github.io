@@ -55,6 +55,24 @@ A tabela com a descrição completa de cada história, sua pontuação e prioriz
 |  US41 | Time | Gerenciar administradores do time |-|
 |  US42 | Time | Detalhar time |-|
 |  US43 | Time | Gerenciar membros de um time |-|
+|  US44 | Acessibilidade | Adicionar descrição nas Imagens no HTML |-|
+|  US45 | Acessibilidade | Permitir modo daltônico |-|
+|  US46 | Acessibilidade | Utilizar alto contraste entre texto e fundo |-|
+|  US47 | Privacidade | Elaborar da Política de Privacidade |-|
+|  US48 | Usabilidade | Manter sessão |-|
+|  US49 | Usabilidade | Adequar a tamanho de tela |-|
+|  US50 | Usabilidade | Detectar Idioma |-|
+|  US51 | Usabilidade | Adicionar botão Home |-|
+|  US52 | Usabilidade | Pesquisar Qualquer Coisa |-|
+|  US53 | Usabilidade | Adicionar aba de Notificações |-|
+|  US54 | Usabilidade | Gerar documentação de Ajuda |-|
+|  US55 | Segurança | Utilizar documentação Akamai |-|
+|  US56 | Segurança | Utilizar servidores Secundários AWS |-|
+|  US57 | Segurança | Encriptar in-Transit |-|
+|  US58 | Segurança | Encriptar at-Rest |-|
+|  US59 | Desempenho | Limitar requisições |-|
+|  US60 | Desempenho | Limitar cards por lista |-|
+|  US61 | Desempenho | Limitar cards por board |-|
 
 ### Temas das USs
 
@@ -66,3 +84,6 @@ Abaixo se encontram as páginas que contém os critérios de aceitação de cada
 - [Lista](tema%20lista.html)
 - [Board](tema%20quadro.html)
 - [Time](tema%20time.html)
+- [Acessibilidade](tema%20acessibilidade.html)
+- [Privacidade](tema%20privacidade.html)
+- [Usabilidade](tema%20usabilidade.html)

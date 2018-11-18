@@ -49,14 +49,14 @@
 - [ ] Selecionar imagens para servirem como plano de fundo padrões dos Boards
 - [ ] Adicionar as imagens dentro da opção de fotos de plano de fundo
 
-### US34 – Integrar um board com ferramentas externas
+### US34 - Integrar um board com ferramentas externas
 
 - [ ] Criar opções de Power-Ups no menu do Board
 - [ ] Mostrar todos os Power-Ups disponíveis
 - [ ] Criar um input para pesquisar dentro dos Power-Ups
 - [ ] Criar categorias de Power-Ups
 
-### US35 – Copiar um board
+### US35 - Copiar um board
 
 - [ ] Criar opção de Copiar Board dentro do menu do Board
 - [ ] Dar a opção de escolher um nome para o novo Board
@@ -64,13 +64,13 @@
 - [ ] Criar a opção de alterar a visibilidade do Board(privado, público, etc)
 - [ ] Checklist de manter os cards do Board copiado
 
-### US36 – Seguir um board
+### US36 - Seguir um board
 
 - [ ] A funcionalidade deve aparecer após ser acessado o Menu dentro do board.
 - [ ] A funcionalidade deve exibir o botão "Seguir" que marca aquele board como um board seguido.
 - [ ] A funcionalidade deve notificar o usuário sobre alterações no board seguido.
 
-### US37 – Favoritar boards
+### US37 - Favoritar boards
 
 - [ ] A funcionalidade deve aparecer após ser efetuado o login do usuário, ao entrar no board e ao acessar a opção "boards".
 - [ ] A funcionalidade deve exibir um botão em formato de estrela para favoritar o board.
