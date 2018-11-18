@@ -7,7 +7,7 @@ category: Modelagem
 # Cenários
 
 ------------
-## Cenário de Login
+## CN01 Cenário de Login
 
 **Título:** [Login](lexicos.html#login)  comum 
 
@@ -32,7 +32,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) estará logado na aplicação.
 
 ------------
-## Cenário de Login
+## CN02 Cenário de Login com o Google
 
 **Título:** [Login](lexicos.html#login) com o Google
 
@@ -59,7 +59,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) estará logado na aplicação.
 
 ------------
-## Cenário de Cadastro
+## CN03 Cenário de Cadastro
 
 **Título:** Cadastrar no Trello.
 
@@ -85,7 +85,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) estará cadastrado e logado na aplicação.
 
 ------------
-## Cenário de Alterar Senha
+## CN04 Cenário de Alterar Senha
 
 **Título:**  ​Alterar senha.
 
@@ -113,7 +113,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) clica no botão ‘Enviar’.
 
 ------------
-## Cenário alterar configurações de Notificação
+## CN05 Cenário alterar configurações de Notificação
 
 **Título:**  ​Alterar configurações de [Notificação](lexicos.html#notificar).
 
@@ -140,7 +140,7 @@ Instantaneamente;
 - [Usuário](lexicos.html#usuário) terá permitido a aplicação a exibir [Notificação](lexicos.html#notificar) da Área de Trabalho.
 
 ------------
-## Cenário ver notificações
+## CN06 Cenário ver notificações
 
 **Título:**  ​Ver [Notificações](lexicos.html#notificar).
 
@@ -164,7 +164,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) vê suas [Notificações](lexicos.html#notificar), caso exista alguma notificação não lida.
 
 ------------
-## Cenário criar time
+## CN07 Cenário criar time
 
 **Título:** ​Criar [Time](lexicos.html#time).
 
@@ -189,7 +189,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) terá criado um novo [Time](lexicos.html#time).
 
 ------------
-## Cenário convidar [Usuários](lexicos.html#usuário) para um time
+## CN08 Cenário convidar [Usuários](lexicos.html#usuário) para um time
 
 **Título:** ​Convidar [Usuários](lexicos.html#usuário) para um [Time](lexicos.html#time).
 
@@ -213,7 +213,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) terá convidado um [usuário](lexicos.html#usuário) para seu [Time](lexicos.html#time).
 
 ------------
-## Cenário de imprimir Board
+## CN09 Cenário de imprimir Board
 
 **Título:** Impressão de [Board](lexicos.html#board) 
 
@@ -238,7 +238,7 @@ possuir conexão a internet.
 - Browser faz a comunicação com o Sistema Operacional, que por sua vez comunica-se com a impressora.
 
 --------------
-## Cenário de adicionar [Stickers](lexicos.html#sticker)
+## CN10 Cenário de adicionar [Stickers](lexicos.html#sticker)
 
 **Título:** Adição de [Stickers](lexicos.html#sticker)
 
@@ -260,7 +260,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) clica e arrasta o Sticker desejado até o [Card](lexicos.html#card) desejado;
 
 --------------
-## Cenário de editar/remover [Stickers](lexicos.html#sticker)
+## CN11 Cenário de editar/remover [Stickers](lexicos.html#sticker)
 
 **Título:** Edição de [Stickers](lexicos.html#sticker)
 
@@ -285,7 +285,7 @@ possuir conexão a internet.
 **Exceção:** Falta de conexão com a internet após tentar adicionar o [sticker](lexicos.html#sticker), queda de energia.
 
 --------------
-## Cenário de Alterar Tela de Fundo
+## CN12 Cenário de Alterar Tela de Fundo
 
 **Título:** Alteração da Tela de Fundo de uma [Board](lexicos.html#board)
 
@@ -313,7 +313,7 @@ possuir conexão a internet.
 **Exceção:** Imagem inválida (tamanho grande ou pequeno demais ou extensão incompatível), queda de energia ou de queda de conexão com a internet.
 
 --------------
-## Cenário de Filtrar Cartões
+## CN13 Cenário de Filtrar Cartões
 
 **Título:** Pesquisa de [Cards](lexicos.html#card)
 
@@ -347,7 +347,7 @@ possuir conexão a internet.
     - Para encerrar a filtragem, o [Usuário](lexicos.html#usuário) pode clicar no X ao lado deste texto.
 
 --------------
-## Cenário de [Copiar](lexico.html#copiar) um Quadro
+## CN14 Cenário de [Copiar](lexico.html#copiar) um Quadro
 
 **Título:** Cópia de [Board](lexicos.html#board)
 
@@ -373,7 +373,7 @@ possuir conexão a internet.
 - É criada uma nova [Board](lexicos.html#board);
  
 --------------
-## Cenário de Seguir Quadro
+## CN15 Cenário de Seguir Quadro
 
 **Título:** [Seguir]() uma [Board](lexicos.html#board)
 
@@ -396,7 +396,7 @@ possuir conexão a internet.
 - O [Usuário](lexicos.html#usuário) pode selecionar novamente a opção **Seguir** para parar de seguir, ou clicar no texto recém-aparecido que ascenderá um botão **Parar de seguir**.
 
 --------------
-## Cenário de Fechar um Quadro
+## CN16 Cenário de Fechar um Quadro
 
 **Título:** Fechamento de [Board](lexicos.html#board)
 
@@ -418,7 +418,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) clica no botão vermelhor **Fechar**;
 
 ------------
-## Cenário de Exportar um Quadro para JSON
+## CN17 Cenário de Exportar um Quadro para JSON
 
 **Título:** Exportação de [Board](lexicos.html#board) para JSON 
 
@@ -442,7 +442,7 @@ possuir conexão a internet.
 - A aplicação redireciona para uma página que contém apenas o código JSON da [Board](lexicos.html#board);
 
 ------------
-## Cenário de Retirar Membros de um [Time](lexicos.html#time)
+## CN18 Cenário de Retirar Membros de um [Time](lexicos.html#time)
 
 **Título:** Retirar [membros](lexicos.html#membro) de um [time](lexicos.html#time).
 
@@ -467,7 +467,7 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de Editar Descrição de [Time](lexicos.html#time)
+## CN19 Cenário de Editar Descrição de [Time](lexicos.html#time)
 
 **Título:** Editar descrição de [time](lexicos.html#time).
 
@@ -495,7 +495,7 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de Editar Visibilidade do [Time](lexicos.html#time)
+## CN20 Cenário de Editar Visibilidade do [Time](lexicos.html#time)
 
 **Título:** Editar visibilidade do [time](lexicos.html#time).
 
@@ -522,7 +522,7 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de [Vincular](lexicos.html#vincular) [Time](lexicos.html#time) ao Slack
+## CN21 Cenário de [Vincular](lexicos.html#vincular) [Time](lexicos.html#time) ao Slack
 
 **Título:** [Vinculação](lexicos.html#vincular) [Time](lexicos.html#time) ao Slack.
 
@@ -554,7 +554,7 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de Permitir Membro Comentar em um [Board](lexicos.html#board) 
+## CN22 Cenário de Permitir Membro Comentar em um [Board](lexicos.html#board) 
 
 **Título:** Permitir membro comentar em um [Board](lexicos.html#board).
 
@@ -583,7 +583,7 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de Negar [Membro](lexicos.html#membro) Ingressar em um [Board](lexicos.html#board) 
+## CN23 Cenário de Negar [Membro](lexicos.html#membro) Ingressar em um [Board](lexicos.html#board) 
 
 **Título:** Negar [membro](lexicos.html#membro) ingressar em um [Board](lexicos.html#board).
 
@@ -610,7 +610,7 @@ possuir conexão a internet.
 - Se estiver ativo, [Administrador](lexicos.html#administrador) clica em permitir ingresso de [membros](lexicos.html#membro) do time.
 - Senão, a permissão já foi negada.
 
-## Cenário de Ver [Lista](lexicos.html#lista)
+## CN24 Cenário de Ver [Lista](lexicos.html#lista)
 
 **Título:** Ver [Lista](lexicos.html#lista) 
 
@@ -638,7 +638,7 @@ possuir conexão a internet.
 ------------
 # Cards
 
-## Cenário de Criar Card
+## CN25 Cenário de Criar Card
 
 **Título:** Criar [Card](lexicos.html#card)  
 
@@ -662,7 +662,7 @@ possuir conexão a internet.
 - A aplicação mostra a [Lista](lexicos.html#lista) desejada para o [Usuário](lexicos.html#usuário).
 
 ------------
-## Cenário de Modificar Card
+## CN26 Cenário de Modificar Card
 
 **Título:** Modificar [Card](lexicos.html#card)  
 
@@ -688,7 +688,7 @@ possuir conexão a internet.
 - A aplicação mostra uma janela de edição para o [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
 
 ------------
-## Cenário de Ver Card
+## CN27 Cenário de Ver Card
 
 **Título:** Ver [Card](lexicos.html#card)  
 
@@ -713,7 +713,7 @@ possuir conexão a internet.
 - A aplicação mostra uma janela com os dados do [Card](lexicos.html#card)  desejado para o [Usuário](lexicos.html#usuário).
 
 ------------
-## Cenário de Seguir Card
+## CN28 Cenário de Seguir Card
 
 **Título:** Seguir [Card](lexicos.html#card)  
 
@@ -739,7 +739,7 @@ possuir conexão a internet.
 - A aplicação retorna à tela de [VER CARD](#cenário-de-ver-card).
 
 ------------
-## Cenário de [Arquivar](lexicos.html#arquivar) Card
+## CN29 Cenário de [Arquivar](lexicos.html#arquivar) Card
 
 **Título:** [Arquivar](lexicos.html#arquivar) [Card](lexicos.html#card)  
 
@@ -765,7 +765,7 @@ possuir conexão a internet.
 - A aplicação retorna à tela de [VER LISTA]().
 
 ------------
-## Cenário de Personalizar [Label](lexicos.html#label)
+## CN30 Cenário de Personalizar [Label](lexicos.html#label)
 
 **Título:** Personalizar [Label](lexicos.html#label) 
 
@@ -791,7 +791,7 @@ possuir conexão a internet.
 - A aplicação mostra uma janela com opções de persnoalização para o [Label](lexicos.html#label) para o [Usuário](lexicos.html#usuário).
 
 ------------
-## Cenário de Adicionar [Anexo](lexicos.html#anexo) em um card
+## CN31 Cenário de Adicionar [Anexo](lexicos.html#anexo) em um card
 
 **Título:** Adicionar [Anexo](lexicos.html#anexo) em um [Card](lexicos.html#card) 
 
@@ -815,7 +815,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) terá anexado algo ao [Card](lexicos.html#card)  selecionado. 
 
 ------------
-## Cenário de Mover um [Card](lexicos.html#card) para outra list 
+## CN32 Cenário de Mover um [Card](lexicos.html#card) para outra list 
 
 **Título:** Mover um [Card](lexicos.html#card)  para outra [Lista](lexicos.html#lista)
 
@@ -844,7 +844,7 @@ possuir conexão a internet.
 
 
 ------------
-## Cenário de Responder um comentário no card
+## CN33 Cenário de Responder um comentário no card
 
 **Título:** Responder um comentário no [Card](lexicos.html#card) 
 
@@ -868,7 +868,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) terá respondido o comentário selecionado.
 
 ------------
-## Cenário de Excluir comentário no [Card](lexicos.html#card)
+## CN34 Cenário de Excluir comentário no [Card](lexicos.html#card)
 
 **Título:** Excluir comentário no [Card](lexicos.html#card) 
 
@@ -891,7 +891,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) terá excluído o comentário desejado. 
 
 ------------
-## Cenário de Usar Power-Up no quadro 
+## CN35 Cenário de Usar Power-Up no quadro 
 
 **Título:** Usar Power-Up no quadro
 
@@ -915,7 +915,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) terá adicionado um Power-Up a um quadro.
 
 ------------
-## Cenário de Compartilhar card
+## CN36 Cenário de Compartilhar card
 
 **Título:** Compartilhar [Card](lexicos.html#card) 
 
@@ -937,7 +937,7 @@ possuir conexão a internet.
 - Ao selecionar uma das opções, o [Usuário](lexicos.html#usuário) terá um referencial do [Card](lexicos.html#card) de acordo com a opção escolhida. 
 
 ------------
-## Cenário de Exibir detalhes do card
+## CN37 Cenário de Exibir detalhes do card
 
 **Título:** Exibir detalhes do [Card](lexicos.html#card) 
 
@@ -957,7 +957,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) terá aberto os detalhes do [Card](lexicos.html#card) .
 
 ------------
-## Cenário de [Vincular](lexicos.html#) ao [Quadro](lexicos.html#quadro)
+## CN38 Cenário de [Vincular](lexicos.html#) ao [Quadro](lexicos.html#quadro)
 
 **Título:** [Vincular](lexicos.html#) a um [Quadro](lexicos.html#quadro). 
 
@@ -981,7 +981,7 @@ possuir conexão a internet.
 -[Usuário](lexicos.html#usuário) clica no link para se [Vincular](lexicos.html#vincular).
 
 ------------
-## Cenário de Alterar permissões de [membros](lexicos.html#membro) no [board](lexicos.html#board)
+## CN39 Cenário de Alterar permissões de [membros](lexicos.html#membro) no [board](lexicos.html#board)
 
 **Título:** Alterar permissão de um [Membro](lexico.html#tarefa) em um [Board](lexico.html#board).
 
@@ -1003,7 +1003,7 @@ possuir conexão a internet.
 - Caso o [Usuário](lexicos.html#usuário) não tenha permissão, ele não conseguirá alterar outras.
 
 ------------
-## Cenário de Criar [Lista](lexicos.html#lista)
+## CN40 Cenário de Criar [Lista](lexicos.html#lista)
 
 **Título:** Criar uma [Lista](lexicos.html#lista).
 
@@ -1024,7 +1024,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) coloca um nome na [Lista](lexicos.html#lista).
 
 ------------
-## Cenário de Alterar nome da [Lista](lexicos.html#lista)
+## CN41 Cenário de Alterar nome da [Lista](lexicos.html#lista)
 
 **Título:** alterar o nome de uma [Lista](lexicos.html#lista).
 
@@ -1045,7 +1045,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) altera o nome da [Lista](lexicos.html#lista).
 
 ------------
-## Cenário de Arquivar [Lista](lexicos.html#lista)
+## CN42 Cenário de Arquivar [Lista](lexicos.html#lista)
 
 **Título:** [Arquivar](lexicos.html#arquivar) uma [Lista](lexicos.html#lista).
 
@@ -1066,7 +1066,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) clica na opção"Arquivar esta [Lista](lexicos.html#lista)".
 
 ------------
-## Cenário de Organizar o quadro em coleções
+## CN43 Cenário de Organizar o quadro em coleções
 
 **Título:** Organizar o [Quadro](lexicos.html#quadro) em [Coleções](lexicos.html#colecao)).
 
@@ -1088,7 +1088,7 @@ possuir conexão a internet.
 -Caso não tenha [Quadros](lexicos.html#quadros) o [Usuário](lexicos.html#usuário) terá que criar mais.
 
 ----------------
-## Criar Board
+## CN44 Criar Board
 
 **Título:** Criar um [Board](lexicos.html#board).
 
@@ -1111,7 +1111,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) realiza [Login](lexicos.html#login);
 - [Usuário](lexicos.html#usuário) clica no criar [Board](lexicos.html#board);
 ---------------------------
-## Criar Board do Time
+## CN45 Criar Board do Time
 
 **Título:** Criar um [Board](lexicos.html#board) e alocar time.
 
@@ -1135,7 +1135,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) clica no criar [Board](lexicos.html#board);
 - [Usuário](lexicos.html#usuário) adiciona participantes ao [Board](lexicos.html#board);
 ---------------------------
-## Ver um Board
+## CN46 Ver um Board
 
 **Título:** Ver um [Board](lexicos.html#board).
 
@@ -1159,7 +1159,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) clica no [Board](lexicos.html#board) para visualizar;
 - [Usuário](lexicos.html#usuário) visualiza o [Board](lexicos.html#board).
 ---------------------------
-## Administrar Power-ups
+## CN47 Administrar Power-ups
 
 **Título:** Administrar [power-ups](lexicos.html#power-up) em um projeto..
 
@@ -1185,7 +1185,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) adiciona [power-ups](lexicos.html#power-up) no [card](lexicos.html#card) utilizar;
 
 --------------------
-## Cenário de Adicionar Membros ao Card
+## CN48 Cenário de Adicionar Membros ao Card
 
 **Título:** Adicionar [membros](lexicos.html#membro) em um [card](lexicos.html#card). 
 
@@ -1220,7 +1220,7 @@ possuir conexão a internet.
 
 ------------------------
 
-## Adicionar Descrição ao Card
+## CN49 Adicionar Descrição ao Card
 
 **Título:** Adicionar descrição ao [card](lexicos.html#card).
 
@@ -1255,7 +1255,7 @@ possuir conexão a internet.
 
 -------------------------------------
 
-## Adicionar Checklist
+## CN50 Adicionar Checklist
 
 **Título:** Adicionar checklist ao [card](lexicos.html#card). 
 
@@ -1293,7 +1293,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuario) para de adicionar subtarefas quando desejar.
 
 --------------------------
-## Adicionar Etiqueta ao Card 
+## CN51 Adicionar Etiqueta ao Card 
 **Título:** Adicionar etiqueta em um [card](lexicos.html#card).
 
 **Objetivo:** Adicionar uma etiqueta ao [card](lexicos.html#card) selecionado.
@@ -1330,7 +1330,7 @@ possuir conexão a internet.
 
 -----------------------------
 
-## Adicionar [Deadline](lexico.html#duedate) 
+## CN52 Adicionar [Deadline](lexico.html#duedate) 
 
 **Título:** Adicionar [deadline](lexico.html#duedate)  em um [card](lexicos.html#card). 
 
@@ -1369,7 +1369,7 @@ possuir conexão a internet.
 
 ---------------------------
 
-## Adicionar Comentários ao Card
+## CN53 Adicionar Comentários ao Card
 
 **Título:** Adicionar comentário em um [card](lexicos.html#card). 
 
@@ -1405,7 +1405,7 @@ possuir conexão a internet.
 
 --------------------------
 
-## Alterar Permissão de Comentário
+## CN54 Alterar Permissão de Comentário
 
 **Título:** Alterar permissão de comentário. 
 

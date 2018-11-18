@@ -42,7 +42,7 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 
 ![nfr-usabilidade](imagens/NFR/nfr_usabilidade.jpg)
 
-## Usabilidade - Mobile
+## Usabilidade-Mobile
 
 ![nfr-privacidade](imagens/NFR/nfr - Usabilidade Mobile.png)
 

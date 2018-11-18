@@ -6,7 +6,7 @@ category: Modelagem
 
 # Léxicos
 
-## Board
+## LX01 Board
 
 ### Noção
 - Representa um projeto ou um lugar para rastrear informações
@@ -22,7 +22,7 @@ category: Modelagem
 
 --------------
 
-## Lista
+## LX02 Lista
 
 ### Noção
 - Representa uma coluna de uma tabela
@@ -38,7 +38,7 @@ category: Modelagem
 
 --------------
 
-## Card
+## LX03 Card
 
 ### Noção
 - Unidade fundamental de um [Board](lexicos.html#board)
@@ -55,7 +55,7 @@ category: Modelagem
 
 --------------
 
-## Administrador
+## LX04 Administrador
 
 ### Noção
 - Um papel desempenhado por um usuário em um [Board](lexicos.html#board)
@@ -71,7 +71,7 @@ category: Modelagem
 
 --------------
 
-## Business Class
+## LX05 Business Class
 
 ### Noção
 - Plano que ser comprado para um [time](lexicos.html#time)
@@ -84,7 +84,7 @@ category: Modelagem
 
 --------------
 
-## Atribuir / Delegar tarefa
+## LX06 Atribuir / Delegar tarefa
 
 ### Noção
 - Relacionar um [Card](lexicos.html#card) com um [membro](lexicos.html#membro) da [Board](lexicos.html#board)
@@ -96,7 +96,7 @@ category: Modelagem
 
 --------------
 
-## Imagem de Capa
+## LX07 Imagem de Capa
 
 ### Noção
 - Imagem [anexada](lexicos.html#anexo) ao [Card](lexicos.html#card) que aparece na visão geral da [Board](lexicos.html#board)
@@ -108,7 +108,7 @@ category: Modelagem
 
 --------------
 
-## Coleções
+## LX08 Coleções
 
 ### Noção
 - Criado por usuário bussiness.
@@ -123,7 +123,7 @@ category: Modelagem
 
 --------------
 
-## Arquivar
+## LX09 Arquivar
 
 ### Noção
 - Usuário arquiva card ou [Lista](lexicos.html#lista).
@@ -138,7 +138,7 @@ category: Modelagem
 
 --------------
 
-## Anexo
+## LX10 Anexo
 
 ### Noção
 - Arquivo que um usuário adiciona a um card.
@@ -151,7 +151,7 @@ category: Modelagem
 - Anexos
 
 --------------
-## Time
+## LX11 Time
 
 ### Sinônimos
 - Times, equipe
@@ -167,7 +167,7 @@ category: Modelagem
 
 --------------
 
-## Sticker
+## LX12 Sticker
 
 ### Sinônimos
 - Stickers, emote
@@ -183,7 +183,7 @@ category: Modelagem
 
 --------------
 
-## Duedate
+## LX13 Duedate
 
 ### Sinônimos
 - Deadline, prazo de Entrega, prazo Limite
@@ -200,7 +200,7 @@ category: Modelagem
 
 --------------
 
-## Notificar
+## LX14 Notificar
 
 ### Sinônimo
 - Avisar
@@ -217,7 +217,7 @@ category: Modelagem
 
 --------------
 
-## Copiar
+## LX15 Copiar
 
 ### Sinônimo
 - clonar
@@ -230,7 +230,7 @@ category: Modelagem
 - Copiar [Lista](lexicos.html#lista)
 - Copiar [Board](lexicos.html#board)
 --------------
-## Usuário
+## LX16 Usuário
 
 ### Noção
 - Pessoa que utiliza o sistema.
@@ -243,7 +243,7 @@ category: Modelagem
 
 --------------
 
-## Login
+## LX17 Login
 
 ### Noção
 - Realizado pelo usuário.
@@ -257,7 +257,7 @@ category: Modelagem
 - acessar conta
 --------------
 
-## Vincular
+## LX18 Vincular
 
 ### Noção
 - Associar pessoa a quadro.
@@ -272,7 +272,7 @@ category: Modelagem
 
 --------------
 
-## Membro
+## LX19 Membro
 
 ### Noção
 - Usuário pertencente a um time.
@@ -286,7 +286,7 @@ category: Modelagem
 
 --------------
 
-## Arrastar Card
+## LX20 Arrastar Card
 
 ### Noção
 - Ação que faz você mudar um determinado [Card](lexicos.html#card) de uma [Lista](lexicos.html#lista) para outra.
@@ -303,7 +303,7 @@ category: Modelagem
 
 --------------
 
-## Seguir
+## LX21 Seguir
 
 ### Noção
 - Ação que faz você ter notificações de determinada [Lista](lexicos.html#lista).
@@ -315,7 +315,7 @@ category: Modelagem
 
 --------------
 
-## Atividade
+## LX22 Atividade
 
 ###Sinônimo
 - [Feed](lexicos.html#atividade)
@@ -334,7 +334,7 @@ category: Modelagem
 --------------
 
 
-## Check-list
+## LX23 Check-list
 
 ### Sinônimos
 - Lista de tarefas
@@ -348,7 +348,7 @@ category: Modelagem
 
 ---------------
 
-## Power-up
+## LX25 Power-up
 
 ### Sinônimos
 - Melhoria
@@ -362,7 +362,7 @@ category: Modelagem
 
 ---------------
 
-## Label
+## LX26 Label
 
 ### Sinônimos
 - Etiqueta
@@ -378,7 +378,7 @@ category: Modelagem
 
 ---------------
 
-## Tarefa
+## LX27 Tarefa
 
 ### Sinônimos
 - Dever
@@ -394,7 +394,7 @@ category: Modelagem
 
 --------------------------
 
-## Fechar
+## LX28 Fechar
 
 ### Sinônimos
 - Sair
@@ -408,7 +408,7 @@ category: Modelagem
 
 --------------------
 
-## Perfil
+## LX29 Perfil
 
 ### Sinônimos
 - Conta
@@ -425,7 +425,7 @@ category: Modelagem
 
 -----------------------
 
-## Convidar
+## LX30 Convidar
 
 ## Sinônimos
 - Chamar
@@ -439,7 +439,7 @@ category: Modelagem
 
 -----------------
 
-## Update
+## LX31 Update
 
 ## Sinônimos
 - Atualizar
@@ -455,7 +455,7 @@ category: Modelagem
 
 -----------------
 
-## Gerente
+## LX32 Gerente
 
 ## Sinônimos
 - Líder
