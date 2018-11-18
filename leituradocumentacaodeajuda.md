@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Leitura de documentação
+title: Leitura de documentação de Ajuda
 category: Elicitação
 ---
 
-# Leitura da Documentação
+# Leitura da Documentação de Ajuda
 
 Em estudo das técnicas lecionadas em sala de aula, percebe-se uma adequação à situações onde o software sobre o qual se quer levantar requisitos sequer existe. Como, nesse caso, os requisitos levantados são referentes a um produto já consolidado e com extensa documentação de ajuda, esta será a fonte de informações para elicitação neste documento. Os textos como base da elicitação serão os presentes no [Guia](https://trello.com/guide?utm_source=trello&utm_medium=inapp&utm_content=header-tips&utm_campaign=guide) do Trello.
 
