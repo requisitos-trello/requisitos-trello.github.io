@@ -38,6 +38,7 @@
 | Léxicos | [LX02](lexicos.html#lx02-lista) | Rossicler Júnior |
 | Léxicos | [LX03](lexicos.html#lx03-card) | Rossicler Júnior |
 | NFR | [API](nfr.html#api) | Rossicler Júnior |
+| NFR | [Interface](nfr.html#interface) | Samuel Borges |
 | Backlog do produto | [Backlog](product backlog.html) | Todos |
 | Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior |
 | Inspecções | [iStar](inspec_istar.html) | Rossicler Júnior, Érico Bandeira |
