@@ -65,6 +65,9 @@
 | Léxicos | [LX04](lexicos.html#lx04-administrador) | Filipe Toyoshima |
 | Léxicos | [LX06](lexicos.html#lx06-atribuir--delegar-tarefa) | Filipe Toyoshima |
 | Léxicos | [LX07](lexicos.html#lx07-imagem-de-capa) | Filipe Toyoshima |
+| Léxicos | [LX28](lexicos.html#lx28-fechar) | Samuel Borges|
+| Léxicos | [LX29](lexicos.html#lx29-perfil) | Samuel Borges |
+| Léxicos | [LX30](lexicos.html#lx30-convidar) | Samuel Borges |
 | NFR | [API](nfr.html#api) | Rossicler Júnior |
 | NFR | [Acessibilidade](nfr.html#acessibilidade) | Filipe Toyoshima |
 | NFR | [Usabilidade](nfr.html#usabilidade) | Filipe Toyoshima |
