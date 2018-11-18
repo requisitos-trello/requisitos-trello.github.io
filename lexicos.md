@@ -229,7 +229,9 @@ category: Modelagem
 - Copiar [Card](lexicos.html#lx03-card)
 - Copiar [Lista](lexicos.html#lx02-lista)
 - Copiar [Board](lexicos.html#lx01-board)
+
 --------------
+
 ## LX16 Usuário
 
 ### Noção
@@ -255,6 +257,7 @@ category: Modelagem
 
 ### Sinonimo
 - acessar conta
+
 --------------
 
 ## LX18 Vincular
@@ -332,7 +335,6 @@ category: Modelagem
 - Adicionar uma [Tarefa](lexicos.html#lx27-tarefa) no [Feed](lexicos.ntml#atividades).
 
 --------------
-
 
 ## LX23 Check-list
 
@@ -467,6 +469,7 @@ category: Modelagem
 - Age atribuindo tarefas;
 - Age acompanhando tarefas;
 - Age auxiliando da melhor forma o desenvolvimento.
+
 ## Impacto
 - Usuários possuem um apoio no desenvolvimento;
 - Usuários recebem tarefas;
