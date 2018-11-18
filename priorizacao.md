@@ -10,6 +10,8 @@ Segue na tabela o backlog levantado pelas técnicas de elicitação e entendimen
 
 Aqui utilizando-se da técnica MoSCoW (Must, Should, Could, Would)
 
+## MoSCoW
+
 |  # | Nome | MoSCoW |
 |  ------: | :------ | :------ |
 |  1 | Integração com outras ferramentas (Power-Ups) | Should |
@@ -52,6 +54,8 @@ Aqui utilizando-se da técnica MoSCoW (Must, Should, Could, Would)
 |  38 | Incluir anexos em comentários | Could |
 |  39 | Responder um comentário | Would |
 |  40 | Incluir emoji em um comentário | Would |
+
+## First Things First
 
 A segunda tabela utiliza-se da técnica de First Things First. A equipe estimou **Benefício Relativo**, **Penalidade Relativa**, **Custo de Implementação** e **Risco de Implementação**. Após as estimativas, benefício e penalidade foramm somados em **Valor**, e então foi calculado o valor relativo ao total da coluna, obtendo assim o **Valor %**. Em seguida, o mesmo procedimento de percentual foi feito com as colunas de Custo e Risco, obtendo **Custo %** e **Risco %**. Finalmente, calculamos a prioridade com a equação **Valor% / (Custo% + Risco%)**. Segue o resultado ordenado por prioridade. 
 

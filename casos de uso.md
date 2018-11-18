@@ -10,7 +10,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ## Diagramas:
 
-### Caso 1: Fazer Login
+### UC01 Fazer Login
 
 ![Caso 1](imagens/casos de uso/UC01.png)
 
@@ -27,7 +27,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Pós Condições** | Usuário estará logado no sistema. |
 
 
-### Caso 2: Cadastro
+### UC02 Cadastro
 
 ![Caso 2](imagens/casos de uso/UC02.png)
 
@@ -44,7 +44,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Pós Condições** | Usuário terá criado uma nova conta no sistema. |
 
 
-### Caso 3: Alterar Senha
+### UC03 Alterar Senha
 
 ![Caso 3](imagens/casos de uso/UC03.png)
 
@@ -61,7 +61,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Pós Condições** | Usuário terá alterado a senha de sua conta no sistema. |
 
 
-### Caso 4: Alterar Configurações
+### UC04 Alterar Configurações
 
 ![Caso 4](imagens/casos de uso/UC04.png)
 
@@ -78,7 +78,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Pós Condições** | Usuário terá alterado as configurações de sua conta no sistema. |
 
 
-### Caso 5: Criar time
+### UC05: Criar time
 
 ![Caso 5](imagens/casos de uso/caso5.png)
 

@@ -189,7 +189,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuário) terá criado um novo [Time](lexicos.html#time).
 
 ------------
-## CN08 Cenário convidar [Usuários](lexicos.html#usuário) para um time
+## CN08 Cenário convidar Usuários para um time
 
 **Título:** ​Convidar [Usuários](lexicos.html#usuário) para um [Time](lexicos.html#time).
 

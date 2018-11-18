@@ -20,7 +20,13 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 
 ## API
 
+### Versão 1
+
 ![nfr-api](imagens/NFR/api-trello.png)
+
+### Versão 2
+
+![nfr-api-v2](imagens/NFR/api-trello-v2.png)
 
 ## Acessibilidade
 

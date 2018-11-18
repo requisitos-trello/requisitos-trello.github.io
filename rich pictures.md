@@ -38,14 +38,17 @@ Aqui pretende-se entender o funcionamento da criação de boards. Percebemos o f
 
 Neste Rich Picture, tentamos entender a necessidade e o uso da interoperabilidade. Novamente, partimos das necessidades do mundo real e traçamos o caminho para o uso dessa funcionalidade especifica.
 
-### Exemplos de Personas
+## Exemplos de Personas
 
 Para ilustrar como uma ferramenta de organização pode ter demandas bem variadas, foram criadas personas, cada uma com suas necessidades peculiares.
 
+### Silverson
 ![silverson](imagens/rich pictures/silverson.jpg)
 
+## Orientadora
 ![orientadora](imagens/rich pictures/orientadora.jpg)
 
+## Turista
 ![turista](imagens/rich pictures/turista.jpg)
 
 Com isso, é perceptível a variedade de problemas que uma aplicação de organização, como o Trello, deve resolver. Esses rich pictures podem também ser usados para traçar um ponto em comum entre a vasta diferença dos problemas. Aqui fica claro como ter uma aplicação simples e maleável pode atrair usuários.
@@ -63,5 +66,9 @@ Dessa forma têm-se uma noção da realação entre os usuários juntamente com 
 ![Google Calendar](imagens/rich pictures/GoogleCalendar_OpenAPI-Trello-v2.png)
 
 Nesse rich picture é possivel observar algumas das funcionalidades em que a integração do trello com o Google Calendar traz a aplicação. Essa integração é feita a partir da API aberta do Trello, onde programadores podem usa-la para criar esse tipos de integração, desde que siga o regulamento do Trello.
+
+### Contato Inicial
+
+![Contato Inicial](imagens/rich pictures/Contato_inicial.png)
 
 
