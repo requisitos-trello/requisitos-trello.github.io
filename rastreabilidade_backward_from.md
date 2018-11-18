@@ -26,15 +26,15 @@
 |  **ID** | **Tema** | **Nome** | **Documento Fonte** | **Técnica de elicitação** | **Modelagem** |
 |  :------: | :------: | :------: | :------: | :------: | :------: |
 |  RQ01 | Aplicativo | Compatibilidade com atalhos de teclado | US1 | [LD](leituradocumentacao.html) | [NFR](nfr.html#acessibilidade) |
-|  RQ02 | Card | CRUD de cartões | US2 |  [BS](brainstorming.html), [IP](instrospeccao.html#gertrude), [PT](prototipo.html), [LD](leituradocumentacao.html) | [RP](rich pictures.html), [UC13](casos de uso.html#uc13-imprimir-um-board), [UC22](casos de uso.html#uc22-modificar-um-card), [CN25](cenarios.html#cn25), [CN26](cenarios.html#cn26), [LX03](lexicos.html#lx03) |
-|  RQ03 | Card | Suporte à deadlines nos cartões | US3 |  [LD](leituradocumentacao.html), [IP](instrospeccao.html#casamento) | [RP](rich-pictures.html), [UC29](casos de uso.html#uc29-adicionar-etiqueta-a-um-card), [LX13](lexicos.html#lx13) |
-|  RQ04 | Card | Criação de descrição nos cartões | US4 | [LD](leituradocumentacao.html), [IP](instrospeccao.html) | [UC26](casos de uso.html#uc26-adicionar-um-membro-a-um-card), [LX03](lexicos.html#lx03) |
+|  RQ02 | Card | CRUD de cartões | US2 |  [BS](brainstorming.html), [IP](instrospeccao.html#gertrude), [PT](prototipo.html), [LD](leituradocumentacao.html) | [RP](rich pictures.html), [UC13](casos de uso.html#uc13-imprimir-um-board), [UC22](casos de uso.html#uc22-modificar-um-card), [CN25](cenarios.html#cn25), [CN26](cenarios.html#cn26), [LX03](lexicos.html#lx03-card) |
+|  RQ03 | Card | Suporte à deadlines nos cartões | US3 |  [LD](leituradocumentacao.html), [IP](instrospeccao.html#casamento) | [RP](rich-pictures.html), [UC29](casos de uso.html#uc29-adicionar-etiqueta-a-um-card), [LX13](lexicos.html#lx13-duedate) |
+|  RQ04 | Card | Criação de descrição nos cartões | US4 | [LD](leituradocumentacao.html), [IP](instrospeccao.html) | [UC26](casos de uso.html#uc26-adicionar-um-membro-a-um-card), [LX03](lexicos.html#lx03-card) |
 |  RQ05 | Card | Criação de checklists nos cartões | US5 | [PT](prototipo.html), [LD](leituradocumentacao.html), [IP](instrospeccao.html#casamento) | [UC27](casos de uso.html#uc27-adicionar-descrição-a-um-card), [LX23](lexicos.html#lx23-check-list), [iStar04](istar.html#sd04---card) |
 |  RQ06 | Card | Armazenamentos de anexos nos cartões | US6 | [EN](entrevista.html), [LD](leituradocumentacao.html) | [UC32](casos de uso.html#uc32-alterar-permissão-de-comentário), [LX10](lexicos.html#lx10-anexo) |
 |  RQ07 | Card | Comentários nos cartões | US7 | [LD](leituradocumentacao.html), [BS](brainstorming.html) | [UC30](casos de uso.html#uc30-adicionar-deadline-a-um-card), [CN53](cenarios.html#cn53), [LX03](lexicos.html#lx03-card), [iStar04](istar.html#sd04---card) |
 |  RQ08 | Card | Criação de cartões em massa | US8 | [LD](leituradocumentacao.html) | [LX03](lexicos.html#lx03-card) |
 |  RQ09 | Card | Mencionar usuários em comentários | US9 | [LD](leituradocumentacao.html), [BS](brainstorming.html) | [LX03](lexicos.html#lx03-card), [LX16](lexicos.html#lx16-usuário) |
-|  RQ10 | Card | Delegar cards a usuários | US1 | [LD](leituradocumentacao.html), [IP](instrospeccao.html#natal) | [LX06](lexicos.html#lx06) |
+|  RQ10 | Card | Delegar cards a usuários | US1 | [LD](leituradocumentacao.html), [IP](instrospeccao.html#natal) | [LX06](lexicos.html#lx06-atribuir-/-delegar-tarefa) |
 |  RQ11 | Card | Notificar prazos de entrega próximos a usuários assinalados | US11 | [Questionário](questionário.html), [EN](entrevista.html), [LD](leituradocumentacao.html), [BS](brainstorming.html), [IP](instrospeccao.html#natal) | [NFR](nfr.html#usabilidade-mobile), [UC04](casos de uso.html#uc04-alterar-configurações), [LX11](lexicos.html#lx11-notificar) |
 |  RQ12 | Card | Marcar data de entrega como concluída | US12 | [LD](leituradocumentacao.html), [BS](brainstorming.html) | [UC15](casos de uso.html#uc15-criar-um-time), [LX13](lexicos.html#lx13-duedate) |
 |  RQ13 | Card | Compatibilidade com markdown nas descrições dos cards | US13 | [LD](leituradocumentacao.html) | [LX03](lexicos.html#lx03-card) |
@@ -43,7 +43,7 @@
 |  RQ16 | Card | Anexar cartões a outros cartões | US16 | [LD](leituradocumentacao.html) | [CN31](cenarios.html#cn31), [LX03](lexicos.html#lx03-card), [LX10](lexicos.html#lx10-anexo), [iStar04](istar.html#sd04---card) |
 |  RQ17 | Card | Anexar quadros a cartões | US17 | [PT](prototipo.html), [LD](leituradocumentacao.html) | [CN31](cenarios.html#cn31), [LX03](lexicos.html#lx03-card), [LX10](lexicos.html#lx10-anexo), [iStar04](istar.html#sd04---card) |
 |  RQ18 | Card | Seguir um cartão | US18 | [LD](leituradocumentacao.html), [BS](brainstorming.html) | [CN28](cenarios.html#cn28), [LX03](lexicos.html#lx03-card), [LX21](lexicos.html#lx21-seguir), [iStar04](istar.html#sd04---card) |
-|  RQ19 | Card | Criar card através de e-mails | US19 | [LX](lexicos.html#lx03-card) | [LX03](lexicos.html#lx03-card) |
+|  RQ19 | Card | Criar card através de e-mails | US19 | [LX03](lexicos.html#lx03-card) | [LX03](lexicos.html#lx03-card) |
 |  RQ20 | Conta | Login | US20 | - | [UC01](casos de uso.html#uc01-fazer-login), [CN01](cenarios.html#cn01), [LX17](lexicos.html#lx17-login) |
 |  RQ21 | Conta | Login com o Google | US21 | - | [NFR](nfr.html#privacidade), [UC01](casos de uso.html#uc01-fazer-login), [CN02](cenarios.html#cn02), [LX17](lexicos.html#lx17-login) |
 |  RQ22 | Conta | Cadastrar | US22 | [BS](brainstorming.html)| [UC02](casos de uso.html#uc02-cadastro), [CN03](cenarios.html#cn03) |
