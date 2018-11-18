@@ -12,7 +12,7 @@ Os nós podem representar _Proposições_ (p), _Inferências_ (in), _Contradiç�
 
 Cada digrama deve conter uma decisão argumentada pelo time.
 
-### Aplicação Digital
+## Aplicação Digital
 
 A presente argumentação trata da discussão sobre a necessidade de uma aplicação digital para a resolução dos problemas levantados através dos [Rich Pictures](/rich%20pictures.html).
 
@@ -22,7 +22,17 @@ Atraveś do diagrama é possível observar que, apesar de kanbans físicos serem
 
 Com isso, chegou-se à conclusão de que em projetos grandes ou equipes grandes (p4 e p5), formas de automatização das gerencias e facilidade na visualização das tarefas, ambas contempladas na aplicação digital, trazem facilidades imprescindíveis num bom gerenciamento de tarefas.
 
-### Viabilidade Econômica
+## Kanban como uma solução para organização
+
+Aqui pretende-se avaliar se o formato KanBan é viável como uma opção para ajudar o usuário da aplicação a se organizar:
+
+![kanban como organização](imagens/argumentacoes/kanban.jpg)
+
+Perceba que alguns contra-argumentos foram aplicados à ideia de uma ferramenta orientada a Kanban, os quais foram fundamentados na variedade de problemas organizacionais que podem surgir no dia a dia do usuário comum (p6 e p2).
+
+Como solução a esse problema, sugeriu-se então a maleabilidade do sistema, para que o usuário seja capaz de personalizar a ferramenta de acordo com suas necessidades pessoais ou profissionais (p7).
+
+## Viabilidade Econômica
 
 A discussão de viabilidade levantou duas ideias
 - Exibir publicidade na plataforma ou
@@ -34,7 +44,7 @@ Como pode-se observar no diagrama, o time decidiu que publicidade é uma má ide
 
 Com isso, foi decidido pela ideias de planos cobrados à parte (p4). Essa proposta se mostrou interessante também porque, como a gama de problemas a serem resolvidos varia conforme pode ser visto nos [Rich Pictures](/rich%20pictures.html), as necessidades dos usuários podem variar bastante, o que faz com que nem todos precisem de recursos custosos (p5).
 
-### Gerenciamento de atividades
+## Gerenciamento de atividades
 
 Nesta discussão foi debatido o Trello como uma boa ferramenta de gerenciamento. Tópico este também tratado nos [Rich Pictures](/rich%20pictures.html).
 
@@ -44,7 +54,7 @@ No diagrama é possível perceber que existe bastante controvérsia em relação
 
 Porém, a usabilidade simples e intuitiva (p4) e a facilidade na delegação de tarefas (p2) se mostraram mais importantes na decisão de uso da tecnologia. Além disso, a possibilidade de aumento de produtividade a longo prazo (p6) é vista como um adicional de grande valia no processo de gerenciamento, tornando, assim, o Trello uma boa ferramenta de gerenciamento.
 
-### Coordenar vida pessoal e profissional
+## Coordenar vida pessoal e profissional
 
 Nesta discussão foi debatido o Trello como uma boa ferramenta para monitorar e organizar a vida pessoal, vendo se é necessário.
 
