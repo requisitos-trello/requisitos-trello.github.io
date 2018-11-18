@@ -7,6 +7,7 @@
 | Argumentação | [Gerenciamento de atividades](argumentation charts.html#gerenciamento-de-atividades) | Todos |
 | Argumentação | [Trello em diferentes contextos](argumentation charts.html#trello-em-diferentes-contextos) | Rossicler Júnior |
 | Argumentação | [Kan-Ban como Ferramenta de Organização](argumentation charts.html#kanban-como-uma-solução-para-organização) | Filipe Toyoshima |
+| Argumentação | [Extensão para o Navegador](argumentation charts.html#extensão-para-o-navegador) | Samuel Borges |
 | Rich Pictures | [Primeira versão](rich pictures.html#primeira-versão) | Todos |
 | Rich Pictures | [Visão Geral](rich pictures.html#visão-geral) | Filipe Toyoshima |
 | Rich Pictures | [Silverson](rich pictures.html#silverson) | Todos |
