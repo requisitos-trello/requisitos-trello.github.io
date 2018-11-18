@@ -63,3 +63,11 @@ Nesta discussão foi debatido o Trello como uma boa ferramenta para monitorar e 
 No diagrama é possível perceber que a aplicação auxilia times muito grandes (p5) e pessoas que possuem algum dispositivo digital vinculado à aplicação (p1, p4). Porém, em sítese, pode-se perceber que há uma divergência no que se refere a listas ou necessidades pequenas do grupo ou do usuário (p2).
 
 Entretanto é visível que mesmo para pessoas que não tem uma necessidade muito grande para organizaçã, o aplicativo ainda trás funcionalidades que podem ser úteis até em contexto mais simples como a rastreabilidade (p6). E é perceptível que a aplicação é uma boa solução para o acompanhamento amplo (p3).
+
+## Trello em diferentes contextos
+
+Nesta discussão foi debatido se o Trello poderia ser usado em contextos diferentes ao qual o Kanban se propõe a resolver.
+
+![Diferentes Contextos](imagens/argumentacoes/diferentes_contextos.png)
+
+É possível observar que no final da discussão foi decidido que o trello possui uma certa facilidade para ser personalizado (p3), e que será possível a utilização para contextos fora do que o Kanban se propõe a resolver, porém isso será dependente da criatividade do usuário (p5).
