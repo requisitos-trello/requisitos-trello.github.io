@@ -58,6 +58,7 @@
 | Cenários | [CN53](cenarios.html#cn53-adicionar-comentários-ao-card) | Samuel Borges |
 | Cenários | [CN54](cenarios.html#cn54-alterar-permissão-de-comentário) | Samuel Borges |
 | iStar | [SD01 - Time](istar.html#sd01---time) | Rossicler Júnior, Lucas, Eduardo, Samuel |
+| iStar | [SD02 - Board](istar.html#sd02---board) | Samuel Borges |
 | iStar | [SD03 - Busca](istar.html#sd03---busca) | Filipe Toyoshima, Lucas Vitor |
 | iStar | [SR - Time](istar.html#sr---time) | Rossicler Júnior |
 | iStar | [SR - Busca](istar.html#sr---busca) | Filipe Toyoshima, Lucas Vitor |
