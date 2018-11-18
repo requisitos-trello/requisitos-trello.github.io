@@ -6,20 +6,27 @@
 | Argumentação | [Viabilidade Econômica](argumentation charts.html#viabilidade-econômica) | Todos |
 | Argumentação | [Gerenciamento de atividades](argumentation charts.html#gerenciamento-de-atividades) | Todos |
 | Argumentação | [Trello em diferentes contextos](argumentation charts.html#trello-em-diferentes-contextos) | Rossicler Júnior |
+| Argumentação | [Kan-Ban como Ferramenta de Organização](argumentation charts.html#kanban-como-uma-solução-para-organização) | Filipe Toyoshima |
 | Rich Pictures | [Primeira versão](rich pictures.html#primeira-versão) | Todos |
+| Rich Pictures | [Visão Geral](rich pictures.html#visão-geral) | Filipe Toyoshima |
 | Rich Pictures | [Silverson](rich pictures.html#silverson) | Todos |
+| Rich Pictures | [Orientadora](rich pictures.html#orientadora) | Filipe Toyoshima |
+| Rich Pictures | [Turista](rich pictures.html#turista) | Filipe Toyoshima |
 | Rich Pictures | [Integração com o Google Calendar](rich pictures.html#integração-com-o-google-calendar) | Rossicler Júnior |
 | Rich Pictures | [Contato Inicial](rich pictures.html#contato-inicial) | Rossicler Júnior |
 | Elicitação | [Brainstorming](brainstorming.html) | Todos |
 | Elicitação | [Entrevista](entrevista.html) | Rossicler Júnior |
 | Elicitação | [Storytelling Orc'estra](instrospeccao.html#orc'estra-gamificação) | Rossicler Júnior |
 | Elicitação | [Storytelling Organização Pessoal](instrospeccao.html#organização-pessoal) | Rossicler Júnior |
+| Elicitação | [Leitura da Documentação de Ajuda](leituradocumentacaoajuda.html) | Filipe Toyoshima |
 | Priorização | [MoSCoW](priorizacao.html#moscow) | Todos |
 | Priorização | [First Things First](priorizacao.html#first-things-first) | Todos |
 | Casos de Uso | [UC01](casos de uso.html#uc01-fazer-login) | Rossicler Júnior |
 | Casos de Uso | [UC02](casos de uso.html#uc02-cadastro) | Rossicler Júnior |
 | Casos de Uso | [UC03](casos de uso.html#uc03-alterar-senha) | Rossicler Júnior |
 | Casos de Uso | [UC04](casos de uso.html#uc04-alterar-configurações) | Rossicler Júnior |
+| Casos de Uso | [UC40](casos de uso.html#caso-40-atualizar-time-para-business-class) | Filipe Toyoshima |
+| Casos de Uso | [UC41](casos de uso.html#caso-41-filtrar-cartões) | Filipe Toyoshima |
 | Cenários | [CN01](cenarios.html#cn01-cenário-de-login) | Rossicler Júnior |
 | Cenários | [CN02](cenarios.html#cn02-cenário-de-login-com-o-google) | Rossicler Júnior |
 | Cenários | [CN03](cenarios.html#cn03-cenário-de-cadastro) | Rossicler Júnior |
@@ -28,13 +35,30 @@
 | Cenários | [CN06](cenarios.html#cn06-cenário-ver-notificações) | Rossicler Júnior |
 | Cenários | [CN07](cenarios.html#cn07-cenário-criar-time) | Rossicler Júnior |
 | Cenários | [CN08](cenarios.html#cn08-cenário-convidar-usuários-para-um-time) | Rossicler Júnior |
+| Cenários | [CN09](cenarios.html#cn09-cenário-de-imprimir-board) | Filipe Toyoshima |
+| Cenários | [CN10](cenarios.html#cn10-cenário-de-adicionar-stickers) | Filipe Toyoshima |
+| Cenários | [CN11](cenarios.html#cn11-cenário-de-editarremover-stickers) | Filipe Toyoshima |
+| Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
+| Cenários | [CN13](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
+| Cenários | [CN14](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
+| Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
+| Cenários | [CN16](cenarios.html#cn16-cenário-de-fechar-um-quadro) | Filipe Toyoshima |
+| Cenários | [CN17](cenarios.html#cn17-cenário-de-exportar-um-quadro-para-json) | Filipe Toyoshima |
 | iStar | [SD01 - Time](istar.html#sd01---time) | Rossicler Júnior, Lucas, Eduardo, Samuel |
+| iStar | [SD03 - Busca](istar.html#sd03---busca) | Filipe Toyoshima, Lucas Vitor |
 | iStar | [SR - Time](istar.html#sr---time) | Rossicler Júnior |
+| iStar | [SR - Busca](istar.html#sr---busca) | Filipe Toyoshima, Lucas Vitor |
 | Léxicos | [LX01](lexicos.html#lx01-board) | Rossicler Júnior |
 | Léxicos | [LX02](lexicos.html#lx02-lista) | Rossicler Júnior |
 | Léxicos | [LX03](lexicos.html#lx03-card) | Rossicler Júnior |
+| Léxicos | [LX04](lexicos.html#lx04-administrador) | Filipe Toyoshima |
+| Léxicos | [LX06](lexicos.html#lx06-atribuir--delegar-tarefa) | Filipe Toyoshima |
+| Léxicos | [LX07](lexicos.html#lx07-imagem-de-capa) | Filipe Toyoshima |
 | NFR | [API](nfr.html#api) | Rossicler Júnior |
+| NFR | [Acessibilidade](nfr.html#acessibilidade) | Filipe Toyoshima |
+| NFR | [Usabilidade](nfr.html#usabilidade) | Filipe Toyoshima |
 | Backlog do produto | [Backlog](product backlog.html) | Todos |
+| Especificação Suplementar | [Artefato Único](spec_suplementar.html) | Filipe Toyoshima |
 | Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior |
 | Inspecções | [iStar](inspec_istar.html) | Rossicler Júnior, Érico Bandeira |
 | Inspecções | [Protótipo](inspec_prototipo.html) | Rossicler Júnior, Érico Bandeira |
