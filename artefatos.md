@@ -15,6 +15,7 @@
 | Rich Pictures | [Turista](rich pictures.html#turista) | Filipe Toyoshima |
 | Rich Pictures | [Integração com o Google Calendar](rich pictures.html#integração-com-o-google-calendar) | Rossicler Júnior |
 | Rich Pictures | [Contato Inicial](rich pictures.html#contato-inicial) | Rossicler Júnior |
+| Rich Pictures | [Extensão para o Navegador](rich pictures.html#extensão-para-navegador) | Samuel Borges |
 | Elicitação | [Brainstorming](brainstorming.html) | Todos |
 | Elicitação | [Entrevista](entrevista.html) | Rossicler Júnior |
 | Elicitação | [Storytelling Orc'estra](instrospeccao.html#orc'estra-gamificação) | Rossicler Júnior |
