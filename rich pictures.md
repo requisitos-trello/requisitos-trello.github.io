@@ -42,13 +42,13 @@ Neste Rich Picture, tentamos entender a necessidade e o uso da interoperabilidad
 
 Para ilustrar como uma ferramenta de organização pode ter demandas bem variadas, foram criadas personas, cada uma com suas necessidades peculiares.
 
-### Silverson
+#### Silverson
 ![silverson](imagens/rich pictures/silverson.jpg)
 
-## Orientadora
+#### Orientadora
 ![orientadora](imagens/rich pictures/orientadora.jpg)
 
-## Turista
+#### Turista
 ![turista](imagens/rich pictures/turista.jpg)
 
 Com isso, é perceptível a variedade de problemas que uma aplicação de organização, como o Trello, deve resolver. Esses rich pictures podem também ser usados para traçar um ponto em comum entre a vasta diferença dos problemas. Aqui fica claro como ter uma aplicação simples e maleável pode atrair usuários.
