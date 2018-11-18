@@ -71,4 +71,10 @@ Nesse rich picture é possivel observar algumas das funcionalidades em que a int
 
 ![Contato Inicial](imagens/rich pictures/Contato_inicial.png)
 
+### Extensão para Navegador
+
+![Extensão para Navegador](imagens/rich pictures/rich_picture_extension.png)
+
+No rich picture acima é possível observar como uma extensão para navegador do Trello agilizaria certos aspectos do workflow dos usuários.
+
 
