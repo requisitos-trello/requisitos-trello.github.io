@@ -16,7 +16,7 @@ O objetivo do documento é cobrir os todos os requisitos não funcionais levanta
 
 ### Visão Geral
 
-Os requisitos estão aqui separados por Funcionalidade, Usabilidade, Confiabilidade, Desempenho, Suportabilidade, Sistemas de Ajuda.
+Os requisitos estão aqui separados por Funcionalidade, Usabilidade, Confiabilidade, Desempenho, Suportabilidade, Sistemas de Ajuda, Segurança.
 
 Embora sejam anexados pelas categorias descritas acima, mantém-se as indexações padronizadas pela wiki, tornando mais fácil a visualização dele ao longo da documentação.
 
@@ -130,5 +130,27 @@ Esses tutoriais devem seguir em texto, com prints ilustrativos, demonstrando ond
 ### RQ64 - Exibição de Dicas Rápidas
 
 A leitura de documentação pode ser um meio até evitado pelos usuários por terem uma carga muito massante de informação. Uma maneira mais adequada e rápida de passar, mesmo que pouco a pouco, o potencial da aplicação é o de Dicas Rápidas. Esse botão mostrará alguma funcionalidade útil, porém pouco aparente, da ferramente. Pode exibir também alguma documentação interessante que não está necessariamente presente no tutorial descrito anteriormente, mas que ainda agrega conhecimento sobre a aplicação para o usuário.
+
+---
+
+## Segurança
+
+Todos os detalhes sobre a segurança e proteção de dados do Trello podem ser encontrados na [documentação de segurança](https://trello.com/legal/security), a partir da qual foram levantados os requisitos deste tópico, que também foram modelados no [NFR de Segurança](nfr.html#segurança).
+
+### RQ55 - Segurança Akamai
+
+O sistema deve usar Akamai para proteção DDoS e aplicação web de firewall. Acredita-se que, para usuários gerais, isto é, os que não são Business Class e portanto não pagam por proteção adicional, a segurança Akamai já será suficiente para manter os dados seguros.
+
+### RQ56 - Replicação de Serviço Crítico
+
+Todo e qualquer serviço considerado crítico dentro do Trello deve manter um um serviço secundário replicado rodando simultaneamente com dados espelhados em uma zona de disponibilidade diferente do serviço de nuvem contratado.
+
+### RQ57 - Encriptação in-Transit
+
+O sistema deve usar a Transport Layer Security (TLS) padrão para criar uma conexão segura, utilizando AES (Advanced Encryptation Standard) de 128 bits. Esse protocolo de segurança deve ser usado para toda e qualquer informação que circule na rede do Trello, seja web, iOS ou Android. Todas as conexões devem ser feitas de maneira segura com HTTPS.
+
+### RQ58 - Encriptação at-Rest
+
+Para os usuários Enterprise Class, deve também ser utilizada a encriptação at-Rest, no mesmo modelo de AES, porém de 256bit. Essa criptografia será aplicada aos arquivos anexados aos cards para os usuários que tiverem direito a essa camada adicional de proteção.
 
 ---
