@@ -5,7 +5,6 @@
 | **Sigla** | **Técnica de elicitação** |
 |  :------: | :------: |
 | LD | Leitura de Documentação |
-| RP | Rich Picture |
 | BS | Brainstorm |
 | IP | Introspecção |
 | PT | Protótipo |
@@ -17,6 +16,7 @@
 | **Sigla** | **Modelagem** |
 |  :------: | :------: |
 | CN | Cenário |
+| RP | Rich Picture |
 | LX | Léxico |
 | UC | Caso de uso |
 | ES | Especificação Suplementar |
@@ -26,8 +26,8 @@
 |  **ID** | **Tema** | **Nome** | **Documento Fonte** | **Técnica de elicitação** | **Modelagem** |
 |  :------: | :------: | :------: | :------: | :------: | :------: |
 |  RQ01 | Aplicativo | Compatibilidade com atalhos de teclado | US1 | [LD](leituradocumentacao.html) | [NFR](nfr.html#acessibilidade) |
-|  RQ02 | Card | CRUD de cartões | US2 | [RP](rich pictures.html), [BS](brainstorming.html), [IP](instrospeccao.html#gertrude), [PT](prototipo.html), [LD](leituradocumentacao.html) | [UC13](casos de uso.html#uc13), [UC22](casos de uso.html#uc22), [CN25](cenarios.html#cn25), [CN26](cenarios.html#cn26), [LX03](lexicos.html#lx03) |
-|  RQ03 | Card | Suporte à deadlines nos cartões | US3 | [RP](rich-pictures.html), [LD](leituradocumentacao.html), [IP](instrospeccao.html#casamento) | [UC29](casos de uso.html#uc29), [LX13](lexicos.html#lx13) |
+|  RQ02 | Card | CRUD de cartões | US2 |  [BS](brainstorming.html), [IP](instrospeccao.html#gertrude), [PT](prototipo.html), [LD](leituradocumentacao.html) | [RP](rich pictures.html), [UC13](casos de uso.html#uc13), [UC22](casos de uso.html#uc22), [CN25](cenarios.html#cn25), [CN26](cenarios.html#cn26), [LX03](lexicos.html#lx03) |
+|  RQ03 | Card | Suporte à deadlines nos cartões | US3 |  [LD](leituradocumentacao.html), [IP](instrospeccao.html#casamento) | [RP](rich-pictures.html), [UC29](casos de uso.html#uc29), [LX13](lexicos.html#lx13) |
 |  RQ04 | Card | Criação de descrição nos cartões | US4 | [LD](leituradocumentacao.html), [IP](instrospeccao.html) | [UC26](casos de uso.html#uc26), [LX03](lexicos.html#lx03) |
 |  RQ05 | Card | Criação de checklists nos cartões | US5 | [PT](prototipo.html), [LD](leituradocumentacao.html), [IP](instrospeccao.html#casamento) | [UC27](casos de uso.html#uc27), [LX23](lexicos.html#lx23-check-list), [iStar04](istar.html#sd04---card) |
 |  RQ06 | Card | Armazenamentos de anexos nos cartões | US6 | [EN](entrevista.html), [LD](leituradocumentacao.html) | [UC32](casos de uso.html#uc32), [LX10](lexicos.html#lx10-anexo) |
@@ -51,23 +51,23 @@
 |  RQ24 | Conta | Alterar senha | US24 | - | [UC03](casos de uso.html#uc03), [CN04](cenarios.html#cn04) |
 |  RQ25 | Lista | CRUD de listas | US25 | [BS](brainstorming.html), [LD](leituradocumentacao.html), [IP](instrospeccao.html#gertrude) | [UC11](casos de uso.html#uc11), [CN40](cenarios.html#cn40), [LX02](lexicos.html#lx02-lista) |
 |  RQ26 | Lista | Seguir uma lista | US26 | [LD](leituradocumentacao.html), [IP](instrospeccao.html#judiscleidson) | [LX02](lexicos.html#lx02-lista), [LX21](lexicos.html#lx21-seguir) |
-|  RQ27 | Quadro | CRUD de Quadros | US27 | [RP](rich-pictures.html), [BS](brainstorming.html), [PT](prototipo.html), [LD](leituradocumentacao.html), [IP](instrospeccao.html#gertrude) | [UC09](casos de uso.html#uc09), [CN44](cenarios.html#cn44), [LX01](lexicos.html#lx01-board), [iStar02](istar.html#sd02---board) |
+|  RQ27 | Quadro | CRUD de Quadros | US27 |  [BS](brainstorming.html), [PT](prototipo.html), [LD](leituradocumentacao.html), [IP](instrospeccao.html#gertrude) | [RP](rich-pictures.html), [UC09](casos de uso.html#uc09), [CN44](cenarios.html#cn44), [LX01](lexicos.html#lx01-board), [iStar02](istar.html#sd02---board) |
 |  RQ28 | Quadro | Convite para membros do quadro | US28 | [BS](brainstorming.html), [LD](leituradocumentacao.html) | [UC08](casos de uso.html#uc08), [UC09](casos de uso.html#uc09), [LX01](lexicos.html#lx01-board) |
 |  RQ29 | Quadro | Gestão de visibilidade do quadro | US29 | [LD](leituradocumentacao.html) | [UC07](casos de uso.html#uc07), [LX01](lexicos.html#lx01-board), [iStar02](istar.html#sd02---board) |
 |  RQ30 | Quadro | Adição de times à quadros | US30 | [LD](leituradocumentacao.html) | [LX01](lexicos.html#lx01-board), [LX11](lexicos.html#lx11-time) |
 |  RQ31 | Quadro | Adicionar membro a quadro | US31 | [LD](leituradocumentacao.html) | [UC04](casos de uso.html#uc04),[LX01](lexicos.html#lx01-board), [LX19](lexicos.html#lx19-membro) |
-|  RQ32 | Quadro | Alterar plano de fundo | US32 | [RP](rich-pictures.html), [LD](leituradocumentacao.html) | [UC09](casos de uso.html#uc09), [CN44](cenarios.html#cn44) |
+|  RQ32 | Quadro | Alterar plano de fundo | US32 |  [LD](leituradocumentacao.html) | [RP](rich-pictures.html), [UC09](casos de uso.html#uc09), [CN44](cenarios.html#cn44) |
 |  RQ33 | Quadro | Oferecer biblioteca de imagens para plano de fundo | US33 | [LD](leituradocumentacao.html) | [UC09](casos de uso.html#uc09) |
 |  RQ34 | Quadro | Interações com ferramentas externas | US34 | [BS](brainstorming.html), [QT](questionário.html), [EN](entrevista.html), [LD](leituradocumentacao.html) | [LX16](lexicos.html#lx16-usuário) |
 |  RQ35 | Quadro | Copiar quadro | US35 | [LD](leituradocumentacao.html), [BS](brainstorming.html) | [CN14](cenarios.html#cn14), [LX01](lexicos.html#lx01-board), [LX15](lexicos.html#lx15-copiar) |
 |  RQ36 | Quadro | Seguir um quadro | US36 | [LD](leituradocumentacao.html), [BS](brainstorming.html) | [UC11](casos de uso.html#uc11), [CN15](cenarios.html#cn15), [LX01](lexicos.html#lx01-board), [LX21](lexicos.html#lx21-seguir), [iStar02](istar.html#sd02---board) |
 |  RQ37 | Quadro | Favoritar quadros | US37 | [LD](leituradocumentacao.html) | [LX01](lexicos.html#lx01-board) |
-|  RQ38 | Time | CRUD de times | US38 | [RP](rich-pictures.html), [LD](leituradocumentacao.html) | [UC05](casos de uso.html#uc05), [LX11](lexicos.html#lx11-time), [iStar01](istar.html#sd01---time) |
-|  RQ39 | Time | Visualizar membros de um time | US39 | [RP](rich-pictures.html), [LD](leituradocumentacao.html) | [UC07](casos de uso.html#uc07), [LX11](lexicos.html#lx11-time), [LX19](lexicos.html#lx19-membro), [iStar01](istar.html#sd01---time) |
+|  RQ38 | Time | CRUD de times | US38 | [LD](leituradocumentacao.html) | [RP](rich-pictures.html), [UC05](casos de uso.html#uc05), [LX11](lexicos.html#lx11-time), [iStar01](istar.html#sd01---time) |
+|  RQ39 | Time | Visualizar membros de um time | US39 |  [LD](leituradocumentacao.html) | [RP](rich-pictures.html), [UC07](casos de uso.html#uc07), [LX11](lexicos.html#lx11-time), [LX19](lexicos.html#lx19-membro), [iStar01](istar.html#sd01---time) |
 |  RQ40 | Time | Editar visibilidade do time | US40 | [LD](leituradocumentacao.html) | [UC07](casos de uso.html#uc07), [CN20](cenarios.html#cn20), [LX11](lexicos.html#lx11-time), [iStar01](istar.html#sd01---time) |
-|  RQ41 | Time | Gerenciar administradores do time | US41 | [RP](rich-pictures.html), [LD](leituradocumentacao.html) | [LX11](lexicos.html#lx11-time), [LX04](lexicos.html#lx04-administrador), [iStar01](istar.html#sd01---time) |
-|  RQ42 | Time | Detalhar time | US42 | [RP](rich-pictures.html), [LD](leituradocumentacao.html) | [UC07](casos de uso.html#uc07), [CN19](cenarios.html#cn19), [LX11](lexicos.html#lx11-time), [iStar01](istar.html#sd01---time) |
-|  RQ43 | Time | Gerenciar membros de um time | US43 | [RP](rich-pictures.html), [IP](instrospeccao.html#natal), [LD](leituradocumentacao.html) | [UC07](casos de uso.html#uc07), [LX11](lexicos.html#lx11-time), [LX19](lexicos.html#lx19-membro), [iStar01](istar.html#sd01---time) |
+|  RQ41 | Time | Gerenciar administradores do time | US41 | [LD](leituradocumentacao.html) | [RP](rich-pictures.html), [LX11](lexicos.html#lx11-time), [LX04](lexicos.html#lx04-administrador), [iStar01](istar.html#sd01---time) |
+|  RQ42 | Time | Detalhar time | US42 | [LD](leituradocumentacao.html) | [RP](rich-pictures.html), [UC07](casos de uso.html#uc07), [CN19](cenarios.html#cn19), [LX11](lexicos.html#lx11-time), [iStar01](istar.html#sd01---time) |
+|  RQ43 | Time | Gerenciar membros de um time | US43 | [IP](instrospeccao.html#natal), [LD](leituradocumentacao.html) | [RP](rich-pictures.html), [UC07](casos de uso.html#uc07), [LX11](lexicos.html#lx11-time), [LX19](lexicos.html#lx19-membro), [iStar01](istar.html#sd01---time) |
 | RQ44 | Acessibilidade  | Descrição de imagens no HTML                 | US44 | - | [NFR](nfr.html#acessibilidade) |
 | RQ45 | Acessibilidade  | Modo daltônico                               | US45 | - | [NFR](nfr.html#acessibilidade) |
 | RQ46 | Acessibilidade  | Alto contraste entre texto e fundo           | US46 | - | [NFR](nfr.html#acessibilidade) |

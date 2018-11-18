@@ -25,6 +25,10 @@
 | Casos de Uso | [UC02](casos de uso.html#uc02-cadastro) | Rossicler Júnior |
 | Casos de Uso | [UC03](casos de uso.html#uc03-alterar-senha) | Rossicler Júnior |
 | Casos de Uso | [UC04](casos de uso.html#uc04-alterar-configurações) | Rossicler Júnior |
+| Casos de Uso | [UC20](casos de uso.html#uc20---arquivar-uma-lista) | Samuel Borges |
+| Casos de Uso | [UC23](casos de uso.html#uc23---personalizar-etiqueta) | Samuel Borges |
+| Casos de Uso | [UC24](casos de uso.html#uc24---arquivar-um-card) | Samuel Borges |
+| Casos de Uso | [UC25](casos de uso.html#uc25---seguir-um-card) | Samuel Borges |
 | Casos de Uso | [UC40](casos de uso.html#caso-40-atualizar-time-para-business-class) | Filipe Toyoshima |
 | Casos de Uso | [UC41](casos de uso.html#caso-41-filtrar-cartões) | Filipe Toyoshima |
 | Cenários | [CN01](cenarios.html#cn01-cenário-de-login) | Rossicler Júnior |
@@ -57,6 +61,7 @@
 | NFR | [API](nfr.html#api) | Rossicler Júnior |
 | NFR | [Acessibilidade](nfr.html#acessibilidade) | Filipe Toyoshima |
 | NFR | [Usabilidade](nfr.html#usabilidade) | Filipe Toyoshima |
+| NFR | [Interface](nfr.html#interface) | Samuel Borges |
 | Backlog do produto | [Backlog](product backlog.html) | Todos |
 | Especificação Suplementar | [Artefato Único](spec_suplementar.html) | Filipe Toyoshima |
 | Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior |

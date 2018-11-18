@@ -314,7 +314,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ### Caso 20 - Arquivar uma lista
 
-![Caso 20](imagens/casos de uso/)
+![Caso 20](imagens/casos de uso/UC20.png)
 
 ###  UC20 - Arquivar uma lista
 
@@ -346,7 +346,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ### Caso 23 - Personalizar etiqueta
 
-![Caso 23](imagens/casos de uso/)
+![Caso 23](imagens/casos de uso/UC23.png)
 
 ###   UC23 - Personalizar etiqueta
 
@@ -362,7 +362,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ### Caso 24 - Arquivar um Card
 
-![Caso 24](imagens/casos de uso/)
+![Caso 24](imagens/casos de uso/UC24.png)
 
 ###   UC24 - Arquivar um Card
 
@@ -378,9 +378,9 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ### Caso 25 - Seguir um Card
 
-![Caso 25](imagens/casos de uso/)
+![Caso 25](imagens/casos de uso/UC25.png)
 
-###   UC025 - Seguir um Card
+###   UC25 - Seguir um Card
 
 |  |  |
 |  ------: | :------ |
