@@ -10,12 +10,12 @@ category: Modelagem
 
 ### Noção
 - Representa um projeto ou um lugar para rastrear informações
-- Contém todas as [Listas](lexicos.html#lista)
+- Contém todas as [Listas](lexicos.html#lx02-lista)
 
 ### Impacto
-- [Usuários](lexicos.html#usuário) podem criar [Boards](lexicos.html#board) para organizar seu projeto
-- [Usuários](lexicos.html#usuário) podem criar [Boards](lexicos.html#board) para organizar suas tarefas diárias
-- [Usuários](lexicos.html#usuário) podem participar de um [Board](lexicos.html#board) de um projeto existente
+- [Usuários](lexicos.html#lx16-usuário) podem criar [Boards](lexicos.html#lx01-board) para organizar seu projeto
+- [Usuários](lexicos.html#lx16-usuário) podem criar [Boards](lexicos.html#lx01-board) para organizar suas tarefas diárias
+- [Usuários](lexicos.html#lx16-usuário) podem participar de um [Board](lexicos.html#lx01-board) de um projeto existente
 
 ### Sinonimo
 - Quadro, tabela
@@ -26,12 +26,12 @@ category: Modelagem
 
 ### Noção
 - Representa uma coluna de uma tabela
-- Onde são colocadas os [Cards](lexicos.html#card)
-- Organiza todos os [Cards](lexicos.html#card) de um [Board](lexicos.html#board)
+- Onde são colocadas os [Cards](lexicos.html#lx03-card)
+- Organiza todos os [Cards](lexicos.html#lx03-card) de um [Board](lexicos.html#lx01-board)
 
 ### Impacto
-- [Usuários](lexicos.html#usuário) podem criar [Listas](lexicos.html#lista) para organizar seu projeto em colunas de tarefas
-- Um [Card](lexicos.html#card) é criado na [Lista](lexicos.html#lista) To Do
+- [Usuários](lexicos.html#lx16-usuário) podem criar [Listas](lexicos.html#lx02-lista) para organizar seu projeto em colunas de tarefas
+- Um [Card](lexicos.html#lx03-card) é criado na [Lista](lexicos.html#lx02-lista) To Do
 
 ### Sinonimo
 - List, coluna
@@ -41,14 +41,14 @@ category: Modelagem
 ## LX03 Card
 
 ### Noção
-- Unidade fundamental de um [Board](lexicos.html#board)
+- Unidade fundamental de um [Board](lexicos.html#lx01-board)
 - Representa tarefas e/ou ideias
 - Pode ser usado como lembretes
 
 ### Impacto
-- O gerente do projeto cria [Cards](lexicos.html#card) e [delega](lexicos.html#atribuir--delegar-tarefa) ao seus funcionários
-- Um [Card](lexicos.html#card) é criado na [Lista](lexicos.html#lista) To Do
-- Um [Card](lexicos.html#card) foi [movido](lexicos.html#arrastar-card) a [Lista](lexicos.html#lista) de tarefas concluídas
+- O gerente do projeto cria [Cards](lexicos.html#lx03-card) e [delega](lexicos.html#lx06-atribuir--delegar-tarefa) ao seus funcionários
+- Um [Card](lexicos.html#lx03-card) é criado na [Lista](lexicos.html#lx02-lista) To Do
+- Um [Card](lexicos.html#lx03-card) foi [movido](lexicos.html#lx20-arrastar-card) a [Lista](lexicos.html#lx02-lista) de tarefas concluídas
 
 ### Sinonimo
 - Tarefa
@@ -58,48 +58,48 @@ category: Modelagem
 ## LX04 Administrador
 
 ### Noção
-- Um papel desempenhado por um usuário em um [Board](lexicos.html#board)
-- Usuário que tem acesso às configurações de um [Board](lexicos.html#board)
-- Usuário que cria a [Board](lexicos.html#board)
+- Um papel desempenhado por um usuário em um [Board](lexicos.html#lx01-board)
+- Usuário que tem acesso às configurações de um [Board](lexicos.html#lx01-board)
+- Usuário que cria a [Board](lexicos.html#lx01-board)
 - Usuário dito como administrador por outro administrador
 
 ### Impacto
-- Administrador pode alterar o [time](lexicos.html#time) que tem acesso àquela board
-- Administrador pode ativar e desativar as [Imagens de Capa](lexicos.html#imagem-de-capa) dos [cards](lexicos.html#card)
+- Administrador pode alterar o [time](lexicos.html#lx11-time) que tem acesso àquela board
+- Administrador pode ativar e desativar as [Imagens de Capa](lexicos.html#lx07-imagem-de-capa) dos [cards](lexicos.html#lx03-card)
 - Administrador pode conceder e revogar permissões para comentar
-- Administrador pode conceder e revogar permissão para [Convidar](lexicos.html#convidar) outros usuários para a Board.
+- Administrador pode conceder e revogar permissão para [Convidar](lexicos.html#lx30-convidar) outros usuários para a Board.
 
 --------------
 
 ## LX05 Business Class
 
 ### Noção
-- Plano que ser comprado para um [time](lexicos.html#time)
-- Conjunto de features adicionais que podem ser agregadas à [board](lexicos.html#board) de um [time](lexicos.html#time) específico.
+- Plano que ser comprado para um [time](lexicos.html#lx11-time)
+- Conjunto de features adicionais que podem ser agregadas à [board](lexicos.html#lx01-board) de um [time](lexicos.html#lx11-time) específico.
 - Aumento da robustez na segurança dos dados
 
 ### Impacto
-- Quantidade ilimitada de [Power-Ups](lexicos.html#power-up) pode ser usada nas [boards](lexicos.html#board) quando um [time](lexicos.html#time) compra Business Class
-- É possível criar [coleções de boards](lexicos.html#coleções)
+- Quantidade ilimitada de [Power-Ups](lexicos.html#lx25-power-up) pode ser usada nas [boards](lexicos.html#lx01-board) quando um [time](lexicos.html#lx11-time) compra Business Class
+- É possível criar [coleções de boards](lexicos.html#lx08-coleções)
 
 --------------
 
 ## LX06 Atribuir / Delegar tarefa
 
 ### Noção
-- Relacionar um [Card](lexicos.html#card) com um [membro](lexicos.html#membro) da [Board](lexicos.html#board)
+- Relacionar um [Card](lexicos.html#lx03-card) com um [membro](lexicos.html#lx19-membro) da [Board](lexicos.html#lx01-board)
 
 ### Impacto
 - A foto de perfil do usuário aparece no card
-- O usuário passa a [seguir](lexicos.html#seguir) o card
-- O usuário é dito como um [membro](lexicos.html#membro) do card
+- O usuário passa a [seguir](lexicos.html#lx21-seguir) o card
+- O usuário é dito como um [membro](lexicos.html#lx19-membro) do card
 
 --------------
 
 ## LX07 Imagem de Capa
 
 ### Noção
-- Imagem [anexada](lexicos.html#anexo) ao [Card](lexicos.html#card) que aparece na visão geral da [Board](lexicos.html#board)
+- Imagem [anexada](lexicos.html#lx10-anexo) ao [Card](lexicos.html#lx03-card) que aparece na visão geral da [Board](lexicos.html#lx01-board)
 - Última imagem anexada a um card
 - Imagem escolhida, na secção de Anexos do card, para aparecer como capa
 
@@ -126,12 +126,12 @@ category: Modelagem
 ## LX09 Arquivar
 
 ### Noção
-- Usuário arquiva card ou [Lista](lexicos.html#lista).
-- Arquivar é o ato de retirar um card ou [Lista](lexicos.html#lista) de uma board, porém mantê-lo acessível em um local reservado.
+- Usuário arquiva card ou [Lista](lexicos.html#lx02-lista).
+- Arquivar é o ato de retirar um card ou [Lista](lexicos.html#lx02-lista) de uma board, porém mantê-lo acessível em um local reservado.
 
 ### Impacto
-- Usuário pode retirar cards de uma [Lista](lexicos.html#lista) sem excluí-lo.
-- Usuário pode retirar [Listas](lexicos.html#lista) de uma board sem ter que excluí-las diretamente.
+- Usuário pode retirar cards de uma [Lista](lexicos.html#lx02-lista) sem excluí-lo.
+- Usuário pode retirar [Listas](lexicos.html#lx02-lista) de uma board sem ter que excluí-las diretamente.
 
 ### Sinonimo
 - reter, guardar
@@ -157,7 +157,7 @@ category: Modelagem
 - Times, equipe
 
 ### Noção
-- Conjunto de [Usuários](lexicos.html#usuário) que tem acesso simultâneo à uma [Board](lexicos.html#board) na qual são realizadas tarefas
+- Conjunto de [Usuários](lexicos.html#lx16-usuário) que tem acesso simultâneo à uma [Board](lexicos.html#lx01-board) na qual são realizadas tarefas
 - Grupo de colaboladores de uma [Board](#board)
 
 ### Impacto
@@ -177,8 +177,8 @@ category: Modelagem
 - Enfeite usado em comentários.
 
 ### Impacto
-- O [usuário](lexicos.html#usuário) postou um sticker no comentário.
-- O [Card](lexicos.html#card) continha um sticker triste.
+- O [usuário](lexicos.html#lx16-usuário) postou um sticker no comentário.
+- O [Card](lexicos.html#lx03-card) continha um sticker triste.
 
 
 --------------
@@ -190,8 +190,8 @@ category: Modelagem
 
 ### Noção
 - Termo que referencia o tempo máximo que uma tarefa deve ser cumprida.
-- Característica de um [Card](lexicos.html#card).
-- Define a posição de um [Card](lexicos.html#card) numa coluna.
+- Característica de um [Card](lexicos.html#lx03-card).
+- Define a posição de um [Card](lexicos.html#lx03-card) numa coluna.
 
 ### Impacto
 - A tarefa foi arquivada pois o duedate expirou.
@@ -212,7 +212,7 @@ category: Modelagem
 
 ### Impacto
 - Avisar o [Usuário](lexicos.html#usuario).
-- O [Usuário](lexicos.html#usuario) recebe uma [Notificação](lexicos.html#notificar).
+- O [Usuário](lexicos.html#usuario) recebe uma [Notificação](lexicos.html#lx14-notificar).
 
 
 --------------
@@ -226,9 +226,9 @@ category: Modelagem
 - Ação que tem o objetivo de criar um outro objeto a partir de um já existente.
 
 ### Impacto
-- Copiar [Card](lexicos.html#card)
-- Copiar [Lista](lexicos.html#lista)
-- Copiar [Board](lexicos.html#board)
+- Copiar [Card](lexicos.html#lx03-card)
+- Copiar [Lista](lexicos.html#lx02-lista)
+- Copiar [Board](lexicos.html#lx01-board)
 --------------
 ## LX16 Usuário
 
@@ -289,47 +289,47 @@ category: Modelagem
 ## LX20 Arrastar Card
 
 ### Noção
-- Ação que faz você mudar um determinado [Card](lexicos.html#card) de uma [Lista](lexicos.html#lista) para outra.
-- Levar uma [Tarefa](lexicos.html#tarefa) de uma fase para outra do [Quadro](lexicos.html#quadros), seja anterior ou posterior.
+- Ação que faz você mudar um determinado [Card](lexicos.html#lx03-card) de uma [Lista](lexicos.html#lx02-lista) para outra.
+- Levar uma [Tarefa](lexicos.html#lx27-tarefa) de uma fase para outra do [Quadro](lexicos.html#quadros), seja anterior ou posterior.
 
 ### Impacto
-- [Arrastar](lexicos.html#arrastar) [Card](lexicos.html#card).
-- [Arrastar](lexicos.html#arrastar) [Tarefa](lexicos.html#tarefa).
-- Quando terminar a [Tarefa](lexicos.html#tarefa) é só [Arrastar](lexicos.html#arrastar) o [Card](lexicos.html#card) para a última [Lista](lexicos.html#lista).
+- [Arrastar](lexicos.html#arrastar) [Card](lexicos.html#lx03-card).
+- [Arrastar](lexicos.html#arrastar) [Tarefa](lexicos.html#lx27-tarefa).
+- Quando terminar a [Tarefa](lexicos.html#lx27-tarefa) é só [Arrastar](lexicos.html#arrastar) o [Card](lexicos.html#lx03-card) para a última [Lista](lexicos.html#lx02-lista).
 
 ### Sinonimo
-- Mover [Card](lexicos.html#card)
-- Deslizar [Card](lexicos.html#card)
+- Mover [Card](lexicos.html#lx03-card)
+- Deslizar [Card](lexicos.html#lx03-card)
 
 --------------
 
 ## LX21 Seguir
 
 ### Noção
-- Ação que faz você ter notificações de determinada [Lista](lexicos.html#lista).
+- Ação que faz você ter notificações de determinada [Lista](lexicos.html#lx02-lista).
 - Ação notificará o [Usuário](lexicos.html#usuario) se qualquer outro fizer uma alteração no [Quadro](lexicos.html#quadros).
 
 ### Impacto
-- [Seguir](lexicos.html#seguir) [Card](lexicos.html#card).
-- Para receber notificações basta [Seguir](lexicos.html#seguir) o [Card](lexicos.html#card).
+- [Seguir](lexicos.html#lx21-seguir) [Card](lexicos.html#lx03-card).
+- Para receber notificações basta [Seguir](lexicos.html#lx21-seguir) o [Card](lexicos.html#lx03-card).
 
 --------------
 
 ## LX22 Atividade
 
 ###Sinônimo
-- [Feed](lexicos.html#atividade)
+- [Feed](lexicos.html#lx22-atividade)
 
 ### Noção
-- [Atividade](lexicos.html#atividade) dentro de um [Card](lexicos.html#card) que fala o que determinada pessoa tem pra fazer.
-- [Tarefa](lexicos.html#tarefa) para ser feita na [Lista](lexicos.html#lista).
--O que determinado [Usuário](lexicos.html#usuario) precisa fazer em certa [Lista](lexicos.html#lista).
+- [Atividade](lexicos.html#lx22-atividade) dentro de um [Card](lexicos.html#lx03-card) que fala o que determinada pessoa tem pra fazer.
+- [Tarefa](lexicos.html#lx27-tarefa) para ser feita na [Lista](lexicos.html#lx02-lista).
+-O que determinado [Usuário](lexicos.html#usuario) precisa fazer em certa [Lista](lexicos.html#lx02-lista).
 
 ###Impacto
-- Preciso saber a [Atividade](lexicos.html#atividade) para concluir.
-- Fazer uma [Atividade](lexicos.html#atividade) da [Lista](lexicos.html#lista).
+- Preciso saber a [Atividade](lexicos.html#lx22-atividade) para concluir.
+- Fazer uma [Atividade](lexicos.html#lx22-atividade) da [Lista](lexicos.html#lx02-lista).
 - Fazer algo do [Feed](lexicos.ntml#atividades)
-- Adicionar uma [Tarefa](lexicos.html#tarefa) no [Feed](lexicos.ntml#atividades).
+- Adicionar uma [Tarefa](lexicos.html#lx27-tarefa) no [Feed](lexicos.ntml#atividades).
 
 --------------
 
@@ -389,8 +389,8 @@ category: Modelagem
 - Descrição de um determinado objetivo.
 
 ### Impacto
-- Fazer determinada [Tarefa](lexicos.html#tarefa).
-- Cumprir uma [Tarefa](lexicos.html#tarefa).
+- Fazer determinada [Tarefa](lexicos.html#lx27-tarefa).
+- Cumprir uma [Tarefa](lexicos.html#lx27-tarefa).
 
 --------------------------
 
@@ -403,7 +403,7 @@ category: Modelagem
 - Ação de sair de um modo de visão de uma janela descartando qualquer mudança não salva.
 
 ### Impacto
-- Fechar o [cartão](lexicos.html#card)
+- Fechar o [cartão](lexicos.html#lx03-card)
 - Fechar o Trello.
 
 --------------------
@@ -431,10 +431,10 @@ category: Modelagem
 - Chamar
 
 ## Noção
-- Ação de propor a um outro [usuário](lexicos.html#usuario) não [membro](lexicos.html#membro), a possibilidade de se tornar [membro](lexicos.html#membro) do [quadro](lexicos.html#quadros) em questão
+- Ação de propor a um outro [usuário](lexicos.html#usuario) não [membro](lexicos.html#lx19-membro), a possibilidade de se tornar [membro](lexicos.html#lx19-membro) do [quadro](lexicos.html#quadros) em questão
 
 ## Impacto
-- Convidar um [membro](lexicos.html#membro)
+- Convidar um [membro](lexicos.html#lx19-membro)
 - Convidar com link.
 
 -----------------

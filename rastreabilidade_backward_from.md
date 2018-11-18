@@ -43,7 +43,7 @@
 |  RQ16 | Card | Anexar cartões a outros cartões | US16 | [LD](leituradocumentacao.html) | [CN31](cenarios.html#cn31), [LX03](lexicos.html#lx03-card), [LX10](lexicos.html#lx10-anexo), [iStar04](istar.html#sd04---card) |
 |  RQ17 | Card | Anexar quadros a cartões | US17 | [PT](prototipo.html), [LD](leituradocumentacao.html) | [CN31](cenarios.html#cn31), [LX03](lexicos.html#lx03-card), [LX10](lexicos.html#lx10-anexo), [iStar04](istar.html#sd04---card) |
 |  RQ18 | Card | Seguir um cartão | US18 | [LD](leituradocumentacao.html), [BS](brainstorming.html) | [CN28](cenarios.html#cn28), [LX03](lexicos.html#lx03-card), [LX21](lexicos.html#lx21-seguir), [iStar04](istar.html#sd04---card) |
-|  RQ19 | Card | Criar card através de e-mails | US19 | [LX](lexicos.html#card) | [LX03](lexicos.html#lx03-card) |
+|  RQ19 | Card | Criar card através de e-mails | US19 | [LX](lexicos.html#lx03-card) | [LX03](lexicos.html#lx03-card) |
 |  RQ20 | Conta | Login | US20 | - | [UC01](casos de uso.html#uc01), [CN01](cenarios.html#cn01), [LX17](lexicos.html#lx17-login) |
 |  RQ21 | Conta | Login com o Google | US21 | - | [NFR](nfr.html#privacidade), [UC01](casos de uso.html#uc01), [CN02](cenarios.html#cn02), [LX17](lexicos.html#lx17-login) |
 |  RQ22 | Conta | Cadastrar | US22 | [BS](brainstorming.html)| [UC02](casos de uso.html#uc02), [CN03](cenarios.html#cn03) |
