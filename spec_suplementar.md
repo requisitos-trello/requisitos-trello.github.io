@@ -4,6 +4,8 @@ title: Especificação Suplementar
 category: Modelagem
 ---
 
+Autor: Filipe Toyoshima
+
 # Documento de Especificação Suplementar
 
 Este documento tem por finalidade a descrição mais elaborada de requisitos não funcionais encontrados ao longo da elaboração da documentação de análise de requisitos da aplicação Trello.
@@ -14,7 +16,7 @@ O objetivo do documento é cobrir os todos os requisitos não funcionais levanta
 
 ### Visão Geral
 
-Os requisitos estão aqui separados por Funcionalidade, Usabilidade, Confiabilidade, Desempenho, Suportabilidade, Restrições de Design, Sistemas de Ajuda.
+Os requisitos estão aqui separados por Funcionalidade, Usabilidade, Confiabilidade, Desempenho, Suportabilidade, Sistemas de Ajuda.
 
 Embora sejam anexados pelas categorias descritas acima, mantém-se as indexações padronizadas pela wiki, tornando mais fácil a visualização dele ao longo da documentação.
 
@@ -28,11 +30,11 @@ A formatação deste documento foi baseada no [template](http://www.funpar.ufpr.
 
 ## Funcionalidades
 
-Acredita-se que todos os requisitos funcionais estão suficientemente modelados através de histórias de usuário descritas no [Backlog do Produto](!!!!!PENDENCIA!!!!!).
+Acredita-se que todos os requisitos funcionais estão suficientemente modelados através de histórias de usuário descritas no [Backlog do Produto](product%20backlog.html).
 
 ---
 
-## Usabilide
+## Usabilidade
 
 Através do [NFR de Usabilidade](nfr.html#usabilidade) foi possível modelar alguns dos requisitos que o sistema teria de atender para que esse importante critério pudesse ser considerado atendido pela equipe.
 
@@ -45,6 +47,10 @@ Para atender de maneira dinâmica a variedade de tamanhos de tela que se encontr
 ### RQ50 - Detecção de Idioma
 
 Visando ser uma plataforma mudialmente utilizada, o Trello dispõe de vários idiomas. Entretanto, o usuário que abrir o sistema pela primeira vez pode não ser familiarizado com o idioma nativo da aplicação, o que talvez até o impossibilite de encontrar a opção de trocar o idioma do sistema para um com o qual se sinta confortável. Para evitar esse problema, é necessário que o Trello seja capaz de identificar o idioma local do usuário, configurando o sistema para este idioma automaticamente, caso ele esteja disponível.
+
+### RQ65 - Informar possíveis Interações
+
+Baseando-se nas [Heurísticas de Nielsen](https://www.nngroup.com/articles/ten-usability-heuristics/), pensou-se em passar feedback ao usuário através de animações na interface. Ou seja, toda vez que o usuário passa o cursor por um elemento com o qual possa interagir, esse elemento deve reagir de alguma forma, de modo a dar a entender que o usuário pode realizar alguma ação.
 
 ---
 
@@ -75,15 +81,13 @@ Como medida de segurança para evitar que aplicações externas consumam armazen
 
 Esses limites podem ser encontrados na [Documentação da API](https://developers.trello.com/docs/limits).
 
-### RQ62 - Capacidade de Usuários
-
-Em 2017, [o Trello atingiu 25 milhões de usuários](https://blog.trello.com/25-million-users). Ainda deve-se levar em consideração que, além dos usuários, o sistema também é utilizado por inúmeros robôs que automatizam cargas de trabalho repetitivas, podendo cada um deles gerar até 10 requisições por segundo, em média. O sistema deve ser apto a manter essa carga de trabalho fluindo ininterruptamente.
-
 ---
 
 ## Desempenho
 
-### Tem nada ainda
+### RQ62 - Capacidade de Usuários
+
+Em 2017, [o Trello atingiu 25 milhões de usuários](https://blog.trello.com/25-million-users). Ainda deve-se levar em consideração que, além dos usuários, o sistema também é utilizado por inúmeros robôs que automatizam cargas de trabalho repetitivas, podendo cada um deles gerar até 10 requisições por segundo, em média. O sistema deve ser apto a manter essa carga de trabalho fluindo ininterruptamente.
 
 ---
 
@@ -91,7 +95,7 @@ Em 2017, [o Trello atingiu 25 milhões de usuários](https://blog.trello.com/25-
 
 ### RQ63 - Compatibilidade com navegadores mais comuns
 
-Como a aplicação será executada em um navegador web, é necessário que testes sejam realizados nos navegadores mais comuns no mercado. Segundo [pesquisa](http://gs.statcounter.com/browser-market-share/desktop/worldwide) realisada pela gs.statcounter.com, segue lista dos navegadores mais utilizados em desktop:
+Como a aplicação será executada em um navegador web, é necessário que testes sejam realizados nos navegadores mais comuns no mercado. Segundo [pesquisa](http://gs.statcounter.com/browser-market-share/desktop/worldwide) realizada pela gs.statcounter.com, segue lista dos navegadores mais utilizados em desktop:
 
 | Navegador | Taxa de Uso |
 |  -----: | :------ |
@@ -102,3 +106,29 @@ Como a aplicação será executada em um navegador web, é necessário que teste
 |    Edge | 4.22% |
 
 Para que se garanta compatibilidade com pelo menos 95% do público, deve-se haver garantia de que a aplicação funcionará sem problemas pelo menos nesses 5 navegadores.
+
+---
+
+## Sistemas de Ajuda
+
+### RQ54 - Documentação de Ajuda
+
+Embora tenha aparecido no [NFR de Usabilidade](nfr.html#usabilidade), este é um requisito que faz mais sentido nesse tópico. A documentação de ajuda deve seguir como um tutorial passo a passo que cubra, pelo menos, as seguintes funcionalidades:
+
+- Criar board
+- Adicionar Listas
+- Adicionar Cards
+    - Adicionar descrição aos Cards
+    - Comentar nos cards
+    - Adicionar membros aos cards
+- Convidar Membros
+- Gestão de Visibilidade
+- Alterar plano de fundo da board
+
+Esses tutoriais devem seguir em texto, com prints ilustrativos, demonstrando onde fica cada botão, E com vídeo que demontre, de maneira explicativa, o uso de cada um dos pontos destacados.
+
+### RQ64 - Exibição de Dicas Rápidas
+
+A leitura de documentação pode ser um meio até evitado pelos usuários por terem uma carga muito massante de informação. Uma maneira mais adequada e rápida de passar, mesmo que pouco a pouco, o potencial da aplicação é o de Dicas Rápidas. Esse botão mostrará alguma funcionalidade útil, porém pouco aparente, da ferramente. Pode exibir também alguma documentação interessante que não está necessariamente presente no tutorial descrito anteriormente, mas que ainda agrega conhecimento sobre a aplicação para o usuário.
+
+---
