@@ -512,6 +512,66 @@ Task-8
 ![copiar_board](imagens/foward/RQ35_2.PNG)
 ![copiar_board](imagens/foward/RQ35_3.PNG)
 
+## RQ 36 - Seguir um Board
+
+- [ ]- Criar uma área na barra lateral direito com a opção de seguir
+- [ ]- Criar lógica para que sempre que o cursor estiver no botão ele mudar de cor
+- [ ]- Criar lógica para que ao clicar no botão desejado ele coloque uma imagem referente que faça entender que o usuário esteja seguindo.
+
+![Seguir um board](imagens/foward/US306_seguirBoard.gif)
+
+## RQ 37 - Favoritar Board
+
+- [ ]- Criar uma imagem ao lado do nome de cada Board listado com formato de estrela
+- [ ]- Criar lógica para quando clicar na estrela ela mude de cor, indicando que o Board foi favoritado
+
+![Favoritar Boards](imagens/foward/favoritarBoard.gif)
+
+## RQ 38 - CRUD de Times 
+
+- [ ]- Criar um botão de "Criar Time"
+- [ ]- Criar espaço para botar nome do time e descrição (opcional)
+- [ ]- Criar lógica para que quando o nome do time seja escrito um botão possa ser clicado para criar o time 
+
+![Favoritar Boards](imagens/foward/crudTime.gif)
+
+## RQ 39 - Visualizar Membros de um Time
+
+- [ ]- Criar área na parte superior mostrando algumas fotos de membros do time
+- [ ]- Criar botão perto das fotos dos membros com o número de membros que mostre todos
+
+![Favoritar Boards](imagens/foward/visualizarMembros.gif)
+
+## RQ 40 - Editar Visibilidade do Time
+
+- [ ]- Criar uma área para editar o Time
+- [ ]- Criar área para editar configurações
+- [ ]- Criar botão para editar visualização do time
+- [ ]- Criar opções para visualização e resposta a elas
+
+![Favoritar Boards](imagens/foward/alterarVisibilidade.gif)
+
+## RQ 41 - Gerenciar Administradores do Time
+
+- [ ]- Criar área para membros do time
+- [ ]- Criar dropdown que tenha as opções de tipo de usuário
+
+![Favoritar Boards](imagens/foward/gerenciarADM.gif)
+
+## RQ 42 - Detalhar Time
+
+- [ ]- Criar botão na área do time para editar
+- [ ]- Criar área para escrever detalhes do time
+
+![Favoritar Boards](imagens/foward/detalharTime.gif)
+
+## RQ 43 - Gerenciar Membros de um Time
+
+- [ ]- Criar Área para membros do time
+- [ ]- Criar botões para gerenciar área os membros do time (remover, adicionar, etc.)
+
+![Favoritar Boards](imagens/foward/gerenciarMembros.gif)
+
 ## RQ 44 - Descrição das Imagens no HTML
 
 O Trello não contém imagens siginificativas. As imagens que podem ser 
