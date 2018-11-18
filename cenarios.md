@@ -1330,7 +1330,7 @@ possuir conexão a internet.
 
 -----------------------------
 
-## CN52 Adicionar [Deadline](lexico.html#duedate) 
+## CN52 Adicionar Deadline
 
 **Título:** Adicionar [deadline](lexico.html#duedate)  em um [card](lexicos.html#card). 
 
@@ -1409,7 +1409,7 @@ possuir conexão a internet.
 
 **Título:** Alterar permissão de comentário. 
 
-**Objetivo:** Alterar quem é permitido comentar em [cards](). 
+**Objetivo:** Alterar quem é permitido comentar em [cards](lexicos.html#card). 
 
 **Contexto:**
 

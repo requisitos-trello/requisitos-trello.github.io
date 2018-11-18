@@ -48,6 +48,13 @@
 | Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
 | Cenários | [CN16](cenarios.html#cn16-cenário-de-fechar-um-quadro) | Filipe Toyoshima |
 | Cenários | [CN17](cenarios.html#cn17-cenário-de-exportar-um-quadro-para-json) | Filipe Toyoshima |
+| Cenários | [CN48](cenarios.html#cn48-cenário-de-adicionar-membros-ao-card) | Samuel Borges |
+| Cenários | [CN49](cenarios.html#cn49-adicionar-descrição-ao-card) | Samuel Borges |
+| Cenários | [CN50](cenarios.html#cn50-adicionar-checklist) | Samuel Borges |
+| Cenários | [CN51](cenarios.html#cn51-adicionar-etiqueta-ao-card) | Samuel Borges |
+| Cenários | [CN52](cenarios.html#cn52-adicionar-deadline) | Samuel Borges |
+| Cenários | [CN53](cenarios.html#cn53-adicionar-comentários-ao-card) | Samuel Borges |
+| Cenários | [CN54](cenarios.html#cn54-alterar-permissão-de-comentário) | Samuel Borges |
 | iStar | [SD01 - Time](istar.html#sd01---time) | Rossicler Júnior, Lucas, Eduardo, Samuel |
 | iStar | [SD03 - Busca](istar.html#sd03---busca) | Filipe Toyoshima, Lucas Vitor |
 | iStar | [SR - Time](istar.html#sr---time) | Rossicler Júnior |

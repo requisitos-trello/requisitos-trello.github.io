@@ -21,7 +21,7 @@
 ![Retirar membro de time](imagens/verificacao/checklist-seguir-quadro.png)
 ## CN45 Criar Board Time
 ![Criar Board de um Time](imagens/verificacao/checklist-criar-board-time.png)
-## Ver Board
+## [Removido] Ver Board
 ![Ver Board](imagens/verificacao/checklist-ver-board.png)
 ## CN48 Adicionar Membros Card
 ![Adicionar Membros ao Card](imagens/verificacao/checklist-adicionar-membros-card.png)
