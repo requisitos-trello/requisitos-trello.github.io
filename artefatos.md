@@ -1,9 +1,3 @@
----
-layout: default
-title: Artefatos
-category: Geral
----
-
 # Artefatos e seus autores
 
 | Tipo | Nome | Autor(es) |
