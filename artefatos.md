@@ -78,8 +78,20 @@
 | Backlog do produto | [Backlog](product backlog.html) | Todos |
 | Especificação Suplementar | [Artefato Único](spec_suplementar.html) | Filipe Toyoshima |
 | Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior |
+| Inspecções | [Priorização MoSCoW](inspec_priorizacao.html#moscow) | Filipe Toyoshima, Lucas Vitor |
+| Inspecções | [Cenarios](inspec_scenario.html) | Filipe Toyoshima, Lucas Vitor |
 | Inspecções | [iStar](inspec_istar.html) | Rossicler Júnior, Érico Bandeira |
 | Inspecções | [Protótipo](inspec_prototipo.html) | Rossicler Júnior, Érico Bandeira |
 | Verificação | [Rich Pictures](verif_richpicture.html) | Rossicler Júnior |
+| Verificação | [Cenário Removido: Adicionar Descrição Time](verif_cenarios.html#removido-adicionar-descrição-time) | Filipe Toyoshima |
+| Verificação | [CN19 Editar Descrição Time ](verif_cenarios.html#cn19-editar-descrição-time) | Filipe Toyoshima |
+| Verificação | [CN20 Editar Visibilidade Time ](verif_cenarios.html#cn20-editar-visibilidade-time) | Filipe Toyoshima |
+| Verificação | [CN21 Vincular Slack ](verif_cenarios.html#cn21-vincular-slack) | Filipe Toyoshima |
+| Verificação | [CN22 Permitir Comentário ](verif_cenarios.html#cn22-permitir-comentário) | Filipe Toyoshima |
+| Verificação | [CN23 Negar Acesso a um Board ](verif_cenarios.html#cn23-negar-acesso-a-um-board) | Filipe Toyoshima |
+| Verificação | [CN30 Customizar Label ](verif_cenarios.html#cn30-customizar-label) | Filipe Toyoshima |
+| Verificação | [CN31 Adicionar Anexo em Card ](verif_cenarios.html#cn31-adicionar-anexo-em-card) | Filipe Toyoshima |
+| Verificação | [CN32 Mover Card](verif_cenarios.html#cn32-mover-card) | Filipe Toyoshima |
+| Verificação | [CN33 Responder Comentário](verif_cenarios.html#cn33-responder-comentário) | Filipe Toyoshima |
 | Pós-rastreabilidade | [Backward From](rastreabilidade_backward_from.html) | Todos |
 | Pós-rastreabilidade | [Forward From](rastreabilidade_forward_from.html) | Todos |
