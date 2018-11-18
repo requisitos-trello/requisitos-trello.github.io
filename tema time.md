@@ -40,12 +40,12 @@
 - [ ] A opção de Público deve estar indexado pelos sistemas da aplicação, podendo, inclusive, ser encontrado por mecanismos de buscas externos, como o Google ou Bing.
 - [ ] Cada opção deve conter um texto, o menor possível que descreva, a nível de usuário, qual o comportamento esperado.
 
-### US41 Gerenciar administradores do time
+### US41 - Gerenciar administradores do time
 
 - [ ] No painel de membros, deve haver a opção de alterar o papel dos membros para que forem administradores.
 - [ ] Em cada opção, deve conter um texto, o menor possível que descreva, a nível de usuário, qual o comportamento esperado.
 
-### US42 Detalhar time
+### US42 - Detalhar time
 
 - [ ] No painel do time, deve haver uma opção de Editar Perfil do Time. Esta opção deve abrir, na mesma página, um formulário de edição.
 - [ ] No formulário de edição, deve haver o campo de Nome do grupo.
@@ -53,7 +53,7 @@
 - [ ] No formulário de edição, deve haver o campo opcional de website do grupo.
 - [ ] No formulário de edição, deve haver o campo de descrição opcional.
 
-### US43 Gerenciar membros de um time
+### US43 - Gerenciar membros de um time
 
 - [ ] Para a visão de administrador, deve haver uma opção de remover o membro do time, que peça confirmação no clique.
 - [ ] Deve haver um campo para inserção de endereço de e-mail para o qual será enviado convite para ingresso no time.
