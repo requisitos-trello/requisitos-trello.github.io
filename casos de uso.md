@@ -380,7 +380,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 
 ![Caso 25](imagens/casos de uso/UC25.png)
 
-###   UC025 - Seguir um Card
+###   UC25 - Seguir um Card
 
 |  |  |
 |  ------: | :------ |
