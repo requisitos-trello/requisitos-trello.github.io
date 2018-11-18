@@ -71,3 +71,13 @@ Nesta discussão foi debatido se o Trello poderia ser usado em contextos diferen
 ![Diferentes Contextos](imagens/argumentacoes/diferentes_contextos.png)
 
 É possível observar que no final da discussão foi decidido que o trello possui uma certa facilidade para ser personalizado (p3), e que será possível a utilização para contextos fora do que o Kanban se propõe a resolver, porém isso será dependente da criatividade do usuário (p5).
+
+## Extensão para o Navegador
+
+Nessa discussão foi debatido se seria necessário o desenvolvimento de uma extensão para navegador que integrasse o mesmo ao Trello.
+
+![Extensão](imagens/argumentacoes/argumentation_extention.png)
+
+Após o final da discussão foi decidido que uma ferramenta que integrasse o Trello ao navegador seria bastante útil para agilizar certos aspectos do workflow.
+
+Entretanto foi decidido que o desenvolvimento dessa extensão para navegadores além do Chrome seria desnecessário.
