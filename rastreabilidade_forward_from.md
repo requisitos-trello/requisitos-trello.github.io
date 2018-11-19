@@ -59,11 +59,16 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 |  [RQ52](#rq-52---pesquisar-qualquer-coisa) | Pesquisa de Qualquer Coisa | [US52](tema usabilidade.md#us52---pesquisar-qualquer-coisa) | Eduardo | 
 |  [RQ53](#rq-53---aba-de-notificações) | Aba de notificações | [US53](tema usabilidade.md#us53---adicionar-aba-de-notificações) | Eduardo | 
 |  [RQ54](#rq-54---documentação-de-ajuda) | Documentação de Ajuda | [US54](tema usabilidade.md#us54---gerar-documentação-de-ajuda) | Eduardo |
-|  RQ55 | Certificação Akamai | [US55]() | Eduardo |  
-|  RQ56 | Servidores Secundários AWS | [US56]() | Eduardo |  
-|  RQ57 | Encriptação in-Transit | [US57]() | Eduardo |  
-|  RQ59 | Encriptação at-Rest | [US59]() | Eduardo |  
-|
+|  RQ55 | Certificação Akamai | Não se aplica | Eduardo |  
+|  RQ56 | Servidores Secundários AWS | Não se aplica | Eduardo |  
+|  RQ57 | Encriptação in-Transit | Não se aplica | Eduardo |  
+|  RQ59 | Encriptação at-Rest | Não se aplica | Eduardo |  
+|  RQ60 | Limitar Requisições | Não se aplica | João |
+|  RQ61 | Limitar objetos por board | Não se aplica | João |
+|  RQ62 | Capacidade de Usuários | Não se aplica | Filipe |
+|  RQ63 | Compatibilidade com navegadores mais comuns | Não se aplica | Filipe |
+|  [RQ64](#rq-62---dicas-rápidas) | Exibição de Dicas Rápidas | [US55](tema%20usabilidade.html#us62---exibição-de-dicas-rápidas) | Filipe |
+|  RQ65 | Informar possíveis interações | Não se aplica | Filipe |
 
 
 ## RQ 01 - Compatibilidade com atalhos de teclado

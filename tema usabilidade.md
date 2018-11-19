@@ -37,7 +37,7 @@
 - [ ] - Criar link para ajuda
 - [ ] - Oferecer tópicos pertinentes a dificuldades que o usuário pode encontrar
 
-### US62 - Exibição de Dicas Rápidas
+### US55 - Exibição de Dicas Rápidas
 
 - [ ] - Incluir botão de informação na navbar
 - [ ] - Criar lista ilustradas de dicas que podem ser exibidas
