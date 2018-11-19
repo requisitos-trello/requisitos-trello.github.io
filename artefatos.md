@@ -196,15 +196,6 @@
 | Verificação | [CN07 Cenário Criar Times](verif_cenarios.html#cn07-criar-times) | Max Henrique |
 | Verificação | [CN08 Cenário Convidar Usuários para Time](verif_cenarios.html#cn08-convidar-usuários-para-time) | Max Henrique |
 | Verificação | [CN09 Cenário Imprimir Board](verif_cenarios.html#cn09-imprimir-board) | Max Henrique |
-| Verificação | [CN45 Criar Board Time](verif_cenarios.html#cn45-criar-board-time) | Samuel Borges |
-| Verificação | [[Removido] Ver Board](verif_cenarios.html#[removido]-ver-board) | Samuel Borges |
-| Verificação | [CN48 Adicionar Membros Card](verif_cenarios.html#cn48-adicionar-membros-card) | Samuel Borges |
-| Verificação | [CN49 Descrição Card](verif_cenarios.html#cn49-descrição-card) | Samuel Borges |
-| Verificação | [CN50 Adicionar Checklist](verif_cenarios.html#cn50-adicionar-checklist) | Samuel Borges |
-| Verificação | [CN51 Adicionar Etiqueta Card](verif_cenarios.html#cn51-adicionar-etiqueta-card) | Samuel Borges |
-| Verificação | [CN52 Adicionar Deadline Card](verif_cenarios.html#cn52-adicionar-deadline-card) | Samuel Borges |
-| Verificação | [CN53 Adicionar Comentário Card](verif_cenarios.html#cn53-adicionar-comentário-card) | Samuel Borges |
-| Verificação | [CN54 Permissões Comentário](verif_cenarios.html#cn54-permissões-comentário) | Samuel Borges |
 | Verificação | [RP Primeira Versão](verif_richpicture.html#primeira-versão) | Rossicler Júnior |
 | Verificação | [RP Visão Geral](verif_richpicture.html#visão-geral) | Rossicler Júnior |
 | Verificação | [RP Criação de Boards](verif_richpicture.html#criação-de-boards) | Rossicler Júnior |
@@ -239,5 +230,14 @@
 | Verificação | [CN40 Criar Lista](verif_cenarios.html#cn40-criar-lista) | Érico Bandeira |
 | Verificação | [CN41 Alterar Nome Lista](verif_cenarios.html#cn41-alterar-nome-lista) | Érico Bandeira |
 | Verificação | [CN42 Arquivar Lista](verif_cenarios.html#cn40-arquivar-lista) | Érico Bandeira |
+| Verificação | [CN45 Criar Board Time](verif_cenarios.html#cn45-criar-board-time) | Samuel Borges |
+| Verificação | [[Removido] Ver Board](verif_cenarios.html#[removido]-ver-board) | Samuel Borges |
+| Verificação | [CN48 Adicionar Membros Card](verif_cenarios.html#cn48-adicionar-membros-card) | Samuel Borges |
+| Verificação | [CN49 Descrição Card](verif_cenarios.html#cn49-descrição-card) | Samuel Borges |
+| Verificação | [CN50 Adicionar Checklist](verif_cenarios.html#cn50-adicionar-checklist) | Samuel Borges |
+| Verificação | [CN51 Adicionar Etiqueta Card](verif_cenarios.html#cn51-adicionar-etiqueta-card) | Samuel Borges |
+| Verificação | [CN52 Adicionar Deadline Card](verif_cenarios.html#cn52-adicionar-deadline-card) | Samuel Borges |
+| Verificação | [CN53 Adicionar Comentário Card](verif_cenarios.html#cn53-adicionar-comentário-card) | Samuel Borges |
+| Verificação | [CN54 Permissões Comentário](verif_cenarios.html#cn54-permissões-comentário) | Samuel Borges |
 | Pós-rastreabilidade | [Backward From](rastreabilidade_backward_from.html) | Todos |
 | Pós-rastreabilidade | [Forward From](rastreabilidade_forward_from.html) | Todos |
