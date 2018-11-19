@@ -90,7 +90,7 @@
 | Cenários | [CN40](cenarios.html#cn40-cenário-de-criar-lista) | Érico Bandeira |
 | Cenários | [CN41](cenarios.html#cn41-cenário-de-alterar-nome-da-lista) | Érico Bandeira |
 | Cenários | [CN42](cenarios.html#cn42-cenário-de-arquivar-lista) | Érico Bandeira |
-| Cenários | [CN43](cenarios.html#cn43-cenário-de-organizar-cenário-em-coleções) | Érico Bandeira |
+| Cenários | [CN43](cenarios.html#cn43-cenário-de-organizar-o-quadro-em-coleções) | Érico Bandeira |
 | Cenários | [CN48](cenarios.html#cn48-cenário-de-adicionar-membros-ao-card) | Samuel Borges |
 | Cenários | [CN49](cenarios.html#cn49-adicionar-descrição-ao-card) | Samuel Borges |
 | Cenários | [CN50](cenarios.html#cn50-adicionar-checklist) | Samuel Borges |
@@ -124,6 +124,9 @@
 | Léxicos | [LX17](lexicos.html#lx17-login) | Lucas Vitor |
 | Léxicos | [LX18](lexicos.html#lx18-vincular) | Lucas Vitor |
 | Léxicos | [LX19](lexicos.html#lx19-membro) | Lucas Vitor |
+| Léxicos | [LX20](lexicos.html#lx20-arrastar-card) | Érico Bandeira|
+| Léxicos | [LX21](lexicos.html#lx21-seguir) | Érico Bandeira|
+| Léxicos | [LX22](lexicos.html#lx22-atividade) | Érico Bandeira|
 | Léxicos | [LX28](lexicos.html#lx28-fechar) | Samuel Borges|
 | Léxicos | [LX29](lexicos.html#lx29-perfil) | Samuel Borges |
 | Léxicos | [LX30](lexicos.html#lx30-convidar) | Samuel Borges |

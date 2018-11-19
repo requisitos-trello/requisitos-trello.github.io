@@ -320,7 +320,7 @@ category: Modelagem
 
 ## LX22 Atividade
 
-###Sinônimo
+### Sinônimo
 - [Feed](lexicos.html#lx22-atividade)
 
 ### Noção
@@ -328,7 +328,7 @@ category: Modelagem
 - [Tarefa](lexicos.html#lx27-tarefa) para ser feita na [Lista](lexicos.html#lx02-lista).
 -O que determinado [Usuário](lexicos.html#usuario) precisa fazer em certa [Lista](lexicos.html#lx02-lista).
 
-###Impacto
+### Impacto
 - Preciso saber a [Atividade](lexicos.html#lx22-atividade) para concluir.
 - Fazer uma [Atividade](lexicos.html#lx22-atividade) da [Lista](lexicos.html#lx02-lista).
 - Fazer algo do [Feed](lexicos.ntml#atividades)
