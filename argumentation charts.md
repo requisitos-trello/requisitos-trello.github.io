@@ -82,7 +82,8 @@ Após o final da discussão foi decidido que uma ferramenta que integrasse o Tre
 
 Entretanto foi decidido que o desenvolvimento dessa extensão para navegadores além do Chrome seria desnecessário.
 
-##Trello é uma Ferramenta de Fácil Aprendizado
+
+## Trello é uma Ferramenta de Fácil Aprendizado
 
 O objetivo dessa discussão foi ver se, realmente, usar uma ferramente de Kanban seria de fácil acesso e prático para seus usuários
 

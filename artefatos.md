@@ -19,7 +19,7 @@
 | Rich Pictures | [Integração com o Google Calendar](rich pictures.html#integração-com-o-google-calendar) | Rossicler Júnior |
 | Rich Pictures | [Contato Inicial](rich pictures.html#contato-inicial) | Rossicler Júnior |
 | Rich Pictures | [Extensão para o Navegador](rich pictures.html#extensão-para-navegador) | Samuel Borges |
-| Rich Pictures | [Viabilidade Econômica do Trello](rich pictures.html#viabilidade-economica-do-trello) | Érico Bandeira |
+| Rich Pictures | [Viabilidade Econômica do Trello](rich pictures.html#viabilidade-econômica-do-trello) | Érico Bandeira |
 | Elicitação | [Brainstorming](brainstorming.html) | Todos |
 | Elicitação | [Entrevista](entrevista.html) | Rossicler Júnior |
 | Elicitação | [Introspecção Gertrude](instrospeccao.html#gertrude) | Lucas Vitor |
