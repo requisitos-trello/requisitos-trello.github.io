@@ -54,5 +54,11 @@ category: Modelagem
 
 ![sd time](imagens/iStar/Usuario_SR_busca.png)
 
+### Versão 1
+
+![sd time](imagens/iStar/Trello_SR_buscav1.png)
+
+### Versão 2
+
 ![sd time](imagens/iStar/Trello_SR_busca.png)
 

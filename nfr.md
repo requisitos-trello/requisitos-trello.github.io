@@ -40,6 +40,12 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 
 ## Privacidade
 
+### Versão 1
+
+![nfr-api](imagens/NFR/nfr_privacidadev1.png)
+
+### Versão 2
+
 ![nfr-privacidade](imagens/NFR/nfr_privacidade_diagrama.png)
 
 ## Interface
