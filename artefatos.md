@@ -109,7 +109,7 @@
 | Cenários | [CN53](cenarios.html#cn53-adicionar-comentários-ao-card) | Samuel Borges |
 | Cenários | [CN54](cenarios.html#cn54-alterar-permissão-de-comentário) | Samuel Borges |
 | iStar | [SD01 - Time](istar.html#sd01---time) | Rossicler Júnior, Lucas, Eduardo, Samuel |
-| iStar | [SD02 - Board](istar.html#sd02---board) | Samuel Borges |
+| iStar | [SD02 - Board](istar.html#sd02---board) | Samuel Borges, João Vitor |
 | iStar | [SD03 - Busca](istar.html#sd03---busca) | Filipe Toyoshima, Lucas Vitor |
 | iStar | [SD04 - Card](istar.html#sd04---card) | Érico Bandeira, Max Henrique |
 | iStar | [SD05 - Filtrar Card](istar.html#sd05---filtrar-card) | Filipe Toyoshima, Lucas Vitor |
@@ -129,7 +129,8 @@
 | Léxicos | [LX11](lexicos.html#lx11-time) | Eduardo Lima |
 | Léxicos | [LX12](lexicos.html#lx12-sticker) | Eduardo Lima |
 | Léxicos | [LX13](lexicos.html#lx13-duedate) | Eduardo Lima |
-| Léxicos | [LX14](lexicos.html#lx14-notificar) | Eduardo Lima |
+| Léxicos | [LX14](lexicos.html#lx14-notificar) | João Vitor |
+| Léxicos | [LX15](lexicos.html#lx15-copiar) | João Vitor |
 | Léxicos | [LX16](lexicos.html#lx16-usuário) | Lucas Vitor |
 | Léxicos | [LX17](lexicos.html#lx17-login) | Lucas Vitor |
 | Léxicos | [LX18](lexicos.html#lx18-vincular) | Lucas Vitor |
@@ -142,6 +143,7 @@
 | Léxicos | [LX30](lexicos.html#lx30-convidar) | Samuel Borges |
 | NFR | [API](nfr.html#api) | Rossicler Júnior |
 | NFR | [Acessibilidade](nfr.html#acessibilidade) | Filipe Toyoshima |
+| NFR | [Desempenho](nfr.html#desempenho) | João Vitor |
 | NFR | [Privacidade](nfr.html#privacidade) | Lucas Vitor |
 | NFR | [Usabilidade](nfr.html#usabilidade) | Filipe Toyoshima |
 | NFR | [Usabilidade Mobile](nfr.html#usabilidade-mobile) | Érico Bandeira |
