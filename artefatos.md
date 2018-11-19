@@ -36,9 +36,18 @@
 | Casos de Uso | [UC07](casos de uso.html#uc07-acessar-configurações-de-time) | Lucas Vitor |
 | Casos de Uso | [UC08](casos de uso.html#uc08-acessar-board) | Lucas Vitor |
 | Casos de Uso | [UC20](casos de uso.html#uc20---arquivar-uma-lista) | Samuel Borges |
-| Casos de Uso | [UC23](casos de uso.html#uc23---personalizar-etiqueta) | Samuel Borges |
+| Casos de Uso | [UC22](casos de uso.html#uc22-modificar-um-card) | Eduardo Lima |
+| Casos de Uso | [UC23](casos de uso.html#uc23--personalizar-etiqueta) | Samuel Borges |
 | Casos de Uso | [UC24](casos de uso.html#uc24---arquivar-um-card) | Samuel Borges |
 | Casos de Uso | [UC25](casos de uso.html#uc25---seguir-um-card) | Samuel Borges |
+| Casos de Uso | [UC26](casos de uso.html#uc26-adicionar-membro-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC27](casos de uso.html#uc27-adicionar-descrição-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC28](casos de uso.html#uc28-adicionar-check-list-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC29](casos de uso.html#uc29-adicionar-etiqueta-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC30](casos de uso.html#uc30-adicionar-deadline-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC31](casos de uso.html#uc31-adicionar-comentário-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC33](casos de uso.html#uc33-adicionar-anexo-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC36](casos de uso.html#uc36-adicionar-power-up) | Eduardo Lima |
 | Casos de Uso | [UC40](casos de uso.html#caso-40-atualizar-time-para-business-class) | Filipe Toyoshima |
 | Casos de Uso | [UC41](casos de uso.html#caso-41-filtrar-cartões) | Filipe Toyoshima |
 | Cenários | [CN01](cenarios.html#cn01-cenário-de-login) | Rossicler Júnior |
@@ -64,6 +73,11 @@
 | Cenários | [CN21](cenarios.html#cn21-cenário-de-vincular-time-ao-slack) | Lucas Vitor |
 | Cenários | [CN22](cenarios.html#cn22-cenário-de-permitir-membro-comentar-em-um-board) | Lucas Vitor |
 | Cenários | [CN23](cenarios.html#cn23-cenário-de-negar-membro-ingressar-em-um-board) | Lucas Vitor |
+| Cenários | [CN24](cenarios.html#cn24-cenário-de-ver-lista) | Eduardo Lima |
+| Cenários | [CN25](cenarios.html#cn25-cenário-de-criar-card) | Eduardo Lima |
+| Cenários | [CN26](cenarios.html#cn26-cenário-de-modificar-card) | Eduardo Lima |
+| Cenários | [CN27](cenarios.html#cn27-cenário-de-seguiur-card) | Eduardo Lima |
+| Cenários | [CN28](cenarios.html#cn28-cenário-de-ver-card) | Eduardo Lima |
 | Cenários | [CN48](cenarios.html#cn48-cenário-de-adicionar-membros-ao-card) | Samuel Borges |
 | Cenários | [CN49](cenarios.html#cn49-adicionar-descrição-ao-card) | Samuel Borges |
 | Cenários | [CN50](cenarios.html#cn50-adicionar-checklist) | Samuel Borges |
@@ -87,6 +101,10 @@
 | Léxicos | [LX08](lexicos.html#lx08-coleções) | Lucas Vitor |
 | Léxicos | [LX09](lexicos.html#lx09-arquivar) | Lucas Vitor |
 | Léxicos | [LX10](lexicos.html#lx10-anexo) | Lucas Vitor |
+| Léxicos | [LX11](lexicos.html#lx11-time) | Eduardo Lima |
+| Léxicos | [LX12](lexicos.html#lx12-sticker) | Eduardo Lima |
+| Léxicos | [LX13](lexicos.html#lx13-duedate) | Eduardo Lima |
+| Léxicos | [LX14](lexicos.html#lx14-notificar) | Eduardo Lima |
 | Léxicos | [LX16](lexicos.html#lx16-usuário) | Lucas Vitor |
 | Léxicos | [LX17](lexicos.html#lx17-login) | Lucas Vitor |
 | Léxicos | [LX18](lexicos.html#lx18-vincular) | Lucas Vitor |
