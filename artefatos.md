@@ -10,6 +10,8 @@
 | Argumentação | [Extensão para o Navegador](argumentation charts.html#extensão-para-o-navegador) | Samuel Borges |
 | Rich Pictures | [Primeira versão](rich pictures.html#primeira-versão) | Todos |
 | Rich Pictures | [Visão Geral](rich pictures.html#visão-geral) | Filipe Toyoshima |
+| Rich Pictures | [Criação de Boards](rich pictures.html#criação-de-boards) | Lucas Vitor |
+| Rich Pictures | [Interoperabilidade](rich pictures.html#interoperabilidade) | Lucas Vitor |
 | Rich Pictures | [Silverson](rich pictures.html#silverson) | Todos |
 | Rich Pictures | [Orientadora](rich pictures.html#orientadora) | Filipe Toyoshima |
 | Rich Pictures | [Turista](rich pictures.html#turista) | Filipe Toyoshima |
@@ -18,6 +20,8 @@
 | Rich Pictures | [Extensão para o Navegador](rich pictures.html#extensão-para-navegador) | Samuel Borges |
 | Elicitação | [Brainstorming](brainstorming.html) | Todos |
 | Elicitação | [Entrevista](entrevista.html) | Rossicler Júnior |
+| Elicitação | [Introspecção Gertrude](instrospeccao.html#gertrude) | Lucas Vitor |
+| Elicitação | [Introspecção Judiscleidson](instrospeccao.html#judiscleidson) | Lucas Vitor |
 | Elicitação | [Storytelling Orc'estra](instrospeccao.html#orc'estra-gamificação) | Rossicler Júnior |
 | Elicitação | [Storytelling Organização Pessoal](instrospeccao.html#organização-pessoal) | Rossicler Júnior |
 | Elicitação | [Leitura da Documentação de Ajuda](leituradocumentacaoajuda.html) | Filipe Toyoshima |
@@ -27,6 +31,10 @@
 | Casos de Uso | [UC02](casos de uso.html#uc02-cadastro) | Rossicler Júnior |
 | Casos de Uso | [UC03](casos de uso.html#uc03-alterar-senha) | Rossicler Júnior |
 | Casos de Uso | [UC04](casos de uso.html#uc04-alterar-configurações) | Rossicler Júnior |
+| Casos de Uso | [UC05](casos de uso.html#uc05-criar-time) | Lucas Vitor |
+| Casos de Uso | [UC06](casos de uso.html#uc06-acessar-lista-de-membros) | Lucas Vitor |
+| Casos de Uso | [UC07](casos de uso.html#uc07-acessar-configurações-de-time) | Lucas Vitor |
+| Casos de Uso | [UC08](casos de uso.html#uc08-acessar-board) | Lucas Vitor |
 | Casos de Uso | [UC20](casos de uso.html#uc20---arquivar-uma-lista) | Samuel Borges |
 | Casos de Uso | [UC23](casos de uso.html#uc23---personalizar-etiqueta) | Samuel Borges |
 | Casos de Uso | [UC24](casos de uso.html#uc24---arquivar-um-card) | Samuel Borges |
@@ -50,6 +58,12 @@
 | Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
 | Cenários | [CN16](cenarios.html#cn16-cenário-de-fechar-um-quadro) | Filipe Toyoshima |
 | Cenários | [CN17](cenarios.html#cn17-cenário-de-exportar-um-quadro-para-json) | Filipe Toyoshima |
+| Cenários | [CN18](cenarios.html#cn18-cenário-de-retirar-membros-de-um-time) | Lucas Vitor |
+| Cenários | [CN19](cenarios.html#cn19-cenário-de-editar-descrição-de-time) | Lucas Vitor |
+| Cenários | [CN20](cenarios.html#cn20-cenário-de-editar-visibilidade-do-time) | Lucas Vitor |
+| Cenários | [CN21](cenarios.html#cn21-cenário-de-vincular-time-ao-slack) | Lucas Vitor |
+| Cenários | [CN22](cenarios.html#cn22-cenário-de-permitir-membro-comentar-em-um-board) | Lucas Vitor |
+| Cenários | [CN23](cenarios.html#cn23-cenário-de-negar-membro-ingressar-em-um-board) | Lucas Vitor |
 | Cenários | [CN48](cenarios.html#cn48-cenário-de-adicionar-membros-ao-card) | Samuel Borges |
 | Cenários | [CN49](cenarios.html#cn49-adicionar-descrição-ao-card) | Samuel Borges |
 | Cenários | [CN50](cenarios.html#cn50-adicionar-checklist) | Samuel Borges |
@@ -60,29 +74,48 @@
 | iStar | [SD01 - Time](istar.html#sd01---time) | Rossicler Júnior, Lucas, Eduardo, Samuel |
 | iStar | [SD02 - Board](istar.html#sd02---board) | Samuel Borges |
 | iStar | [SD03 - Busca](istar.html#sd03---busca) | Filipe Toyoshima, Lucas Vitor |
+| iStar | [SD05 - Filtrar Card](istar.html#sd05---filtrar-card) | Filipe Toyoshima, Lucas Vitor |
 | iStar | [SR - Time](istar.html#sr---time) | Rossicler Júnior |
 | iStar | [SR - Busca](istar.html#sr---busca) | Filipe Toyoshima, Lucas Vitor |
+| iStar | [SR - Filtrar Card](istar.html#sr---filtrar-card) | Filipe Toyoshima, Lucas Vitor |
 | Léxicos | [LX01](lexicos.html#lx01-board) | Rossicler Júnior |
 | Léxicos | [LX02](lexicos.html#lx02-lista) | Rossicler Júnior |
 | Léxicos | [LX03](lexicos.html#lx03-card) | Rossicler Júnior |
 | Léxicos | [LX04](lexicos.html#lx04-administrador) | Filipe Toyoshima |
 | Léxicos | [LX06](lexicos.html#lx06-atribuir--delegar-tarefa) | Filipe Toyoshima |
 | Léxicos | [LX07](lexicos.html#lx07-imagem-de-capa) | Filipe Toyoshima |
+| Léxicos | [LX08](lexicos.html#lx08-coleções) | Lucas Vitor |
+| Léxicos | [LX09](lexicos.html#lx09-arquivar) | Lucas Vitor |
+| Léxicos | [LX10](lexicos.html#lx10-anexo) | Lucas Vitor |
+| Léxicos | [LX16](lexicos.html#lx16-usuário) | Lucas Vitor |
+| Léxicos | [LX17](lexicos.html#lx17-login) | Lucas Vitor |
+| Léxicos | [LX18](lexicos.html#lx18-vincular) | Lucas Vitor |
+| Léxicos | [LX19](lexicos.html#lx19-membro) | Lucas Vitor |
 | Léxicos | [LX28](lexicos.html#lx28-fechar) | Samuel Borges|
 | Léxicos | [LX29](lexicos.html#lx29-perfil) | Samuel Borges |
 | Léxicos | [LX30](lexicos.html#lx30-convidar) | Samuel Borges |
 | NFR | [API](nfr.html#api) | Rossicler Júnior |
 | NFR | [Acessibilidade](nfr.html#acessibilidade) | Filipe Toyoshima |
+| NFR | [Privacidade](nfr.html#privacidade) | Lucas Vitor |
 | NFR | [Usabilidade](nfr.html#usabilidade) | Filipe Toyoshima |
 | NFR | [Interface](nfr.html#interface) | Samuel Borges |
 | Backlog do produto | [Backlog](product backlog.html) | Todos |
 | Especificação Suplementar | [Artefato Único](spec_suplementar.html) | Filipe Toyoshima |
-| Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior |
+| Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior, Lucas Vitor |
 | Inspecções | [Priorização MoSCoW](inspec_priorizacao.html#moscow) | Filipe Toyoshima, Lucas Vitor |
 | Inspecções | [Cenarios](inspec_scenario.html) | Filipe Toyoshima, Lucas Vitor |
 | Inspecções | [iStar](inspec_istar.html) | Rossicler Júnior, Érico Bandeira |
 | Inspecções | [Protótipo](inspec_prototipo.html) | Rossicler Júnior, Érico Bandeira |
 | Verificação | [Rich Pictures](verif_richpicture.html) | Rossicler Júnior |
+| Verificação | [CN10 Cenário de adicionar Stickers ](verif_cenarios.html#cn10-adicionar-sticker) | Lucas Vitor |
+| Verificação | [CN11 Cenário de editar/remover Stickers ](verif_cenarios.html#cn11-ditar-e-remover-sticker) | Lucas Vitor |
+| Verificação | [CN12 Cenário de Alterar Tela de Fundo ](verif_cenarios.html#cn12-background) | Lucas Vitor |
+| Verificação | [CN13 Cenário de Filtrar Cartões ](verif_cenarios.html#cn13-filtrar-cartões) | Lucas Vitor |
+| Verificação | [CN14 Cenário de Copiar um Quadro ](verif_cenarios.html#cn14-copiar-quadro) | Lucas Vitor |
+| Verificação | [CN15 Cenário de Seguir Quadro ](verif_cenarios.html#cn15-seguir-quadro) | Lucas Vitor |
+| Verificação | [CN16 Cenário de Fechar um Quadro ](verif_cenarios.html#cn16-fechar-quadro) | Lucas Vitor |
+| Verificação | [CN17 Cenário de Exportar um Quadro para JSON ](verif_cenarios.html#cn17-exportar-json) | Lucas Vitor |
+| Verificação | [CN18 Cenário de Retirar Membros de um Time ](verif_cenarios.html#cn18-retirar-membro-do-time) | Lucas Vitor |
 | Verificação | [Cenário Removido: Adicionar Descrição Time](verif_cenarios.html#removido-adicionar-descrição-time) | Filipe Toyoshima |
 | Verificação | [CN19 Editar Descrição Time ](verif_cenarios.html#cn19-editar-descrição-time) | Filipe Toyoshima |
 | Verificação | [CN20 Editar Visibilidade Time ](verif_cenarios.html#cn20-editar-visibilidade-time) | Filipe Toyoshima |
