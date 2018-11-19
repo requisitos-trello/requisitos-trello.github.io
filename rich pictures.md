@@ -77,4 +77,9 @@ Nesse rich picture é possivel observar algumas das funcionalidades em que a int
 
 No rich picture acima é possível observar como uma extensão para navegador do Trello agilizaria certos aspectos do workflow dos usuários.
 
+### Viabilidade Econômica do Trello
+
+![Viabilidade Econômica](imagens/rich pictures/viabilidadeEconomica.png)
+
+Neste rich picture é mostrado como o trello recebe dinheiro de forma direta de seus usuários, mostrando seus planos e fluxos para satisfazer o desejo do usuário.
 
