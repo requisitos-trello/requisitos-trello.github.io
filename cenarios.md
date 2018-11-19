@@ -1433,6 +1433,83 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#usuario) clica no botão “Configurações”.
 - [Usuário](lexicos.html#usuario) seleciona as “Permissões de comentário”.
 - [Usuário](lexicos.html#usuario) escolhe as “Permissões de comentário” desejadas.
+  
+
+- --------------------------
+
+## CN55 Observar Board
+
+**Título:** Observar um Board.
+
+**Objetivo:** Observar um [board](lexicos.html#lx01-board). 
+
+**Contexto:**
+
+- **Pré-condição:** O [usuário](lexicos.html#usuario) precisa ter uma conta trello estar logado e na mesma, e ter acesso a internet.
+- **Pós-condição:** O [usuário](lexicos.html#usuario) terá um [board](lexicos.html#lx01-board) para acompanhar e receber notificações quanto ao progresso e desenvolvimento do mesmo. 
+
+**Atores:** [Usuário](lexicos.html#usuario).
+
+**Recursos:** Dispositivo compatível com a plataforma Trello,
+um navegador ou o aplicativo, possuir internet, um [board](lexicos.html#lx01-board), criado[board](lexicos.html#lx01-board), computador.
+
+**Episódios:**
+
+- [Usuário](lexicos.html#usuario) deseja seguir de perto o desenvolvimento do [board](lexicos.html#lx01-board). 
+- [Usuário](lexicos.html#usuario) deseja acompanhar o andamento do [board](lexicos.html#lx01-board). 
+- [Usuário](lexicos.html#usuario) deseja observar o avanço da equipe no [board](lexicos.html#lx01-board). 
+
+- --------------------------
+
+## CN56 Adicionar Membros ao Board
+
+**Título:** Adicionar membros a um Board.
+
+**Objetivo:** Adicionar participantes para ver ou auxiliar no progresso de um [board](lexicos.html#lx01-board). 
+
+**Contexto:**
+
+- **Pré-condição:** O [usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet. E ter um [board](lexicos.html#lx01-board) no qual ele possa adicionar pessoas.
+- **Pós-condição:** O [usuário](lexicos.html#usuario)  pode ter adicionado mais pessoas para ver ou auxiliar o progresso de [card](lexicos.html#lx03-card) daquele[board](lexicos.html#lx01-board) para acompanhar e receber notificações quanto ao progresso e desenvolvimento do mesmo. 
+
+**Atores:** [Usuário](lexicos.html#usuario).
+
+**Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo, possuir internet, um [board](lexicos.html#lx01-board), criado[board](lexicos.html#lx01-board), computador.
+
+**Episódios:**
+
+- [Usuário](lexicos.html#usuario) abre o Trello. 
+- [Usuário](lexicos.html#usuario) faz login. 
+- [Usuário](lexicos.html#usuario) clica em um [board](lexicos.html#lx01-board) se houver um.
+- [Usuário](lexicos.html#usuario) envia convites para outros membros participarem do [board](lexicos.html#lx01-board) se houver um.
+
+- --------------------------
+
+## CN57 Criar Time do Business Class
+
+**Título:**  Criar um time do Business Class.
+
+**Objetivo:** Criar um [board](lexicos.html#lx01-board) para o time se organizar, onde o time irá possuir maior segurança e controles admnistrativos.
+
+**Contexto:**
+
+- **Pré-condição:** O [usuário](lexicos.html#usuario) precisa ter uma conta no Trello e estar logado na mesma, utilizando um dispositivo com acesso a internet. e ter pago uma
+taxa referente ao plano.
+- **Pós-condição:** O [usuário](lexicos.html#usuario) terá um [board](lexicos.html#lx01-board) para designar, planejar e executar tarefas para seu respectivo time, além de power-ups ilimitados ao seu projeto e mais segurança além de controles admnistrativos melhores. 
+
+**Atores:** [Usuário](lexicos.html#usuario).
+
+**Recursos:** Dispositivo compatível com a plataforma Trello, um navegador ou o aplicativo, possuir internet, computador.
+
+**Episódios:**
+
+- [Usuário](lexicos.html#usuario) abre o Trello. 
+- [Usuário](lexicos.html#usuario) faz login. 
+- [Usuário](lexicos.html#usuario) clica em criar time business class.
+- [Usuário](lexicos.html#usuario) adicionar informações ao [board](lexicos.html#lx01-board).
+- [Usuário](lexicos.html#usuario) personaliza [board](lexicos.html#lx01-board).
+- [Usuário](lexicos.html#usuario) adiciona membros ao [board](lexicos.html#lx01-board).
+- [Usuário](lexicos.html#usuario) envia convites.
 
 
 <!-- ----------------------

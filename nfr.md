@@ -59,3 +59,7 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 ## Suportabilidade 
 
 ![nfr-suportabilidade](imagens/NFR/Suportabilidade NFR.png)
+
+## Satisfação
+
+![nfr-satisfação](imagens/NFR/Satisfação_Max Henrique.png)

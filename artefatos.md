@@ -24,6 +24,8 @@
 | Elicitação | [Entrevista](entrevista.html) | Rossicler Júnior |
 | Elicitação | [Introspecção Gertrude](instrospeccao.html#gertrude) | Lucas Vitor |
 | Elicitação | [Introspecção Judiscleidson](instrospeccao.html#judiscleidson) | Lucas Vitor |
+| Elicitação | [Introspecção Natal](instrospeccao.html#natal) | Max Henrique |
+| Elicitação | [Introspecção Casamento](instrospeccao.html#casamento) | Max Henrique |
 | Elicitação | [Storytelling Orc'estra](instrospeccao.html#orc'estra-gamificação) | Rossicler Júnior |
 | Elicitação | [Storytelling Organização Pessoal](instrospeccao.html#organização-pessoal) | Rossicler Júnior |
 | Elicitação | [Leitura da Documentação de Ajuda](leituradocumentacaoajuda.html) | Filipe Toyoshima |
@@ -38,6 +40,17 @@
 | Casos de Uso | [UC06](casos de uso.html#uc06-acessar-lista-de-membros) | Lucas Vitor |
 | Casos de Uso | [UC07](casos de uso.html#uc07-acessar-configurações-de-time) | Lucas Vitor |
 | Casos de Uso | [UC08](casos de uso.html#uc08-acessar-board) | Lucas Vitor |
+| Casos de Uso | [UC09](casos de uso.html#uc09-criar-board) | Max Henrique |
+| Casos de Uso | [UC10](casos de uso.html#uc10-ver-um-board) | Max Henrique |
+| Casos de Uso | [UC11](casos de uso.html#uc11-seguir-um-board) | Max Henrique |
+| Casos de Uso | [UC12](casos de uso.html#uc12-adicionar-membros-em-um-board) | Max Henrique |
+| Casos de Uso | [UC13](casos de uso.html#uc13-imprimir-um-board) | Max Henrique |
+| Casos de Uso | [UC14](casos de uso.html#uc14-ser-convidado-para-um-board) | Max Henrique |
+| Casos de Uso | [UC15](casos de uso.html#uc15-criar-um-time) | Max Henrique |
+| Casos de Uso | [UC16](casos de uso.html#uc16-convidar-por-e-mail) | Max Henrique |
+| Casos de Uso | [UC17](casos de uso.html#uc17-convidar-pela-conta) | Max Henrique |
+| Casos de Uso | [UC18](casos de uso.html#uc18-fechar-board) | Max Henrique |
+| Casos de Uso | [UC19](casos de uso.html#uc19-vincular-board) | Max Henrique |
 | Casos de Uso | [UC20](casos de uso.html#uc20---arquivar-uma-lista) | Samuel Borges |
 | Casos de Uso | [UC22](casos de uso.html#uc22-modificar-um-card) | Eduardo Lima |
 | Casos de Uso | [UC23](casos de uso.html#uc23--personalizar-etiqueta) | Samuel Borges |
@@ -71,7 +84,7 @@
 | Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
 | Cenários | [CN13](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
 | Cenários | [CN14](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
-| Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
+| Cenários | [CN15](cenarios.html#cn15-cenário-de-seguir-quadro) | Max Henrique |
 | Cenários | [CN16](cenarios.html#cn16-cenário-de-fechar-um-quadro) | Filipe Toyoshima |
 | Cenários | [CN17](cenarios.html#cn17-cenário-de-exportar-um-quadro-para-json) | Filipe Toyoshima |
 | Cenários | [CN18](cenarios.html#cn18-cenário-de-retirar-membros-de-um-time) | Lucas Vitor |
@@ -91,6 +104,10 @@
 | Cenários | [CN41](cenarios.html#cn41-cenário-de-alterar-nome-da-lista) | Érico Bandeira |
 | Cenários | [CN42](cenarios.html#cn42-cenário-de-arquivar-lista) | Érico Bandeira |
 | Cenários | [CN43](cenarios.html#cn43-cenário-de-organizar-o-quadro-em-coleções) | Érico Bandeira |
+| Cenários | [CN44](cenarios.html#cn44-criar-board) | Max Henrique |
+| Cenários | [CN45](cenarios.html#cn45-criar-board-do-time) | Max Henrique |
+| Cenários | [CN46](cenarios.html#cn46-ver-um-board) | Max Henrique |
+| Cenários | [CN47](cenarios.html#cn47-administrar-power-ups) | Max Henrique |
 | Cenários | [CN48](cenarios.html#cn48-cenário-de-adicionar-membros-ao-card) | Samuel Borges |
 | Cenários | [CN49](cenarios.html#cn49-adicionar-descrição-ao-card) | Samuel Borges |
 | Cenários | [CN50](cenarios.html#cn50-adicionar-checklist) | Samuel Borges |
@@ -98,6 +115,9 @@
 | Cenários | [CN52](cenarios.html#cn52-adicionar-deadline) | Samuel Borges |
 | Cenários | [CN53](cenarios.html#cn53-adicionar-comentários-ao-card) | Samuel Borges |
 | Cenários | [CN54](cenarios.html#cn54-alterar-permissão-de-comentário) | Samuel Borges |
+| Cenários | [CN55](cenarios.html#cn55-observar-board) | Max Henrique |
+| Cenários | [CN56](cenarios.html#cn56-adicionar-membros-ao-board) | Max Henrique |
+| Cenários | [CN57](cenarios.html#cn57-criar-time-do-business-class) | Max Henrique |
 | iStar | [SD01 - Time](istar.html#sd01---time) | Rossicler Júnior, Lucas, Eduardo, Samuel |
 | iStar | [SD02 - Board](istar.html#sd02---board) | Samuel Borges |
 | iStar | [SD03 - Busca](istar.html#sd03---busca) | Filipe Toyoshima, Lucas Vitor |
@@ -127,15 +147,22 @@
 | Léxicos | [LX20](lexicos.html#lx20-arrastar-card) | Érico Bandeira|
 | Léxicos | [LX21](lexicos.html#lx21-seguir) | Érico Bandeira|
 | Léxicos | [LX22](lexicos.html#lx22-atividade) | Érico Bandeira|
+| Léxicos | [LX23](lexicos.html#lx23-check-list) | Max Henrique|
+| Léxicos | [LX25](lexicos.html#lx25-power-up | Max Henrique|
+| Léxicos | [LX26](lexicos.html#lx26-label | Max Henrique|
 | Léxicos | [LX28](lexicos.html#lx28-fechar) | Samuel Borges|
 | Léxicos | [LX29](lexicos.html#lx29-perfil) | Samuel Borges |
 | Léxicos | [LX30](lexicos.html#lx30-convidar) | Samuel Borges |
+| Léxicos | [LX31](lexicos.html#lx31-update) | Max Henrique |
+| Léxicos | [LX32](lexicos.id="lx32-gerente") | Max Henrique |
 | NFR | [API](nfr.html#api) | Rossicler Júnior |
 | NFR | [Acessibilidade](nfr.html#acessibilidade) | Filipe Toyoshima |
 | NFR | [Privacidade](nfr.html#privacidade) | Lucas Vitor |
 | NFR | [Usabilidade](nfr.html#usabilidade) | Filipe Toyoshima |
 | NFR | [Usabilidade Mobile](nfr.html#usabilidade-mobile) | Érico Bandeira |
 | NFR | [Interface](nfr.html#interface) | Samuel Borges |
+| NFR | [Suportabilidade](nfr.html#suportabilidade) | Max Henrique |
+| NFR | [Satisfação](nfr.html#satisfação) | Max Henrique |
 | Backlog do produto | [Backlog](product backlog.html) | Todos |
 | Especificação Suplementar | [Artefato Único](spec_suplementar.html) | Filipe Toyoshima |
 | Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior, Lucas Vitor |
@@ -143,7 +170,17 @@
 | Inspecções | [Cenarios](inspec_scenario.html) | Filipe Toyoshima, Lucas Vitor |
 | Inspecções | [iStar](inspec_istar.html) | Rossicler Júnior, Érico Bandeira |
 | Inspecções | [Protótipo](inspec_prototipo.html) | Rossicler Júnior, Érico Bandeira |
+| Inspecções | [Casos de Uso](inspec_usercase.html) | Max Henrique, Samuel Borges |
 | Verificação | [Rich Pictures](verif_richpicture.html) | Rossicler Júnior |
+| Verificação | [CN01 Cenário Login](verif_cenarios.html#cn01-login) | Max Henrique |
+| Verificação | [CN02 Cenário Login Google](verif_cenarios.html#cn02-login-google) | Max Henrique |
+| Verificação | [CN03 Cenário Cadastro](verif_cenarios.html#cn03-cadastro) | Max Henrique |
+| Verificação | [CN04 Cenário Alterar Senha](verif_cenarios.html#cn04-alterar-senha) | Max Henrique |
+| Verificação | [CN05 Cenário Alterar Configurações de Notificação](verif_cenarios.html#cn05-alterar-configurações-de-notificação) | Max Henrique |
+| Verificação | [CN06 Cenário Ver Notificações](verif_cenarios.html#cn06-ver-notificações) | Max Henrique |
+| Verificação | [CN07 Cenário Criar Times](verif_cenarios.html#cn07-criar-times) | Max Henrique |
+| Verificação | [CN08 Cenário Convidar Usuários para Time](verif_cenarios.html#cn08-convidar-usuários-para-time) | Max Henrique |
+| Verificação | [CN09 Cenário Imprimir Board](verif_cenarios.html#cn09-imprimir-board) | Max Henrique |
 | Verificação | [CN10 Cenário de adicionar Stickers ](verif_cenarios.html#cn10-adicionar-sticker) | Lucas Vitor |
 | Verificação | [CN11 Cenário de editar/remover Stickers ](verif_cenarios.html#cn11-ditar-e-remover-sticker) | Lucas Vitor |
 | Verificação | [CN12 Cenário de Alterar Tela de Fundo ](verif_cenarios.html#cn12-background) | Lucas Vitor |
