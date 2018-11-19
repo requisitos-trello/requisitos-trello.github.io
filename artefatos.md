@@ -8,6 +8,7 @@
 | Argumentação | [Trello em diferentes contextos](argumentation charts.html#trello-em-diferentes-contextos) | Rossicler Júnior |
 | Argumentação | [Kan-Ban como Ferramenta de Organização](argumentation charts.html#kanban-como-uma-solução-para-organização) | Filipe Toyoshima |
 | Argumentação | [Extensão para o Navegador](argumentation charts.html#extensão-para-o-navegador) | Samuel Borges |
+| Argumentação | [Trello é uma Ferramenta de Fácil Aprendizado](argumentation charts.html#trello-é-uma-ferramenta-de-fácil-aprendizado) | Érico Bandeira |
 | Rich Pictures | [Primeira versão](rich pictures.html#primeira-versão) | Todos |
 | Rich Pictures | [Visão Geral](rich pictures.html#visão-geral) | Filipe Toyoshima |
 | Rich Pictures | [Criação de Boards](rich pictures.html#criação-de-boards) | Lucas Vitor |
@@ -18,6 +19,7 @@
 | Rich Pictures | [Integração com o Google Calendar](rich pictures.html#integração-com-o-google-calendar) | Rossicler Júnior |
 | Rich Pictures | [Contato Inicial](rich pictures.html#contato-inicial) | Rossicler Júnior |
 | Rich Pictures | [Extensão para o Navegador](rich pictures.html#extensão-para-navegador) | Samuel Borges |
+| Rich Pictures | [Viabilidade Econômica do Trello](rich pictures.html#viabilidade-economica-do-trello) | Érico Bandeira |
 | Elicitação | [Brainstorming](brainstorming.html) | Todos |
 | Elicitação | [Entrevista](entrevista.html) | Rossicler Júnior |
 | Elicitação | [Introspecção Gertrude](instrospeccao.html#gertrude) | Lucas Vitor |
