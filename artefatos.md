@@ -159,9 +159,15 @@
 | Verificação | [CN21 Vincular Slack ](verif_cenarios.html#cn21-vincular-slack) | Filipe Toyoshima |
 | Verificação | [CN22 Permitir Comentário ](verif_cenarios.html#cn22-permitir-comentário) | Filipe Toyoshima |
 | Verificação | [CN23 Negar Acesso a um Board ](verif_cenarios.html#cn23-negar-acesso-a-um-board) | Filipe Toyoshima |
+| Verificação | [CN25 Criar Card](verif_cenarios.html#cn25-criar-card) | Érico Bandeira |
+| Verificação | [CN26 Modificar Card](verif_cenarios.html#cn26-modificar-card) | Érico Bandeira |
+| Verificação | [CN29 Arquivar Card](verif_cenarios.html#cn29-aquivar-card) | Érico Bandeira |
 | Verificação | [CN30 Customizar Label ](verif_cenarios.html#cn30-customizar-label) | Filipe Toyoshima |
 | Verificação | [CN31 Adicionar Anexo em Card ](verif_cenarios.html#cn31-adicionar-anexo-em-card) | Filipe Toyoshima |
 | Verificação | [CN32 Mover Card](verif_cenarios.html#cn32-mover-card) | Filipe Toyoshima |
 | Verificação | [CN33 Responder Comentário](verif_cenarios.html#cn33-responder-comentário) | Filipe Toyoshima |
+| Verificação | [CN40 Criar Lista](verif_cenarios.html#cn40-criar-lista) | Érico Bandeira |
+| Verificação | [CN41 Alterar Nome Lista](verif_cenarios.html#cn41-alterar-nome-lista) | Érico Bandeira |
+| Verificação | [CN42 Arquivar Lista](verif_cenarios.html#cn40-arquivar-lista) | Érico Bandeira |
 | Pós-rastreabilidade | [Backward From](rastreabilidade_backward_from.html) | Todos |
 | Pós-rastreabilidade | [Forward From](rastreabilidade_forward_from.html) | Todos |
