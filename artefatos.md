@@ -76,7 +76,7 @@
 | Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
 | Cenários | [CN13](cenarios.html#cn13-cenário-de-filtrar-cartões) | Filipe Toyoshima |
 | Cenários | [CN14](cenarios.html#cn14-cenário-de-copiar-um-quadro) | Filipe Toyoshima |
-| Cenários | [CN15](cenarios.html#cn15-cenário-de-seguir-um-quadro) | Filipe Toyoshima |
+| Cenários | [CN15](cenarios.html#cn15-cenário-de-seguir-quadro) | Filipe Toyoshima |
 | Cenários | [CN16](cenarios.html#cn16-cenário-de-fechar-um-quadro) | Filipe Toyoshima |
 | Cenários | [CN17](cenarios.html#cn17-cenário-de-exportar-um-quadro-para-json) | Filipe Toyoshima |
 | Cenários | [CN18](cenarios.html#cn18-cenário-de-retirar-membros-de-um-time) | Lucas Vitor |
@@ -91,7 +91,7 @@
 | Cenários | [CN27](cenarios.html#cn27-cenário-de-seguiur-card) | Eduardo Lima |
 | Cenários | [CN28](cenarios.html#cn28-cenário-de-ver-card) | Eduardo Lima |
 | Cenários | [CN31](cenarios.html#cn31-cenário-de-adicionar-anexo-em-um-card) | João Vitor |
-| Cenários | [CN32](cenarios.html#cn32-cenário-de-mover-um-card-para-outra-list) | João Vitor |
+| Cenários | [CN32](cenarios.html#cn32-cenário-de-mover-um-card-para-outra-lista) | João Vitor |
 | Cenários | [CN33](cenarios.html#cn33-cenário-de-responder-um-comentário-no-card) | João Vitor |
 | Cenários | [CN34](cenarios.html#cn34-cenário-de-excluir-comentário-no-card) | João Vitor |
 | Cenários | [CN35](cenarios.html#cn35-cenário-de-usar-power-up-no-quadro) | João Vitor |
