@@ -19,9 +19,11 @@
 | Rich Pictures | [Integração com o Google Calendar](rich pictures.html#integração-com-o-google-calendar) | Rossicler Júnior |
 | Rich Pictures | [Contato Inicial](rich pictures.html#contato-inicial) | Rossicler Júnior |
 | Rich Pictures | [Extensão para o Navegador](rich pictures.html#extensão-para-navegador) | Samuel Borges |
+| Rich Pictures | [Geral (Outra Versão)](rich picture.html#visão-geral-(outra-versão)) | Eduardo Lima |
 | Rich Pictures | [Viabilidade Econômica do Trello](rich pictures.html#viabilidade-econômica-do-trello) | Érico Bandeira |
 | Elicitação | [Brainstorming](brainstorming.html) | Todos |
 | Elicitação | [Entrevista](entrevista.html) | Rossicler Júnior |
+| Elicitação | [Questionário](questionário.html) | Eduardo Lima |
 | Elicitação | [Introspecção Gertrude](instrospeccao.html#gertrude) | Lucas Vitor |
 | Elicitação | [Introspecção Judiscleidson](instrospeccao.html#judiscleidson) | Lucas Vitor |
 | Elicitação | [Storytelling Orc'estra](instrospeccao.html#orc'estra-gamificação) | Rossicler Júnior |
