@@ -28,6 +28,10 @@ Na próxima tentativa, a equipe definiu melhor a problemática. Note que a image
 
 Obs: Houve preferência pela confecção manual do Rich Picture, sem a necessidade de ferramentas digitais a priori para uma melhor praticidade e agilidade na execução da ideia. Isso possibilitou uma melhor eficiência da equipe e maior engajamento e fluidez durante reuniões.
 
+### Visão Geral (Outra Versão)
+![Visão Geral](imagens/rich pictures/Geral.png)
+Também foi confeccionada uma outra visão geral, desta vez utilizando de uma persona (João) para contextualizar a ferramenta.
+
 ### Criação de Boards
 
 ![criação de boards](imagens/rich pictures/boards.jpg)
