@@ -83,7 +83,7 @@
 ![Adicionar Deadline ao Card](imagens/verificacao/checklist-adicionar-deadline-card.png)
 ## CN53 Adicionar Comentário Card
 ![Adicionar Comentários ao Card](imagens/verificacao/checklist-adicionar-comentário-card.png)
-## CN54 Permissõess Comentário
+## CN54 Permissões Comentário
 ![Alterar Perissões de Comentário](imagens/verificacao/checklist-permissões-comentário.png)
 ## [Removido] Adicionar Descrição Time
 ![Adicionar descrição de um time](imagens/verificacao/checklist-cenario-adicionardesctime.png)
