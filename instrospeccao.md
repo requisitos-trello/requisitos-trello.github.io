@@ -4,6 +4,8 @@ title: Introspecções
 category: Elicitação
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Introspecções em formato Storytelling
 
 A Introspecção é uma técnica de elicitação baseada na reflexão sobre detalhes de determinado funcionamento. A partir dessa reflexão, pode-se inferir detalhes sobre o que se quer documentar.

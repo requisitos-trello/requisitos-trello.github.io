@@ -19,9 +19,11 @@
 | Rich Pictures | [Integração com o Google Calendar](rich pictures.html#integração-com-o-google-calendar) | Rossicler Júnior |
 | Rich Pictures | [Contato Inicial](rich pictures.html#contato-inicial) | Rossicler Júnior |
 | Rich Pictures | [Extensão para o Navegador](rich pictures.html#extensão-para-navegador) | Samuel Borges |
+| Rich Pictures | [Geral (Outra Versão)](rich pictures.html#visão-geral-(outra-versão)) | Eduardo Lima |
 | Rich Pictures | [Viabilidade Econômica do Trello](rich pictures.html#viabilidade-econômica-do-trello) | Érico Bandeira |
 | Elicitação | [Brainstorming](brainstorming.html) | Todos |
 | Elicitação | [Entrevista](entrevista.html) | Rossicler Júnior |
+| Elicitação | [Questionário](questionário.html) | Eduardo Lima |
 | Elicitação | [Introspecção Gertrude](instrospeccao.html#gertrude) | Lucas Vitor |
 | Elicitação | [Introspecção Judiscleidson](instrospeccao.html#judiscleidson) | Lucas Vitor |
 | Elicitação | [Introspecção Natal](instrospeccao.html#natal) | Max Henrique |
@@ -62,7 +64,10 @@
 | Casos de Uso | [UC29](casos de uso.html#uc29-adicionar-etiqueta-a-um-card) | Eduardo Lima |
 | Casos de Uso | [UC30](casos de uso.html#uc30-adicionar-deadline-a-um-card) | Eduardo Lima |
 | Casos de Uso | [UC31](casos de uso.html#uc31-adicionar-comentário-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC32](casos de uso.html#uc32-alterar-permissão-de-comentário) | João Vitor |
 | Casos de Uso | [UC33](casos de uso.html#uc33-adicionar-anexo-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC34](casos de uso.html#uc34-mover-um-card-para-outra-list) | João Vitor |
+| Casos de Uso | [UC35](casos de uso.html#uc35-compartilhar-card) | João Vitor |
 | Casos de Uso | [UC36](casos de uso.html#uc36-adicionar-power-up) | Eduardo Lima |
 | Casos de Uso | [UC37](casos de uso.html#uc37-criar-lista) | Érico Bandeira |
 | Casos de Uso | [UC38](casos de uso.html#uc38-alterar-nome-de-uma-lista) | Érico Bandeira |
@@ -82,8 +87,8 @@
 | Cenários | [CN10](cenarios.html#cn10-cenário-de-adicionar-stickers) | Filipe Toyoshima |
 | Cenários | [CN11](cenarios.html#cn11-cenário-de-editarremover-stickers) | Filipe Toyoshima |
 | Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
-| Cenários | [CN13](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
-| Cenários | [CN14](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
+| Cenários | [CN13](cenarios.html#cn13-cenário-de-filtrar-cartões) | Filipe Toyoshima |
+| Cenários | [CN14](cenarios.html#cn14-cenário-de-copiar-um-quadro) | Filipe Toyoshima |
 | Cenários | [CN15](cenarios.html#cn15-cenário-de-seguir-quadro) | Max Henrique |
 | Cenários | [CN16](cenarios.html#cn16-cenário-de-fechar-um-quadro) | Filipe Toyoshima |
 | Cenários | [CN17](cenarios.html#cn17-cenário-de-exportar-um-quadro-para-json) | Filipe Toyoshima |
@@ -98,6 +103,13 @@
 | Cenários | [CN26](cenarios.html#cn26-cenário-de-modificar-card) | Eduardo Lima |
 | Cenários | [CN27](cenarios.html#cn27-cenário-de-seguiur-card) | Eduardo Lima |
 | Cenários | [CN28](cenarios.html#cn28-cenário-de-ver-card) | Eduardo Lima |
+| Cenários | [CN31](cenarios.html#cn31-cenário-de-adicionar-anexo-em-um-card) | João Vitor |
+| Cenários | [CN32](cenarios.html#cn32-cenário-de-mover-um-card-para-outra-lista) | João Vitor |
+| Cenários | [CN33](cenarios.html#cn33-cenário-de-responder-um-comentário-no-card) | João Vitor |
+| Cenários | [CN34](cenarios.html#cn34-cenário-de-excluir-comentário-no-card) | João Vitor |
+| Cenários | [CN35](cenarios.html#cn35-cenário-de-usar-power-up-no-quadro) | João Vitor |
+| Cenários | [CN36](cenarios.html#cn36-cenário-de-compartilhar-card) | João Vitor |
+| Cenários | [CN37](cenarios.html#cn37-cenário-de-exibir-detalhes-do-card) | João Vitor |
 | Cenários | [CN38](cenarios.html#cn38-cenário-de-vincular-ao-quadro) | Érico Bandeira |
 | Cenários | [CN39](cenarios.html#cn39-cenário-de-alterar-permissões-de-membros-no-board) | Érico Bandeira |
 | Cenários | [CN40](cenarios.html#cn40-cenário-de-criar-lista) | Érico Bandeira |
@@ -119,7 +131,7 @@
 | Cenários | [CN56](cenarios.html#cn56-adicionar-membros-ao-board) | Max Henrique |
 | Cenários | [CN57](cenarios.html#cn57-criar-time-do-business-class) | Max Henrique |
 | iStar | [SD01 - Time](istar.html#sd01---time) | Rossicler Júnior, Lucas, Eduardo, Samuel |
-| iStar | [SD02 - Board](istar.html#sd02---board) | Samuel Borges |
+| iStar | [SD02 - Board](istar.html#sd02---board) | Samuel Borges, João Vitor |
 | iStar | [SD03 - Busca](istar.html#sd03---busca) | Filipe Toyoshima, Lucas Vitor |
 | iStar | [SD04 - Card](istar.html#sd04---card) | Érico Bandeira, Max Henrique |
 | iStar | [SD05 - Filtrar Card](istar.html#sd05---filtrar-card) | Filipe Toyoshima, Lucas Vitor |
@@ -139,7 +151,8 @@
 | Léxicos | [LX11](lexicos.html#lx11-time) | Eduardo Lima |
 | Léxicos | [LX12](lexicos.html#lx12-sticker) | Eduardo Lima |
 | Léxicos | [LX13](lexicos.html#lx13-duedate) | Eduardo Lima |
-| Léxicos | [LX14](lexicos.html#lx14-notificar) | Eduardo Lima |
+| Léxicos | [LX14](lexicos.html#lx14-notificar) | João Vitor |
+| Léxicos | [LX15](lexicos.html#lx15-copiar) | João Vitor |
 | Léxicos | [LX16](lexicos.html#lx16-usuário) | Lucas Vitor |
 | Léxicos | [LX17](lexicos.html#lx17-login) | Lucas Vitor |
 | Léxicos | [LX18](lexicos.html#lx18-vincular) | Lucas Vitor |
@@ -157,6 +170,7 @@
 | Léxicos | [LX32](lexicos.id="lx32-gerente") | Max Henrique |
 | NFR | [API](nfr.html#api) | Rossicler Júnior |
 | NFR | [Acessibilidade](nfr.html#acessibilidade) | Filipe Toyoshima |
+| NFR | [Desempenho](nfr.html#desempenho) | João Vitor |
 | NFR | [Privacidade](nfr.html#privacidade) | Lucas Vitor |
 | NFR | [Usabilidade](nfr.html#usabilidade) | Filipe Toyoshima |
 | NFR | [Usabilidade Mobile](nfr.html#usabilidade-mobile) | Érico Bandeira |
@@ -165,7 +179,7 @@
 | NFR | [Satisfação](nfr.html#satisfação) | Max Henrique |
 | Backlog do produto | [Backlog](product backlog.html) | Todos |
 | Especificação Suplementar | [Artefato Único](spec_suplementar.html) | Filipe Toyoshima |
-| Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior, Lucas Vitor |
+| Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior, Lucas Vitor, Érico Bandeira |
 | Inspecções | [Priorização MoSCoW](inspec_priorizacao.html#moscow) | Filipe Toyoshima, Lucas Vitor |
 | Inspecções | [Cenarios](inspec_scenario.html) | Filipe Toyoshima, Lucas Vitor |
 | Inspecções | [iStar](inspec_istar.html) | Rossicler Júnior, Érico Bandeira |
@@ -181,6 +195,15 @@
 | Verificação | [CN07 Cenário Criar Times](verif_cenarios.html#cn07-criar-times) | Max Henrique |
 | Verificação | [CN08 Cenário Convidar Usuários para Time](verif_cenarios.html#cn08-convidar-usuários-para-time) | Max Henrique |
 | Verificação | [CN09 Cenário Imprimir Board](verif_cenarios.html#cn09-imprimir-board) | Max Henrique |
+| Verificação | [RP Primeira Versão](verif_richpicture.html#primeira-versão) | Rossicler Júnior |
+| Verificação | [RP Visão Geral](verif_richpicture.html#visão-geral) | Rossicler Júnior |
+| Verificação | [RP Criação de Boards](verif_richpicture.html#criação-de-boards) | Rossicler Júnior |
+| Verificação | [RP Interoperabilidade](verif_richpicture.html#interoperabilidade) | Rossicler Júnior |
+| Verificação | [RP Persona Silverson](verif_richpicture.html#persona-silverson) | Rossicler Júnior |
+| Verificação | [RP Persona Orientadora](verif_richpicture.html#persona-orientadora) | Rossicler Júnior |
+| Verificação | [RP Persona Turista](verif_richpicture.html#persona-turista) | Rossicler Júnior |
+| Verificação | [RP Visão Macro](verif_richpicture.html#visão-macro) | Rossicler Júnior |
+| Verificação | [RP Integração com o Google Calendar](verif_richpicture.html#integração-com-o-google-calendar) | Rossicler Júnior |
 | Verificação | [CN10 Cenário de adicionar Stickers ](verif_cenarios.html#cn10-adicionar-sticker) | Lucas Vitor |
 | Verificação | [CN11 Cenário de editar/remover Stickers ](verif_cenarios.html#cn11-ditar-e-remover-sticker) | Lucas Vitor |
 | Verificação | [CN12 Cenário de Alterar Tela de Fundo ](verif_cenarios.html#cn12-background) | Lucas Vitor |

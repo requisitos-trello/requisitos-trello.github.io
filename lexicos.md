@@ -4,6 +4,8 @@ title: Léxicos
 category: Modelagem
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Léxicos
 
 ## LX01 Board

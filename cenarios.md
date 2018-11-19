@@ -4,6 +4,8 @@ title: Cenários
 category: Modelagem
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Cenários
 
 ------------
@@ -815,7 +817,7 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#lx16-usuário) terá anexado algo ao [Card](lexicos.html#lx03-card)  selecionado. 
 
 ------------
-## CN32 Cenário de Mover um [Card](lexicos.html#lx03-card) para outra list 
+## CN32 Cenário de Mover um [Card](lexicos.html#lx03-card) para outra [lista](lexicos.html#lx02-lista) 
 
 **Título:** Mover um [Card](lexicos.html#lx03-card)  para outra [Lista](lexicos.html#lx02-lista)
 
@@ -1110,7 +1112,9 @@ possuir conexão a internet.
 - [Usuário](lexicos.html#lx16-usuário) entra no Trello;
 - [Usuário](lexicos.html#lx16-usuário) realiza [Login](lexicos.html#lx17-login);
 - [Usuário](lexicos.html#lx16-usuário) clica no criar [Board](lexicos.html#lx01-board);
+
 ---------------------------
+
 ## CN45 Criar Board do Time
 
 **Título:** Criar um [Board](lexicos.html#lx01-board) e alocar time.

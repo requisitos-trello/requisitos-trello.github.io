@@ -4,6 +4,8 @@ title: Questionário
 category: Elicitação
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Introdução
 
 Foi elaborado um questionário para estabelecer os possíveis requisitos para a plataforma Trello, já que existem diversas alternativas utilizadas no dia-a-dia para a organização, tanto virtuais quanto físicas(calendário, agenda, quadro Kanban, etc).

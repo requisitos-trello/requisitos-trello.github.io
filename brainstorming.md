@@ -4,6 +4,8 @@ title: Brainstorming
 category: Elicitação
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Brainstorming
 
 Segue na tabela os requisitos levantados a partir da técnica de elicitação brainstorming.

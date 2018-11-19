@@ -4,6 +4,8 @@ title: NFR
 category: Modelagem
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # NFR
 
 Para uma melhor descrição de requisitos não funcionais, o time confeccionou artefatos baseados no padrão NFR.

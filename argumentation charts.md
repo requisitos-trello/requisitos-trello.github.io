@@ -4,6 +4,8 @@ title: Argumentações
 category: Artefatos
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Argumentações
 
 Os Diagramas de Argumentação são representações gráficas em formato de grafo que auxiliam a rastreabilidade de tomada de decisões que ocorreram através de processos argumentativos.
