@@ -652,5 +652,4 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 board. |
 | **Fluxo Principal** | **FP01 - Filtrar Cartões**<br>1. Abre a página inicial do trello.<br/>2. Usuário abre o menu lateral.<br/>3. Usuário seleciona a opção “Mais”.<br/>4. Usuário seleciona a opção “Imprimir e Exportar”.<br/>5. Usuário seleciona a opção “Exportar como JSON”.<br/>5. Caso de uso encerrado.|
 | **Fluxos de Exceção** | Não se aplica |
-| **Pós Condições** | 1. Usuário uma página que contém apenas o código JSON
-Condições do Board. |
+| **Pós Condições** | 1. Usuário uma página que contém apenas o código JSON do Board. |

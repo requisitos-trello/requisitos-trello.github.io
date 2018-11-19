@@ -85,6 +85,12 @@
 | Cenários | [CN26](cenarios.html#cn26-cenário-de-modificar-card) | Eduardo Lima |
 | Cenários | [CN27](cenarios.html#cn27-cenário-de-seguiur-card) | Eduardo Lima |
 | Cenários | [CN28](cenarios.html#cn28-cenário-de-ver-card) | Eduardo Lima |
+| Cenários | [CN38](cenarios.html#cn38-cenário-de-vincular-ao-quadro) | Érico Bandeira |
+| Cenários | [CN39](cenarios.html#cn38-cenário-de-alterar-permissões-de-membros-no-board) | Érico Bandeira |
+| Cenários | [CN40](cenarios.html#cn40-cenário-de-criar-lista) | Érico Bandeira |
+| Cenários | [CN41](cenarios.html#cn41-cenário-de-alterar-nome-da-lista) | Érico Bandeira |
+| Cenários | [CN42](cenarios.html#cn42-cenário-de-arquivar-lista) | Érico Bandeira |
+| Cenários | [CN43](cenarios.html#cn43-cenário-de-organizar-cenário-em-coleções) | Érico Bandeira |
 | Cenários | [CN48](cenarios.html#cn48-cenário-de-adicionar-membros-ao-card) | Samuel Borges |
 | Cenários | [CN49](cenarios.html#cn49-adicionar-descrição-ao-card) | Samuel Borges |
 | Cenários | [CN50](cenarios.html#cn50-adicionar-checklist) | Samuel Borges |
