@@ -59,4 +59,3 @@ Foram levantados 40 requisitos, sendo eles:
 |  43 | Realizar cadastro |
 |  44 | Realizar cadastro com Google |
 |  45 | Alterar senha |
-|  45 | Incluir emoji em um comentário |
