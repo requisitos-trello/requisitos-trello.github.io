@@ -150,7 +150,7 @@
 | NFR | [Interface](nfr.html#interface) | Samuel Borges |
 | Backlog do produto | [Backlog](product backlog.html) | Todos |
 | Especificação Suplementar | [Artefato Único](spec_suplementar.html) | Filipe Toyoshima |
-| Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior, Lucas Vitor |
+| Inspecções | [Rich Pictures](inspec_richpictures.html) | Rossicler Júnior, Lucas Vitor, Érico Bandeira |
 | Inspecções | [Priorização MoSCoW](inspec_priorizacao.html#moscow) | Filipe Toyoshima, Lucas Vitor |
 | Inspecções | [Cenarios](inspec_scenario.html) | Filipe Toyoshima, Lucas Vitor |
 | Inspecções | [iStar](inspec_istar.html) | Rossicler Júnior, Érico Bandeira |
