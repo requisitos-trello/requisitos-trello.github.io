@@ -134,6 +134,7 @@
 | NFR | [Acessibilidade](nfr.html#acessibilidade) | Filipe Toyoshima |
 | NFR | [Privacidade](nfr.html#privacidade) | Lucas Vitor |
 | NFR | [Usabilidade](nfr.html#usabilidade) | Filipe Toyoshima |
+| NFR | [Usabilidade Mobile](nfr.html#usabilidade-mobile) | Érico Bandeira |
 | NFR | [Interface](nfr.html#interface) | Samuel Borges |
 | Backlog do produto | [Backlog](product backlog.html) | Todos |
 | Especificação Suplementar | [Artefato Único](spec_suplementar.html) | Filipe Toyoshima |
