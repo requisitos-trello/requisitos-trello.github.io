@@ -22,7 +22,9 @@ category: Modelagem
 ![sd board](imagens/iStar/sd-board.png)
 
 ## SR - Board
-![sr board](imagens/iStar/sr-board.png)
+![sr board usuario](imagens/iStar/sr-board.png)
+
+![sr board trello](imagens/iStar/SR_trello_board.png)
 
 ## SD03 - Busca
 
