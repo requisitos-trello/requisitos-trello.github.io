@@ -27,6 +27,7 @@
 | Elicitação | [Storytelling Orc'estra](instrospeccao.html#orc'estra-gamificação) | Rossicler Júnior |
 | Elicitação | [Storytelling Organização Pessoal](instrospeccao.html#organização-pessoal) | Rossicler Júnior |
 | Elicitação | [Leitura da Documentação de Ajuda](leituradocumentacaoajuda.html) | Filipe Toyoshima |
+| Elicitação | [Protótipo](prototipo.html) | Érico Bandeira |
 | Priorização | [MoSCoW](priorizacao.html#moscow) | Todos |
 | Priorização | [First Things First](priorizacao.html#first-things-first) | Todos |
 | Casos de Uso | [UC01](casos de uso.html#uc01-fazer-login) | Rossicler Júnior |
@@ -50,8 +51,12 @@
 | Casos de Uso | [UC31](casos de uso.html#uc31-adicionar-comentário-a-um-card) | Eduardo Lima |
 | Casos de Uso | [UC33](casos de uso.html#uc33-adicionar-anexo-a-um-card) | Eduardo Lima |
 | Casos de Uso | [UC36](casos de uso.html#uc36-adicionar-power-up) | Eduardo Lima |
+| Casos de Uso | [UC37](casos de uso.html#uc37-criar-lista) | Érico Bandeira |
+| Casos de Uso | [UC38](casos de uso.html#uc38-alterar-nome-de-uma-lista) | Érico Bandeira |
+| Casos de Uso | [UC39](casos de uso.html#uc39-criar-card) | Érico Bandeira |
 | Casos de Uso | [UC40](casos de uso.html#caso-40-atualizar-time-para-business-class) | Filipe Toyoshima |
 | Casos de Uso | [UC41](casos de uso.html#caso-41-filtrar-cartões) | Filipe Toyoshima |
+| Casos de Uso | [UC42](casos de uso.html#uc42-exportar-um-board-para-json) | Érico Bandeira |
 | Cenários | [CN01](cenarios.html#cn01-cenário-de-login) | Rossicler Júnior |
 | Cenários | [CN02](cenarios.html#cn02-cenário-de-login-com-o-google) | Rossicler Júnior |
 | Cenários | [CN03](cenarios.html#cn03-cenário-de-cadastro) | Rossicler Júnior |

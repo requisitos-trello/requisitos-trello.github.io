@@ -559,7 +559,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Falta de internet, apresentando a mensagem de erro ao usuário. <br> Caso não seja o primeiro power-up no card e o usuário não esteja em algum plano pago, não é possível adicionar outro power-up.
 
 
-### UC37: Criar Lista
+### UC37 Criar Lista
 
 ![Caso 37](imagens/casos de uso/caso018.png)
 
@@ -574,7 +574,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Usuário terá criado uma nova lista para colocar novos cards. |
 
-### UC38: Alterar nome de uma lista
+### UC38 Alterar nome de uma lista
 
 ![Caso 38](imagens/casos de uso/caso019.png)
 
@@ -589,7 +589,7 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos de Exceção** | Não se aplica. |
 | **Pós Condições** | Usuário terá outro nome para uma determinada lista. |
 
-### UC39: Criar card
+### UC39 Criar card
 
 ![Caso 39](imagens/casos de uso/caso021.png)
 
@@ -637,3 +637,20 @@ Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que
 | **Fluxos Alternativos** | **FA01 - Buscar por títulos**<br>1. O usuário digita o título pelo qual procura<br>**FA02 - Buscar por etiquetas**<br>1. O usuário seleciona as etiquetas que deseja<br>**FA03 - Busca por membros assinalados**<br>1. O usuário seleciona os membros que devem estar nos cards que procura<br>**FA04 - Busca por data de entrega**<br>1. O usuário escolhe uma opção de data de entrega a qual procura, a partir daqui, surge um, e apenas um, dos fluxos alternativos de 05 a 11.<br>**FA05 - Entregas em um dia**<br>1. O usuário seleciona a opção de datas de entrega em um dia<br>**FA06 - Entregas em uma semana**<br>1. O usuário seleciona a opção de datas de entrega em uma semana<br>**FA07 - Entregas em um mês**<br>1. O usuário seleciona a opção de datas de entrega em um mês<br>**FA08 - Entregas atrasadas**<br>1. O usuário seleciona a opção de cards não marcados como concluídos e que a data de entregue já tenha passado<br>**FA09 - Sem data de entrega**<br>1. O usuário seleciona a opção de cards sem data de entrega especificada<br>**FA10 - Entregas concluídas**<br>1. O usuário seleciona a opção de cards marcados como concluídos<br>**FA11 - Entregas não concluídas**<br>1. O usuário seleciona a opção de cards ainda não marcados como concluídos|
 | **Fluxos de Exceção** | Não se aplica |
 | **Pós Condições** | 1. O quadro irá exibir apenas cards que satisfaçam os critérios da pesquisa<br>2. Haverá uma opção no canto superior da tela que avisa que o modo de pesquisa está ativo e que oferece a opção de desativar |
+
+### UC42 Exportar um board para JSON
+
+![Caso 41](imagens/casos%20de%20uso/json.png)
+
+### UC42 - Exportar um board para JSON
+
+|  |  |
+|  ------: | :------ |
+|  **Descrição** | Tem como objetivo passar um board para código JSON. |
+| **Atores** | Usuário |
+| **Pré Condições** | Usuário deve possuir email e estar vinculado a um
+board. |
+| **Fluxo Principal** | **FP01 - Filtrar Cartões**<br>1. Abre a página inicial do trello.<br/>2. Usuário abre o menu lateral.<br/>3. Usuário seleciona a opção “Mais”.<br/>4. Usuário seleciona a opção “Imprimir e Exportar”.<br/>5. Usuário seleciona a opção “Exportar como JSON”.<br/>5. Caso de uso encerrado.|
+| **Fluxos de Exceção** | Não se aplica |
+| **Pós Condições** | 1. Usuário uma página que contém apenas o código JSON
+Condições do Board. |
