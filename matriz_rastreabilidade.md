@@ -4,6 +4,8 @@ title: Matriz Rastreabilidade
 category: Pós-Rastreabilidade
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Matriz Rastreabilidade
 
 Segue a lista das matrizes de rastreabilidade geradas:

@@ -4,7 +4,7 @@ title: Especificação Suplementar
 category: Modelagem
 ---
 
-Autor: Filipe Toyoshima
+[Lista de Autores do artefato](/artefatos.html)
 
 # Documento de Especificação Suplementar
 

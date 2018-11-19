@@ -4,6 +4,8 @@ title: Rich Pictures
 category: Artefatos
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Rich Pictures
 
 Um Rich Picture é um artefato construído preferencialmente em colaboração com stakeholders a fim de ilustrar e, assim, trazer uma melhor compreensão do problema a ser resolvido pela equipe de desenvolvimento.

@@ -4,6 +4,8 @@ title: Inspeção
 category: Avaliacao
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Inspeção
 
 Para avaliação dos artefatos produzidos durante o estudo de Engenharia de Requisitos, far-se-á uma inspeção da qualidade, onde serão consideradas as opiniões de pelo menos dois integrantes a respeito dos artefatos analisados.

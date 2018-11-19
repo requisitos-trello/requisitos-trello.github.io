@@ -4,6 +4,8 @@ title: Entrevista
 category: Elicitação
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Introdução
 
 Foi elaborado uma entrevista com o intuito de entender dos problemas em que uma pessoa tem e que o trello se oferece a solucionar, como a entrevista pode possuir perguntas direcionadas ao caso do entrevistado, podemos também obter requisitos ao qual o sistema pode não possuir, sendo então uma proposta de melhora.

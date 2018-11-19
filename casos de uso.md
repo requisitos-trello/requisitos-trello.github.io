@@ -4,6 +4,8 @@ title: Casos de Uso
 category: Modelagem
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Casos de uso
 Diagramas de casos de uso, ou diagramas comportamentais na documentação UML, são responsáveis por descrever as principais funcionalidades do sistema e a interação dessas funcionalidades com os usuários do próprio sistema.
 Para tal, o diagrama dispõe de atores que representam usuários ou sistemas que interagem com o sistema em questão, elipses que representam ações e relações entre as elipses, que podem ser do tipo include ou extend.

@@ -4,6 +4,8 @@ title: Consulta de Acessibilidade
 category: Elicitação
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Materiais de Acessibilidade
 
 Visando ser o mais acessível o possível, é importante que sejam levantados requisitos que garantam que a aplicação possa ser usada por pessoas com as mais variadas necessidades especiais.

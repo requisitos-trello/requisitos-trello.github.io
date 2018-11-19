@@ -4,6 +4,8 @@ title: Leitura de documentação da API
 category: Elicitação
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Leitura da Documentação da API
 
 Durante a modelagem de requisitos da [Especificação Suplementar](spec_suplementar.html), mais especificamente nas partes de [Desepenho](spec_suplementar.html#desempenho) e [Confiabiliadade](spec_suplementar.html#confiabilidade), notou-se a falta de Requisitos não funcionais relativos a esses pontos.

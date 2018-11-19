@@ -4,6 +4,8 @@ title: iStar
 category: Modelagem
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # iStar
 
 ## SD01 - Time

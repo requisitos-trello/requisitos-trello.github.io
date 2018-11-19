@@ -3,6 +3,9 @@ layout: default
 title: Backlog do produto
 category: Modelagem
 ---
+
+[Lista de Autores do artefato](/artefatos.html)
+
 # Backlog do produto
 
 Em estudo de modelagem de requisitos em parâmetros ágeis, a equipe levantou e pontuou 43 histórias de usuário.

@@ -4,6 +4,8 @@ title: Priorização
 category: Elicitação
 ---
 
+[Lista de Autores do artefato](/artefatos.html)
+
 # Priorização
 
 Segue na tabela o backlog levantado pelas técnicas de elicitação e entendimento do problema. As tabelas que aqui se encontram podem ser melhor visualizadas [nesta planilha](https://docs.google.com/spreadsheets/d/1F6Wh5DAGIVqfXxOQbG7vMyzS70VZ_C2XbJvEYll-sgI/edit?usp=sharing).
