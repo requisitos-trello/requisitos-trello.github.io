@@ -107,13 +107,3 @@ Rossicler é um estudante de Engenharia de Software da UnB e trabalha em uma emp
 | 06 | Rastreabilidade | Possuir todas as Atividades para visualização, até aquelas que já foram concluídas |
 | 07 | Criação de listas | Criar uma lista é a criação de uma coluna no seu Board |
 | 08 | Criação de etiquetas | Criar uma etiqueta para identificar categorias de um Card |
-
-### Requisitos
-
-| # | Requisito |
-|--: |   :-:  |
-| 01 | Criar boards para cada atividades. |
-| 02 | Visão macro de tarefas. |
-| 03 | Controle de deadlines. |
-| 04 | Gerenciamento de atividades. |
-| 05 | Atribuir atividades. |
