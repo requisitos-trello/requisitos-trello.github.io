@@ -54,3 +54,9 @@ Foram levantados 40 requisitos, sendo eles:
 |  38 | Incluir anexos em comentários |
 |  39 | Responder um comentário |
 |  40 | Incluir emoji em um comentário |
+|  41 | Realizar login |
+|  42 | Realizar login com Google |
+|  43 | Realizar cadastro |
+|  44 | Realizar cadastro com Google |
+|  45 | Alterar senha |
+|  45 | Incluir emoji em um comentário |
