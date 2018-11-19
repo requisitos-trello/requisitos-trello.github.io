@@ -59,6 +59,11 @@
 | Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
 | Cenários | [CN16](cenarios.html#cn16-cenário-de-fechar-um-quadro) | Filipe Toyoshima |
 | Cenários | [CN17](cenarios.html#cn17-cenário-de-exportar-um-quadro-para-json) | Filipe Toyoshima |
+| Cenários | [CN24](cenarios.html#cn24-cenário-de-ver-lista) | Eduardo Lima |
+| Cenários | [CN25](cenarios.html#cn25-cenário-de-criar-card) | Eduardo Lima |
+| Cenários | [CN26](cenarios.html#cn26-cenário-de-modificar-card) | Eduardo Lima |
+| Cenários | [CN27](cenarios.html#cn27-cenário-de-seguiur-card) | Eduardo Lima |
+| Cenários | [CN28](cenarios.html#cn28-cenário-de-ver-card) | Eduardo Lima |
 | Cenários | [CN48](cenarios.html#cn48-cenário-de-adicionar-membros-ao-card) | Samuel Borges |
 | Cenários | [CN49](cenarios.html#cn49-adicionar-descrição-ao-card) | Samuel Borges |
 | Cenários | [CN50](cenarios.html#cn50-adicionar-checklist) | Samuel Borges |
@@ -77,6 +82,10 @@
 | Léxicos | [LX04](lexicos.html#lx04-administrador) | Filipe Toyoshima |
 | Léxicos | [LX06](lexicos.html#lx06-atribuir--delegar-tarefa) | Filipe Toyoshima |
 | Léxicos | [LX07](lexicos.html#lx07-imagem-de-capa) | Filipe Toyoshima |
+| Léxicos | [LX11](lexicos.html#lx11-time) | Eduardo Lima |
+| Léxicos | [LX12](lexicos.html#lx12-sticker) | Eduardo Lima |
+| Léxicos | [LX13](lexicos.html#lx13-duedate) | Eduardo Lima |
+| Léxicos | [LX14](lexicos.html#lx14-notificar) | Eduardo Lima |
 | Léxicos | [LX28](lexicos.html#lx28-fechar) | Samuel Borges|
 | Léxicos | [LX29](lexicos.html#lx29-perfil) | Samuel Borges |
 | Léxicos | [LX30](lexicos.html#lx30-convidar) | Samuel Borges |
