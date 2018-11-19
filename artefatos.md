@@ -72,9 +72,9 @@
 | Cenários | [CN10](cenarios.html#cn10-cenário-de-adicionar-stickers) | Filipe Toyoshima |
 | Cenários | [CN11](cenarios.html#cn11-cenário-de-editarremover-stickers) | Filipe Toyoshima |
 | Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
-| Cenários | [CN13](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
-| Cenários | [CN14](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
-| Cenários | [CN12](cenarios.html#cn12-cenário-de-alterar-tela-de-fundo) | Filipe Toyoshima |
+| Cenários | [CN13](cenarios.html#cn13-cenário-de-filtrar-cartões) | Filipe Toyoshima |
+| Cenários | [CN14](cenarios.html#cn14-cenário-de-copiar-um-quadro) | Filipe Toyoshima |
+| Cenários | [CN15](cenarios.html#cn15-cenário-de-seguir-um-quadro) | Filipe Toyoshima |
 | Cenários | [CN16](cenarios.html#cn16-cenário-de-fechar-um-quadro) | Filipe Toyoshima |
 | Cenários | [CN17](cenarios.html#cn17-cenário-de-exportar-um-quadro-para-json) | Filipe Toyoshima |
 | Cenários | [CN18](cenarios.html#cn18-cenário-de-retirar-membros-de-um-time) | Lucas Vitor |
