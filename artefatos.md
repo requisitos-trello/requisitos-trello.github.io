@@ -161,8 +161,8 @@
 | Léxicos | [LX21](lexicos.html#lx21-seguir) | Érico Bandeira|
 | Léxicos | [LX22](lexicos.html#lx22-atividade) | Érico Bandeira|
 | Léxicos | [LX23](lexicos.html#lx23-check-list) | Max Henrique|
-| Léxicos | [LX25](lexicos.html#lx25-power-up | Max Henrique|
-| Léxicos | [LX26](lexicos.html#lx26-label | Max Henrique|
+| Léxicos | [LX25](lexicos.html#lx25-power-up) | Max Henrique|
+| Léxicos | [LX26](lexicos.html#lx26-label) | Max Henrique|
 | Léxicos | [LX28](lexicos.html#lx28-fechar) | Samuel Borges|
 | Léxicos | [LX29](lexicos.html#lx29-perfil) | Samuel Borges |
 | Léxicos | [LX30](lexicos.html#lx30-convidar) | Samuel Borges |
