@@ -49,7 +49,10 @@
 | Casos de Uso | [UC29](casos de uso.html#uc29-adicionar-etiqueta-a-um-card) | Eduardo Lima |
 | Casos de Uso | [UC30](casos de uso.html#uc30-adicionar-deadline-a-um-card) | Eduardo Lima |
 | Casos de Uso | [UC31](casos de uso.html#uc31-adicionar-comentário-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC32](casos de uso.html#uc32-alterar-permissão-de-comentário) | João Vitor |
 | Casos de Uso | [UC33](casos de uso.html#uc33-adicionar-anexo-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC34](casos de uso.html#uc34-mover-um-card-para-outra-list) | João Vitor |
+| Casos de Uso | [UC35](casos de uso.html#uc35-compartilhar-card) | João Vitor |
 | Casos de Uso | [UC36](casos de uso.html#uc36-adicionar-power-up) | Eduardo Lima |
 | Casos de Uso | [UC37](casos de uso.html#uc37-criar-lista) | Érico Bandeira |
 | Casos de Uso | [UC38](casos de uso.html#uc38-alterar-nome-de-uma-lista) | Érico Bandeira |
@@ -85,6 +88,13 @@
 | Cenários | [CN26](cenarios.html#cn26-cenário-de-modificar-card) | Eduardo Lima |
 | Cenários | [CN27](cenarios.html#cn27-cenário-de-seguiur-card) | Eduardo Lima |
 | Cenários | [CN28](cenarios.html#cn28-cenário-de-ver-card) | Eduardo Lima |
+| Cenários | [CN31](cenarios.html#cn31-cenário-de-adicionar-anexo-em-um-card) | João Vitor |
+| Cenários | [CN32](cenarios.html#cn32-cenário-de-mover-um-card-para-outra-list) | João Vitor |
+| Cenários | [CN33](cenarios.html#cn33-cenário-de-responder-um-comentário-no-card) | João Vitor |
+| Cenários | [CN34](cenarios.html#cn34-cenário-de-excluir-comentário-no-card) | João Vitor |
+| Cenários | [CN35](cenarios.html#cn35-cenário-de-usar-power-up-no-quadro) | João Vitor |
+| Cenários | [CN36](cenarios.html#cn36-cenário-de-compartilhar-card) | João Vitor |
+| Cenários | [CN37](cenarios.html#cn37-cenário-de-exibir-detalhes-do-card) | João Vitor |
 | Cenários | [CN38](cenarios.html#cn38-cenário-de-vincular-ao-quadro) | Érico Bandeira |
 | Cenários | [CN39](cenarios.html#cn39-cenário-de-alterar-permissões-de-membros-no-board) | Érico Bandeira |
 | Cenários | [CN40](cenarios.html#cn40-cenário-de-criar-lista) | Érico Bandeira |
