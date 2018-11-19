@@ -28,9 +28,18 @@
 | Casos de Uso | [UC03](casos de uso.html#uc03-alterar-senha) | Rossicler Júnior |
 | Casos de Uso | [UC04](casos de uso.html#uc04-alterar-configurações) | Rossicler Júnior |
 | Casos de Uso | [UC20](casos de uso.html#uc20---arquivar-uma-lista) | Samuel Borges |
-| Casos de Uso | [UC23](casos de uso.html#uc23---personalizar-etiqueta) | Samuel Borges |
+| Casos de Uso | [UC22](casos de uso.html#uc22-modificar-um-card) | Eduardo Lima |
+| Casos de Uso | [UC23](casos de uso.html#uc23--personalizar-etiqueta) | Samuel Borges |
 | Casos de Uso | [UC24](casos de uso.html#uc24---arquivar-um-card) | Samuel Borges |
 | Casos de Uso | [UC25](casos de uso.html#uc25---seguir-um-card) | Samuel Borges |
+| Casos de Uso | [UC26](casos de uso.html#uc26-adicionar-membro-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC27](casos de uso.html#uc27-adicionar-descrição-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC28](casos de uso.html#uc28-adicionar-check-list-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC29](casos de uso.html#uc29-adicionar-etiqueta-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC30](casos de uso.html#uc30-adicionar-deadline-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC31](casos de uso.html#uc31-adicionar-comentário-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC33](casos de uso.html#uc33-adicionar-anexo-a-um-card) | Eduardo Lima |
+| Casos de Uso | [UC36](casos de uso.html#uc36-adicionar-power-up) | Eduardo Lima |
 | Casos de Uso | [UC40](casos de uso.html#caso-40-atualizar-time-para-business-class) | Filipe Toyoshima |
 | Casos de Uso | [UC41](casos de uso.html#caso-41-filtrar-cartões) | Filipe Toyoshima |
 | Cenários | [CN01](cenarios.html#cn01-cenário-de-login) | Rossicler Júnior |
