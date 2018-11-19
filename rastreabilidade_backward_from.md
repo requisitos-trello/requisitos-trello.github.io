@@ -1,6 +1,12 @@
 # Backward From
 
+A Matriz Backward From tem por objetivo rastrear as origens de cada requisito, para que se garanta que se evite mistérios acerca das necessidades da aplicação da qual se elicitam e modelam requisitos.
+
+Perceba que, na matriz de rastreabilidade, todas as técnicas referentes a cada requisitos estão linkadas para que o leitor possa ir checar diretamente onde se encontram as aplicações de tais técnicas.
+
 ## Técnica de elicitação
+
+Para evitar demasiado texto em tabelas, segue tabela de abreviações contendo as técnicas de elicitação referenciadas.
 
 | **Sigla** | **Técnica de elicitação** |
 |  :------: | :------: |
@@ -14,6 +20,8 @@
 | QT | Questionário |
 
 ## Modelagem
+
+O mesmo da tabela de técnicas de elicitação foi feito com as técnicas de modelagem, para que se resuma em pouco espaço as melhores especificações de requisitos que se utilizou.
 
 | **Sigla** | **Modelagem** |
 |  :------: | :------: |
