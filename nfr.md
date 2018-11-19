@@ -22,17 +22,15 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 
 ## API
 
-### Versão 1
-
-![nfr-api](imagens/NFR/api-trello.png)
-
-### Versão 2
-
 ![nfr-api-v2](imagens/NFR/api-trello-v2.png)
+
+[Versão anterior](outdated_nfr.html#api)
 
 ## Acessibilidade
 
 ![nfr-acessibilidade](imagens/NFR/nfr_acessibilidade.jpg)
+
+[Versão anterior](outdated_nfr.html#acessibilidade)
 
 ## Desempenho
 
@@ -55,6 +53,8 @@ Cobrimos, nesta página, algumas dimensões ditas referentes à requisitos não 
 ## Usabilidade 
 
 ![nfr-usabilidade](imagens/NFR/nfr_usabilidade.jpg)
+
+[Versão anterior](outdated_nfr.html#usabilidade)
 
 ## Usabilidade-Mobile
 
