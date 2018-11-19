@@ -136,6 +136,7 @@
 | iStar | [SD04 - Card](istar.html#sd04---card) | Érico Bandeira, Max Henrique |
 | iStar | [SD05 - Filtrar Card](istar.html#sd05---filtrar-card) | Filipe Toyoshima, Lucas Vitor |
 | iStar | [SR - Time](istar.html#sr---time) | Rossicler Júnior |
+| iStar | [SR - Board](istar.html#sr---board) | Samuel Borges |
 | iStar | [SR - Busca](istar.html#sr---busca) | Filipe Toyoshima, Lucas Vitor |
 | iStar | [SR - Filtrar Card](istar.html#sr---filtrar-card) | Filipe Toyoshima, Lucas Vitor |
 | iStar | [SR - Card](istar.html#sr---card) | Érico Bandeira, Max Henrique | 

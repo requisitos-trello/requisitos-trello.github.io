@@ -19,9 +19,11 @@ category: Modelagem
 ![sd time](imagens/iStar/sr-usuario-time-istar.png)
 
 ## SD02 - Board
+
 ![sd board](imagens/iStar/sd-board.png)
 
 ## SR - Board
+
 ![sr board usuario](imagens/iStar/sr-board.png)
 
 ![sr board trello](imagens/iStar/SR_trello_board.png)
