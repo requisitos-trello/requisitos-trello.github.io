@@ -59,10 +59,10 @@ Para garantir que os requisitos estão sendo cumpridos e que ainda fazem sentido
 |  [RQ52](#rq-52---pesquisar-qualquer-coisa) | Pesquisa de Qualquer Coisa | [US52](tema usabilidade.md#us52---pesquisar-qualquer-coisa) | Eduardo | [ ] - Criar campo para busca<br/>[ ] - Pesquisar termo digitado em todas as boards que o usuário tem acesso<br/>[ ] - Mostrar resultado na barra de pesquisa |
 |  [RQ53](#rq-53---aba-de-notificações) | Aba de notificações | [US53](tema usabilidade.md#us53---adicionar-aba-de-notificações) | Eduardo | [ ] - Criar ícone para notificações<br/>[ ] - Alterar aparência do ícone caso hajam uma ou mais notificações<br/>[ ] - Redirecionar o usuário à origem da notificação |
 |  [RQ54](#rq-54---documentação-de-ajuda) | Documentação de Ajuda | [US54](tema usabilidade.md#us54---gerar-documentação-de-ajuda) | Eduardo | [ ] - Criar link para ajuda<br/>[ ] - Oferecer tópicos pertinentes a dificuldades que o usuário pode encontrar |
-|  RQ55 | Certificação Akamai | [US55]() | Eduardo |  |
-|  RQ56 | Servidores Secundários AWS | [US56]() | Eduardo |  |
-|  RQ57 | Encriptação in-Transit | [US57]() | Eduardo |  |
-|  RQ59 | Encriptação at-Rest | [US59]() | Eduardo |  |
+|  RQ55 | Certificação Akamai | - | Eduardo | Não se aplica |
+|  RQ56 | Servidores Secundários AWS | - | Eduardo | Não se aplica |
+|  RQ57 | Encriptação in-Transit | - | Eduardo | Não se aplica |
+|  RQ59 | Encriptação at-Rest | - | Eduardo | Não se aplica |
 |
 
 
