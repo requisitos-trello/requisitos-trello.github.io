@@ -155,7 +155,15 @@
 | Inspecções | [Cenarios](inspec_scenario.html) | Filipe Toyoshima, Lucas Vitor |
 | Inspecções | [iStar](inspec_istar.html) | Rossicler Júnior, Érico Bandeira |
 | Inspecções | [Protótipo](inspec_prototipo.html) | Rossicler Júnior, Érico Bandeira |
-| Verificação | [Rich Pictures](verif_richpicture.html) | Rossicler Júnior |
+| Verificação | [RP Primeira Versão](verif_richpicture.html#primeira-versão) | Rossicler Júnior |
+| Verificação | [RP Visão Geral](verif_richpicture.html#visão-geral) | Rossicler Júnior |
+| Verificação | [RP Criação de Boards](verif_richpicture.html#criação-de-boards) | Rossicler Júnior |
+| Verificação | [RP Interoperabilidade](verif_richpicture.html#interoperabilidade) | Rossicler Júnior |
+| Verificação | [RP Persona Silverson](verif_richpicture.html#persona-silverson) | Rossicler Júnior |
+| Verificação | [RP Persona Orientadora](verif_richpicture.html#persona-orientadora) | Rossicler Júnior |
+| Verificação | [RP Persona Turista](verif_richpicture.html#persona-turista) | Rossicler Júnior |
+| Verificação | [RP Visão Macro](verif_richpicture.html#visão-macro) | Rossicler Júnior |
+| Verificação | [RP Integração com o Google Calendar](verif_richpicture.html#integração-com-o-google-calendar) | Rossicler Júnior |
 | Verificação | [CN10 Cenário de adicionar Stickers ](verif_cenarios.html#cn10-adicionar-sticker) | Lucas Vitor |
 | Verificação | [CN11 Cenário de editar/remover Stickers ](verif_cenarios.html#cn11-ditar-e-remover-sticker) | Lucas Vitor |
 | Verificação | [CN12 Cenário de Alterar Tela de Fundo ](verif_cenarios.html#cn12-background) | Lucas Vitor |
